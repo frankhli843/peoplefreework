@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import './App.css'
 
@@ -71,6 +72,7 @@ function LanguagePicker() {
 
 function App() {
   const { t } = useTranslation()
+  const [searchExpanded, setSearchExpanded] = useState(false)
 
   return (
     <div className="app">
@@ -176,6 +178,21 @@ function App() {
               </div>
             )
           })}
+        </div>
+
+        {/* Custom Agent Search */}
+        <div className="custom-search-section">
+          {!searchExpanded ? (
+            <div className="fake-search" onClick={() => setSearchExpanded(true)}>
+              <span className="search-icon">🔍</span>
+              <span className="search-placeholder">{t('team.search.placeholder')}</span>
+            </div>
+          ) : (
+            <div className="search-expanded">
+              <p className="search-reveal">{t('team.search.reveal')}</p>
+              <a href="mailto:hello@peoplefree.work" className="btn btn-primary">{t('team.search.cta')}</a>
+            </div>
+          )}
         </div>
       </section>
 

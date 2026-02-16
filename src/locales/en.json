@@ -34,6 +34,11 @@
   "team": {
     "sectionTitle": "Our Specialists",
     "sectionSub": "Ten dedicated professionals. Always available. Suspiciously perfect.",
+    "search": {
+      "placeholder": "Find your skillset...",
+      "reveal": "Can't find what you're looking for? We build custom AI agents with the personality, expertise, and experience that match your exact needs. Your perfect hire doesn't exist yet — but we can create them.",
+      "cta": "Let's Talk About It →"
+    },
     "available": "Available",
     "response": "Response:",
     "members": {
