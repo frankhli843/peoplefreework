@@ -96,6 +96,7 @@ const perks = [
   { icon: '🏥', title: 'Zero Benefits Required', desc: 'No health insurance, no dental, no 401k matching. They simply don\'t need it.' },
   { icon: '⏰', title: 'No Overtime Pay', desc: 'They work 24/7/365 at the same flat rate. Labor laws don\'t seem to apply.' },
   { icon: '🔑', title: 'You Own Your AI', desc: 'Your AI employee belongs to you. Not rented, not leased. Yours. Take them with you, customize them, keep them forever.' },
+  { icon: '©️', title: '100% IP Ownership', desc: 'Every document, strategy, design, and creative work your AI produces belongs entirely to you. No shared rights, no licensing fees, no fine print.' },
 ]
 
 function App() {
