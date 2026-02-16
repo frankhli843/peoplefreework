@@ -225,7 +225,7 @@ function App() {
         <div className="pricing-cards">
           <div className="pricing-card">
             <div className="pricing-label">Setup</div>
-            <div className="price">$500</div>
+            <div className="price">$1,000</div>
             <p className="pricing-desc">One-time fee to build your AI employee. We configure their workflows, integrate your tools, and hand over the keys.</p>
             <ul className="pricing-features">
               <li>Custom workflow setup</li>
