@@ -156,6 +156,7 @@ body {
   background: #fff; border-radius: var(--radius);
   padding: 36px; border: 1px solid rgba(0,0,0,0.06);
   transition: all 0.3s ease;
+  text-align: center;
 }
 .perk-card:hover {
   box-shadow: 0 16px 48px rgba(0,0,0,0.06);
