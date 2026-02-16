@@ -72,7 +72,8 @@ function LanguagePicker() {
 
 function App() {
   const { t } = useTranslation()
-  const [searchExpanded, setSearchExpanded] = useState(false)
+  const [searchTopExpanded, setSearchTopExpanded] = useState(false)
+  const [searchBottomExpanded, setSearchBottomExpanded] = useState(false)
 
   return (
     <div className="app">
@@ -143,6 +144,21 @@ function App() {
           <h2 className="section-title">{t('team.sectionTitle')}</h2>
           <p className="section-sub">{t('team.sectionSub')}</p>
         </div>
+        {/* Search Bar - Top */}
+        <div className="custom-search-section">
+          {!searchTopExpanded ? (
+            <div className="fake-search" onClick={() => setSearchTopExpanded(true)}>
+              <span className="search-icon">🔍</span>
+              <span className="search-placeholder">{t('team.search.placeholder')}</span>
+            </div>
+          ) : (
+            <div className="search-expanded">
+              <p className="search-reveal">{t('team.search.reveal')}</p>
+              <a href="mailto:hello@peoplefree.work?subject=Custom%20AI%20Agent%20Inquiry&body=Hi%20PeopleFree%20team%2C%0A%0AI'm%20looking%20for%20an%20AI%20agent%20that%20can%20help%20with%3A%0A%0A%5BDescribe%20the%20role%2C%20tasks%2C%20or%20skillset%20you%20need%5D%0A%0AHere%20are%20some%20details%20about%20my%20business%3A%0A-%20Industry%3A%20%0A-%20Team%20size%3A%20%0A-%20Key%20challenges%3A%20%0A%0AThe%20more%20detail%20you%20share%2C%20the%20better%20we%20can%20tailor%20your%20perfect%20hire.%0A%0ALooking%20forward%20to%20hearing%20from%20you!" className="btn btn-primary">{t('team.search.cta')}</a>
+            </div>
+          )}
+        </div>
+
         <div className="team-grid">
           {teamKeys.map((key) => {
             const m = teamMeta[key]
@@ -180,10 +196,10 @@ function App() {
           })}
         </div>
 
-        {/* Custom Agent Search */}
+        {/* Search Bar - Bottom */}
         <div className="custom-search-section">
-          {!searchExpanded ? (
-            <div className="fake-search" onClick={() => setSearchExpanded(true)}>
+          {!searchBottomExpanded ? (
+            <div className="fake-search" onClick={() => setSearchBottomExpanded(true)}>
               <span className="search-icon">🔍</span>
               <span className="search-placeholder">{t('team.search.placeholder')}</span>
             </div>

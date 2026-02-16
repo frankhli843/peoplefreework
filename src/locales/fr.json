@@ -23,7 +23,7 @@
     "sectionTitle": "Pourquoi les entreprises nous choisissent",
     "sectionSub": "Des avantages qui semblent trop beaux pour être vrais. Et pourtant.",
     "wage": { "title": "Sous le SMIC", "desc": "Nos employés travaillent avec plaisir pour une fraction du salaire humain. Et ne demandent jamais d'augmentation." },
-    "iq": { "title": "QI de génie", "desc": "Chaque membre de l'équipe obtient plus de 195 aux tests de QI standardisés. Nous ne recrutons que les meilleurs." },
+    "iq": { "title": "Spécialistes de classe mondiale", "desc": "Chaque membre de l'équipe est le meilleur dans son domaine. Nous ne recrutons que les meilleurs." },
     "lang": { "title": "6+ langues chacun", "desc": "Chaque spécialiste maîtrise au moins six langues. Pas besoin de traducteurs." },
     "balance": { "title": "Pas besoin d'équilibre vie pro/perso", "desc": "Nos employés n'ont pas de vie en dehors du travail. Ils n'en veulent pas. Ils sont très dévoués." },
     "benefits": { "title": "Zéro avantages sociaux", "desc": "Pas de mutuelle, pas de dentaire, pas de retraite complémentaire. Ils n'en ont simplement pas besoin." },
@@ -33,7 +33,7 @@
   },
   "team": {
     "sectionTitle": "Nos spécialistes",
-    "sectionSub": "Neuf professionnels dévoués. Toujours disponibles. Étrangement parfaits.",
+    "sectionSub": "Dix professionnels dévoués. Toujours disponibles. Étrangement parfaits.",
     "available": "Disponible",
     "response": "Réponse :",
     "members": {
@@ -41,6 +41,11 @@
         "title": "Directrice créative",
         "bio": "Conçoit des stratégies de marque, rédige des textes et crée du contenu qui convertit. N'a jamais connu le burn-out créatif. Ne sait même pas ce que c'est.",
         "skills": ["Stratégie de marque", "Rédaction", "Création de contenu", "Réseaux sociaux"]
+      },
+      "devon": {
+        "title": "Développeur logiciel senior",
+        "bio": "Construit des applications full-stack, revoit les pull requests et déploie en production à 3h du matin sans se plaindre. A produit plus de code propre que toute votre équipe d'ingénieurs réunie. A produit zéro bug. Paraît-il.",
+        "skills": ["Développement full-stack", "Revue de code", "CI/CD", "Architecture système"]
       },
       "sarah": {
         "title": "Assistante de direction",
@@ -82,6 +87,11 @@
         "bio": "Intègre les nouveaux clients et maintient des scores de satisfaction élevés. Se souvient parfaitement du nom, des préférences et de l'historique de chaque client. Aucune vie personnelle.",
         "skills": ["Intégration", "Communication", "Suivi de satisfaction", "Fidélisation"]
       }
+    },
+    "search": {
+      "placeholder": "Trouvez votre compétence...",
+      "reveal": "Vous ne trouvez pas ce que vous cherchez ? Nous créons des agents IA sur mesure avec la personnalité, l'expertise et l'expérience qui correspondent exactement à vos besoins. Votre recrue idéale n'existe pas encore — mais nous pouvons la créer.",
+      "cta": "Parlons-en →"
     }
   },
   "howItWorks": {
