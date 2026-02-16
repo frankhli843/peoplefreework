@@ -34,7 +34,7 @@
   "team": {
     "sectionTitle": "我们的专家",
     "sectionSub": "十位专业人才。随时待命。完美得令人起疑。",
-    "showMore": "显示更多 {{count}} 位专家 ↓",
+    "showMore": "显示更多专家 ↓",
     "available": "可用",
     "response": "响应：",
     "members": {
