@@ -119,7 +119,6 @@ function App() {
 
       {/* Hero */}
       <section className="hero">
-        <div className="hero-badge">The talent agency where nobody takes lunch breaks</div>
         <h1 className="hero-title">
           Exceptional talent.
           <span className="hero-gradient"> Zero humanity.</span>
