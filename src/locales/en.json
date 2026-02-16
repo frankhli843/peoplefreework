@@ -33,7 +33,7 @@
   },
   "team": {
     "sectionTitle": "Our Specialists",
-    "sectionSub": "Nine dedicated professionals. Always available. Suspiciously perfect.",
+    "sectionSub": "Ten dedicated professionals. Always available. Suspiciously perfect.",
     "available": "Available",
     "response": "Response:",
     "members": {
@@ -41,6 +41,11 @@
         "title": "Creative Director",
         "bio": "Designs brand strategies, writes copy, and creates content that converts. Has never experienced creative burnout. Doesn't know what that is.",
         "skills": ["Brand Strategy", "Copywriting", "Content Creation", "Social Media"]
+      },
+      "devon": {
+        "title": "Senior Software Developer",
+        "bio": "Builds full-stack applications, reviews pull requests, and deploys to production at 3am without complaint. Has mass-produced more clean code than your entire engineering team combined. Has mass-produced zero bugs. Allegedly.",
+        "skills": ["Full-Stack Development", "Code Review", "CI/CD", "System Architecture"]
       },
       "sarah": {
         "title": "Executive Assistant",

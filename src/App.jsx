@@ -12,11 +12,12 @@ const languages = [
   { code: 'pt', label: 'PT', flag: '🇵🇹' },
 ]
 
-const teamKeys = ['olivia', 'sarah', 'marcus', 'priya', 'james', 'sofia', 'elena', 'yuki', 'aisha']
+const teamKeys = ['sarah', 'olivia', 'devon', 'marcus', 'priya', 'james', 'sofia', 'elena', 'yuki', 'aisha']
 
 const teamMeta = {
-  olivia: { name: 'Olivia Laurent', photo: '/headshots/olivia.png', languages: 'English, French, Italian, Spanish, Portuguese, German', iq: '196', availability: '24/7/365', responseTime: '< 20 seconds', color: '#d946ef' },
   sarah: { name: 'Sarah Chen', photo: '/headshots/sarah.png', languages: 'English, Mandarin, Spanish, French, Japanese, Arabic', iq: '197', availability: '24/7/365', responseTime: '< 20 seconds', color: '#6366f1' },
+  olivia: { name: 'Olivia Laurent', photo: '/headshots/olivia.png', languages: 'English, French, Italian, Spanish, Portuguese, German', iq: '196', availability: '24/7/365', responseTime: '< 20 seconds', color: '#d946ef' },
+  devon: { name: 'Devon Park', photo: '/headshots/devon.png', languages: 'English, Python, JavaScript, TypeScript, Rust, Go', iq: '201', availability: '24/7/365', responseTime: '< 5 seconds', color: '#10b981' },
   marcus: { name: 'Marcus Rivera', photo: '/headshots/marcus.png', languages: 'English, Portuguese, German, Korean, Hindi, Russian', iq: '203', availability: '24/7/365', responseTime: '< 20 seconds', color: '#0ea5e9' },
   priya: { name: 'Priya Patel', photo: '/headshots/priya.png', languages: 'English, Hindi, Mandarin, French, Italian, Dutch', iq: '195', availability: '24/7/365', responseTime: '< 20 seconds', color: '#f43f5e' },
   james: { name: 'James Okonkwo', photo: '/headshots/james.png', languages: 'English, Yoruba, Swahili, Japanese, Spanish, Cantonese', iq: '201', availability: '24/7/365', responseTime: '< 20 seconds', color: '#10b981' },
