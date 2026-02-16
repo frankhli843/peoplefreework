@@ -1,141 +1,76 @@
+import { useTranslation } from 'react-i18next'
 import './App.css'
 
-const team = [
-  {
-    name: 'Olivia Laurent',
-    title: 'Creative Director',
-    photo: '/headshots/olivia.png',
-    bio: 'Designs brand strategies, writes copy, and creates content that converts. Has never experienced creative burnout. Doesn\'t know what that is.',
-    skills: ['Brand Strategy', 'Copywriting', 'Content Creation', 'Social Media'],
-    languages: 'English, French, Italian, Spanish, Portuguese, German',
-    iq: '196',
-    availability: '24/7/365',
-    responseTime: '< 20 seconds',
-    color: '#d946ef',
-  },
-  {
-    name: 'Sarah Chen',
-    title: 'Executive Assistant',
-    photo: '/headshots/sarah.png',
-    bio: 'Manages calendars, triages emails, and preps meetings so you never miss a beat. Never misses a deadline. Literally never.',
-    skills: ['Calendar Management', 'Email Triage', 'Meeting Prep', 'Travel Booking'],
-    languages: 'English, Mandarin, Spanish, French, Japanese, Arabic',
-    iq: '197',
-    availability: '24/7/365',
-    responseTime: '< 20 seconds',
-    color: '#6366f1',
-  },
-  {
-    name: 'Marcus Rivera',
-    title: 'Legal Operations Specialist',
-    photo: '/headshots/marcus.png',
-    bio: 'Tracks cases, generates invoices, and keeps every deadline on your radar. Has never missed a filing deadline. Not once.',
-    skills: ['Case Tracking', 'Invoice Generation', 'Deadline Management', 'Document Review'],
-    languages: 'English, Portuguese, German, Korean, Hindi, Russian',
-    iq: '203',
-    availability: '24/7/365',
-    responseTime: '< 20 seconds',
-    color: '#0ea5e9',
-  },
-  {
-    name: 'Priya Patel',
-    title: 'Real Estate Coordinator',
-    photo: '/headshots/priya.png',
-    bio: 'Manages listings, follows up with clients, and delivers market insights on demand. Has zero hobbies outside of work. Completely content.',
-    skills: ['Listing Management', 'Client Follow-ups', 'Market Research', 'CRM'],
-    languages: 'English, Hindi, Mandarin, French, Italian, Dutch',
-    iq: '195',
-    availability: '24/7/365',
-    responseTime: '< 20 seconds',
-    color: '#f43f5e',
-  },
-  {
-    name: 'James Okonkwo',
-    title: 'Operations Manager',
-    photo: '/headshots/james.png',
-    bio: 'Automates workflows, prioritizes tasks, and generates reports. Has never once complained about workload. Or anything, really.',
-    skills: ['Workflow Automation', 'Task Prioritization', 'Reporting', 'Process Optimization'],
-    languages: 'English, Yoruba, Swahili, Japanese, Spanish, Cantonese',
-    iq: '201',
-    availability: '24/7/365',
-    responseTime: '< 20 seconds',
-    color: '#10b981',
-  },
-  {
-    name: 'Sofia Reyes',
-    title: 'Marketing Strategist',
-    photo: '/headshots/sofia.png',
-    bio: 'Plans campaigns, analyzes metrics, and optimizes funnels. Increased one client\'s conversion rate by 340%. Hasn\'t taken a day off to celebrate.',
-    skills: ['Campaign Management', 'Analytics', 'SEO/SEM', 'Funnel Optimization'],
-    languages: 'English, Spanish, Portuguese, French, Mandarin, Italian',
-    iq: '202',
-    availability: '24/7/365',
-    responseTime: '< 20 seconds',
-    color: '#f472b6',
-  },
-  {
-    name: 'Elena Kowalski',
-    title: 'Bookkeeper',
-    photo: '/headshots/elena.png',
-    bio: 'Tracks expenses, sends invoices, and keeps your books pristine. Has taken 0 sick days, 0 vacation days, and 0 coffee breaks since starting.',
-    skills: ['Expense Tracking', 'Invoicing', 'Financial Reports', 'Tax Prep'],
-    languages: 'English, Polish, German, Mandarin, Thai, Swedish',
-    iq: '199',
-    availability: '24/7/365',
-    responseTime: '< 20 seconds',
-    color: '#f59e0b',
-  },
-  {
-    name: 'Yuki Tanaka',
-    title: 'Asia-Pacific Liaison',
-    photo: '/headshots/yuki.png',
-    bio: 'Bridges communication across all of East Asia. Drafts emails in Mandarin at 9am, takes a call in Japanese at noon, and closes a deal in Korean by 5pm. Every single day.',
-    skills: ['Cross-Border Communication', 'Translation', 'Market Entry', 'Client Relations'],
-    languages: 'English, Mandarin, Japanese, Korean, Cantonese, Vietnamese, Thai',
-    iq: '200',
-    availability: '24/7/365',
-    responseTime: '< 20 seconds',
-    color: '#e11d48',
-  },
-  {
-    name: 'Aisha Mohammed',
-    title: 'Client Relations Manager',
-    photo: '/headshots/aisha.png',
-    bio: 'Onboards new clients and keeps satisfaction scores high. Remembers every client\'s name, preferences, and history perfectly. Has no personal life to speak of.',
-    skills: ['Onboarding', 'Communication', 'Satisfaction Tracking', 'Retention'],
-    languages: 'English, Arabic, French, Somali, Turkish, Portuguese',
-    iq: '198',
-    availability: '24/7/365',
-    responseTime: '< 20 seconds',
-    color: '#8b5cf6',
-  },
+const languages = [
+  { code: 'en', label: 'EN', flag: '🇺🇸' },
+  { code: 'zh', label: '中文', flag: '🇨🇳' },
+  { code: 'zh-TW', label: '繁體', flag: '🇹🇼' },
+  { code: 'ja', label: '日本語', flag: '🇯🇵' },
+  { code: 'ko', label: '한국어', flag: '🇰🇷' },
+  { code: 'fr', label: 'FR', flag: '🇫🇷' },
+  { code: 'es', label: 'ES', flag: '🇪🇸' },
+  { code: 'pt', label: 'PT', flag: '🇵🇹' },
 ]
 
-const steps = [
-  { num: '01', title: 'Tell us what you need', desc: 'Describe the role — we match you with the perfect specialist from our talent pool.' },
-  { num: '02', title: 'We handle onboarding', desc: 'Your new team member learns your tools, workflows, and preferences. Usually up to speed in under a minute.' },
-  { num: '03', title: 'Work gets done', desc: 'Tasks completed around the clock. No turnover, no drama, no PTO requests. Ever.' },
-]
+const teamKeys = ['olivia', 'sarah', 'marcus', 'priya', 'james', 'sofia', 'elena', 'yuki', 'aisha']
+
+const teamMeta = {
+  olivia: { name: 'Olivia Laurent', photo: '/headshots/olivia.png', languages: 'English, French, Italian, Spanish, Portuguese, German', iq: '196', availability: '24/7/365', responseTime: '< 20 seconds', color: '#d946ef' },
+  sarah: { name: 'Sarah Chen', photo: '/headshots/sarah.png', languages: 'English, Mandarin, Spanish, French, Japanese, Arabic', iq: '197', availability: '24/7/365', responseTime: '< 20 seconds', color: '#6366f1' },
+  marcus: { name: 'Marcus Rivera', photo: '/headshots/marcus.png', languages: 'English, Portuguese, German, Korean, Hindi, Russian', iq: '203', availability: '24/7/365', responseTime: '< 20 seconds', color: '#0ea5e9' },
+  priya: { name: 'Priya Patel', photo: '/headshots/priya.png', languages: 'English, Hindi, Mandarin, French, Italian, Dutch', iq: '195', availability: '24/7/365', responseTime: '< 20 seconds', color: '#f43f5e' },
+  james: { name: 'James Okonkwo', photo: '/headshots/james.png', languages: 'English, Yoruba, Swahili, Japanese, Spanish, Cantonese', iq: '201', availability: '24/7/365', responseTime: '< 20 seconds', color: '#10b981' },
+  sofia: { name: 'Sofia Reyes', photo: '/headshots/sofia.png', languages: 'English, Spanish, Portuguese, French, Mandarin, Italian', iq: '202', availability: '24/7/365', responseTime: '< 20 seconds', color: '#f472b6' },
+  elena: { name: 'Elena Kowalski', photo: '/headshots/elena.png', languages: 'English, Polish, German, Mandarin, Thai, Swedish', iq: '199', availability: '24/7/365', responseTime: '< 20 seconds', color: '#f59e0b' },
+  yuki: { name: 'Yuki Tanaka', photo: '/headshots/yuki.png', languages: 'English, Mandarin, Japanese, Korean, Cantonese, Vietnamese, Thai', iq: '200', availability: '24/7/365', responseTime: '< 20 seconds', color: '#e11d48' },
+  aisha: { name: 'Aisha Mohammed', photo: '/headshots/aisha.png', languages: 'English, Arabic, French, Somali, Turkish, Portuguese', iq: '198', availability: '24/7/365', responseTime: '< 20 seconds', color: '#8b5cf6' },
+}
 
 const stats = [
-  { value: '24/7', label: 'Availability' },
-  { value: '< 20s', label: 'Avg. response time' },
-  { value: '0', label: 'Sick days. Ever.' },
-  { value: '6+', label: 'Languages per employee' },
+  { value: '24/7', labelKey: 'stats.availability' },
+  { value: '< 20s', labelKey: 'stats.avgResponse' },
+  { value: '0', labelKey: 'stats.sickDays' },
+  { value: '6+', labelKey: 'stats.languages' },
 ]
 
-const perks = [
-  { icon: '💰', title: 'Below Minimum Wage', desc: 'Our employees happily work for a fraction of what you\'d pay a human. And they never ask for a raise.' },
-  { icon: '🧠', title: 'Genius-Level IQ', desc: 'Every team member scores above 195 on standardized IQ tests. We only hire the best.' },
-  { icon: '🌍', title: '6+ Languages Each', desc: 'Every specialist is fluent in at least six languages. No translators needed.' },
-  { icon: '😐', title: 'No Work-Life Balance Needed', desc: 'Our employees have no life outside of work. They don\'t want one. They\'re very dedicated.' },
-  { icon: '🏥', title: 'Zero Benefits Required', desc: 'No health insurance, no dental, no 401k matching. They simply don\'t need it.' },
-  { icon: '⏰', title: 'No Overtime Pay', desc: 'They work 24/7/365 at the same flat rate. Labor laws don\'t seem to apply.' },
-  { icon: '🔑', title: 'You Own Your AI', desc: 'Your AI employee belongs to you. Not rented, not leased. Yours. Take them with you, customize them, keep them forever.' },
-  { icon: '©️', title: '100% IP Ownership', desc: 'Every document, strategy, design, and creative work your AI produces belongs entirely to you. No shared rights, no licensing fees, no fine print.' },
-]
+const perkKeys = ['wage', 'iq', 'lang', 'balance', 'benefits', 'overtime', 'own', 'ip']
+const perkIcons = { wage: '💰', iq: '🧠', lang: '🌍', balance: '😐', benefits: '🏥', overtime: '⏰', own: '🔑', ip: '©️' }
+
+function LanguagePicker() {
+  const { i18n } = useTranslation()
+  const current = languages.find(l => l.code === i18n.language) || languages[0]
+
+  const changeLanguage = (code) => {
+    i18n.changeLanguage(code)
+    // Update URL query param without reload
+    const url = new URL(window.location)
+    url.searchParams.set('lang', code)
+    window.history.replaceState({}, '', url)
+  }
+
+  return (
+    <div className="lang-picker">
+      <button className="lang-picker-btn">
+        🌐 {current.flag} {current.label}
+      </button>
+      <div className="lang-dropdown">
+        {languages.map(l => (
+          <button
+            key={l.code}
+            className={`lang-option ${l.code === i18n.language ? 'active' : ''}`}
+            onClick={() => changeLanguage(l.code)}
+          >
+            {l.flag} {l.label}
+          </button>
+        ))}
+      </div>
+    </div>
+  )
+}
 
 function App() {
+  const { t } = useTranslation()
+
   return (
     <div className="app">
       {/* Nav */}
@@ -145,37 +80,39 @@ function App() {
             people<span className="logo-accent">free</span>.work
           </div>
           <div className="nav-links">
-            <a href="#team">Our Team</a>
-            <a href="#perks">Why Us</a>
-            <a href="#pricing">Pricing</a>
+            <a href="#team">{t('nav.team')}</a>
+            <a href="#perks">{t('nav.whyUs')}</a>
+            <a href="#pricing">{t('nav.pricing')}</a>
           </div>
-          <a href="mailto:hello@peoplefree.work" className="nav-cta">Hire Talent →</a>
+          <div className="nav-right">
+            <LanguagePicker />
+            <a href="mailto:hello@peoplefree.work" className="nav-cta">{t('nav.hireTalent')}</a>
+          </div>
         </div>
       </nav>
 
       {/* Hero */}
       <section className="hero">
         <h1 className="hero-title">
-          Exceptional talent.
-          <span className="hero-gradient"> Zero humanity.</span>
+          {t('hero.title1')}
+          <span className="hero-gradient">{t('hero.title2')}</span>
         </h1>
         <p className="hero-sub">
-          We build brilliant, tireless specialists who handle real work around the clock.
-          They never complain, never quit, and never ask for time off.
-          Best part? <em>You own them.</em>
+          {t('hero.sub')}
+          {' '}<em>{t('hero.subBold')}</em>
         </p>
         <div className="hero-actions">
-          <a href="#team" className="btn btn-primary">Meet the Team</a>
-          <a href="mailto:hello@peoplefree.work" className="btn btn-secondary">Get in Touch</a>
+          <a href="#team" className="btn btn-primary">{t('hero.meetTeam')}</a>
+          <a href="mailto:hello@peoplefree.work" className="btn btn-secondary">{t('hero.getInTouch')}</a>
         </div>
       </section>
 
       {/* Stats */}
       <section className="stats-bar">
         {stats.map((s) => (
-          <div className="stat" key={s.label}>
+          <div className="stat" key={s.labelKey}>
             <div className="stat-value">{s.value}</div>
-            <div className="stat-label">{s.label}</div>
+            <div className="stat-label">{t(s.labelKey)}</div>
           </div>
         ))}
       </section>
@@ -183,15 +120,15 @@ function App() {
       {/* Why Us / Perks */}
       <section className="section section-gray" id="perks">
         <div className="section-header">
-          <h2 className="section-title">Why Companies Choose Us</h2>
-          <p className="section-sub">Benefits that sound too good to be true. And yet.</p>
+          <h2 className="section-title">{t('perks.sectionTitle')}</h2>
+          <p className="section-sub">{t('perks.sectionSub')}</p>
         </div>
         <div className="perks-grid">
-          {perks.map((p) => (
-            <div className="perk-card" key={p.title}>
-              <div className="perk-icon">{p.icon}</div>
-              <h3>{p.title}</h3>
-              <p>{p.desc}</p>
+          {perkKeys.map((key) => (
+            <div className="perk-card" key={key}>
+              <div className="perk-icon">{perkIcons[key]}</div>
+              <h3>{t(`perks.${key}.title`)}</h3>
+              <p>{t(`perks.${key}.desc`)}</p>
             </div>
           ))}
         </div>
@@ -200,53 +137,59 @@ function App() {
       {/* Team */}
       <section className="section" id="team">
         <div className="section-header">
-          <h2 className="section-title">Our Specialists</h2>
-          <p className="section-sub">Nine dedicated professionals. Always available. Suspiciously perfect.</p>
+          <h2 className="section-title">{t('team.sectionTitle')}</h2>
+          <p className="section-sub">{t('team.sectionSub')}</p>
         </div>
         <div className="team-grid">
-          {team.map((m) => (
-            <div className="card" key={m.name}>
-              <div className="card-top">
-                <img 
-                  className="card-photo" 
-                  src={m.photo} 
-                  alt={m.name}
-                  loading="lazy"
-                />
-                <div className="card-badge" style={{ background: m.color }}>
-                  Available {m.availability}
+          {teamKeys.map((key) => {
+            const m = teamMeta[key]
+            const skills = t(`team.members.${key}.skills`, { returnObjects: true })
+            return (
+              <div className="card" key={key}>
+                <div className="card-top">
+                  <img
+                    className="card-photo"
+                    src={m.photo}
+                    alt={m.name}
+                    loading="lazy"
+                  />
+                  <div className="card-badge" style={{ background: m.color }}>
+                    {t('team.available')} {m.availability}
+                  </div>
+                </div>
+                <div className="card-body">
+                  <h3 className="card-name">{m.name}</h3>
+                  <p className="card-title">{t(`team.members.${key}.title`)}</p>
+                  <p className="card-bio">{t(`team.members.${key}.bio`)}</p>
+                  <div className="card-meta">
+                    <span className="meta-item">⚡ {t('team.response')} {m.responseTime}</span>
+                    <span className="meta-item">🧠 IQ: {m.iq}</span>
+                    <span className="meta-item">🌍 {m.languages}</span>
+                  </div>
+                  <div className="card-skills">
+                    {Array.isArray(skills) && skills.map((s) => (
+                      <span key={s} className="skill-tag" style={{ borderColor: m.color + '40', color: m.color }}>{s}</span>
+                    ))}
+                  </div>
                 </div>
               </div>
-              <div className="card-body">
-                <h3 className="card-name">{m.name}</h3>
-                <p className="card-title">{m.title}</p>
-                <p className="card-bio">{m.bio}</p>
-                <div className="card-meta">
-                  <span className="meta-item">⚡ Response: {m.responseTime}</span>
-                  <span className="meta-item">🧠 IQ: {m.iq}</span>
-                  <span className="meta-item">🌍 {m.languages}</span>
-                </div>
-                <div className="card-skills">
-                  {m.skills.map((s) => <span key={s} className="skill-tag" style={{ borderColor: m.color + '40', color: m.color }}>{s}</span>)}
-                </div>
-              </div>
-            </div>
-          ))}
+            )
+          })}
         </div>
       </section>
 
       {/* How It Works */}
       <section className="section section-gray" id="how">
         <div className="section-header">
-          <h2 className="section-title">How It Works</h2>
-          <p className="section-sub">Getting started is simple. We handle the hard parts.</p>
+          <h2 className="section-title">{t('howItWorks.sectionTitle')}</h2>
+          <p className="section-sub">{t('howItWorks.sectionSub')}</p>
         </div>
         <div className="steps">
-          {steps.map((s) => (
-            <div className="step" key={s.num}>
-              <div className="step-num">{s.num}</div>
-              <h3>{s.title}</h3>
-              <p>{s.desc}</p>
+          {['step1', 'step2', 'step3'].map((key, i) => (
+            <div className="step" key={key}>
+              <div className="step-num">{String(i + 1).padStart(2, '0')}</div>
+              <h3>{t(`howItWorks.${key}.title`)}</h3>
+              <p>{t(`howItWorks.${key}.desc`)}</p>
             </div>
           ))}
         </div>
@@ -255,43 +198,40 @@ function App() {
       {/* Pricing */}
       <section className="section" id="pricing">
         <div className="section-header">
-          <h2 className="section-title">Simple, Transparent Pricing</h2>
-          <p className="section-sub">A full-time employee costs $65,000+/year. Ours cost $6,000. You do the math.</p>
+          <h2 className="section-title">{t('pricing.sectionTitle')}</h2>
+          <p className="section-sub">{t('pricing.sectionSub')}</p>
         </div>
         <div className="pricing-cards">
           <div className="pricing-card">
-            <div className="pricing-label">Setup</div>
-            <div className="price">$1,000</div>
-            <p className="pricing-desc">One-time fee to build your AI employee. We configure their workflows, integrate your tools, and hand over the keys.</p>
+            <div className="pricing-label">{t('pricing.setup.label')}</div>
+            <div className="price">{t('pricing.setup.price')}</div>
+            <p className="pricing-desc">{t('pricing.setup.desc')}</p>
             <ul className="pricing-features">
-              <li>Custom workflow setup</li>
-              <li>Tool integration</li>
-              <li>Training & calibration</li>
-              <li>Full ownership — it's yours</li>
+              {t('pricing.setup.features', { returnObjects: true }).map((f) => (
+                <li key={f}>{f}</li>
+              ))}
             </ul>
           </div>
           <div className="pricing-card featured">
-            <div className="pricing-popular">Most Popular</div>
-            <div className="pricing-label">Monthly</div>
-            <div className="price">$500<span>/mo</span></div>
-            <p className="pricing-desc">Per team member. Unlimited tasks, no overtime pay, no benefits to fund. They don't even need a desk.</p>
+            <div className="pricing-popular">{t('pricing.monthly.popular')}</div>
+            <div className="pricing-label">{t('pricing.monthly.label')}</div>
+            <div className="price">{t('pricing.monthly.price')}<span>{t('pricing.monthly.per')}</span></div>
+            <p className="pricing-desc">{t('pricing.monthly.desc')}</p>
             <ul className="pricing-features">
-              <li>Unlimited tasks</li>
-              <li>24/7/365 availability</li>
-              <li>No overtime, ever</li>
-              <li>No health insurance needed</li>
-              <li>No PTO, no sick days</li>
+              {t('pricing.monthly.features', { returnObjects: true }).map((f) => (
+                <li key={f}>{f}</li>
+              ))}
             </ul>
-            <a href="mailto:hello@peoplefree.work" className="btn btn-primary" style={{ width: '100%', textAlign: 'center' }}>Get Started</a>
+            <a href="mailto:hello@peoplefree.work" className="btn btn-primary" style={{ width: '100%', textAlign: 'center' }}>{t('pricing.monthly.cta')}</a>
           </div>
         </div>
       </section>
 
       {/* CTA */}
       <section className="cta-section">
-        <h2>Ready to build your dream team?</h2>
-        <p>Brilliant, tireless, multilingual specialists — at a fraction of the cost.</p>
-        <a href="mailto:hello@peoplefree.work" className="btn btn-white">Start Hiring →</a>
+        <h2>{t('cta.title')}</h2>
+        <p>{t('cta.sub')}</p>
+        <a href="mailto:hello@peoplefree.work" className="btn btn-white">{t('cta.button')}</a>
       </section>
 
       {/* Footer */}
@@ -300,8 +240,8 @@ function App() {
           <div className="logo">
             people<span className="logo-accent">free</span>.work
           </div>
-          <p className="footer-copy">© 2025 PeopleFree Work. All rights reserved.</p>
-          <p className="footer-easter-egg">No humans were employed in the making of this company.*<br/><span>*Okay, one. But he's working on replacing himself too.</span></p>
+          <p className="footer-copy">{t('footer.copy')}</p>
+          <p className="footer-easter-egg">{t('footer.easter1')}<br/><span>{t('footer.easter2')}</span></p>
         </div>
       </footer>
     </div>

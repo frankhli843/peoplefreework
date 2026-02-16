@@ -56,6 +56,32 @@ body {
 }
 .nav-cta:hover { background: #333; transform: translateY(-1px); }
 
+.nav-right { display: flex; align-items: center; gap: 16px; }
+
+/* Language Picker */
+.lang-picker { position: relative; }
+.lang-picker-btn {
+  background: transparent; border: 1px solid #e5e7eb; border-radius: 8px;
+  padding: 6px 12px; font-size: 0.8rem; font-weight: 500; cursor: pointer;
+  display: flex; align-items: center; gap: 4px; color: var(--text-muted);
+  transition: all 0.2s;
+}
+.lang-picker-btn:hover { border-color: var(--accent); color: var(--text); }
+.lang-dropdown {
+  display: none; position: absolute; top: 100%; right: 0; margin-top: 8px;
+  background: #fff; border: 1px solid #e5e7eb; border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12); z-index: 100; min-width: 120px;
+  padding: 6px; overflow: hidden;
+}
+.lang-picker:hover .lang-dropdown { display: block; }
+.lang-option {
+  display: block; width: 100%; text-align: left; padding: 8px 12px;
+  background: none; border: none; font-size: 0.8rem; cursor: pointer;
+  border-radius: 8px; transition: background 0.15s; color: var(--text);
+}
+.lang-option:hover { background: #f3f4f6; }
+.lang-option.active { background: #eef2ff; color: var(--accent); font-weight: 600; }
+
 /* Buttons */
 .btn {
   display: inline-block; padding: 14px 32px;

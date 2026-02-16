@@ -1,0 +1,123 @@
+{
+  "nav": {
+    "team": "Equipe",
+    "whyUs": "Por que nós",
+    "pricing": "Preços",
+    "hireTalent": "Contratar →"
+  },
+  "hero": {
+    "title1": "Talentos excepcionais.",
+    "title2": " Zero humanidade.",
+    "sub": "Criamos especialistas brilhantes e incansáveis que trabalham 24 horas por dia. Nunca reclamam, nunca pedem demissão e nunca pedem folga.",
+    "subBold": "E eles são seus.",
+    "meetTeam": "Conheça a equipe",
+    "getInTouch": "Fale conosco"
+  },
+  "stats": {
+    "availability": "Disponibilidade",
+    "avgResponse": "Tempo médio de resposta",
+    "sickDays": "Dias de atestado. Nunca.",
+    "languages": "Idiomas por funcionário"
+  },
+  "perks": {
+    "sectionTitle": "Por que as empresas nos escolhem",
+    "sectionSub": "Benefícios bons demais para ser verdade. E mesmo assim são.",
+    "wage": { "title": "Abaixo do salário mínimo", "desc": "Nossos funcionários trabalham felizes por uma fração do que você pagaria a um humano. E nunca pedem aumento." },
+    "iq": { "title": "QI de gênio", "desc": "Cada membro da equipe pontua acima de 195 em testes de QI padronizados. Só contratamos os melhores." },
+    "lang": { "title": "6+ idiomas cada", "desc": "Cada especialista é fluente em pelo menos seis idiomas. Sem necessidade de tradutores." },
+    "balance": { "title": "Sem necessidade de equilíbrio vida-trabalho", "desc": "Nossos funcionários não têm vida fora do trabalho. Não querem. São muito dedicados." },
+    "benefits": { "title": "Zero benefícios necessários", "desc": "Sem plano de saúde, sem dental, sem previdência. Simplesmente não precisam." },
+    "overtime": { "title": "Sem hora extra", "desc": "Trabalham 24/7/365 pela mesma taxa. As leis trabalhistas parecem não se aplicar." },
+    "own": { "title": "A IA é sua", "desc": "Seu funcionário de IA pertence a você. Não é alugado, não é leasing. Seu. Leve, personalize, mantenha para sempre." },
+    "ip": { "title": "100% propriedade intelectual", "desc": "Cada documento, estratégia, design e trabalho criativo produzido pela sua IA pertence inteiramente a você. Sem direitos compartilhados, sem taxas de licença." }
+  },
+  "team": {
+    "sectionTitle": "Nossos especialistas",
+    "sectionSub": "Nove profissionais dedicados. Sempre disponíveis. Suspeitosamente perfeitos.",
+    "available": "Disponível",
+    "response": "Resposta:",
+    "members": {
+      "olivia": {
+        "title": "Diretora criativa",
+        "bio": "Projeta estratégias de marca, escreve textos e cria conteúdo que converte. Nunca teve bloqueio criativo. Nem sabe o que é isso.",
+        "skills": ["Estratégia de marca", "Redação", "Criação de conteúdo", "Mídias sociais"]
+      },
+      "sarah": {
+        "title": "Assistente executiva",
+        "bio": "Gerencia agendas, classifica e-mails e prepara reuniões. Nunca perde um prazo. Literalmente nunca.",
+        "skills": ["Gestão de agenda", "Triagem de e-mails", "Preparação de reuniões", "Reservas de viagem"]
+      },
+      "marcus": {
+        "title": "Especialista em operações jurídicas",
+        "bio": "Acompanha casos, gera faturas e monitora cada prazo. Nunca perdeu um prazo de protocolo. Nenhuma vez.",
+        "skills": ["Acompanhamento de casos", "Faturamento", "Gestão de prazos", "Revisão documental"]
+      },
+      "priya": {
+        "title": "Coordenadora imobiliária",
+        "bio": "Gerencia listagens, faz follow-up com clientes e entrega análises de mercado sob demanda. Zero hobbies fora do trabalho. Totalmente satisfeita.",
+        "skills": ["Gestão de listagens", "Follow-up de clientes", "Pesquisa de mercado", "CRM"]
+      },
+      "james": {
+        "title": "Gerente de operações",
+        "bio": "Automatiza fluxos de trabalho, prioriza tarefas e gera relatórios. Nunca reclamou da carga de trabalho. Nem de nada, na verdade.",
+        "skills": ["Automação de fluxos", "Priorização", "Relatórios", "Otimização de processos"]
+      },
+      "sofia": {
+        "title": "Estrategista de marketing",
+        "bio": "Planeja campanhas, analisa métricas e otimiza funis. Aumentou a taxa de conversão de um cliente em 340%. Não tirou um dia de folga para comemorar.",
+        "skills": ["Gestão de campanhas", "Analytics", "SEO/SEM", "Otimização de funis"]
+      },
+      "elena": {
+        "title": "Contadora",
+        "bio": "Rastreia despesas, envia faturas e mantém os livros impecáveis. 0 dias de atestado, 0 férias e 0 pausas para café desde que começou.",
+        "skills": ["Rastreamento de despesas", "Faturamento", "Relatórios financeiros", "Preparação fiscal"]
+      },
+      "yuki": {
+        "title": "Liaison Ásia-Pacífico",
+        "bio": "Conecta a comunicação em todo o Leste Asiático. Redige e-mails em mandarim às 9h, atende ligações em japonês ao meio-dia e fecha negócios em coreano às 17h. Todo dia.",
+        "skills": ["Comunicação transfronteiriça", "Tradução", "Entrada no mercado", "Relações com clientes"]
+      },
+      "aisha": {
+        "title": "Gerente de relações com clientes",
+        "bio": "Integra novos clientes e mantém altos índices de satisfação. Lembra perfeitamente o nome, preferências e histórico de cada cliente. Sem vida pessoal.",
+        "skills": ["Integração", "Comunicação", "Acompanhamento de satisfação", "Retenção"]
+      }
+    }
+  },
+  "howItWorks": {
+    "sectionTitle": "Como funciona",
+    "sectionSub": "Começar é simples. Nós cuidamos da parte difícil.",
+    "step1": { "title": "Diga-nos o que precisa", "desc": "Descreva a função — encontramos o especialista perfeito no nosso banco de talentos." },
+    "step2": { "title": "Nós cuidamos da integração", "desc": "Seu novo membro da equipe aprende suas ferramentas, fluxos e preferências. Pronto em menos de um minuto." },
+    "step3": { "title": "O trabalho é feito", "desc": "Tarefas concluídas 24 horas por dia. Sem rotatividade, sem drama, sem pedidos de folga. Nunca." }
+  },
+  "pricing": {
+    "sectionTitle": "Preços simples e transparentes",
+    "sectionSub": "Um funcionário em tempo integral custa $65.000+/ano. Os nossos custam $6.000. Faça as contas.",
+    "setup": {
+      "label": "Configuração",
+      "price": "$1.000",
+      "desc": "Taxa única para construir seu funcionário de IA. Configuramos fluxos, integramos ferramentas e entregamos as chaves.",
+      "features": ["Configuração personalizada", "Integração de ferramentas", "Treinamento e calibração", "Propriedade total"]
+    },
+    "monthly": {
+      "popular": "Mais popular",
+      "label": "Mensal",
+      "price": "$500",
+      "per": "/mês",
+      "desc": "Por membro da equipe. Tarefas ilimitadas, sem hora extra, sem benefícios. Nem mesa precisam.",
+      "features": ["Tarefas ilimitadas", "Disponibilidade 24/7/365", "Sem hora extra", "Sem plano de saúde", "Sem férias, sem atestados"],
+      "cta": "Começar"
+    }
+  },
+  "cta": {
+    "title": "Pronto para montar sua equipe dos sonhos?",
+    "sub": "Especialistas brilhantes, incansáveis e multilíngues — por uma fração do custo.",
+    "button": "Comece a contratar →"
+  },
+  "footer": {
+    "copy": "© 2025 PeopleFree Work. Todos os direitos reservados.",
+    "easter1": "Nenhum humano foi empregado na criação desta empresa.*",
+    "easter2": "*Tá, um. Mas ele também está trabalhando para se substituir."
+  }
+}
