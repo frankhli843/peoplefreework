@@ -220,7 +220,7 @@ function App() {
       <section className="section" id="pricing">
         <div className="section-header">
           <h2 className="section-title">Simple, Transparent Pricing</h2>
-          <p className="section-sub">A full-time employee costs $65,000+/year. Ours cost $3,600. You do the math.</p>
+          <p className="section-sub">A full-time employee costs $65,000+/year. Ours cost $6,000. You do the math.</p>
         </div>
         <div className="pricing-cards">
           <div className="pricing-card">
@@ -237,7 +237,7 @@ function App() {
           <div className="pricing-card featured">
             <div className="pricing-popular">Most Popular</div>
             <div className="pricing-label">Monthly</div>
-            <div className="price">$300<span>/mo</span></div>
+            <div className="price">$500<span>/mo</span></div>
             <p className="pricing-desc">Per team member. Unlimited tasks, no overtime pay, no benefits to fund. They don't even need a desk.</p>
             <ul className="pricing-features">
               <li>Unlimited tasks</li>
