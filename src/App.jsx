@@ -62,6 +62,18 @@ const team = [
     color: '#f59e0b',
   },
   {
+    name: 'Yuki Tanaka',
+    title: 'Asia-Pacific Liaison',
+    photo: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&h=200&fit=crop&crop=face',
+    bio: 'Bridges communication across all of East Asia. Drafts emails in Mandarin at 9am, takes a call in Japanese at noon, and closes a deal in Korean by 5pm. Every single day.',
+    skills: ['Cross-Border Communication', 'Translation', 'Market Entry', 'Client Relations'],
+    languages: 'English, Mandarin, Japanese, Korean, Cantonese, Vietnamese, Thai',
+    iq: '200',
+    availability: '24/7/365',
+    responseTime: '< 20 seconds',
+    color: '#e11d48',
+  },
+  {
     name: 'Aisha Mohammed',
     title: 'Client Relations Manager',
     photo: 'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=200&h=200&fit=crop&crop=face',
@@ -165,7 +177,7 @@ function App() {
       <section className="section" id="team">
         <div className="section-header">
           <h2 className="section-title">Our Specialists</h2>
-          <p className="section-sub">Six dedicated professionals. Always available. Suspiciously perfect.</p>
+          <p className="section-sub">Seven dedicated professionals. Always available. Suspiciously perfect.</p>
         </div>
         <div className="team-grid">
           {team.map((m) => (
