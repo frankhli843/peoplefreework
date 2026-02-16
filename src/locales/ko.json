@@ -34,6 +34,7 @@
   "team": {
     "sectionTitle": "전문가 팀",
     "sectionSub": "10명의 전문가. 항상 대기 중. 의심스러울 정도로 완벽.",
+    "showMore": "{{count}}명의 전문가 더 보기 ↓",
     "available": "대기 중",
     "response": "응답:",
     "members": {

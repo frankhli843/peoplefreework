@@ -324,6 +324,18 @@ body {
   font-size: 0.65rem; color: #e5e7eb;
 }
 
+/* Show More */
+.show-more-section {
+  text-align: center;
+  margin-top: 32px;
+}
+.show-more-btn {
+  padding: 14px 36px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
 /* Custom Search */
 .custom-search-section {
   margin-top: 60px;

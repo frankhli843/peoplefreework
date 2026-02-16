@@ -74,6 +74,7 @@ function App() {
   const { t } = useTranslation()
   const [searchTopExpanded, setSearchTopExpanded] = useState(false)
   const [searchBottomExpanded, setSearchBottomExpanded] = useState(false)
+  const [showAllTeam, setShowAllTeam] = useState(false)
 
   const searchMailto = `mailto:hello@peoplefree.work?subject=${encodeURIComponent(t('team.search.emailSubject'))}&body=${encodeURIComponent(t('team.search.emailBody'))}`
 
@@ -162,7 +163,7 @@ function App() {
         </div>
 
         <div className="team-grid">
-          {teamKeys.map((key) => {
+          {(showAllTeam ? teamKeys : teamKeys.slice(0, 4)).map((key) => {
             const m = teamMeta[key]
             const skills = t(`team.members.${key}.skills`, { returnObjects: true })
             return (
@@ -197,6 +198,13 @@ function App() {
             )
           })}
         </div>
+        {!showAllTeam && (
+          <div className="show-more-section">
+            <button className="btn btn-secondary show-more-btn" onClick={() => setShowAllTeam(true)}>
+              {t('team.showMore', { count: teamKeys.length - 4 })}
+            </button>
+          </div>
+        )}
 
         {/* Search Bar - Bottom */}
         <div className="custom-search-section">

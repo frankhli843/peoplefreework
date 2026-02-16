@@ -41,6 +41,7 @@
       "emailSubject": "Custom AI Agent Inquiry",
       "emailBody": "Hi PeopleFreeWork team,\n\nI'm looking for an AI agent that can help with:\n\n[Describe the role, tasks, or skillset you need]"
     },
+    "showMore": "Show {{count}} More Specialists ↓",
     "available": "Available",
     "response": "Response:",
     "members": {

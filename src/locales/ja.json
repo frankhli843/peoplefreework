@@ -34,6 +34,7 @@
   "team": {
     "sectionTitle": "専門スタッフ",
     "sectionSub": "10人の専門家。常時対応可能。怪しいほど完璧。",
+    "showMore": "さらに{{count}}人のスペシャリストを表示 ↓",
     "available": "対応可能",
     "response": "応答：",
     "members": {

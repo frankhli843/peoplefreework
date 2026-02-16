@@ -34,6 +34,7 @@
   "team": {
     "sectionTitle": "Nos spécialistes",
     "sectionSub": "Dix professionnels dévoués. Toujours disponibles. Étrangement parfaits.",
+    "showMore": "Voir {{count}} spécialistes de plus ↓",
     "available": "Disponible",
     "response": "Réponse :",
     "members": {
