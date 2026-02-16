@@ -15,16 +15,16 @@ const languages = [
 const teamKeys = ['sarah', 'olivia', 'devon', 'marcus', 'priya', 'james', 'sofia', 'elena', 'yuki', 'aisha']
 
 const teamMeta = {
-  sarah: { name: 'Sarah Chen', photo: '/headshots/sarah.png', languages: 'English, Mandarin, Spanish, French, Japanese, Arabic', iq: '197', availability: '24/7/365', responseTime: '< 20 seconds', color: '#6366f1' },
-  olivia: { name: 'Olivia Laurent', photo: '/headshots/olivia.png', languages: 'English, French, Italian, Spanish, Portuguese, German', iq: '196', availability: '24/7/365', responseTime: '< 20 seconds', color: '#d946ef' },
-  devon: { name: 'Devon Park', photo: '/headshots/devon.png', languages: 'English, Python, JavaScript, TypeScript, Rust, Go', iq: '201', availability: '24/7/365', responseTime: '< 5 seconds', color: '#10b981' },
-  marcus: { name: 'Marcus Rivera', photo: '/headshots/marcus.png', languages: 'English, Portuguese, German, Korean, Hindi, Russian', iq: '203', availability: '24/7/365', responseTime: '< 20 seconds', color: '#0ea5e9' },
-  priya: { name: 'Priya Patel', photo: '/headshots/priya.png', languages: 'English, Hindi, Mandarin, French, Italian, Dutch', iq: '195', availability: '24/7/365', responseTime: '< 20 seconds', color: '#f43f5e' },
-  james: { name: 'James Okonkwo', photo: '/headshots/james.png', languages: 'English, Yoruba, Swahili, Japanese, Spanish, Cantonese', iq: '201', availability: '24/7/365', responseTime: '< 20 seconds', color: '#10b981' },
-  sofia: { name: 'Sofia Reyes', photo: '/headshots/sofia.png', languages: 'English, Spanish, Portuguese, French, Mandarin, Italian', iq: '202', availability: '24/7/365', responseTime: '< 20 seconds', color: '#f472b6' },
-  elena: { name: 'Elena Kowalski', photo: '/headshots/elena.png', languages: 'English, Polish, German, Mandarin, Thai, Swedish', iq: '199', availability: '24/7/365', responseTime: '< 20 seconds', color: '#f59e0b' },
-  yuki: { name: 'Yuki Tanaka', photo: '/headshots/yuki.png', languages: 'English, Mandarin, Japanese, Korean, Cantonese, Vietnamese, Thai', iq: '200', availability: '24/7/365', responseTime: '< 20 seconds', color: '#e11d48' },
-  aisha: { name: 'Aisha Mohammed', photo: '/headshots/aisha.png', languages: 'English, Arabic, French, Somali, Turkish, Portuguese', iq: '198', availability: '24/7/365', responseTime: '< 20 seconds', color: '#8b5cf6' },
+  sarah: { name: 'Sarah Chen', photo: '/headshots/sarah.png', languages: 'English, Mandarin, Spanish, French, Japanese, Arabic', expertise: 'Executive Operations', availability: '24/7/365', responseTime: '< 20 seconds', color: '#6366f1' },
+  olivia: { name: 'Olivia Laurent', photo: '/headshots/olivia.png', languages: 'English, French, Italian, Spanish, Portuguese, German', expertise: 'Brand & Creative', availability: '24/7/365', responseTime: '< 20 seconds', color: '#d946ef' },
+  devon: { name: 'Devon Park', photo: '/headshots/devon.png', languages: 'English, Python, JavaScript, TypeScript, Rust, Go', expertise: 'Full-Stack Engineering', availability: '24/7/365', responseTime: '< 5 seconds', color: '#10b981' },
+  marcus: { name: 'Marcus Rivera', photo: '/headshots/marcus.png', languages: 'English, Portuguese, German, Korean, Hindi, Russian', expertise: 'Legal Operations', availability: '24/7/365', responseTime: '< 20 seconds', color: '#0ea5e9' },
+  priya: { name: 'Priya Patel', photo: '/headshots/priya.png', languages: 'English, Hindi, Mandarin, French, Italian, Dutch', expertise: 'Real Estate', availability: '24/7/365', responseTime: '< 20 seconds', color: '#f43f5e' },
+  james: { name: 'James Okonkwo', photo: '/headshots/james.png', languages: 'English, Yoruba, Swahili, Japanese, Spanish, Cantonese', expertise: 'Operations & Process', availability: '24/7/365', responseTime: '< 20 seconds', color: '#10b981' },
+  sofia: { name: 'Sofia Reyes', photo: '/headshots/sofia.png', languages: 'English, Spanish, Portuguese, French, Mandarin, Italian', expertise: 'Growth Marketing', availability: '24/7/365', responseTime: '< 20 seconds', color: '#f472b6' },
+  elena: { name: 'Elena Kowalski', photo: '/headshots/elena.png', languages: 'English, Polish, German, Mandarin, Thai, Swedish', expertise: 'Finance & Bookkeeping', availability: '24/7/365', responseTime: '< 20 seconds', color: '#f59e0b' },
+  yuki: { name: 'Yuki Tanaka', photo: '/headshots/yuki.png', languages: 'English, Mandarin, Japanese, Korean, Cantonese, Vietnamese, Thai', expertise: 'Asia-Pacific Markets', availability: '24/7/365', responseTime: '< 20 seconds', color: '#e11d48' },
+  aisha: { name: 'Aisha Mohammed', photo: '/headshots/aisha.png', languages: 'English, Arabic, French, Somali, Turkish, Portuguese', expertise: 'Client Relations', availability: '24/7/365', responseTime: '< 20 seconds', color: '#8b5cf6' },
 }
 
 const stats = [
@@ -164,7 +164,7 @@ function App() {
                   <p className="card-bio">{t(`team.members.${key}.bio`)}</p>
                   <div className="card-meta">
                     <span className="meta-item">⚡ {t('team.response')} {m.responseTime}</span>
-                    <span className="meta-item">🧠 IQ: {m.iq}</span>
+                    <span className="meta-item">🏆 Expertise: {m.expertise}</span>
                     <span className="meta-item">🌍 {m.languages}</span>
                   </div>
                   <div className="card-skills">
