@@ -75,6 +75,8 @@ function App() {
   const [searchTopExpanded, setSearchTopExpanded] = useState(false)
   const [searchBottomExpanded, setSearchBottomExpanded] = useState(false)
 
+  const searchMailto = `mailto:hello@peoplefree.work?subject=${encodeURIComponent(t('team.search.emailSubject'))}&body=${encodeURIComponent(t('team.search.emailBody'))}`
+
   return (
     <div className="app">
       {/* Nav */}
@@ -154,7 +156,7 @@ function App() {
           ) : (
             <div className="search-expanded">
               <p className="search-reveal">{t('team.search.reveal')}</p>
-              <a href="mailto:hello@peoplefree.work?subject=Custom%20AI%20Agent%20Inquiry&body=Hi%20PeopleFree%20team%2C%0A%0AI'm%20looking%20for%20an%20AI%20agent%20that%20can%20help%20with%3A%0A%0A%5BDescribe%20the%20role%2C%20tasks%2C%20or%20skillset%20you%20need%5D%0A%0AHere%20are%20some%20details%20about%20my%20business%3A%0A-%20Industry%3A%20%0A-%20Team%20size%3A%20%0A-%20Key%20challenges%3A%20%0A%0AThe%20more%20detail%20you%20share%2C%20the%20better%20we%20can%20tailor%20your%20perfect%20hire.%0A%0ALooking%20forward%20to%20hearing%20from%20you!" className="btn btn-primary">{t('team.search.cta')}</a>
+              <a href={searchMailto} className="btn btn-primary">{t('team.search.cta')}</a>
             </div>
           )}
         </div>
@@ -206,7 +208,7 @@ function App() {
           ) : (
             <div className="search-expanded">
               <p className="search-reveal">{t('team.search.reveal')}</p>
-              <a href="mailto:hello@peoplefree.work?subject=Custom%20AI%20Agent%20Inquiry&body=Hi%20PeopleFree%20team%2C%0A%0AI'm%20looking%20for%20an%20AI%20agent%20that%20can%20help%20with%3A%0A%0A%5BDescribe%20the%20role%2C%20tasks%2C%20or%20skillset%20you%20need%5D%0A%0AHere%20are%20some%20details%20about%20my%20business%3A%0A-%20Industry%3A%20%0A-%20Team%20size%3A%20%0A-%20Key%20challenges%3A%20%0A%0AThe%20more%20detail%20you%20share%2C%20the%20better%20we%20can%20tailor%20your%20perfect%20hire.%0A%0ALooking%20forward%20to%20hearing%20from%20you!" className="btn btn-primary">{t('team.search.cta')}</a>
+              <a href={searchMailto} className="btn btn-primary">{t('team.search.cta')}</a>
             </div>
           )}
         </div>

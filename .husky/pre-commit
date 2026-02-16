@@ -1,0 +1,27 @@
+#!/bin/sh
+
+# Check if en.json is staged but other locale files are not
+EN_CHANGED=$(git diff --cached --name-only | grep "src/locales/en.json" || true)
+
+if [ -n "$EN_CHANGED" ]; then
+  LOCALES="zh.json zh-TW.json fr.json ko.json ja.json pt.json es.json"
+  MISSING=""
+  
+  for locale in $LOCALES; do
+    CHANGED=$(git diff --cached --name-only | grep "src/locales/$locale" || true)
+    if [ -z "$CHANGED" ]; then
+      MISSING="$MISSING $locale"
+    fi
+  done
+
+  if [ -n "$MISSING" ]; then
+    echo ""
+    echo "❌ ERROR: en.json was modified but these locale files were not:"
+    echo "  $MISSING"
+    echo ""
+    echo "All locale files must be updated together."
+    echo "Use --no-verify to bypass (not recommended)."
+    echo ""
+    exit 1
+  fi
+fi

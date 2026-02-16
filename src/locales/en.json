@@ -37,7 +37,9 @@
     "search": {
       "placeholder": "Find your skillset...",
       "reveal": "Can't find what you're looking for? We build custom AI agents with the personality, expertise, and experience that match your exact needs. Your perfect hire doesn't exist yet — but we can create them.",
-      "cta": "Let's Talk About It →"
+      "cta": "Let's Talk About It →",
+      "emailSubject": "Custom AI Agent Inquiry",
+      "emailBody": "Hi PeopleFreeWork team,\n\nI'm looking for an AI agent that can help with:\n\n[Describe the role, tasks, or skillset you need]"
     },
     "available": "Available",
     "response": "Response:",

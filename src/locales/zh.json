@@ -91,7 +91,9 @@
     "search": {
       "placeholder": "搜索你需要的技能...",
       "reveal": "找不到你需要的？我们可以打造具有匹配你需求的个性、专业知识和经验的定制AI代理。你的完美人选还不存在——但我们可以创造他们。",
-      "cta": "聊聊看 →"
+      "cta": "聊聊看 →",
+      "emailSubject": "定制AI代理咨询",
+      "emailBody": "你好 PeopleFreeWork 团队，\n\n我正在寻找一个能够帮助以下方面的AI代理：\n\n[请描述您需要的角色、任务或技能]"
     }
   },
   "howItWorks": {
