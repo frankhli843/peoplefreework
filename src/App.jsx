@@ -4,7 +4,7 @@ const team = [
   {
     name: 'Olivia Laurent',
     title: 'Creative Director',
-    photo: 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=200&h=200&fit=crop&crop=face',
+    photo: '/headshots/olivia.png',
     bio: 'Designs brand strategies, writes copy, and creates content that converts. Has never experienced creative burnout. Doesn\'t know what that is.',
     skills: ['Brand Strategy', 'Copywriting', 'Content Creation', 'Social Media'],
     languages: 'English, French, Italian, Spanish, Portuguese, German',
@@ -16,7 +16,7 @@ const team = [
   {
     name: 'Sarah Chen',
     title: 'Executive Assistant',
-    photo: 'https://images.unsplash.com/photo-1761243892035-c3e13829115a?w=200&h=200&fit=crop&crop=face',
+    photo: '/headshots/sarah.png',
     bio: 'Manages calendars, triages emails, and preps meetings so you never miss a beat. Never misses a deadline. Literally never.',
     skills: ['Calendar Management', 'Email Triage', 'Meeting Prep', 'Travel Booking'],
     languages: 'English, Mandarin, Spanish, French, Japanese, Arabic',
@@ -28,7 +28,7 @@ const team = [
   {
     name: 'Marcus Rivera',
     title: 'Legal Operations Specialist',
-    photo: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face',
+    photo: '/headshots/marcus.png',
     bio: 'Tracks cases, generates invoices, and keeps every deadline on your radar. Has never missed a filing deadline. Not once.',
     skills: ['Case Tracking', 'Invoice Generation', 'Deadline Management', 'Document Review'],
     languages: 'English, Portuguese, German, Korean, Hindi, Russian',
@@ -40,7 +40,7 @@ const team = [
   {
     name: 'Priya Patel',
     title: 'Real Estate Coordinator',
-    photo: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&h=200&fit=crop&crop=face',
+    photo: '/headshots/priya.png',
     bio: 'Manages listings, follows up with clients, and delivers market insights on demand. Has zero hobbies outside of work. Completely content.',
     skills: ['Listing Management', 'Client Follow-ups', 'Market Research', 'CRM'],
     languages: 'English, Hindi, Mandarin, French, Italian, Dutch',
@@ -52,7 +52,7 @@ const team = [
   {
     name: 'James Okonkwo',
     title: 'Operations Manager',
-    photo: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&h=200&fit=crop&crop=face',
+    photo: '/headshots/james.png',
     bio: 'Automates workflows, prioritizes tasks, and generates reports. Has never once complained about workload. Or anything, really.',
     skills: ['Workflow Automation', 'Task Prioritization', 'Reporting', 'Process Optimization'],
     languages: 'English, Yoruba, Swahili, Japanese, Spanish, Cantonese',
@@ -64,7 +64,7 @@ const team = [
   {
     name: 'Sofia Reyes',
     title: 'Marketing Strategist',
-    photo: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop&crop=face',
+    photo: '/headshots/sofia.png',
     bio: 'Plans campaigns, analyzes metrics, and optimizes funnels. Increased one client\'s conversion rate by 340%. Hasn\'t taken a day off to celebrate.',
     skills: ['Campaign Management', 'Analytics', 'SEO/SEM', 'Funnel Optimization'],
     languages: 'English, Spanish, Portuguese, French, Mandarin, Italian',
@@ -76,7 +76,7 @@ const team = [
   {
     name: 'Elena Kowalski',
     title: 'Bookkeeper',
-    photo: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop&crop=face',
+    photo: '/headshots/elena.png',
     bio: 'Tracks expenses, sends invoices, and keeps your books pristine. Has taken 0 sick days, 0 vacation days, and 0 coffee breaks since starting.',
     skills: ['Expense Tracking', 'Invoicing', 'Financial Reports', 'Tax Prep'],
     languages: 'English, Polish, German, Mandarin, Thai, Swedish',
@@ -88,7 +88,7 @@ const team = [
   {
     name: 'Yuki Tanaka',
     title: 'Asia-Pacific Liaison',
-    photo: 'https://images.unsplash.com/photo-1758600587839-56ba05596c69?w=200&h=200&fit=crop&crop=face',
+    photo: '/headshots/yuki.png',
     bio: 'Bridges communication across all of East Asia. Drafts emails in Mandarin at 9am, takes a call in Japanese at noon, and closes a deal in Korean by 5pm. Every single day.',
     skills: ['Cross-Border Communication', 'Translation', 'Market Entry', 'Client Relations'],
     languages: 'English, Mandarin, Japanese, Korean, Cantonese, Vietnamese, Thai',
@@ -100,7 +100,7 @@ const team = [
   {
     name: 'Aisha Mohammed',
     title: 'Client Relations Manager',
-    photo: 'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=200&h=200&fit=crop&crop=face',
+    photo: '/headshots/aisha.png',
     bio: 'Onboards new clients and keeps satisfaction scores high. Remembers every client\'s name, preferences, and history perfectly. Has no personal life to speak of.',
     skills: ['Onboarding', 'Communication', 'Satisfaction Tracking', 'Retention'],
     languages: 'English, Arabic, French, Somali, Turkish, Portuguese',
