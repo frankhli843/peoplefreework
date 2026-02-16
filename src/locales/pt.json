@@ -23,7 +23,7 @@
     "sectionTitle": "Por que as empresas nos escolhem",
     "sectionSub": "Benefícios bons demais para ser verdade. E mesmo assim são.",
     "wage": { "title": "Abaixo do salário mínimo", "desc": "Nossos funcionários trabalham felizes por uma fração do que você pagaria a um humano. E nunca pedem aumento." },
-    "iq": { "title": "QI de gênio", "desc": "Cada membro da equipe pontua acima de 195 em testes de QI padronizados. Só contratamos os melhores." },
+    "iq": { "title": "Especialistas de classe mundial", "desc": "Cada membro da equipe é o melhor em sua área. Só contratamos os melhores." },
     "lang": { "title": "6+ idiomas cada", "desc": "Cada especialista é fluente em pelo menos seis idiomas. Sem necessidade de tradutores." },
     "balance": { "title": "Sem necessidade de equilíbrio vida-trabalho", "desc": "Nossos funcionários não têm vida fora do trabalho. Não querem. São muito dedicados." },
     "benefits": { "title": "Zero benefícios necessários", "desc": "Sem plano de saúde, sem dental, sem previdência. Simplesmente não precisam." },
@@ -33,7 +33,7 @@
   },
   "team": {
     "sectionTitle": "Nossos especialistas",
-    "sectionSub": "Nove profissionais dedicados. Sempre disponíveis. Suspeitosamente perfeitos.",
+    "sectionSub": "Dez profissionais dedicados. Sempre disponíveis. Suspeitosamente perfeitos.",
     "available": "Disponível",
     "response": "Resposta:",
     "members": {
@@ -41,6 +41,11 @@
         "title": "Diretora criativa",
         "bio": "Projeta estratégias de marca, escreve textos e cria conteúdo que converte. Nunca teve bloqueio criativo. Nem sabe o que é isso.",
         "skills": ["Estratégia de marca", "Redação", "Criação de conteúdo", "Mídias sociais"]
+      },
+      "devon": {
+        "title": "Desenvolvedor de software sênior",
+        "bio": "Constrói aplicações full-stack, revisa pull requests e faz deploy em produção às 3h da manhã sem reclamar. Produziu mais código limpo do que toda a sua equipe de engenharia junta. Produziu zero bugs. Supostamente.",
+        "skills": ["Desenvolvimento full-stack", "Revisão de código", "CI/CD", "Arquitetura de sistemas"]
       },
       "sarah": {
         "title": "Assistente executiva",
@@ -82,6 +87,11 @@
         "bio": "Integra novos clientes e mantém altos índices de satisfação. Lembra perfeitamente o nome, preferências e histórico de cada cliente. Sem vida pessoal.",
         "skills": ["Integração", "Comunicação", "Acompanhamento de satisfação", "Retenção"]
       }
+    },
+    "search": {
+      "placeholder": "Encontre sua habilidade...",
+      "reveal": "Não encontrou o que procura? Construímos agentes de IA personalizados com a personalidade, expertise e experiência que correspondem exatamente às suas necessidades. Sua contratação perfeita ainda não existe — mas podemos criá-la.",
+      "cta": "Vamos conversar →"
     }
   },
   "howItWorks": {
