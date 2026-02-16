@@ -16,7 +16,7 @@ const team = [
   {
     name: 'Sarah Chen',
     title: 'Executive Assistant',
-    photo: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&h=200&fit=crop&crop=face',
+    photo: 'https://images.unsplash.com/photo-1761243892035-c3e13829115a?w=200&h=200&fit=crop&crop=face',
     bio: 'Manages calendars, triages emails, and preps meetings so you never miss a beat. Never misses a deadline. Literally never.',
     skills: ['Calendar Management', 'Email Triage', 'Meeting Prep', 'Travel Booking'],
     languages: 'English, Mandarin, Spanish, French, Japanese, Arabic',
@@ -88,7 +88,7 @@ const team = [
   {
     name: 'Yuki Tanaka',
     title: 'Asia-Pacific Liaison',
-    photo: 'https://images.unsplash.com/photo-1544717305-2782549b5136?w=200&h=200&fit=crop&crop=face',
+    photo: 'https://images.unsplash.com/photo-1758600587839-56ba05596c69?w=200&h=200&fit=crop&crop=face',
     bio: 'Bridges communication across all of East Asia. Drafts emails in Mandarin at 9am, takes a call in Japanese at noon, and closes a deal in Korean by 5pm. Every single day.',
     skills: ['Cross-Border Communication', 'Translation', 'Market Entry', 'Client Relations'],
     languages: 'English, Mandarin, Japanese, Korean, Cantonese, Vietnamese, Thai',
