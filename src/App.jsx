@@ -10,7 +10,7 @@ const team = [
     languages: 'English, Mandarin, Spanish, French, Japanese, Arabic',
     iq: '197',
     availability: '24/7/365',
-    responseTime: '< 2 minutes',
+    responseTime: '< 20sutes',
     color: '#6366f1',
   },
   {
@@ -22,7 +22,7 @@ const team = [
     languages: 'English, Portuguese, German, Korean, Hindi, Russian',
     iq: '203',
     availability: '24/7/365',
-    responseTime: '< 2 minutes',
+    responseTime: '< 20sutes',
     color: '#0ea5e9',
   },
   {
@@ -34,7 +34,7 @@ const team = [
     languages: 'English, Hindi, Mandarin, French, Italian, Dutch',
     iq: '195',
     availability: '24/7/365',
-    responseTime: '< 2 minutes',
+    responseTime: '< 20sutes',
     color: '#f43f5e',
   },
   {
@@ -46,7 +46,7 @@ const team = [
     languages: 'English, Yoruba, Swahili, Japanese, Spanish, Cantonese',
     iq: '201',
     availability: '24/7/365',
-    responseTime: '< 2 minutes',
+    responseTime: '< 20sutes',
     color: '#10b981',
   },
   {
@@ -58,7 +58,7 @@ const team = [
     languages: 'English, Polish, German, Mandarin, Thai, Swedish',
     iq: '199',
     availability: '24/7/365',
-    responseTime: '< 2 minutes',
+    responseTime: '< 20sutes',
     color: '#f59e0b',
   },
   {
@@ -70,7 +70,7 @@ const team = [
     languages: 'English, Arabic, French, Somali, Turkish, Portuguese',
     iq: '198',
     availability: '24/7/365',
-    responseTime: '< 2 minutes',
+    responseTime: '< 20sutes',
     color: '#8b5cf6',
   },
 ]
@@ -83,7 +83,7 @@ const steps = [
 
 const stats = [
   { value: '24/7', label: 'Availability' },
-  { value: '< 2 min', label: 'Avg. response time' },
+  { value: '< 20s', label: 'Avg. response time' },
   { value: '0', label: 'Sick days. Ever.' },
   { value: '6+', label: 'Languages per employee' },
 ]
