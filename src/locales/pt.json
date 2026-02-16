@@ -91,7 +91,9 @@
     "search": {
       "placeholder": "Encontre sua habilidade...",
       "reveal": "Não encontrou o que procura? Construímos agentes de IA personalizados com a personalidade, expertise e experiência que correspondem exatamente às suas necessidades. Sua contratação perfeita ainda não existe — mas podemos criá-la.",
-      "cta": "Vamos conversar →"
+      "cta": "Vamos conversar →",
+      "emailSubject": "Consulta sobre agente de IA personalizado",
+      "emailBody": "Olá equipe PeopleFreeWork,\n\nEstou procurando um agente de IA que possa ajudar com:\n\n[Descreva o papel, tarefas ou habilidades que você precisa]"
     }
   },
   "howItWorks": {
