@@ -146,6 +146,25 @@ body {
   font-size: 1.15rem;
 }
 
+/* Perks Grid */
+.perks-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+.perk-card {
+  background: #fff; border-radius: var(--radius);
+  padding: 36px; border: 1px solid rgba(0,0,0,0.06);
+  transition: all 0.3s ease;
+}
+.perk-card:hover {
+  box-shadow: 0 16px 48px rgba(0,0,0,0.06);
+  transform: translateY(-2px);
+}
+.perk-icon { font-size: 2rem; margin-bottom: 16px; }
+.perk-card h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 8px; }
+.perk-card p { font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; }
+
 /* Team Grid */
 .team-grid {
   display: grid;
@@ -182,10 +201,10 @@ body {
 .card-name { font-size: 1.2rem; font-weight: 700; margin-bottom: 2px; letter-spacing: -0.01em; }
 .card-title { font-size: 0.875rem; color: var(--text-muted); margin-bottom: 12px; font-weight: 500; }
 .card-bio { font-size: 0.925rem; color: var(--text-muted); margin-bottom: 14px; line-height: 1.6; }
-.card-meta { margin-bottom: 16px; }
+.card-meta { margin-bottom: 16px; display: flex; flex-direction: column; gap: 4px; }
 .meta-item {
   font-size: 0.8rem; font-weight: 500;
-  color: var(--text-muted);
+  color: var(--text-muted); display: block;
 }
 .card-skills { display: flex; flex-wrap: wrap; gap: 8px; }
 .skill-tag {
@@ -285,6 +304,7 @@ body {
   .hero-title { font-size: 2.5rem; }
   .stats-bar { grid-template-columns: repeat(2, 1fr); gap: 12px; padding: 0 20px 60px; }
   .section { padding: 60px 20px; }
+  .perks-grid { grid-template-columns: 1fr; }
   .team-grid { grid-template-columns: 1fr; }
   .steps { grid-template-columns: 1fr; gap: 32px; }
   .pricing-cards { grid-template-columns: 1fr; }

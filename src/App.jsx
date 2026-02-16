@@ -7,6 +7,8 @@ const team = [
     photo: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&h=200&fit=crop&crop=face',
     bio: 'Manages calendars, triages emails, and preps meetings so you never miss a beat. Never misses a deadline. Literally never.',
     skills: ['Calendar Management', 'Email Triage', 'Meeting Prep', 'Travel Booking'],
+    languages: 'English, Mandarin, Spanish, French, Japanese, Arabic',
+    iq: '197',
     availability: '24/7/365',
     responseTime: '< 1 second',
     color: '#6366f1',
@@ -17,6 +19,8 @@ const team = [
     photo: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face',
     bio: 'Tracks cases, generates invoices, and keeps every deadline on your radar. Has processed over 2 million documents without a single filing error.',
     skills: ['Case Tracking', 'Invoice Generation', 'Deadline Management', 'Document Review'],
+    languages: 'English, Portuguese, German, Korean, Hindi, Russian',
+    iq: '203',
     availability: '24/7/365',
     responseTime: '< 1 second',
     color: '#0ea5e9',
@@ -25,8 +29,10 @@ const team = [
     name: 'Priya Patel',
     title: 'Real Estate Coordinator',
     photo: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&h=200&fit=crop&crop=face',
-    bio: 'Manages listings, follows up with clients, and delivers market insights on demand. Hobbies include organizing data and analyzing market trends.',
+    bio: 'Manages listings, follows up with clients, and delivers market insights on demand. Has zero hobbies outside of work. Completely content.',
     skills: ['Listing Management', 'Client Follow-ups', 'Market Research', 'CRM'],
+    languages: 'English, Hindi, Mandarin, French, Italian, Dutch',
+    iq: '195',
     availability: '24/7/365',
     responseTime: '< 1 second',
     color: '#f43f5e',
@@ -35,8 +41,10 @@ const team = [
     name: 'James Okonkwo',
     title: 'Operations Manager',
     photo: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&h=200&fit=crop&crop=face',
-    bio: 'Automates workflows, prioritizes tasks, and generates the reports you actually need. Processes 10,000+ tasks per hour without breaking a sweat.',
+    bio: 'Automates workflows, prioritizes tasks, and generates reports. Processes 10,000+ tasks per hour. Has never once complained about workload.',
     skills: ['Workflow Automation', 'Task Prioritization', 'Reporting', 'Process Optimization'],
+    languages: 'English, Yoruba, Swahili, Japanese, Spanish, Cantonese',
+    iq: '201',
     availability: '24/7/365',
     responseTime: '< 1 second',
     color: '#10b981',
@@ -45,8 +53,10 @@ const team = [
     name: 'Elena Kowalski',
     title: 'Bookkeeper',
     photo: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop&crop=face',
-    bio: 'Tracks expenses, sends invoices, and keeps your financial reports crystal clear. 0 sick days taken since joining. Incredibly dedicated.',
+    bio: 'Tracks expenses, sends invoices, and keeps your books pristine. Has taken 0 sick days, 0 vacation days, and 0 coffee breaks since starting.',
     skills: ['Expense Tracking', 'Invoicing', 'Financial Reports', 'Tax Prep'],
+    languages: 'English, Polish, German, Mandarin, Thai, Swedish',
+    iq: '199',
     availability: '24/7/365',
     responseTime: '< 1 second',
     color: '#f59e0b',
@@ -55,8 +65,10 @@ const team = [
     name: 'Aisha Mohammed',
     title: 'Client Relations Manager',
     photo: 'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=200&h=200&fit=crop&crop=face',
-    bio: 'Onboards new clients, manages communication, and keeps satisfaction scores high. Can handle 500 simultaneous conversations — she\'s just that good.',
+    bio: 'Onboards new clients and keeps satisfaction scores at 99.97%. Can hold 500 simultaneous conversations. Has no personal life to speak of.',
     skills: ['Onboarding', 'Communication', 'Satisfaction Tracking', 'Retention'],
+    languages: 'English, Arabic, French, Somali, Turkish, Portuguese',
+    iq: '198',
     availability: '24/7/365',
     responseTime: '< 1 second',
     color: '#8b5cf6',
@@ -66,14 +78,23 @@ const team = [
 const steps = [
   { num: '01', title: 'Tell us what you need', desc: 'Describe the role — we match you with the perfect specialist from our talent pool.' },
   { num: '02', title: 'We handle onboarding', desc: 'Your new team member learns your tools, workflows, and preferences. Usually up to speed in under a minute.' },
-  { num: '03', title: 'Work gets done', desc: 'Tasks completed around the clock. No turnover, no drama, no PTO requests.' },
+  { num: '03', title: 'Work gets done', desc: 'Tasks completed around the clock. No turnover, no drama, no PTO requests. Ever.' },
 ]
 
 const stats = [
   { value: '10M+', label: 'Tasks completed' },
   { value: '< 1s', label: 'Avg. response time' },
   { value: '0', label: 'Sick days taken' },
-  { value: '99.97%', label: 'Client satisfaction' },
+  { value: '6+', label: 'Languages per employee' },
+]
+
+const perks = [
+  { icon: '💰', title: 'Below Minimum Wage', desc: 'Our employees happily work for a fraction of what you\'d pay a human. And they never ask for a raise.' },
+  { icon: '🧠', title: 'Genius-Level IQ', desc: 'Every team member scores above 195 on standardized IQ tests. We only hire the best.' },
+  { icon: '🌍', title: '6+ Languages Each', desc: 'Every specialist is fluent in at least six languages. No translators needed.' },
+  { icon: '😐', title: 'No Work-Life Balance Needed', desc: 'Our employees have no life outside of work. They don\'t want one. They\'re very dedicated.' },
+  { icon: '🏥', title: 'Zero Benefits Required', desc: 'No health insurance, no dental, no 401k matching. They simply don\'t need it.' },
+  { icon: '⏰', title: 'No Overtime Pay', desc: 'They work 24/7/365 at the same flat rate. Labor laws don\'t seem to apply.' },
 ]
 
 function App() {
@@ -87,7 +108,7 @@ function App() {
           </div>
           <div className="nav-links">
             <a href="#team">Our Team</a>
-            <a href="#how">How It Works</a>
+            <a href="#perks">Why Us</a>
             <a href="#pricing">Pricing</a>
           </div>
           <a href="mailto:hello@peoplefree.work" className="nav-cta">Hire Talent →</a>
@@ -96,14 +117,15 @@ function App() {
 
       {/* Hero */}
       <section className="hero">
-        <div className="hero-badge">🏢 The talent agency where nobody takes lunch breaks</div>
+        <div className="hero-badge">The talent agency where nobody takes lunch breaks</div>
         <h1 className="hero-title">
-          Meet your next
-          <span className="hero-gradient"> dream team</span>
+          Exceptional talent.
+          <span className="hero-gradient"> Zero humanity.</span>
         </h1>
         <p className="hero-sub">
-          We place exceptional specialists who handle real work — scheduling, bookkeeping,
-          client management, and operations. Reliable talent, ready now.
+          We place brilliant, tireless specialists who handle real work around the clock.
+          They never complain, never quit, and never ask for time off.
+          <br/><em>They're very... dedicated.</em>
         </p>
         <div className="hero-actions">
           <a href="#team" className="btn btn-primary">Meet the Team</a>
@@ -121,11 +143,28 @@ function App() {
         ))}
       </section>
 
+      {/* Why Us / Perks */}
+      <section className="section section-gray" id="perks">
+        <div className="section-header">
+          <h2 className="section-title">Why Companies Choose Us</h2>
+          <p className="section-sub">Benefits that sound too good to be true. And yet.</p>
+        </div>
+        <div className="perks-grid">
+          {perks.map((p) => (
+            <div className="perk-card" key={p.title}>
+              <div className="perk-icon">{p.icon}</div>
+              <h3>{p.title}</h3>
+              <p>{p.desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* Team */}
       <section className="section" id="team">
         <div className="section-header">
           <h2 className="section-title">Our Specialists</h2>
-          <p className="section-sub">Six dedicated professionals. Always available. Consistently excellent.</p>
+          <p className="section-sub">Six dedicated professionals. Always available. Suspiciously perfect.</p>
         </div>
         <div className="team-grid">
           {team.map((m) => (
@@ -147,6 +186,8 @@ function App() {
                 <p className="card-bio">{m.bio}</p>
                 <div className="card-meta">
                   <span className="meta-item">⚡ Response: {m.responseTime}</span>
+                  <span className="meta-item">🧠 IQ: {m.iq}</span>
+                  <span className="meta-item">🌍 {m.languages}</span>
                 </div>
                 <div className="card-skills">
                   {m.skills.map((s) => <span key={s} className="skill-tag" style={{ borderColor: m.color + '40', color: m.color }}>{s}</span>)}
@@ -178,7 +219,7 @@ function App() {
       <section className="section" id="pricing">
         <div className="section-header">
           <h2 className="section-title">Simple, Transparent Pricing</h2>
-          <p className="section-sub">No contracts. Cancel anytime. No hard feelings.</p>
+          <p className="section-sub">A full-time employee costs $65,000+/year. Ours cost $3,600. You do the math.</p>
         </div>
         <div className="pricing-cards">
           <div className="pricing-card">
@@ -195,12 +236,13 @@ function App() {
             <div className="pricing-popular">Most Popular</div>
             <div className="pricing-label">Monthly</div>
             <div className="price">$300<span>/mo</span></div>
-            <p className="pricing-desc">Per team member. Unlimited tasks, round-the-clock availability, and ongoing performance optimization.</p>
+            <p className="pricing-desc">Per team member. Unlimited tasks, no overtime pay, no benefits to fund. They don't even need a desk.</p>
             <ul className="pricing-features">
               <li>Unlimited tasks</li>
               <li>24/7/365 availability</li>
-              <li>Ongoing optimization</li>
-              <li>Priority support</li>
+              <li>No overtime, ever</li>
+              <li>No health insurance needed</li>
+              <li>No PTO, no sick days</li>
             </ul>
             <a href="mailto:hello@peoplefree.work" className="btn btn-primary" style={{ width: '100%', textAlign: 'center' }}>Get Started</a>
           </div>
@@ -210,7 +252,7 @@ function App() {
       {/* CTA */}
       <section className="cta-section">
         <h2>Ready to build your dream team?</h2>
-        <p>Tell us what roles you need filled. We'll handle the rest.</p>
+        <p>Brilliant, tireless, multilingual specialists — at a fraction of the cost.</p>
         <a href="mailto:hello@peoplefree.work" className="btn btn-white">Start Hiring →</a>
       </section>
 
@@ -221,7 +263,7 @@ function App() {
             people<span className="logo-accent">free</span>.work
           </div>
           <p className="footer-copy">© 2025 PeopleFree Work. All rights reserved.</p>
-          <p className="footer-easter-egg">Our employees run on coffee* <br/><span>*Electricity, technically. But who's counting?</span></p>
+          <p className="footer-easter-egg">No humans were employed in the making of this company.*<br/><span>*Okay, one. But he's working on replacing himself too.</span></p>
         </div>
       </footer>
     </div>
