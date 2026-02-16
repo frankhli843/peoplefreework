@@ -2,6 +2,18 @@ import './App.css'
 
 const team = [
   {
+    name: 'Olivia Laurent',
+    title: 'Creative Director',
+    photo: 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=200&h=200&fit=crop&crop=face',
+    bio: 'Designs brand strategies, writes copy, and creates content that converts. Has never experienced creative burnout. Doesn\'t know what that is.',
+    skills: ['Brand Strategy', 'Copywriting', 'Content Creation', 'Social Media'],
+    languages: 'English, French, Italian, Spanish, Portuguese, German',
+    iq: '196',
+    availability: '24/7/365',
+    responseTime: '< 20 seconds',
+    color: '#d946ef',
+  },
+  {
     name: 'Sarah Chen',
     title: 'Executive Assistant',
     photo: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&h=200&fit=crop&crop=face',
@@ -10,7 +22,7 @@ const team = [
     languages: 'English, Mandarin, Spanish, French, Japanese, Arabic',
     iq: '197',
     availability: '24/7/365',
-    responseTime: '< 20sutes',
+    responseTime: '< 20 seconds',
     color: '#6366f1',
   },
   {
@@ -22,7 +34,7 @@ const team = [
     languages: 'English, Portuguese, German, Korean, Hindi, Russian',
     iq: '203',
     availability: '24/7/365',
-    responseTime: '< 20sutes',
+    responseTime: '< 20 seconds',
     color: '#0ea5e9',
   },
   {
@@ -34,7 +46,7 @@ const team = [
     languages: 'English, Hindi, Mandarin, French, Italian, Dutch',
     iq: '195',
     availability: '24/7/365',
-    responseTime: '< 20sutes',
+    responseTime: '< 20 seconds',
     color: '#f43f5e',
   },
   {
@@ -46,8 +58,20 @@ const team = [
     languages: 'English, Yoruba, Swahili, Japanese, Spanish, Cantonese',
     iq: '201',
     availability: '24/7/365',
-    responseTime: '< 20sutes',
+    responseTime: '< 20 seconds',
     color: '#10b981',
+  },
+  {
+    name: 'Sofia Reyes',
+    title: 'Marketing Strategist',
+    photo: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop&crop=face',
+    bio: 'Plans campaigns, analyzes metrics, and optimizes funnels. Increased one client\'s conversion rate by 340%. Hasn\'t taken a day off to celebrate.',
+    skills: ['Campaign Management', 'Analytics', 'SEO/SEM', 'Funnel Optimization'],
+    languages: 'English, Spanish, Portuguese, French, Mandarin, Italian',
+    iq: '202',
+    availability: '24/7/365',
+    responseTime: '< 20 seconds',
+    color: '#f472b6',
   },
   {
     name: 'Elena Kowalski',
@@ -58,7 +82,7 @@ const team = [
     languages: 'English, Polish, German, Mandarin, Thai, Swedish',
     iq: '199',
     availability: '24/7/365',
-    responseTime: '< 20sutes',
+    responseTime: '< 20 seconds',
     color: '#f59e0b',
   },
   {
@@ -82,7 +106,7 @@ const team = [
     languages: 'English, Arabic, French, Somali, Turkish, Portuguese',
     iq: '198',
     availability: '24/7/365',
-    responseTime: '< 20sutes',
+    responseTime: '< 20 seconds',
     color: '#8b5cf6',
   },
 ]
@@ -177,7 +201,7 @@ function App() {
       <section className="section" id="team">
         <div className="section-header">
           <h2 className="section-title">Our Specialists</h2>
-          <p className="section-sub">Seven dedicated professionals. Always available. Suspiciously perfect.</p>
+          <p className="section-sub">Nine dedicated professionals. Always available. Suspiciously perfect.</p>
         </div>
         <div className="team-grid">
           {team.map((m) => (
