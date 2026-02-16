@@ -95,6 +95,7 @@ const perks = [
   { icon: '😐', title: 'No Work-Life Balance Needed', desc: 'Our employees have no life outside of work. They don\'t want one. They\'re very dedicated.' },
   { icon: '🏥', title: 'Zero Benefits Required', desc: 'No health insurance, no dental, no 401k matching. They simply don\'t need it.' },
   { icon: '⏰', title: 'No Overtime Pay', desc: 'They work 24/7/365 at the same flat rate. Labor laws don\'t seem to apply.' },
+  { icon: '🔑', title: 'You Own Your AI', desc: 'Your AI employee belongs to you. Not rented, not leased. Yours. Take them with you, customize them, keep them forever.' },
 ]
 
 function App() {
@@ -123,9 +124,9 @@ function App() {
           <span className="hero-gradient"> Zero humanity.</span>
         </h1>
         <p className="hero-sub">
-          We place brilliant, tireless specialists who handle real work around the clock.
+          We build brilliant, tireless specialists who handle real work around the clock.
           They never complain, never quit, and never ask for time off.
-          <br/><em>They're very... dedicated.</em>
+          Best part? <em>You own them.</em>
         </p>
         <div className="hero-actions">
           <a href="#team" className="btn btn-primary">Meet the Team</a>
@@ -225,11 +226,12 @@ function App() {
           <div className="pricing-card">
             <div className="pricing-label">Setup</div>
             <div className="price">$500</div>
-            <p className="pricing-desc">One-time onboarding fee per team member. We configure their workflows, integrate your tools, and get them production-ready.</p>
+            <p className="pricing-desc">One-time fee to build your AI employee. We configure their workflows, integrate your tools, and hand over the keys.</p>
             <ul className="pricing-features">
               <li>Custom workflow setup</li>
               <li>Tool integration</li>
               <li>Training & calibration</li>
+              <li>Full ownership — it's yours</li>
             </ul>
           </div>
           <div className="pricing-card featured">
