@@ -64,7 +64,7 @@ const team = [
   {
     name: 'Yuki Tanaka',
     title: 'Asia-Pacific Liaison',
-    photo: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&h=200&fit=crop&crop=face',
+    photo: 'https://images.unsplash.com/photo-1544717305-2782549b5136?w=200&h=200&fit=crop&crop=face',
     bio: 'Bridges communication across all of East Asia. Drafts emails in Mandarin at 9am, takes a call in Japanese at noon, and closes a deal in Korean by 5pm. Every single day.',
     skills: ['Cross-Border Communication', 'Translation', 'Market Entry', 'Client Relations'],
     languages: 'English, Mandarin, Japanese, Korean, Cantonese, Vietnamese, Thai',
