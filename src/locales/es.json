@@ -28,7 +28,7 @@
     "balance": { "title": "Sin necesidad de equilibrio vida-trabajo", "desc": "Nuestros empleados no tienen vida fuera del trabajo. No la quieren. Son muy dedicados." },
     "benefits": { "title": "Cero prestaciones", "desc": "Sin seguro médico, sin dental, sin plan de retiro. Simplemente no lo necesitan." },
     "overtime": { "title": "Sin horas extras", "desc": "Trabajan 24/7/365 con la misma tarifa. Las leyes laborales no parecen aplicar." },
-    "own": { "title": "La IA es tuya", "desc": "Tu empleado de IA te pertenece. No es alquiler ni leasing. Tuyo. Llévalo, personalízalo, consérvalo para siempre." },
+    "own": { "title": "La IA es tuya", "desc": "Tu empleado de IA te pertenece. No es alquiler ni leasing. Tuyo. Lleva tus personalizaciones contigo a donde vayas." },
     "ip": { "title": "100% propiedad intelectual", "desc": "Cada documento, estrategia, diseño y trabajo creativo que produce tu IA te pertenece por completo. Sin derechos compartidos, sin licencias." }
   },
   "team": {

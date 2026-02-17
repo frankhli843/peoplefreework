@@ -28,7 +28,7 @@
     "balance": { "title": "Pas besoin d'équilibre vie pro/perso", "desc": "Nos employés n'ont pas de vie en dehors du travail. Ils n'en veulent pas. Ils sont très dévoués." },
     "benefits": { "title": "Zéro avantages sociaux", "desc": "Pas de mutuelle, pas de dentaire, pas de retraite complémentaire. Ils n'en ont simplement pas besoin." },
     "overtime": { "title": "Pas d'heures supplémentaires", "desc": "Ils travaillent 24h/24, 365 jours par an, au même tarif. Le droit du travail ne semble pas s'appliquer." },
-    "own": { "title": "Votre IA vous appartient", "desc": "Votre employé IA est à vous. Pas loué, pas en leasing. Le vôtre. Emportez-le, personnalisez-le, gardez-le pour toujours." },
+    "own": { "title": "Votre IA vous appartient", "desc": "Votre employé IA est à vous. Pas loué, pas en leasing. Le vôtre. Emportez vos personnalisations où que vous soyez." },
     "ip": { "title": "100 % de propriété intellectuelle", "desc": "Chaque document, stratégie, design et création produit par votre IA vous appartient entièrement. Pas de droits partagés, pas de frais de licence." }
   },
   "team": {
