@@ -9,7 +9,7 @@
     "title1": "Des talents exceptionnels.",
     "title2": " Zéro humanité.",
     "sub": "Nous créons des spécialistes brillants et infatigables qui travaillent 24h/24. Ils ne se plaignent jamais, ne démissionnent jamais et ne demandent jamais de congés.",
-    "subBold": "Et ils vous appartiennent.",
+    "subBold": "Dans les bons comme les mauvais moments, ils sont là pour vous.",
     "meetTeam": "Découvrir l'équipe",
     "getInTouch": "Nous contacter"
   },
@@ -23,8 +23,8 @@
     "sectionTitle": "Pourquoi les entreprises nous choisissent",
     "sectionSub": "Des avantages qui semblent trop beaux pour être vrais. Et pourtant.",
     "wage": {
-      "title": "Sous le SMIC",
-      "desc": "Nos employés travaillent avec plaisir pour une fraction du salaire humain. Et ne demandent jamais d'augmentation."
+      "title": "Peut Faire le Travail de 10 Employés",
+      "desc": "Un spécialiste IA peut produire le travail d'une équipe entière avec une qualité et une vitesse constantes."
     },
     "iq": {
       "title": "Spécialistes de classe mondiale",
@@ -39,16 +39,16 @@
       "desc": "Nos employés n'ont pas de vie en dehors du travail. Ils n'en veulent pas. Ils sont très dévoués."
     },
     "benefits": {
-      "title": "Zéro avantages sociaux",
-      "desc": "Pas de mutuelle, pas de dentaire, pas de retraite complémentaire. Ils n'en ont simplement pas besoin."
+      "title": "Ne Tombe Jamais Malade",
+      "desc": "Toujours disponible et constant, sans arrêts maladie ni interruptions."
     },
     "overtime": {
       "title": "Pas d'heures supplémentaires",
       "desc": "Ils travaillent 24h/24, 365 jours par an, au même tarif. Le droit du travail ne semble pas s'appliquer."
     },
     "own": {
-      "title": "Votre IA vous appartient",
-      "desc": "Votre employé IA est à vous. Pas loué, pas en leasing. Le vôtre. Emportez vos personnalisations où que vous soyez."
+      "title": "Dans les Bons comme les Mauvais Moments, Ils Sont Là",
+      "desc": "Votre coéquipier IA dédié reste avec votre entreprise sur le long terme, apprend vos processus et soutient votre équipe chaque jour."
     },
     "ip": {
       "title": "100 % de propriété intellectuelle",
@@ -198,7 +198,7 @@
         "Configuration personnalisée",
         "Intégration d'outils",
         "Formation et calibrage",
-        "Propriété totale"
+        "Entièrement dédié à votre entreprise"
       ]
     },
     "monthly": {
@@ -206,13 +206,13 @@
       "label": "Mensuel",
       "price": "1 000 $ US",
       "per": "/mois",
-      "desc": "Par membre d'équipe. Tâches illimitées, pas d'heures sup, pas d'avantages sociaux. Ils n'ont même pas besoin de bureau.",
+      "desc": "Par membre de l'équipe. Tâches illimitées, prix prévisible et soutien fiable au quotidien.",
       "features": [
         "Tâches illimitées",
         "Disponibilité 24/7/365",
-        "Jamais d'heures sup",
-        "Pas de mutuelle nécessaire",
-        "Pas de congés, pas d'arrêts maladie"
+        "Support continu quand vous en avez besoin",
+        "Ne tombe jamais malade",
+        "Performance constante chaque jour"
       ],
       "cta": "Commencer"
     }

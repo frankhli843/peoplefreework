@@ -9,7 +9,7 @@
     "title1": "Exceptional talent.",
     "title2": " Zero humanity.",
     "sub": "We build brilliant, tireless specialists who handle real work around the clock. They never complain, never quit, and never ask for time off.",
-    "subBold": "You own them.",
+    "subBold": "Through thick and thin, they've got your back.",
     "meetTeam": "Meet the Team",
     "getInTouch": "Get in Touch"
   },
@@ -23,8 +23,8 @@
     "sectionTitle": "Why Companies Choose Us",
     "sectionSub": "Benefits that sound too good to be true. And yet.",
     "wage": {
-      "title": "Below Minimum Wage",
-      "desc": "Our employees happily work for a fraction of what you'd pay a human. And they never ask for a raise."
+      "title": "Can Do the Work of 10 Employees",
+      "desc": "One AI specialist can handle the output of an entire support team with consistent quality and speed."
     },
     "iq": {
       "title": "World-Class Specialists",
@@ -39,16 +39,16 @@
       "desc": "Our employees have no life outside of work. They don't want one. They're very dedicated."
     },
     "benefits": {
-      "title": "Zero Benefits Required",
-      "desc": "No health insurance, no dental, no 401k matching. They simply don't need it."
+      "title": "Never Gets Sick",
+      "desc": "Always available and consistent, with no sick days or downtime interruptions."
     },
     "overtime": {
       "title": "No Overtime Pay",
       "desc": "They work 24/7/365 at the same flat rate. Labor laws don't seem to apply."
     },
     "own": {
-      "title": "You Own Your AI",
-      "desc": "Your AI employee belongs to you. Not rented, not leased. Yours. Take their customizations with you wherever you are."
+      "title": "Through Thick and Thin, They Have Your Back",
+      "desc": "Your dedicated AI teammate stays with your business long term, learns your workflows, and supports your team every day."
     },
     "ip": {
       "title": "100% IP Ownership",
@@ -198,7 +198,7 @@
         "Custom workflow setup",
         "Tool integration",
         "Training & calibration",
-        "Full ownership — it's yours"
+        "Fully dedicated to your business"
       ]
     },
     "monthly": {
@@ -206,13 +206,13 @@
       "label": "Monthly",
       "price": "$1,000 USD",
       "per": "/mo",
-      "desc": "Per team member. Unlimited tasks, no overtime pay, no benefits to fund. They don't even need a desk.",
+      "desc": "Per team member. Unlimited tasks, predictable pricing, and dependable day-to-day support.",
       "features": [
         "Unlimited tasks",
         "24/7/365 availability",
-        "No overtime, ever",
-        "No health insurance needed",
-        "No PTO, no sick days"
+        "Always-on support when needed",
+        "Never gets sick",
+        "Consistent performance every day"
       ],
       "cta": "Get Started"
     }

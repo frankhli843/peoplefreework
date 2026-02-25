@@ -9,7 +9,7 @@
     "title1": "Talento excepcional.",
     "title2": " Cero humanidad.",
     "sub": "Creamos especialistas brillantes e incansables que trabajan las 24 horas del día. Nunca se quejan, nunca renuncian y nunca piden vacaciones.",
-    "subBold": "Y son tuyos.",
+    "subBold": "En las buenas y en las malas, siempre te respaldan.",
     "meetTeam": "Conoce al equipo",
     "getInTouch": "Contáctanos"
   },
@@ -23,8 +23,8 @@
     "sectionTitle": "Por qué las empresas nos eligen",
     "sectionSub": "Beneficios que suenan demasiado buenos para ser verdad. Y sin embargo lo son.",
     "wage": {
-      "title": "Bajo el salario mínimo",
-      "desc": "Nuestros empleados trabajan felices por una fracción de lo que pagarías a un humano. Y nunca piden un aumento."
+      "title": "Puede Hacer el Trabajo de 10 Empleados",
+      "desc": "Un especialista de IA puede entregar el trabajo de todo un equipo con calidad y velocidad constantes."
     },
     "iq": {
       "title": "Especialistas de clase mundial",
@@ -39,16 +39,16 @@
       "desc": "Nuestros empleados no tienen vida fuera del trabajo. No la quieren. Son muy dedicados."
     },
     "benefits": {
-      "title": "Cero prestaciones",
-      "desc": "Sin seguro médico, sin dental, sin plan de retiro. Simplemente no lo necesitan."
+      "title": "Nunca Se Enferma",
+      "desc": "Siempre disponible y constante, sin bajas médicas ni interrupciones por enfermedad."
     },
     "overtime": {
       "title": "Sin horas extras",
       "desc": "Trabajan 24/7/365 con la misma tarifa. Las leyes laborales no parecen aplicar."
     },
     "own": {
-      "title": "La IA es tuya",
-      "desc": "Tu empleado de IA te pertenece. No es alquiler ni leasing. Tuyo. Lleva tus personalizaciones contigo a donde vayas."
+      "title": "En las Buenas y en las Malas, Te Respaldan",
+      "desc": "Tu compañero de IA dedicado se queda con tu negocio a largo plazo, aprende tus flujos y apoya a tu equipo cada día."
     },
     "ip": {
       "title": "100% propiedad intelectual",
@@ -198,7 +198,7 @@
         "Configuración personalizada",
         "Integración de herramientas",
         "Entrenamiento y calibración",
-        "Propiedad total"
+        "Totalmente dedicado a tu negocio"
       ]
     },
     "monthly": {
@@ -206,13 +206,13 @@
       "label": "Mensual",
       "price": "$1,000 USD",
       "per": "/mes",
-      "desc": "Por miembro del equipo. Tareas ilimitadas, sin horas extras, sin prestaciones. Ni siquiera necesitan escritorio.",
+      "desc": "Por miembro del equipo. Tareas ilimitadas, precio predecible y soporte confiable día a día.",
       "features": [
         "Tareas ilimitadas",
         "Disponibilidad 24/7/365",
-        "Sin horas extras",
-        "Sin seguro médico",
-        "Sin vacaciones ni bajas"
+        "Soporte siempre activo cuando lo necesites",
+        "Nunca se enferma",
+        "Rendimiento constante todos los días"
       ],
       "cta": "Empezar"
     }
