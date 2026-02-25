@@ -215,6 +215,22 @@
         "Consistent performance every day"
       ],
       "cta": "Get Started"
+    },
+    "yearly": {
+      "popular": "Most Popular",
+      "label": "Yearly",
+      "price": "$11,000 USD",
+      "per": "/yr",
+      "desc": "Billed annually. Same full coverage, lower total cost.",
+      "savings": "Save $1,000 per year",
+      "features": [
+        "Unlimited tasks",
+        "24/7/365 availability",
+        "Always-on support when needed",
+        "Never gets sick",
+        "Consistent performance every day"
+      ],
+      "cta": "Choose Yearly"
     }
   },
   "cta": {

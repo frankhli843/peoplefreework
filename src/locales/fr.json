@@ -215,6 +215,22 @@
         "Performance constante chaque jour"
       ],
       "cta": "Commencer"
+    },
+    "yearly": {
+      "popular": "Le Plus Populaire",
+      "label": "Annuel",
+      "price": "11 000 $ US",
+      "per": "/an",
+      "desc": "Facturé annuellement. La même couverture complète pour un coût total réduit.",
+      "savings": "Économisez 1 000 $ par an",
+      "features": [
+        "Tâches illimitées",
+        "Disponibilité 24/7/365",
+        "Support continu quand vous en avez besoin",
+        "Ne tombe jamais malade",
+        "Performance constante chaque jour"
+      ],
+      "cta": "Choisir l’Annuel"
     }
   },
   "cta": {

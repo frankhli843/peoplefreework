@@ -215,6 +215,22 @@
         "Desempenho consistente todos os dias"
       ],
       "cta": "Começar"
+    },
+    "yearly": {
+      "popular": "Mais Popular",
+      "label": "Anual",
+      "price": "US$ 11.000",
+      "per": "/ano",
+      "desc": "Cobrança anual. A mesma cobertura completa com menor custo total.",
+      "savings": "Economize US$ 1.000 por ano",
+      "features": [
+        "Tarefas ilimitadas",
+        "Disponibilidade 24/7/365",
+        "Suporte contínuo quando você precisar",
+        "Nunca fica doente",
+        "Desempenho consistente todos os dias"
+      ],
+      "cta": "Escolher Anual"
     }
   },
   "cta": {

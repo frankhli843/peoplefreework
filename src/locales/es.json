@@ -215,6 +215,22 @@
         "Rendimiento constante todos los días"
       ],
       "cta": "Empezar"
+    },
+    "yearly": {
+      "popular": "Más Popular",
+      "label": "Anual",
+      "price": "$11,000 USD",
+      "per": "/año",
+      "desc": "Facturación anual. La misma cobertura completa con menor costo total.",
+      "savings": "Ahorra $1,000 al año",
+      "features": [
+        "Tareas ilimitadas",
+        "Disponibilidad 24/7/365",
+        "Soporte siempre activo cuando lo necesites",
+        "Nunca se enferma",
+        "Rendimiento constante todos los días"
+      ],
+      "cta": "Elegir Plan Anual"
     }
   },
   "cta": {
