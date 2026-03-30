@@ -192,6 +192,88 @@ body {
 .perk-card h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 8px; }
 .perk-card p { font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; }
 
+/* Examples Section */
+.examples-section {
+  background: linear-gradient(135deg, #faf5ff 0%, #eef2ff 50%, #f0fdf4 100%);
+  max-width: 100%;
+}
+.examples-section > * {
+  max-width: var(--max-w);
+  margin-left: auto;
+  margin-right: auto;
+}
+.examples-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 48px;
+}
+.examples-tab {
+  padding: 12px 32px;
+  border-radius: 100px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border: 2px solid rgba(0,0,0,0.08);
+  background: #fff;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+.examples-tab:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.examples-tab.active {
+  background: var(--text);
+  color: #fff;
+  border-color: var(--text);
+}
+.examples-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.example-card {
+  background: #fff;
+  border-radius: var(--radius);
+  padding: 32px;
+  border: 1px solid rgba(0,0,0,0.06);
+  transition: all 0.3s ease;
+  position: relative;
+}
+.example-card:hover {
+  box-shadow: 0 16px 48px rgba(0,0,0,0.08);
+  transform: translateY(-2px);
+}
+.example-icon {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+.example-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  letter-spacing: -0.01em;
+}
+.example-desc {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+.example-real {
+  font-size: 0.82rem;
+  font-style: italic;
+  color: var(--accent);
+  line-height: 1.5;
+  padding-top: 12px;
+  border-top: 1px solid rgba(99, 102, 241, 0.12);
+}
+.example-real span {
+  font-weight: 700;
+  font-style: normal;
+}
+
 /* Team Grid */
 .team-grid {
   display: grid;
@@ -403,6 +485,9 @@ body {
   .stats-bar { grid-template-columns: repeat(2, 1fr); gap: 12px; padding: 0 20px 60px; }
   .section { padding: 60px 20px; }
   .perks-grid { grid-template-columns: 1fr; }
+  .examples-grid { grid-template-columns: 1fr; }
+  .examples-tabs { flex-wrap: wrap; }
+  .examples-tab { padding: 10px 24px; font-size: 0.85rem; }
   .team-grid { grid-template-columns: 1fr; }
   .steps { grid-template-columns: 1fr; gap: 32px; }
   .pricing-cards { grid-template-columns: 1fr; }

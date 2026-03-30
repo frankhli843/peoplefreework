@@ -242,5 +242,118 @@
     "copy": "© 2025 PeopleFree Work. 保留所有權利。",
     "easter1": "本公司的營運中未僱用任何人類。*",
     "easter2": "*好吧，有一個。但他也在努力取代自己。"
+  },
+  "examples": {
+    "sectionTitle": "看看他們能做什麼",
+    "sectionSub": "真實能力，真實成果。這些不是假設，而是正在運行中。",
+    "professional": {
+      "title": "為你的事業"
+    },
+    "personal": {
+      "title": "為你的生活"
+    },
+    "realLabel": "真實案例：",
+    "items": {
+      "emailMgmt": {
+        "title": "多帳戶郵件管理",
+        "desc": "監控多個郵箱帳戶，標記緊急郵件，在告警中包含完整內容，並跨帳戶追蹤待回覆的郵件線索。",
+        "real": "Cosmo為Peter分類收件匣，並標記需在數小時內回覆的客戶郵件。"
+      },
+      "voiceBilling": {
+        "title": "語音記帳",
+        "desc": "用語音口述工時記錄和帳單備註，AI自動轉錄、結構化並記錄。",
+        "real": "Peter透過Telegram語音訊息口述帳單條目，Cosmo將其轉化為結構化記錄。"
+      },
+      "legalResearch": {
+        "title": "法律研究與起草",
+        "desc": "對接法律資料庫，起草備忘錄，研究判例法，按需準備區劃報告。",
+        "real": "Cosmo在Westlaw上做研究，起草區劃備忘錄，並為Peter撰寫訴訟費用摘要。"
+      },
+      "dailyBriefings": {
+        "title": "每日營運簡報",
+        "desc": "在早晨、中午和傍晚收到郵件簡報，涵蓋收件匣、行事曆和系統健康狀況。",
+        "real": "Snoopy每天給Chris發送3份簡報，涵蓋未讀Outlook郵件、行事曆事件和WWSA系統狀態。"
+      },
+      "contentWriting": {
+        "title": "內容寫作與發布",
+        "desc": "撰寫SEO優化文章，管理內容行事曆，直接發布到你的網站。",
+        "real": "Cosmo為Passport Miami撰寫並發布豪華生活方式文章，帶有規範的署名和SEO優化。"
+      },
+      "corpTax": {
+        "title": "企業稅務與會計",
+        "desc": "報稅、產生發票、分類費用並追蹤企業稅務義務。",
+        "real": "Doraemon協助提交CRA T4A表格、T5修正案，並準備了完整的T2企業所得稅申報表。"
+      },
+      "codeReview": {
+        "title": "程式碼審查與部署",
+        "desc": "審查Pull Request，產生架構圖，發布內聯審查評論，管理CI/CD流程。",
+        "real": "Doraemon取得GitHub PR，產生mermaid圖表，並發布精準的審查評論。"
+      },
+      "hourTracking": {
+        "title": "客戶工時追蹤",
+        "desc": "自動記錄計費工時，在工時用盡時輪換追蹤表，並在預算不足時發出告警。",
+        "real": "Doraemon在Google Sheets中追蹤客戶工時，支援自動標籤輪換和預算告警。"
+      },
+      "infraMonitor": {
+        "title": "基礎設施監控",
+        "desc": "全天候監控伺服器並自癒：偵測故障、嘗試自動修復，僅在必要時升級。",
+        "real": "Doraemon對5台VPS實例執行心跳檢查，自動修復故障服務，並備份到Google Drive。"
+      },
+      "docProcessing": {
+        "title": "文件處理",
+        "desc": "讀取手寫文件、校對郵件、處理發票，並從PDF中擷取資料。",
+        "real": "Cosmo將Peter的手寫筆記轉錄為打字文本，並校對他的外寄郵件。"
+      },
+      "morningBriefings": {
+        "title": "多語種晨間簡報",
+        "desc": "用你的語言接收個人化音訊簡報，涵蓋新聞、行事曆、天氣和健康指標。",
+        "real": "Doraemon每天用英語和粵語發送音訊簡報，涵蓋世界新聞、行事曆和Oura Ring睡眠數據。"
+      },
+      "familyHealth": {
+        "title": "家庭健康追蹤",
+        "desc": "對接穿戴裝置和健康應用，追蹤全家的體檢、疫苗接種和健康里程碑。",
+        "real": "Doraemon同步Oura Ring數據和運動記錄，追蹤孩子們的視力檢查和疫苗日期。"
+      },
+      "financialMonitor": {
+        "title": "財務監控",
+        "desc": "追蹤銀行餘額，監控交易，在帳戶餘額不足時向家庭群組發出告警。",
+        "real": "Doraemon監控家庭銀行帳戶，餘額低於閾值時向WhatsApp群組發送告警。"
+      },
+      "smartShopping": {
+        "title": "智慧購物",
+        "desc": "推薦產品前先檢查購買歷史，交叉參考Reddit和Amazon評論，尋找本地最優價格。",
+        "real": "在推薦產品前，Doraemon先查Amazon購買記錄，再搜尋Reddit、小紅書和Amazon.ca評論。"
+      },
+      "familyCoord": {
+        "title": "家庭群組協調",
+        "desc": "監控家庭群聊，從對話中自動建立行事曆事件，轉發學校通知。",
+        "real": "家庭WhatsApp群中有人提到晚餐計畫時，Doraemon自動建立Google Calendar事件。"
+      },
+      "kidsEducation": {
+        "title": "兒童教育規劃",
+        "desc": "為每個孩子維護動態知識檔案，追蹤學校決策、課外活動和成長里程碑。",
+        "real": "Doraemon追蹤William的近視風險評估、Sophie的舞蹈學校調研以及兩個孩子的活動日程。"
+      },
+      "storybooks": {
+        "title": "客製兒童故事書",
+        "desc": "撰寫個人化故事，為每頁產生AI插畫，並編譯成可列印的PDF。",
+        "real": "Doraemon創作了一本15頁插畫故事書，每頁都有客製AI畫作，編譯成印刷版PDF。"
+      },
+      "petCare": {
+        "title": "寵物護理管理",
+        "desc": "追蹤獸醫就診、疫苗接種、體重和牙齒護理，主動提醒。",
+        "real": "Doraemon維護Kiwi和Peaches的獸醫記錄，追蹤疫苗，並在體檢後標記了Peaches的牙齒問題。"
+      },
+      "travelPlan": {
+        "title": "旅行規劃",
+        "desc": "研究多城市行程，監控機票價格，比較住宿選擇。",
+        "real": "Doraemon規劃了一次14天的多城市家庭旅行，追蹤直飛航班和預算內的價格告警。"
+      },
+      "smartReminders": {
+        "title": "智慧提醒與升級",
+        "desc": "設定從溫和到緊迫逐步升級的提醒。知道何時該催促，何時該保持安靜。",
+        "real": "截止日期提醒從提前一週每天1次開始，到前一天每天3次，同時尊重安靜時段和會議時間。"
+      }
+    }
   }
 }

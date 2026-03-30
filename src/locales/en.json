@@ -242,5 +242,118 @@
     "copy": "© 2025 PeopleFree Work. All rights reserved.",
     "easter1": "No humans were employed in the making of this company.*",
     "easter2": "*Okay, one. But he's working on replacing himself too."
+  },
+  "examples": {
+    "sectionTitle": "See What They Can Do",
+    "sectionSub": "Real capabilities. Real results. These aren't hypothetical — they're running right now.",
+    "professional": {
+      "title": "For Your Business"
+    },
+    "personal": {
+      "title": "For Your Life"
+    },
+    "realLabel": "Real example:",
+    "items": {
+      "emailMgmt": {
+        "title": "Multi-Account Email Management",
+        "desc": "Monitors multiple email accounts, flags urgent messages, includes full content in alerts, and tracks threads awaiting response across accounts.",
+        "real": "Cosmo triages Peter's inbox and flags client emails needing reply within hours."
+      },
+      "voiceBilling": {
+        "title": "Voice-to-Billing",
+        "desc": "Dictate time entries and billing notes by voice. Your AI transcribes, structures, and logs them automatically.",
+        "real": "Peter dictates billing entries via Telegram voice message. Cosmo converts them into structured records."
+      },
+      "legalResearch": {
+        "title": "Legal Research & Drafting",
+        "desc": "Integrates with legal databases, drafts memos, researches case law, and prepares zoning reports on demand.",
+        "real": "Cosmo researches Westlaw, drafts zoning memos, and writes litigation expense summaries for Peter's review."
+      },
+      "dailyBriefings": {
+        "title": "Daily Operational Briefings",
+        "desc": "Receive morning, midday, and evening email briefings covering your inbox, calendar, and system health.",
+        "real": "Snoopy sends Chris 3 daily briefings covering unread Outlook emails, calendar events, and WWSA system health."
+      },
+      "contentWriting": {
+        "title": "Content Writing & Publishing",
+        "desc": "Writes SEO-optimized articles, manages content calendars, and publishes directly to your website.",
+        "real": "Cosmo writes and publishes luxury lifestyle articles for Passport Miami with proper bylines and SEO."
+      },
+      "corpTax": {
+        "title": "Corporate Tax & Accounting",
+        "desc": "Files tax returns, generates invoices, categorizes expenses, and tracks corporate obligations.",
+        "real": "Doraemon helped file CRA T4A slips, T5 amendments, and prepared the full T2 corporate return."
+      },
+      "codeReview": {
+        "title": "Code Review & Deployment",
+        "desc": "Reviews pull requests, generates architecture diagrams, posts inline review comments, and manages CI/CD.",
+        "real": "Doraemon fetches GitHub PRs, generates mermaid diagrams, and posts targeted review comments."
+      },
+      "hourTracking": {
+        "title": "Client Hour Tracking",
+        "desc": "Logs billable hours automatically, rotates tracking sheets when hours are exhausted, and alerts when budgets run low.",
+        "real": "Doraemon tracks client hours in Google Sheets with automatic tab rotation and budget alerts."
+      },
+      "infraMonitor": {
+        "title": "Infrastructure Monitoring",
+        "desc": "Monitors servers 24/7 with self-healing: detects failures, attempts automated repair, and escalates only when needed.",
+        "real": "Doraemon runs heartbeat checks across 5 VPS instances, self-heals broken services, and backs up to Google Drive."
+      },
+      "docProcessing": {
+        "title": "Document Processing",
+        "desc": "Reads handwritten documents, proofreads emails, processes invoices, and extracts data from PDFs.",
+        "real": "Cosmo transcribes Peter's handwritten notes into typed text and proofreads his outgoing emails."
+      },
+      "morningBriefings": {
+        "title": "Multilingual Morning Briefings",
+        "desc": "Wake up to a personalized audio briefing in your language covering news, calendar, weather, and health metrics.",
+        "real": "Doraemon delivers daily audio briefings in English and Cantonese covering world news, calendar, and Oura Ring sleep data."
+      },
+      "familyHealth": {
+        "title": "Family Health Tracking",
+        "desc": "Integrates with wearables and health apps, tracks checkups, vaccination schedules, and health milestones for the whole family.",
+        "real": "Doraemon syncs Oura Ring data, workout stats, and tracks kids' eye exam schedules and vaccination dates."
+      },
+      "financialMonitor": {
+        "title": "Financial Monitoring",
+        "desc": "Tracks bank balances, monitors transactions, and alerts your family group when accounts run low.",
+        "real": "Doraemon monitors the family bank account and alerts the WhatsApp group if the balance drops below threshold."
+      },
+      "smartShopping": {
+        "title": "Smart Shopping",
+        "desc": "Checks your purchase history before recommending products, cross-references Reddit and Amazon reviews, and finds the best local prices.",
+        "real": "Before suggesting a product, Doraemon checks Amazon order history, then searches Reddit, RedNote, and Amazon.ca reviews."
+      },
+      "familyCoord": {
+        "title": "Family Group Coordination",
+        "desc": "Monitors family group chats, auto-creates calendar events from conversations, and forwards school alerts.",
+        "real": "When someone mentions dinner plans in the family WhatsApp, Doraemon automatically creates a Google Calendar event."
+      },
+      "kidsEducation": {
+        "title": "Kids Education Planning",
+        "desc": "Maintains living knowledge files for each child tracking school decisions, activities, and milestone achievements.",
+        "real": "Doraemon tracks William's myopia risk assessments, Sophie's dance school research, and both kids' activity schedules."
+      },
+      "storybooks": {
+        "title": "Custom Children's Storybooks",
+        "desc": "Writes personalized stories, generates AI illustrations for each page, and compiles them into printable PDFs.",
+        "real": "Doraemon created a 15-page illustrated storybook with custom AI art for each page, compiled into a print-ready PDF."
+      },
+      "petCare": {
+        "title": "Pet Care Management",
+        "desc": "Tracks vet visits, vaccination schedules, weight, and dental care with proactive reminders.",
+        "real": "Doraemon maintains vet records for Kiwi and Peaches, tracks vaccinations, and flagged dental needs after a checkup."
+      },
+      "travelPlan": {
+        "title": "Travel Planning",
+        "desc": "Researches multi-city itineraries, monitors flight prices, and compares accommodation options.",
+        "real": "Doraemon planned a 14-day multi-city family trip, tracking direct flights and price alerts under budget."
+      },
+      "smartReminders": {
+        "title": "Smart Reminders with Escalation",
+        "desc": "Sets reminders that start gentle and ramp up urgency as deadlines approach. Knows when to nudge and when to stay quiet.",
+        "real": "Deadline reminders start at 1x/day a week out, then 3x/day the day before, respecting quiet hours and meeting times."
+      }
+    }
   }
 }

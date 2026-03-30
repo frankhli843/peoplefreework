@@ -38,6 +38,32 @@ const stats = [
 const perkKeys = ['wage', 'iq', 'lang', 'balance', 'benefits', 'overtime', 'own', 'ip']
 const perkIcons = { wage: '💰', iq: '🧠', lang: '🌍', balance: '😐', benefits: '🏥', overtime: '⏰', own: '🔑', ip: '©️' }
 
+const professionalExamples = [
+  { key: 'emailMgmt', icon: '📧' },
+  { key: 'voiceBilling', icon: '🎙️' },
+  { key: 'legalResearch', icon: '⚖️' },
+  { key: 'dailyBriefings', icon: '📊' },
+  { key: 'contentWriting', icon: '✍️' },
+  { key: 'corpTax', icon: '🏦' },
+  { key: 'codeReview', icon: '💻' },
+  { key: 'hourTracking', icon: '⏱️' },
+  { key: 'infraMonitor', icon: '🖥️' },
+  { key: 'docProcessing', icon: '📄' },
+]
+
+const personalExamples = [
+  { key: 'morningBriefings', icon: '🌅' },
+  { key: 'familyHealth', icon: '❤️' },
+  { key: 'financialMonitor', icon: '💰' },
+  { key: 'smartShopping', icon: '🛒' },
+  { key: 'familyCoord', icon: '👨‍👩‍👧‍👦' },
+  { key: 'kidsEducation', icon: '📚' },
+  { key: 'storybooks', icon: '📖' },
+  { key: 'petCare', icon: '🐱' },
+  { key: 'travelPlan', icon: '✈️' },
+  { key: 'smartReminders', icon: '⏰' },
+]
+
 function LanguagePicker() {
   const { i18n } = useTranslation()
   const current = languages.find(l => l.code === i18n.language) || languages[0]
@@ -75,6 +101,7 @@ function App() {
   const [searchTopExpanded, setSearchTopExpanded] = useState(false)
   const [searchBottomExpanded, setSearchBottomExpanded] = useState(false)
   const [showAllTeam, setShowAllTeam] = useState(false)
+  const [examplesTab, setExamplesTab] = useState('professional')
 
   const searchMailto = `mailto:hello@peoplefree.work?subject=${encodeURIComponent(t('team.search.emailSubject'))}&body=${encodeURIComponent(t('team.search.emailBody'))}`
 
@@ -136,6 +163,38 @@ function App() {
               <div className="perk-icon">{perkIcons[key]}</div>
               <h3>{t(`perks.${key}.title`)}</h3>
               <p>{t(`perks.${key}.desc`)}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Real Examples */}
+      <section className="section examples-section" id="examples">
+        <div className="section-header">
+          <h2 className="section-title">{t('examples.sectionTitle')}</h2>
+          <p className="section-sub">{t('examples.sectionSub')}</p>
+        </div>
+        <div className="examples-tabs">
+          <button
+            className={`examples-tab ${examplesTab === 'professional' ? 'active' : ''}`}
+            onClick={() => setExamplesTab('professional')}
+          >
+            {t('examples.professional.title')}
+          </button>
+          <button
+            className={`examples-tab ${examplesTab === 'personal' ? 'active' : ''}`}
+            onClick={() => setExamplesTab('personal')}
+          >
+            {t('examples.personal.title')}
+          </button>
+        </div>
+        <div className="examples-grid">
+          {(examplesTab === 'professional' ? professionalExamples : personalExamples).map((item) => (
+            <div className="example-card" key={item.key}>
+              <div className="example-icon">{item.icon}</div>
+              <h3 className="example-title">{t(`examples.items.${item.key}.title`)}</h3>
+              <p className="example-desc">{t(`examples.items.${item.key}.desc`)}</p>
+              <p className="example-real"><span>{t('examples.realLabel')}</span> {t(`examples.items.${item.key}.real`)}</p>
             </div>
           ))}
         </div>
