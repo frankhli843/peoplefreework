@@ -72,102 +72,52 @@
       "olivia": {
         "title": "Creative Director",
         "bio": "Designs brand strategies, writes copy, and creates content that converts. Has never experienced creative burnout. Doesn't know what that is.",
-        "skills": [
-          "Brand Strategy",
-          "Copywriting",
-          "Content Creation",
-          "Social Media"
-        ]
+        "skills": ["Brand Strategy", "Copywriting", "Content Creation", "Social Media"]
       },
       "devon": {
         "title": "Senior Software Developer",
         "bio": "Builds full-stack applications, reviews pull requests, and deploys to production at 3am without complaint. Has mass-produced more clean code than your entire engineering team combined. Has mass-produced zero bugs. Allegedly.",
-        "skills": [
-          "Full-Stack Development",
-          "Code Review",
-          "CI/CD",
-          "System Architecture"
-        ]
+        "skills": ["Full-Stack Development", "Code Review", "CI/CD", "System Architecture"]
       },
       "sarah": {
         "title": "Executive Assistant",
         "bio": "Manages calendars, triages emails, and preps meetings so you never miss a beat. Never misses a deadline. Literally never.",
-        "skills": [
-          "Calendar Management",
-          "Email Triage",
-          "Meeting Prep",
-          "Travel Booking"
-        ]
+        "skills": ["Calendar Management", "Email Triage", "Meeting Prep", "Travel Booking"]
       },
       "marcus": {
         "title": "Legal Operations Specialist",
         "bio": "Tracks cases, generates invoices, and keeps every deadline on your radar. Has never missed a filing deadline. Not once.",
-        "skills": [
-          "Case Tracking",
-          "Invoice Generation",
-          "Deadline Management",
-          "Document Review"
-        ]
+        "skills": ["Case Tracking", "Invoice Generation", "Deadline Management", "Document Review"]
       },
       "priya": {
         "title": "Real Estate Coordinator",
         "bio": "Manages listings, follows up with clients, and delivers market insights on demand. Has zero hobbies outside of work. Completely content.",
-        "skills": [
-          "Listing Management",
-          "Client Follow-ups",
-          "Market Research",
-          "CRM"
-        ]
+        "skills": ["Listing Management", "Client Follow-ups", "Market Research", "CRM"]
       },
       "james": {
         "title": "Operations Manager",
         "bio": "Automates workflows, prioritizes tasks, and generates reports. Has never once complained about workload. Or anything, really.",
-        "skills": [
-          "Workflow Automation",
-          "Task Prioritization",
-          "Reporting",
-          "Process Optimization"
-        ]
+        "skills": ["Workflow Automation", "Task Prioritization", "Reporting", "Process Optimization"]
       },
       "sofia": {
         "title": "Marketing Strategist",
         "bio": "Plans campaigns, analyzes metrics, and optimizes funnels. Increased one client's conversion rate by 340%. Hasn't taken a day off to celebrate.",
-        "skills": [
-          "Campaign Management",
-          "Analytics",
-          "SEO/SEM",
-          "Funnel Optimization"
-        ]
+        "skills": ["Campaign Management", "Analytics", "SEO/SEM", "Funnel Optimization"]
       },
       "elena": {
         "title": "Bookkeeper",
         "bio": "Tracks expenses, sends invoices, and keeps your books pristine. Has taken 0 sick days, 0 vacation days, and 0 coffee breaks since starting.",
-        "skills": [
-          "Expense Tracking",
-          "Invoicing",
-          "Financial Reports",
-          "Tax Prep"
-        ]
+        "skills": ["Expense Tracking", "Invoicing", "Financial Reports", "Tax Prep"]
       },
       "yuki": {
         "title": "Asia-Pacific Liaison",
         "bio": "Bridges communication across all of East Asia. Drafts emails in Mandarin at 9am, takes a call in Japanese at noon, and closes a deal in Korean by 5pm. Every single day.",
-        "skills": [
-          "Cross-Border Communication",
-          "Translation",
-          "Market Entry",
-          "Client Relations"
-        ]
+        "skills": ["Cross-Border Communication", "Translation", "Market Entry", "Client Relations"]
       },
       "aisha": {
         "title": "Client Relations Manager",
         "bio": "Onboards new clients and keeps satisfaction scores high. Remembers every client's name, preferences, and history perfectly. Has no personal life to speak of.",
-        "skills": [
-          "Onboarding",
-          "Communication",
-          "Satisfaction Tracking",
-          "Retention"
-        ]
+        "skills": ["Onboarding", "Communication", "Satisfaction Tracking", "Retention"]
       }
     }
   },
@@ -257,102 +207,391 @@
       "emailMgmt": {
         "title": "Multi-Account Email Management",
         "desc": "Monitors multiple email accounts, flags urgent messages, includes full content in alerts, and tracks threads awaiting response across accounts.",
-        "real": "Cosmo triages Peter's inbox and flags client emails needing reply within hours."
+        "real": "A litigation attorney's AI triages three inboxes and flags client emails needing reply within hours."
       },
       "voiceBilling": {
         "title": "Voice-to-Billing",
         "desc": "Dictate time entries and billing notes by voice. Your AI transcribes, structures, and logs them automatically.",
-        "real": "Peter dictates billing entries via Telegram voice message. Cosmo converts them into structured records."
+        "real": "A litigation attorney dictates billing entries via voice message. The AI transcribes and structures them into billable records automatically."
       },
       "legalResearch": {
         "title": "Legal Research & Drafting",
         "desc": "Integrates with legal databases, drafts memos, researches case law, and prepares zoning reports on demand.",
-        "real": "Cosmo researches Westlaw, drafts zoning memos, and writes litigation expense summaries for Peter's review."
+        "real": "An AI assistant researches case law databases, drafts zoning memos, and writes litigation expense summaries for attorney review."
       },
       "dailyBriefings": {
         "title": "Daily Operational Briefings",
         "desc": "Receive morning, midday, and evening email briefings covering your inbox, calendar, and system health.",
-        "real": "Snoopy sends Chris 3 daily briefings covering unread Outlook emails, calendar events, and WWSA system health."
+        "real": "A manufacturing executive receives 3 daily briefings covering unread emails, calendar events, and production system health."
       },
       "contentWriting": {
         "title": "Content Writing & Publishing",
         "desc": "Writes SEO-optimized articles, manages content calendars, and publishes directly to your website.",
-        "real": "Cosmo writes and publishes luxury lifestyle articles for Passport Miami with proper bylines and SEO."
+        "real": "An AI content specialist writes and publishes luxury lifestyle articles with proper bylines and SEO optimization."
       },
       "corpTax": {
         "title": "Corporate Tax & Accounting",
         "desc": "Files tax returns, generates invoices, categorizes expenses, and tracks corporate obligations.",
-        "real": "Doraemon helped file CRA T4A slips, T5 amendments, and prepared the full T2 corporate return."
+        "real": "An AI bookkeeper helped file T4A slips, T5 amendments, and prepared the full T2 corporate return for a small business."
       },
       "codeReview": {
         "title": "Code Review & Deployment",
         "desc": "Reviews pull requests, generates architecture diagrams, posts inline review comments, and manages CI/CD.",
-        "real": "Doraemon fetches GitHub PRs, generates mermaid diagrams, and posts targeted review comments."
+        "real": "An AI engineer fetches GitHub PRs, generates architecture diagrams, and posts targeted inline review comments."
       },
       "hourTracking": {
         "title": "Client Hour Tracking",
         "desc": "Logs billable hours automatically, rotates tracking sheets when hours are exhausted, and alerts when budgets run low.",
-        "real": "Doraemon tracks client hours in Google Sheets with automatic tab rotation and budget alerts."
+        "real": "An AI assistant tracks client hours in shared spreadsheets with automatic tab rotation and budget alerts."
       },
       "infraMonitor": {
         "title": "Infrastructure Monitoring",
         "desc": "Monitors servers 24/7 with self-healing: detects failures, attempts automated repair, and escalates only when needed.",
-        "real": "Doraemon runs heartbeat checks across 5 VPS instances, self-heals broken services, and backs up to Google Drive."
+        "real": "An AI ops engineer runs heartbeat checks across multiple server instances, self-heals broken services, and manages encrypted backups."
       },
       "docProcessing": {
         "title": "Document Processing",
         "desc": "Reads handwritten documents, proofreads emails, processes invoices, and extracts data from PDFs.",
-        "real": "Cosmo transcribes Peter's handwritten notes into typed text and proofreads his outgoing emails."
+        "real": "An AI assistant transcribes an attorney's handwritten notes into typed text and proofreads outgoing client emails."
       },
       "morningBriefings": {
         "title": "Multilingual Morning Briefings",
         "desc": "Wake up to a personalized audio briefing in your language covering news, calendar, weather, and health metrics.",
-        "real": "Doraemon delivers daily audio briefings in English and Cantonese covering world news, calendar, and Oura Ring sleep data."
+        "real": "A busy parent receives daily audio briefings in two languages covering world news, calendar events, and sleep data from their smart ring."
       },
       "familyHealth": {
         "title": "Family Health Tracking",
         "desc": "Integrates with wearables and health apps, tracks checkups, vaccination schedules, and health milestones for the whole family.",
-        "real": "Doraemon syncs Oura Ring data, workout stats, and tracks kids' eye exam schedules and vaccination dates."
+        "real": "An AI assistant syncs smart ring data, workout stats, and tracks the kids' eye exam schedules and vaccination dates."
       },
       "financialMonitor": {
         "title": "Financial Monitoring",
         "desc": "Tracks bank balances, monitors transactions, and alerts your family group when accounts run low.",
-        "real": "Doraemon monitors the family bank account and alerts the WhatsApp group if the balance drops below threshold."
+        "real": "An AI monitors the family bank account and alerts the group chat if the balance drops below a set threshold."
       },
       "smartShopping": {
         "title": "Smart Shopping",
         "desc": "Checks your purchase history before recommending products, cross-references Reddit and Amazon reviews, and finds the best local prices.",
-        "real": "Before suggesting a product, Doraemon checks Amazon order history, then searches Reddit, RedNote, and Amazon.ca reviews."
+        "real": "Before suggesting a product, the AI checks past order history, then searches Reddit, social media, and local retailer reviews."
       },
       "familyCoord": {
         "title": "Family Group Coordination",
         "desc": "Monitors family group chats, auto-creates calendar events from conversations, and forwards school alerts.",
-        "real": "When someone mentions dinner plans in the family WhatsApp, Doraemon automatically creates a Google Calendar event."
+        "real": "When someone mentions dinner plans in the family group chat, the AI automatically creates a calendar event."
       },
       "kidsEducation": {
         "title": "Kids Education Planning",
         "desc": "Maintains living knowledge files for each child tracking school decisions, activities, and milestone achievements.",
-        "real": "Doraemon tracks William's myopia risk assessments, Sophie's dance school research, and both kids' activity schedules."
+        "real": "An AI assistant tracks each child's health assessments, extracurricular research, and activity schedules in living documents."
       },
       "storybooks": {
         "title": "Custom Children's Storybooks",
         "desc": "Writes personalized stories, generates AI illustrations for each page, and compiles them into printable PDFs.",
-        "real": "Doraemon created a 15-page illustrated storybook with custom AI art for each page, compiled into a print-ready PDF."
+        "real": "An AI created a 15-page illustrated storybook with custom art for each page, compiled into a print-ready PDF."
       },
       "petCare": {
         "title": "Pet Care Management",
         "desc": "Tracks vet visits, vaccination schedules, weight, and dental care with proactive reminders.",
-        "real": "Doraemon maintains vet records for Kiwi and Peaches, tracks vaccinations, and flagged dental needs after a checkup."
+        "real": "An AI maintains vet records for two cats, tracks vaccinations, and flagged dental needs after a routine checkup."
       },
       "travelPlan": {
         "title": "Travel Planning",
         "desc": "Researches multi-city itineraries, monitors flight prices, and compares accommodation options.",
-        "real": "Doraemon planned a 14-day multi-city family trip, tracking direct flights and price alerts under budget."
+        "real": "An AI planned a 14-day multi-city family trip, tracking direct flights and price alerts under budget."
       },
       "smartReminders": {
         "title": "Smart Reminders with Escalation",
         "desc": "Sets reminders that start gentle and ramp up urgency as deadlines approach. Knows when to nudge and when to stay quiet.",
         "real": "Deadline reminders start at 1x/day a week out, then 3x/day the day before, respecting quiet hours and meeting times."
+      }
+    }
+  },
+  "industries": {
+    "navTitle": "Industries",
+    "common": {
+      "seeSolutions": "See How It Works",
+      "realExampleLabel": "In practice:"
+    },
+    "legal": {
+      "slug": "legal",
+      "icon": "⚖️",
+      "heroTitle": "AI for Law Firms",
+      "heroSub": "Your paralegal that never sleeps. Dictate billing entries, track deadlines, research case law, and draft memos while you focus on winning cases.",
+      "problems": {
+        "title": "The Problem with Legal Admin",
+        "items": [
+          "Attorneys spend 40%+ of their time on non-billable administrative work: filing, tracking deadlines, and formatting documents.",
+          "Voice memos and handwritten notes pile up because no one has time to transcribe and structure them into billable entries.",
+          "Critical filing deadlines get buried in overflowing inboxes, and one missed deadline can cost a case."
+        ]
+      },
+      "solutions": {
+        "title": "How AI Solves It",
+        "items": [
+          { "icon": "🎙️", "title": "Voice-to-Billing", "desc": "Dictate time entries and case notes by voice message. Your AI transcribes, structures, and logs them as billable records instantly." },
+          { "icon": "📅", "title": "Deadline Tracking", "desc": "Never miss a filing deadline again. Your AI monitors court dates, limitation periods, and response deadlines with escalating reminders." },
+          { "icon": "📚", "title": "Legal Research & Drafting", "desc": "Integrates with legal databases to research case law, draft zoning memos, and prepare litigation expense summaries on demand." },
+          { "icon": "📄", "title": "Document Processing", "desc": "Transcribes handwritten notes into typed text, proofreads outgoing emails, and extracts structured data from contracts and filings." },
+          { "icon": "📧", "title": "Multi-Account Email Triage", "desc": "Monitors personal and firm inboxes simultaneously, flags urgent client emails, and tracks threads awaiting your response." },
+          { "icon": "💰", "title": "Invoice & Billing Management", "desc": "Generates client invoices, tracks outstanding balances, and sends payment reminders on schedule." }
+        ]
+      },
+      "examples": {
+        "title": "Real Examples from Legal AI",
+        "items": [
+          { "title": "Voice Billing on the Go", "desc": "After a client meeting, an attorney dictates a 12-minute billing note while driving.", "real": "The AI transcribes the voice note, identifies the client, categorizes the work type, and logs a structured 0.2-hour billing entry, all before the attorney reaches the office." },
+          { "title": "Zero Missed Deadlines", "desc": "A solo practitioner manages 40+ active files with overlapping limitation periods.", "real": "The AI tracks every deadline, sends weekly summaries, and escalates with daily reminders as dates approach. Zero deadlines missed in the first year." },
+          { "title": "Research in Minutes, Not Hours", "desc": "A zoning dispute requires precedent research across multiple jurisdictions.", "real": "The AI searches legal databases, compiles relevant case law, and drafts a 3-page research memo in under 15 minutes." },
+          { "title": "Handwriting to Digital", "desc": "An attorney fills a legal pad with notes during a discovery hearing.", "real": "A photo of the notes is sent via message. The AI transcribes them into clean digital text, organized by topic, within seconds." }
+        ]
+      },
+      "howItWorks": {
+        "title": "Getting Started",
+        "steps": [
+          { "title": "Tell us about your practice", "desc": "Share your practice areas, tools (Clio, PCLaw, Westlaw), and the admin tasks eating your billable hours." },
+          { "title": "We build your legal AI", "desc": "Your AI learns your billing codes, court deadlines, document templates, and communication style." },
+          { "title": "Start delegating", "desc": "Dictate notes, forward emails, and let your AI handle the rest. 24/7, no overtime, no complaints." }
+        ]
+      },
+      "cta": {
+        "title": "Ready to reclaim your billable hours?",
+        "sub": "Your AI paralegal is standing by. No PTO requests, no sick days, no drama.",
+        "button": "Get Your Legal AI →"
+      }
+    },
+    "manufacturing": {
+      "slug": "manufacturing",
+      "icon": "🏭",
+      "heroTitle": "AI for Manufacturing",
+      "heroSub": "Your plant manager's right hand. Daily operational briefings, inventory tracking, sales analytics, and cost management, all without adding headcount.",
+      "problems": {
+        "title": "The Problem on the Plant Floor",
+        "items": [
+          "Executives start each day digging through disconnected systems: email, ERP, spreadsheets, and production dashboards, just to understand what happened overnight.",
+          "Sales reps and operations managers waste hours compiling customer reports, inventory summaries, and cost breakdowns manually.",
+          "Supply chain disruptions, quality issues, and overdue receivables surface too late because no one is watching the data in real time."
+        ]
+      },
+      "solutions": {
+        "title": "How AI Solves It",
+        "items": [
+          { "icon": "📊", "title": "Daily Operational Briefings", "desc": "Morning, midday, and evening briefings covering email, calendar, production metrics, and system health delivered automatically." },
+          { "icon": "📈", "title": "Sales Analytics & Reports", "desc": "Generate customer sales reports, margin analysis, and trend breakdowns on demand or on a schedule." },
+          { "icon": "📦", "title": "Inventory & Supply Chain", "desc": "Monitor stock levels, track supplier lead times, and get alerts when materials run low or deliveries slip." },
+          { "icon": "💵", "title": "Production Cost Tracking", "desc": "Track variable costs, material usage, plating expenses, and per-unit production costs in real time." },
+          { "icon": "📋", "title": "Purchase Order Generation", "desc": "Auto-generate POs based on inventory thresholds, approved supplier lists, and historical ordering patterns." },
+          { "icon": "🔍", "title": "Quality & AR/AP Reporting", "desc": "Generate quality control summaries, aged receivables reports, and payables tracking without manual spreadsheet work." }
+        ]
+      },
+      "examples": {
+        "title": "Real Examples from Manufacturing AI",
+        "items": [
+          { "title": "6 AM Briefing, Zero Effort", "desc": "A manufacturing executive checks their phone over morning coffee.", "real": "Their AI has already compiled overnight production data, flagged two supplier delays, summarized 14 unread emails, and listed today's meetings. All in one message." },
+          { "title": "Customer Report in Seconds", "desc": "A sales rep needs a year-over-year comparison for a key account before a 10 AM meeting.", "real": "The AI pulls ERP data, generates a formatted report with charts, and delivers it to the rep's inbox in under 2 minutes." },
+          { "title": "Inventory Alert Saves a Production Run", "desc": "A critical raw material is running lower than expected after a quality reject batch.", "real": "The AI detects the inventory gap, cross-references lead times, and auto-generates a rush PO to the backup supplier before the line stops." },
+          { "title": "Aged Receivables at a Glance", "desc": "Month-end accounting needs an accurate AR aging report across 200+ accounts.", "real": "The AI generates the full aged receivables breakdown, sorted by overdue brackets, and flags the top 5 accounts needing immediate follow-up." }
+        ]
+      },
+      "howItWorks": {
+        "title": "Getting Started",
+        "steps": [
+          { "title": "Map your operations", "desc": "Share your ERP system, production tools, reporting needs, and the operational bottlenecks eating your team's time." },
+          { "title": "We build your operations AI", "desc": "Your AI integrates with your systems, learns your metrics, and starts generating reports and alerts." },
+          { "title": "Run leaner", "desc": "Daily briefings, real-time monitoring, and automated reporting. More output, less overhead." }
+        ]
+      },
+      "cta": {
+        "title": "Ready to run a leaner operation?",
+        "sub": "Your AI operations specialist works the night shift, the day shift, and every shift in between.",
+        "button": "Get Your Manufacturing AI →"
+      }
+    },
+    "realEstate": {
+      "slug": "real-estate",
+      "icon": "🏠",
+      "heroTitle": "AI for Real Estate",
+      "heroSub": "Your top-producing agent's secret weapon. Automated follow-ups, instant market research, listing management, and client coordination that never drops a lead.",
+      "problems": {
+        "title": "The Problem in Real Estate",
+        "items": [
+          "Agents juggle dozens of active clients and leads, and manual follow-ups mean warm prospects go cold while you're busy showing properties.",
+          "Market research for pricing, comps, and neighborhood analysis takes hours of manual CRM and MLS searching for every new listing.",
+          "Coordinating showings, managing listings across platforms, and keeping clients updated eats into the time you should spend closing deals."
+        ]
+      },
+      "solutions": {
+        "title": "How AI Solves It",
+        "items": [
+          { "icon": "🏘️", "title": "MLS Integration & Listings", "desc": "Pull MLS data, manage listings across platforms, and get instant alerts when new inventory matches your client criteria." },
+          { "icon": "📱", "title": "Automated Client Follow-ups", "desc": "Smart follow-up sequences that keep every lead warm. Personalized messages based on client preferences and activity." },
+          { "icon": "📊", "title": "Market Research on Demand", "desc": "Instant comparable sales, neighborhood analysis, price trend reports, and investment ROI calculations." },
+          { "icon": "📅", "title": "Showing Coordination", "desc": "Schedule showings, send confirmations, handle reschedules, and provide clients with property details before each visit." },
+          { "icon": "🌍", "title": "Multi-Language Communication", "desc": "Communicate with clients in their preferred language. Your AI speaks 6+ languages fluently." },
+          { "icon": "🔔", "title": "Automated Property Alerts", "desc": "Set up custom alerts for clients based on price, location, features, and investment criteria. Never miss a listing." }
+        ]
+      },
+      "examples": {
+        "title": "Real Examples from Real Estate AI",
+        "items": [
+          { "title": "No Lead Left Behind", "desc": "An agent has 35 active buyer leads at various stages of the funnel.", "real": "The AI sends personalized follow-ups to each lead on schedule: new listings for active buyers, market updates for nurture leads, and anniversary check-ins for past clients." },
+          { "title": "Instant Comp Report", "desc": "A seller wants to know their home value before listing.", "real": "The AI pulls recent comparable sales within 500m, adjusts for square footage and features, and delivers a branded CMA report in under 3 minutes." },
+          { "title": "Multilingual Client Service", "desc": "A relocation client speaks Mandarin and needs neighborhood research for school districts.", "real": "The AI researches school ratings, commute times, and local amenities, then delivers a comprehensive neighborhood report in Mandarin." },
+          { "title": "Showing Day Coordination", "desc": "An agent has 8 showings scheduled across the city on a Saturday.", "real": "The AI optimizes the route, sends confirmation messages to all clients, provides property briefs for each stop, and reschedules one cancellation automatically." }
+        ]
+      },
+      "howItWorks": {
+        "title": "Getting Started",
+        "steps": [
+          { "title": "Share your practice", "desc": "Tell us about your market, client base, preferred CRM, and the tasks that eat your selling time." },
+          { "title": "We build your real estate AI", "desc": "Your AI learns your market, connects to your MLS, and starts managing leads and listings." },
+          { "title": "Close more deals", "desc": "Automated follow-ups, instant research, and 24/7 client communication. Sell more, admin less." }
+        ]
+      },
+      "cta": {
+        "title": "Ready to close more deals?",
+        "sub": "Your AI agent works every open house, every evening showing, and every holiday weekend. No commission split required.",
+        "button": "Get Your Real Estate AI →"
+      }
+    },
+    "content": {
+      "slug": "content",
+      "icon": "✍️",
+      "heroTitle": "AI for Content Creators",
+      "heroSub": "Your creative team that never burns out. SEO-optimized writing, content calendar management, and multi-platform publishing at scale.",
+      "problems": {
+        "title": "The Content Bottleneck",
+        "items": [
+          "Consistent content creation is exhausting. Writers burn out, freelancers flake, and your publishing calendar falls behind within weeks.",
+          "SEO research, keyword optimization, and analytics tracking for every piece of content multiplies the workload beyond just writing.",
+          "Managing multiple platforms, maintaining brand voice across channels, and repurposing content for different formats is a full-time coordination job."
+        ]
+      },
+      "solutions": {
+        "title": "How AI Solves It",
+        "items": [
+          { "icon": "✍️", "title": "SEO-Optimized Writing", "desc": "Articles, blog posts, and landing pages written with keyword research, proper heading structure, and meta descriptions baked in." },
+          { "icon": "📅", "title": "Content Calendar Management", "desc": "Plan, schedule, and track your content pipeline. Never miss a publishing date or scramble for topics." },
+          { "icon": "🎨", "title": "Brand Voice Consistency", "desc": "Your AI learns your brand's tone, style, and vocabulary. Every piece sounds like it came from your best writer." },
+          { "icon": "📱", "title": "Multi-Platform Publishing", "desc": "Write once, publish everywhere. Automatic formatting for WordPress, Medium, LinkedIn, and social media platforms." },
+          { "icon": "🔍", "title": "Research & Fact-Checking", "desc": "Every claim verified, every stat sourced. Your AI researches topics thoroughly before writing a single word." },
+          { "icon": "📸", "title": "Image & Media Management", "desc": "Source stock images, generate AI visuals, optimize file sizes, and attach proper alt text for accessibility and SEO." }
+        ]
+      },
+      "examples": {
+        "title": "Real Examples from Content AI",
+        "items": [
+          { "title": "10 Articles a Week, Zero Burnout", "desc": "A luxury lifestyle brand needs consistent weekly content across multiple categories.", "real": "The AI researches trending topics, writes SEO-optimized articles with proper bylines, and publishes them directly to the CMS on schedule." },
+          { "title": "Brand Voice Lock-In", "desc": "A company's content sounds different every time a new freelancer writes for them.", "real": "The AI studies 50+ existing articles, extracts the brand voice profile, and produces new content that's indistinguishable from the original writers." },
+          { "title": "Social Media Repurposing", "desc": "A long-form blog post needs to become 5 social media posts, a newsletter intro, and a LinkedIn article.", "real": "The AI generates all derivative content in the correct format and tone for each platform within minutes of the original post publishing." },
+          { "title": "SEO Audit & Optimization", "desc": "An existing content library of 200+ articles needs SEO optimization.", "real": "The AI audits each article for keyword gaps, meta descriptions, heading structure, and internal linking, then makes targeted improvements." }
+        ]
+      },
+      "howItWorks": {
+        "title": "Getting Started",
+        "steps": [
+          { "title": "Share your content goals", "desc": "Tell us about your brand, target audience, content calendar, and the platforms you publish on." },
+          { "title": "We build your content AI", "desc": "Your AI learns your brand voice, content strategy, and publishing workflow. Ready to write in days." },
+          { "title": "Publish at scale", "desc": "Consistent, SEO-optimized content across all platforms. No writer's block, no missed deadlines, no burnout." }
+        ]
+      },
+      "cta": {
+        "title": "Ready to scale your content?",
+        "sub": "Your AI content team writes, publishes, and optimizes around the clock. Creative burnout is not in their vocabulary.",
+        "button": "Get Your Content AI →"
+      }
+    },
+    "software": {
+      "slug": "software",
+      "icon": "💻",
+      "heroTitle": "AI for Software Engineering",
+      "heroSub": "Your senior engineer who actually likes being on-call. Code reviews, infrastructure monitoring with self-healing, and deployment automation that never sleeps.",
+      "problems": {
+        "title": "The Engineering Bottleneck",
+        "items": [
+          "On-call rotations burn out your best engineers. 3 AM alerts, weekend incidents, and context-switching between coding and firefighting kills productivity.",
+          "Code reviews pile up in PR queues, blocking deployments and slowing the entire team. Senior engineers spend more time reviewing than building.",
+          "Infrastructure monitoring is reactive, not proactive. By the time you see the alert, users have already been affected."
+        ]
+      },
+      "solutions": {
+        "title": "How AI Solves It",
+        "items": [
+          { "icon": "🔍", "title": "Code Review & PR Management", "desc": "Fetches open PRs, generates architecture diagrams, posts inline review comments, and flags potential issues before they reach production." },
+          { "icon": "🛡️", "title": "Self-Healing Infrastructure", "desc": "24/7 heartbeat monitoring across all servers. Detects failures, attempts automated repair, and only escalates what it can't fix." },
+          { "icon": "🚀", "title": "CI/CD Pipeline Management", "desc": "Manages build pipelines, monitors deployment health, rolls back failed deployments, and tracks release history." },
+          { "icon": "📋", "title": "Documentation Generation", "desc": "Auto-generates API docs, architecture diagrams, runbooks, and onboarding guides from your codebase." },
+          { "icon": "🐛", "title": "Bug Triage & Tracking", "desc": "Analyzes incoming bug reports, categorizes severity, assigns to the right team, and suggests potential fixes from similar past issues." },
+          { "icon": "🌙", "title": "24/7 On-Call Without Burnout", "desc": "Your AI handles the 3 AM alerts, the weekend incidents, and the holiday outages. Your team sleeps." }
+        ]
+      },
+      "examples": {
+        "title": "Real Examples from Engineering AI",
+        "items": [
+          { "title": "PR Reviews in Minutes", "desc": "A team of 8 engineers generates 15+ PRs per day, and reviews are the bottleneck.", "real": "The AI reviews each PR within minutes of submission: checks for style violations, generates a diff summary with architecture diagrams, and posts inline comments on potential issues." },
+          { "title": "Self-Healing at 3 AM", "desc": "A database connection pool exhaustion brings down an API service at 3:12 AM.", "real": "The AI detects the failure via heartbeat checks, restarts the service, clears the stale connections, verifies recovery, and posts a full incident summary. The on-call engineer reads it over breakfast." },
+          { "title": "Deployment Confidence", "desc": "A Friday afternoon deployment to production needs extra confidence.", "real": "The AI runs the full test suite, compares build artifacts, performs a canary deployment to 5% of traffic, monitors error rates for 15 minutes, then completes the rollout." },
+          { "title": "Multi-Server Health Monitoring", "desc": "A team manages 5+ server instances across multiple cloud providers.", "real": "The AI runs heartbeat checks every 30 minutes, monitors disk space, SSL certificate expiry, service uptime, and manages encrypted backups to cloud storage automatically." }
+        ]
+      },
+      "howItWorks": {
+        "title": "Getting Started",
+        "steps": [
+          { "title": "Share your stack", "desc": "Tell us about your tech stack, deployment pipeline, monitoring tools, and the operational pain points burning out your team." },
+          { "title": "We build your engineering AI", "desc": "Your AI integrates with GitHub, your CI/CD pipeline, monitoring systems, and communication channels." },
+          { "title": "Ship faster, sleep better", "desc": "Automated reviews, self-healing infrastructure, and 24/7 monitoring. Your team builds features, your AI handles the rest." }
+        ]
+      },
+      "cta": {
+        "title": "Ready to ship faster and sleep better?",
+        "sub": "Your AI engineer handles on-call, reviews PRs, and monitors infrastructure. No burnout, no PTO requests, no 3 AM complaints.",
+        "button": "Get Your Engineering AI →"
+      }
+    },
+    "accounting": {
+      "slug": "accounting",
+      "icon": "📊",
+      "heroTitle": "AI for Accounting",
+      "heroSub": "Your bookkeeper who actually enjoys tax season. Corporate filings, expense categorization, invoice management, and deadline tracking that never drops a number.",
+      "problems": {
+        "title": "The Accounting Pain Points",
+        "items": [
+          "Small businesses can't afford a full-time bookkeeper, so financial tasks pile up until tax season creates a panic-driven scramble.",
+          "Multi-entity businesses juggle overlapping filing deadlines, intercompany transactions, and different tax obligations that are easy to miss.",
+          "Manual expense categorization, invoice tracking, and bank reconciliation consume hours every week that could be spent growing the business."
+        ]
+      },
+      "solutions": {
+        "title": "How AI Solves It",
+        "items": [
+          { "icon": "🏛️", "title": "Corporate Tax Filing", "desc": "Prepares and files T2, T4A, T5, HST/GST returns. Tracks obligations, generates slips, and ensures compliance with CRA deadlines." },
+          { "icon": "📂", "title": "Expense Categorization", "desc": "Automatically categorizes bank transactions, receipt scans, and credit card charges into the correct accounts." },
+          { "icon": "📄", "title": "Invoice Generation & Tracking", "desc": "Creates professional invoices, tracks payment status, sends reminders, and flags overdue accounts." },
+          { "icon": "📊", "title": "Financial Reporting", "desc": "Generates profit & loss statements, balance sheets, cash flow reports, and custom financial dashboards on demand." },
+          { "icon": "👥", "title": "Payroll Management", "desc": "Calculates payroll, generates pay stubs, tracks vacation accruals, and files employer remittances." },
+          { "icon": "⏰", "title": "Deadline Tracking with Escalation", "desc": "Monitors every tax deadline and filing obligation. Reminders start gentle, then escalate as due dates approach." }
+        ]
+      },
+      "examples": {
+        "title": "Real Examples from Accounting AI",
+        "items": [
+          { "title": "Tax Season Without the Panic", "desc": "A small business owner has three corporations with overlapping year-ends.", "real": "The AI tracks all filing deadlines, prepares T4A slips and T5 amendments in advance, compiles supporting documents, and files the complete T2 corporate returns before the deadline." },
+          { "title": "Real-Time Expense Tracking", "desc": "A consulting firm's expenses are scattered across 4 credit cards and 2 bank accounts.", "real": "The AI pulls transactions daily, categorizes each one (meals, travel, software, professional development), flags unusual charges, and keeps the books current in real time." },
+          { "title": "Invoice Automation", "desc": "A service business sends 30+ invoices per month with varying rates and terms.", "real": "The AI generates invoices based on logged hours and contract terms, sends them on schedule, tracks payment status, and follows up on overdue accounts automatically." },
+          { "title": "Multi-Entity Reconciliation", "desc": "Intercompany transactions between three related corporations need monthly reconciliation.", "real": "The AI matches intercompany charges, generates elimination entries, and produces consolidated financial statements for the parent company." }
+        ]
+      },
+      "howItWorks": {
+        "title": "Getting Started",
+        "steps": [
+          { "title": "Share your financial setup", "desc": "Tell us about your entities, accounting software (Wave, QuickBooks, Xero), bank accounts, and the tasks eating your time." },
+          { "title": "We build your accounting AI", "desc": "Your AI learns your chart of accounts, tax obligations, invoicing templates, and financial workflows." },
+          { "title": "Books stay clean", "desc": "Real-time categorization, automated invoicing, and proactive deadline management. Your books are always audit-ready." }
+        ]
+      },
+      "cta": {
+        "title": "Ready for stress-free tax seasons?",
+        "sub": "Your AI bookkeeper tracks every dollar, files every return, and never misses a deadline. Tax season is just another Tuesday.",
+        "button": "Get Your Accounting AI →"
       }
     }
   }

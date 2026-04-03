@@ -257,102 +257,685 @@
       "emailMgmt": {
         "title": "Gestión de email multi-cuenta",
         "desc": "Monitorea múltiples cuentas de email, marca mensajes urgentes, incluye contenido completo en alertas y rastrea hilos pendientes de respuesta.",
-        "real": "Cosmo clasifica la bandeja de Peter y marca emails de clientes que necesitan respuesta en pocas horas."
+        "real": "La IA de un abogado litigante gestiona tres bandejas de entrada y marca los emails de clientes que necesitan respuesta en horas."
       },
       "voiceBilling": {
         "title": "Facturación por voz",
         "desc": "Dicta entradas de tiempo y notas de facturación por voz. Tu IA transcribe, estructura y registra automáticamente.",
-        "real": "Peter dicta entradas de facturación por mensaje de voz en Telegram. Cosmo las convierte en registros estructurados."
+        "real": "Un abogado dicta entradas de facturacion por mensaje de voz. La IA transcribe y estructura automaticamente los registros facturables."
       },
       "legalResearch": {
         "title": "Investigación legal y redacción",
         "desc": "Se integra con bases de datos legales, redacta memorándums, investiga jurisprudencia y prepara informes de zonificación a demanda.",
-        "real": "Cosmo investiga en Westlaw, redacta memorándums de zonificación y escribe resúmenes de gastos de litigio para revisión de Peter."
+        "real": "Un asistente IA investiga en bases de datos legales, redacta memorandos de zonificacion y prepara resumenes de gastos de litigio para revision del abogado."
       },
       "dailyBriefings": {
         "title": "Briefings operativos diarios",
         "desc": "Recibe briefings por email por la mañana, al mediodía y por la tarde cubriendo tu bandeja, calendario y estado de sistemas.",
-        "real": "Snoopy envía a Chris 3 briefings diarios cubriendo emails de Outlook no leídos, eventos de calendario y estado del sistema WWSA."
+        "real": "Un ejecutivo de manufactura recibe 3 briefings diarios cubriendo emails no leidos, eventos de calendario y estado del sistema de produccion."
       },
       "contentWriting": {
         "title": "Redacción y publicación de contenido",
         "desc": "Escribe artículos optimizados para SEO, gestiona calendarios de contenido y publica directamente en tu sitio web.",
-        "real": "Cosmo escribe y publica artículos de estilo de vida de lujo para Passport Miami con firmas y SEO adecuados."
+        "real": "Un especialista de contenido IA escribe y publica articulos de estilo de vida de lujo con firmas adecuadas y optimizacion SEO."
       },
       "corpTax": {
         "title": "Impuestos corporativos y contabilidad",
         "desc": "Presenta declaraciones de impuestos, genera facturas, categoriza gastos y rastrea obligaciones fiscales corporativas.",
-        "real": "Doraemon ayudó a presentar formularios T4A del CRA, enmiendas T5 y preparó la declaración T2 corporativa completa."
+        "real": "Un contador IA ayudo a presentar formularios T4A, enmiendas T5 y preparo la declaracion corporativa T2 completa para una pequena empresa."
       },
       "codeReview": {
         "title": "Revisión de código y despliegue",
         "desc": "Revisa pull requests, genera diagramas de arquitectura, publica comentarios de revisión en línea y gestiona CI/CD.",
-        "real": "Doraemon obtiene PRs de GitHub, genera diagramas mermaid y publica comentarios de revisión precisos."
+        "real": "Un ingeniero IA obtiene PRs de GitHub, genera diagramas de arquitectura y publica comentarios de revision en linea precisos."
       },
       "hourTracking": {
         "title": "Seguimiento de horas del cliente",
         "desc": "Registra horas facturables automáticamente, rota hojas de seguimiento cuando se agotan y alerta cuando los presupuestos son bajos.",
-        "real": "Doraemon rastrea horas de cliente en Google Sheets con rotación automática de pestañas y alertas de presupuesto."
+        "real": "Un asistente IA rastrea horas de cliente en hojas de calculo compartidas con rotacion automatica de pestanas y alertas de presupuesto."
       },
       "infraMonitor": {
         "title": "Monitoreo de infraestructura",
         "desc": "Monitorea servidores 24/7 con auto-reparación: detecta fallos, intenta reparación automática y escala solo cuando es necesario.",
-        "real": "Doraemon ejecuta verificaciones en 5 instancias VPS, auto-repara servicios caídos y respalda en Google Drive."
+        "real": "Un ingeniero de operaciones IA ejecuta verificaciones de salud en multiples instancias de servidor, auto-repara servicios rotos y gestiona respaldos encriptados."
       },
       "docProcessing": {
         "title": "Procesamiento de documentos",
         "desc": "Lee documentos manuscritos, corrige emails, procesa facturas y extrae datos de PDFs.",
-        "real": "Cosmo transcribe las notas manuscritas de Peter a texto mecanografiado y corrige sus emails salientes."
+        "real": "Un asistente IA transcribe las notas manuscritas de un abogado a texto digital y revisa los emails salientes."
       },
       "morningBriefings": {
         "title": "Briefings matutinos multilingües",
         "desc": "Despierta con un briefing de audio personalizado en tu idioma cubriendo noticias, calendario, clima y métricas de salud.",
-        "real": "Doraemon entrega briefings de audio diarios en inglés y cantonés cubriendo noticias mundiales, calendario y datos de sueño de Oura Ring."
+        "real": "Un padre ocupado recibe briefings de audio diarios en dos idiomas cubriendo noticias mundiales, calendario y datos de sueno de su anillo inteligente."
       },
       "familyHealth": {
         "title": "Seguimiento de salud familiar",
         "desc": "Se integra con wearables y apps de salud, rastrea chequeos, calendarios de vacunación y hitos de salud para toda la familia.",
-        "real": "Doraemon sincroniza datos de Oura Ring, estadísticas de entrenamiento y rastrea exámenes de vista y fechas de vacunación de los niños."
+        "real": "Un asistente IA sincroniza datos del anillo inteligente, estadisticas de ejercicio y rastrea examenes oculares y fechas de vacunacion de los ninos."
       },
       "financialMonitor": {
         "title": "Monitoreo financiero",
         "desc": "Rastrea saldos bancarios, monitorea transacciones y alerta a tu grupo familiar cuando las cuentas están bajas.",
-        "real": "Doraemon monitorea la cuenta bancaria familiar y alerta al grupo de WhatsApp si el saldo cae por debajo del umbral."
+        "real": "Una IA monitorea la cuenta bancaria familiar y alerta al grupo de chat si el saldo baja del umbral establecido."
       },
       "smartShopping": {
         "title": "Compras inteligentes",
         "desc": "Verifica tu historial de compras antes de recomendar, cruza reseñas de Reddit y Amazon y encuentra los mejores precios locales.",
-        "real": "Antes de sugerir un producto, Doraemon verifica el historial de Amazon, luego busca en Reddit, RedNote y Amazon.ca."
+        "real": "Antes de sugerir un producto, la IA verifica el historial de compras, luego busca en Reddit, redes sociales y resenas de tiendas locales."
       },
       "familyCoord": {
         "title": "Coordinación del grupo familiar",
         "desc": "Monitorea chats del grupo familiar, crea automáticamente eventos de calendario desde conversaciones y reenvía alertas escolares.",
-        "real": "Cuando alguien menciona planes de cena en el WhatsApp familiar, Doraemon automáticamente crea un evento de Google Calendar."
+        "real": "Cuando alguien menciona planes de cena en el grupo familiar, la IA crea automaticamente un evento en el calendario."
       },
       "kidsEducation": {
         "title": "Planificación educativa infantil",
         "desc": "Mantiene archivos de conocimiento vivos para cada hijo rastreando decisiones escolares, actividades y logros.",
-        "real": "Doraemon rastrea evaluaciones de riesgo de miopía de William, investigación de escuela de danza de Sophie y horarios de actividades de ambos."
+        "real": "Un asistente IA rastrea las evaluaciones de salud, investigacion extracurricular y horarios de actividades de cada hijo en documentos vivos."
       },
       "storybooks": {
         "title": "Libros de cuentos personalizados",
         "desc": "Escribe historias personalizadas, genera ilustraciones IA para cada página y los compila en PDFs imprimibles.",
-        "real": "Doraemon creó un libro ilustrado de 15 páginas con arte IA personalizado para cada página, compilado en PDF listo para imprimir."
+        "real": "Una IA creo un libro ilustrado de 15 paginas con arte personalizado para cada pagina, compilado en un PDF listo para imprimir."
       },
       "petCare": {
         "title": "Gestión de cuidado de mascotas",
         "desc": "Rastrea visitas al veterinario, calendarios de vacunación, peso y cuidado dental con recordatorios proactivos.",
-        "real": "Doraemon mantiene registros veterinarios de Kiwi y Peaches, rastrea vacunaciones y señaló necesidades dentales tras un chequeo."
+        "real": "Una IA mantiene registros veterinarios de dos gatos, rastrea vacunas y senalo necesidades dentales despues de un chequeo de rutina."
       },
       "travelPlan": {
         "title": "Planificación de viajes",
         "desc": "Investiga itinerarios multi-ciudad, monitorea precios de vuelos y compara opciones de alojamiento.",
-        "real": "Doraemon planificó un viaje familiar de 14 días multi-ciudad, rastreando vuelos directos y alertas de precio dentro del presupuesto."
+        "real": "Una IA planifico un viaje familiar de 14 dias por multiples ciudades, rastreando vuelos directos y alertas de precio dentro del presupuesto."
       },
       "smartReminders": {
         "title": "Recordatorios inteligentes con escalación",
         "desc": "Establece recordatorios que comienzan suaves y aumentan la urgencia a medida que se acercan los plazos. Sabe cuándo insistir y cuándo guardar silencio.",
-        "real": "Los recordatorios de plazo comienzan con 1x/día una semana antes, luego 3x/día el día anterior, respetando horas de silencio y reuniones."
+        "real": "Los recordatorios de fecha limite comienzan con 1x/dia una semana antes, luego 3x/dia el dia anterior, respetando horas tranquilas y reuniones."
+      }
+    }
+  },
+  "industries": {
+    "navTitle": "Industrias",
+    "common": {
+      "seeSolutions": "Ver soluciones",
+      "realExampleLabel": "En la practica:"
+    },
+    "legal": {
+      "slug": "legal",
+      "icon": "⚖️",
+      "heroTitle": "IA para bufetes de abogados",
+      "heroSub": "Tu asistente legal que nunca duerme. Dicta facturaciones, rastrea plazos, investiga jurisprudencia y redacta memorandos mientras te concentras en ganar casos.",
+      "problems": {
+        "title": "El problema de la administracion legal",
+        "items": [
+          "Los abogados dedican mas del 40% de su tiempo a tareas administrativas no facturables: archivar, rastrear plazos y dar formato a documentos.",
+          "Las notas de voz y manuscritas se acumulan porque nadie tiene tiempo para transcribirlas y estructurarlas en entradas facturables.",
+          "Los plazos criticos de presentacion se pierden en bandejas de entrada desbordadas, y un plazo perdido puede costar un caso."
+        ]
+      },
+      "solutions": {
+        "title": "Como la IA lo resuelve",
+        "items": [
+          {
+            "icon": "🎙️",
+            "title": "Facturacion por voz",
+            "desc": "Dicta entradas de tiempo y notas de caso por mensaje de voz. La IA transcribe, estructura y registra como entradas facturables al instante."
+          },
+          {
+            "icon": "📅",
+            "title": "Seguimiento de plazos",
+            "desc": "Nunca mas pierdas un plazo de presentacion. La IA monitorea fechas judiciales, prescripciones y plazos de respuesta con recordatorios progresivos."
+          },
+          {
+            "icon": "📚",
+            "title": "Investigacion y redaccion legal",
+            "desc": "Se integra con bases de datos legales, investiga jurisprudencia, redacta memorandos de zonificacion y prepara resumenes de costos de litigio bajo demanda."
+          },
+          {
+            "icon": "📄",
+            "title": "Procesamiento de documentos",
+            "desc": "Transcribe notas manuscritas a texto digital, revisa emails salientes y extrae datos estructurados de contratos y expedientes."
+          },
+          {
+            "icon": "📧",
+            "title": "Clasificacion de email multi-cuenta",
+            "desc": "Monitorea bandejas personales y del bufete simultaneamente, marca emails urgentes de clientes y rastrea hilos pendientes de respuesta."
+          },
+          {
+            "icon": "💰",
+            "title": "Gestion de facturas",
+            "desc": "Genera facturas para clientes, rastrea saldos pendientes y envia recordatorios de pago a tiempo."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Ejemplos reales de IA legal",
+        "items": [
+          {
+            "title": "Facturacion vocal en movimiento",
+            "desc": "Despues de una reunion con un cliente, un abogado dicta 12 minutos de notas de facturacion mientras conduce.",
+            "real": "La IA transcribe la nota de voz, identifica al cliente, categoriza el tipo de trabajo y registra una entrada facturada de 0.2 horas, todo antes de que el abogado llegue a la oficina."
+          },
+          {
+            "title": "Cero plazos perdidos",
+            "desc": "Un abogado independiente gestiona mas de 40 expedientes activos con prescripciones superpuestas.",
+            "real": "La IA rastrea cada plazo, envia resumenes semanales e intensifica los recordatorios diarios al acercarse las fechas. Cero plazos perdidos en el primer ano."
+          },
+          {
+            "title": "Investigacion en minutos",
+            "desc": "Una disputa de zonificacion requiere investigacion de precedentes en multiples jurisdicciones.",
+            "real": "La IA busca en bases de datos legales, recopila jurisprudencia relevante y redacta un memorando de investigacion de 3 paginas en menos de 15 minutos."
+          },
+          {
+            "title": "De manuscrito a digital",
+            "desc": "Un abogado llena un bloc de notas legales durante una audiencia de descubrimiento.",
+            "real": "Se envia una foto de las notas por mensaje. La IA las transcribe a texto digital limpio, organizado por tema, en segundos."
+          }
+        ]
+      },
+      "howItWorks": {
+        "title": "Como empezar",
+        "steps": [
+          {
+            "title": "Cuentanos sobre tu practica",
+            "desc": "Comparte tus areas de practica, herramientas (Clio, PCLaw, Westlaw) y las tareas administrativas que consumen tus horas facturables."
+          },
+          {
+            "title": "Construimos tu IA legal",
+            "desc": "Tu IA aprende tus codigos de facturacion, plazos judiciales, plantillas de documentos y estilo de comunicacion."
+          },
+          {
+            "title": "Empieza a delegar",
+            "desc": "Dicta notas, reenvia emails y deja que tu IA maneje el resto. 24/7, sin horas extra, sin quejas."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Listo para recuperar tus horas facturables?",
+        "sub": "Tu asistente legal IA esta listo. Sin PTO, sin enfermedad, sin drama.",
+        "button": "Obtener tu IA legal →"
+      }
+    },
+    "manufacturing": {
+      "slug": "manufacturing",
+      "icon": "🏭",
+      "heroTitle": "IA para manufactura",
+      "heroSub": "El brazo derecho de tu gerente de planta. Briefings operativos diarios, seguimiento de inventario, analisis de ventas y gestion de costos, sin contratar mas personal.",
+      "problems": {
+        "title": "Los problemas en planta",
+        "items": [
+          "Los ejecutivos comienzan cada dia revisando sistemas desconectados: email, ERP, hojas de calculo y dashboards de produccion, solo para entender que paso la noche anterior.",
+          "Los representantes de ventas y gerentes de operaciones pierden horas compilando manualmente reportes de clientes, resumenes de inventario y desgloses de costos.",
+          "Las disrupciones de la cadena de suministro, problemas de calidad y cuentas por cobrar vencidas se descubren tarde porque nadie monitorea los datos en tiempo real."
+        ]
+      },
+      "solutions": {
+        "title": "Como la IA lo resuelve",
+        "items": [
+          {
+            "icon": "📊",
+            "title": "Briefings operativos diarios",
+            "desc": "Briefings de manana, mediodia y tarde cubriendo email, calendario, metricas de produccion y salud del sistema, entregados automaticamente."
+          },
+          {
+            "icon": "📈",
+            "title": "Analisis de ventas y reportes",
+            "desc": "Genera reportes de ventas por cliente, analisis de margen y desgloses de tendencias bajo demanda o programados."
+          },
+          {
+            "icon": "📦",
+            "title": "Inventario y cadena de suministro",
+            "desc": "Monitorea niveles de stock, rastrea tiempos de entrega de proveedores y alerta cuando los materiales escasean o las entregas se retrasan."
+          },
+          {
+            "icon": "💵",
+            "title": "Seguimiento de costos de produccion",
+            "desc": "Rastrea costos variables, uso de materiales, gastos de recubrimiento y costos de produccion por unidad en tiempo real."
+          },
+          {
+            "icon": "📋",
+            "title": "Generacion de ordenes de compra",
+            "desc": "Genera OC automaticamente basadas en umbrales de inventario, listas de proveedores aprobados y patrones historicos de compra."
+          },
+          {
+            "icon": "🔍",
+            "title": "Reportes de calidad y CxC/CxP",
+            "desc": "Genera resumenes de control de calidad, reportes de antiguedad de cuentas por cobrar y seguimiento de cuentas por pagar sin trabajo manual en hojas de calculo."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Ejemplos reales de IA manufacturera",
+        "items": [
+          {
+            "title": "Briefing a las 6 AM, cero esfuerzo",
+            "desc": "Un ejecutivo de manufactura revisa su telefono con el cafe de la manana.",
+            "real": "Su IA ya compilo datos de produccion nocturnos, marco dos retrasos de proveedores, resumio 14 emails no leidos y listo las reuniones del dia. Todo en un mensaje."
+          },
+          {
+            "title": "Reporte de cliente en segundos",
+            "desc": "Un representante de ventas necesita una comparacion ano contra ano de una cuenta clave antes de una reunion a las 10 AM.",
+            "real": "La IA extrae datos del ERP, genera un reporte formateado con graficos y lo entrega en la bandeja del representante en menos de 2 minutos."
+          },
+          {
+            "title": "Alerta de inventario salva una produccion",
+            "desc": "Un material critico esta bajo despues de un lote rechazado por defectos de calidad.",
+            "real": "La IA detecta la brecha de inventario, cruza tiempos de entrega y genera automaticamente una OC urgente al proveedor de respaldo antes de que la linea se detenga."
+          },
+          {
+            "title": "Antiguedad de CxC de un vistazo",
+            "desc": "La contabilidad de fin de mes necesita un reporte preciso de antiguedad de CxC sobre mas de 200 cuentas.",
+            "real": "La IA genera el desglose completo de antiguedad de cuentas por cobrar, ordenado por tramos de vencimiento, y marca las 5 cuentas principales que necesitan seguimiento inmediato."
+          }
+        ]
+      },
+      "howItWorks": {
+        "title": "Como empezar",
+        "steps": [
+          {
+            "title": "Mapea tus operaciones",
+            "desc": "Comparte tu sistema ERP, herramientas de produccion, necesidades de reportes y los cuellos de botella operativos que consumen tiempo de tu equipo."
+          },
+          {
+            "title": "Construimos tu IA de operaciones",
+            "desc": "Tu IA se integra con tus sistemas, aprende tus metricas y comienza a generar reportes y alertas."
+          },
+          {
+            "title": "Opera mas lean",
+            "desc": "Briefings diarios, monitoreo en tiempo real y reportes automatizados. Mas produccion, menos gastos generales."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Listo para operar mas lean?",
+        "sub": "Tu especialista de operaciones IA trabaja el turno nocturno, el diurno y todos los de en medio.",
+        "button": "Obtener tu IA manufacturera →"
+      }
+    },
+    "realEstate": {
+      "slug": "real-estate",
+      "icon": "🏠",
+      "heroTitle": "IA para bienes raices",
+      "heroSub": "El arma secreta del mejor agente. Seguimientos automatizados, investigacion de mercado instantanea, gestion de listados y coordinacion de clientes que nunca pierde un prospecto.",
+      "problems": {
+        "title": "Los problemas en bienes raices",
+        "items": [
+          "Los agentes manejan docenas de clientes activos y prospectos, y los seguimientos manuales significan que los prospectos calientes se enfrian mientras muestras propiedades.",
+          "La investigacion de mercado para precios, comparables y analisis de vecindario toma horas de busqueda manual en CRM y MLS para cada nuevo listado.",
+          "Coordinar visitas, gestionar listados en multiples plataformas y mantener actualizados a los clientes consume el tiempo que deberias pasar cerrando tratos."
+        ]
+      },
+      "solutions": {
+        "title": "Como la IA lo resuelve",
+        "items": [
+          {
+            "icon": "🏘️",
+            "title": "Integracion MLS y listados",
+            "desc": "Extrae datos MLS, gestiona listados en todas las plataformas y recibe alertas instantaneas cuando nuevos inventarios coinciden con los criterios de tus clientes."
+          },
+          {
+            "icon": "📱",
+            "title": "Seguimientos automatizados",
+            "desc": "Secuencias de seguimiento inteligentes que mantienen cada prospecto caliente. Mensajes personalizados basados en preferencias y actividad del cliente."
+          },
+          {
+            "icon": "📊",
+            "title": "Investigacion de mercado on-demand",
+            "desc": "Ventas comparables instantaneas, analisis de vecindario, reportes de tendencias de precios y calculos de ROI de inversion."
+          },
+          {
+            "icon": "📅",
+            "title": "Coordinacion de visitas",
+            "desc": "Programa visitas, envia confirmaciones, maneja reprogramaciones y proporciona detalles de la propiedad antes de cada visita."
+          },
+          {
+            "icon": "🌍",
+            "title": "Comunicacion multilingue",
+            "desc": "Comunicate con clientes en su idioma preferido. Tu IA habla con fluidez mas de 6 idiomas."
+          },
+          {
+            "icon": "🔔",
+            "title": "Alertas de propiedades automaticas",
+            "desc": "Configura alertas personalizadas basadas en precio, ubicacion, caracteristicas y criterios de inversion. Nunca pierdas un listado."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Ejemplos reales de IA inmobiliaria",
+        "items": [
+          {
+            "title": "Ningun prospecto olvidado",
+            "desc": "Un agente tiene 35 prospectos compradores activos en varias etapas.",
+            "real": "La IA envia seguimientos personalizados a cada prospecto segun el calendario: nuevos listados para compradores activos, actualizaciones de mercado para prospectos en maduracion, y check-ins de aniversario para clientes pasados."
+          },
+          {
+            "title": "Reporte comparativo instantaneo",
+            "desc": "Un vendedor quiere saber el valor de su casa antes de listarla.",
+            "real": "La IA extrae ventas comparables recientes dentro de 500m, ajusta por superficie y caracteristicas, y entrega un reporte CMA con marca en menos de 3 minutos."
+          },
+          {
+            "title": "Servicio al cliente multilingue",
+            "desc": "Un cliente de reubicacion habla mandarin y necesita investigacion de vecindario sobre distritos escolares.",
+            "real": "La IA investiga clasificaciones escolares, tiempos de traslado y amenidades locales, y luego entrega un reporte de vecindario completo en mandarin."
+          },
+          {
+            "title": "Coordinacion dia de visitas",
+            "desc": "Un agente tiene 8 visitas programadas por la ciudad un sabado.",
+            "real": "La IA optimiza la ruta, envia confirmaciones a todos los clientes, prepara fichas de propiedad para cada parada y reprograma automaticamente una cancelacion."
+          }
+        ]
+      },
+      "howItWorks": {
+        "title": "Como empezar",
+        "steps": [
+          {
+            "title": "Comparte tu practica",
+            "desc": "Cuentanos sobre tu mercado, base de clientes, CRM preferido y las tareas que consumen tu tiempo de ventas."
+          },
+          {
+            "title": "Construimos tu IA inmobiliaria",
+            "desc": "Tu IA aprende tu mercado, se conecta a tu MLS y comienza a gestionar prospectos y listados."
+          },
+          {
+            "title": "Cierra mas tratos",
+            "desc": "Seguimientos automatizados, investigacion instantanea y comunicacion 24/7 con clientes. Vende mas, administra menos."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Listo para cerrar mas tratos?",
+        "sub": "Tu agente IA trabaja cada open house, cada visita nocturna y cada fin de semana festivo. Sin division de comision.",
+        "button": "Obtener tu IA inmobiliaria →"
+      }
+    },
+    "content": {
+      "slug": "content",
+      "icon": "✍️",
+      "heroTitle": "IA para creadores de contenido",
+      "heroSub": "Tu equipo creativo que nunca se agota. Escritura SEO, gestion de calendario editorial y publicacion multiplataforma a escala.",
+      "problems": {
+        "title": "El cuello de botella del contenido",
+        "items": [
+          "La creacion constante de contenido es agotadora. Los escritores se queman, los freelancers desaparecen y tu calendario editorial se atrasa en semanas.",
+          "La investigacion SEO, optimizacion de keywords y seguimiento analitico multiplican la carga de trabajo mucho mas alla de solo escribir.",
+          "Gestionar multiples plataformas, mantener la voz de marca en todos los canales y adaptar contenido a diferentes formatos es un trabajo de coordinacion de tiempo completo."
+        ]
+      },
+      "solutions": {
+        "title": "Como la IA lo resuelve",
+        "items": [
+          {
+            "icon": "✍️",
+            "title": "Escritura SEO",
+            "desc": "Articulos, blogs y landing pages escritos con investigacion de keywords, estructura de encabezados y meta descripciones integradas."
+          },
+          {
+            "icon": "📅",
+            "title": "Gestion de calendario editorial",
+            "desc": "Planifica, programa y rastrea tu pipeline de contenido. Nunca mas pierdas una fecha de publicacion."
+          },
+          {
+            "icon": "🎨",
+            "title": "Consistencia de voz de marca",
+            "desc": "Tu IA aprende el tono, estilo y vocabulario de tu marca. Cada pieza suena como si viniera de tu mejor escritor."
+          },
+          {
+            "icon": "📱",
+            "title": "Publicacion multiplataforma",
+            "desc": "Escribe una vez, publica en todos lados. Formato automatico para WordPress, Medium, LinkedIn y redes sociales."
+          },
+          {
+            "icon": "🔍",
+            "title": "Investigacion y verificacion",
+            "desc": "Cada afirmacion verificada, cada estadistica con fuente. Tu IA investiga los temas a fondo antes de escribir una sola palabra."
+          },
+          {
+            "icon": "📸",
+            "title": "Gestion de imagenes y medios",
+            "desc": "Busqueda de bancos de imagenes, generacion de visuales IA, optimizacion de tamano de archivo y texto alternativo para accesibilidad y SEO."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Ejemplos reales de IA de contenido",
+        "items": [
+          {
+            "title": "10 articulos por semana, cero agotamiento",
+            "desc": "Una marca de lifestyle de lujo necesita contenido semanal constante en multiples categorias.",
+            "real": "La IA investiga temas tendencia, escribe articulos optimizados SEO con creditos de autor y los publica directamente en el CMS segun el calendario."
+          },
+          {
+            "title": "Voz de marca fijada",
+            "desc": "El contenido de la empresa suena diferente cada vez que cambia el freelancer.",
+            "real": "La IA estudia mas de 50 articulos existentes, extrae el perfil de voz de marca y produce nuevo contenido indistinguible de los escritores originales."
+          },
+          {
+            "title": "Reutilizacion para redes sociales",
+            "desc": "Un post de blog largo necesita convertirse en 5 posts sociales, una intro de newsletter y un articulo de LinkedIn.",
+            "real": "La IA genera todo el contenido derivado en el formato y tono correctos para cada plataforma minutos despues de publicar el articulo original."
+          },
+          {
+            "title": "Auditoria y optimizacion SEO",
+            "desc": "Una biblioteca de mas de 200 articulos existentes necesita optimizacion SEO.",
+            "real": "La IA audita cada articulo por brechas de keywords, meta descripciones, estructura de encabezados y enlaces internos, luego realiza mejoras dirigidas."
+          }
+        ]
+      },
+      "howItWorks": {
+        "title": "Como empezar",
+        "steps": [
+          {
+            "title": "Comparte tus objetivos de contenido",
+            "desc": "Cuentanos sobre tu marca, audiencia objetivo, calendario editorial y las plataformas donde publicas."
+          },
+          {
+            "title": "Construimos tu IA de contenido",
+            "desc": "Tu IA aprende tu voz de marca, estrategia de contenido y flujo de publicacion. Lista para escribir en dias."
+          },
+          {
+            "title": "Publica a escala",
+            "desc": "Contenido SEO constante en todas las plataformas. Sin bloqueo de escritor, sin plazos perdidos, sin agotamiento."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Listo para escalar tu contenido?",
+        "sub": "Tu equipo de contenido IA escribe, publica y optimiza las 24 horas. El agotamiento creativo no esta en su vocabulario.",
+        "button": "Obtener tu IA de contenido →"
+      }
+    },
+    "software": {
+      "slug": "software",
+      "icon": "💻",
+      "heroTitle": "IA para ingenieria de software",
+      "heroSub": "Tu ingeniero senior que disfruta estar de guardia. Revisiones de codigo, monitoreo de infraestructura con auto-reparacion y automatizacion de deploys que nunca duerme.",
+      "problems": {
+        "title": "El cuello de botella de ingenieria",
+        "items": [
+          "Las rotaciones de guardia agotan a tus mejores ingenieros. Alertas a las 3 AM, incidentes de fin de semana y cambio de contexto entre codificar y apagar incendios matan la productividad.",
+          "Las revisiones de codigo se acumulan en la cola de PRs, bloqueando deploys y frenando a todo el equipo. Los ingenieros senior pasan mas tiempo revisando que construyendo.",
+          "El monitoreo de infraestructura es reactivo, no proactivo. Para cuando ves la alerta, los usuarios ya estan afectados."
+        ]
+      },
+      "solutions": {
+        "title": "Como la IA lo resuelve",
+        "items": [
+          {
+            "icon": "🔍",
+            "title": "Revision de codigo y gestion de PRs",
+            "desc": "Obtiene PRs abiertos, genera diagramas de arquitectura, publica comentarios de revision inline y marca problemas potenciales antes de produccion."
+          },
+          {
+            "icon": "🛡️",
+            "title": "Infraestructura auto-reparable",
+            "desc": "Monitoreo heartbeat 24/7 en todos los servidores. Detecta fallas, intenta reparacion automatica y solo escala lo que no puede reparar."
+          },
+          {
+            "icon": "🚀",
+            "title": "Gestion de pipeline CI/CD",
+            "desc": "Gestiona pipelines de build, monitorea la salud de deploys, hace rollback de deploys fallidos y rastrea historial de releases."
+          },
+          {
+            "icon": "📋",
+            "title": "Generacion de documentacion",
+            "desc": "Genera automaticamente documentacion de API, diagramas de arquitectura, runbooks y guias de onboarding desde tu codebase."
+          },
+          {
+            "icon": "🐛",
+            "title": "Triaje y seguimiento de bugs",
+            "desc": "Analiza reportes de bugs entrantes, categoriza severidad, asigna al equipo correcto y sugiere correcciones potenciales de incidentes similares."
+          },
+          {
+            "icon": "🌙",
+            "title": "Guardia 24/7 sin agotamiento",
+            "desc": "Tu IA maneja las alertas de las 3 AM, los incidentes de fin de semana y las caidas en dias festivos. Tu equipo duerme."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Ejemplos reales de IA de ingenieria",
+        "items": [
+          {
+            "title": "Revisiones de PR en minutos",
+            "desc": "Un equipo de 8 ingenieros genera mas de 15 PRs al dia, y las revisiones son el cuello de botella.",
+            "real": "La IA revisa cada PR minutos despues del envio: verifica violaciones de estilo, genera un resumen de diferencias con diagramas de arquitectura y publica comentarios inline sobre problemas potenciales."
+          },
+          {
+            "title": "Auto-reparacion a las 3 AM",
+            "desc": "Un agotamiento del pool de conexiones de BD tumba un servicio API a las 3:12 AM.",
+            "real": "La IA detecta la falla via checks heartbeat, reinicia el servicio, limpia conexiones obsoletas, verifica la recuperacion y publica un reporte completo del incidente. El ingeniero de guardia lo lee en el desayuno."
+          },
+          {
+            "title": "Confianza en el deploy",
+            "desc": "Un deploy a produccion un viernes por la tarde necesita confianza adicional.",
+            "real": "La IA ejecuta la suite de pruebas completa, compara artefactos de build, realiza un deploy canario al 5% del trafico, monitorea tasas de error por 15 minutos y luego completa el rollout."
+          },
+          {
+            "title": "Monitoreo multi-servidor",
+            "desc": "Un equipo gestiona mas de 5 instancias de servidor en multiples proveedores cloud.",
+            "real": "La IA ejecuta checks heartbeat cada 30 minutos, monitorea espacio en disco, vencimiento de certificados SSL, uptime de servicios y gestiona automaticamente backups encriptados al almacenamiento cloud."
+          }
+        ]
+      },
+      "howItWorks": {
+        "title": "Como empezar",
+        "steps": [
+          {
+            "title": "Comparte tu stack",
+            "desc": "Cuentanos sobre tu stack tecnologico, pipeline de deploy, herramientas de monitoreo y los puntos de dolor operativos que agotan a tu equipo."
+          },
+          {
+            "title": "Construimos tu IA de ingenieria",
+            "desc": "Tu IA se integra con GitHub, tu pipeline CI/CD, sistemas de monitoreo y canales de comunicacion."
+          },
+          {
+            "title": "Entrega mas rapido, duerme mejor",
+            "desc": "Revisiones automatizadas, infraestructura auto-reparable y monitoreo 24/7. Tu equipo construye funcionalidades, tu IA maneja el resto."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Listo para entregar mas rapido y dormir mejor?",
+        "sub": "Tu ingeniero IA maneja la guardia, revisa PRs y monitorea infraestructura. Sin agotamiento, sin PTO, sin quejas a las 3 AM.",
+        "button": "Obtener tu IA de ingenieria →"
+      }
+    },
+    "accounting": {
+      "slug": "accounting",
+      "icon": "📊",
+      "heroTitle": "IA para contabilidad",
+      "heroSub": "Tu contador que disfruta la temporada de impuestos. Declaraciones corporativas, categorizacion de gastos, gestion de facturas y seguimiento de plazos sin fallas.",
+      "problems": {
+        "title": "Los puntos de dolor contables",
+        "items": [
+          "Las pequenas empresas no pueden pagar un contador de tiempo completo, asi que las tareas financieras se acumulan hasta el panico de la temporada fiscal.",
+          "Las empresas multi-entidad manejan plazos de declaracion superpuestos, transacciones intercompania y diferentes obligaciones fiscales faciles de perder.",
+          "La categorizacion manual de gastos, seguimiento de facturas y conciliacion bancaria consumen horas cada semana que podrian dedicarse al crecimiento del negocio."
+        ]
+      },
+      "solutions": {
+        "title": "Como la IA lo resuelve",
+        "items": [
+          {
+            "icon": "🏛️",
+            "title": "Declaraciones fiscales corporativas",
+            "desc": "Prepara y presenta declaraciones T2, T4A, T5, HST/GST. Rastrea obligaciones, genera comprobantes y asegura cumplimiento de plazos del CRA."
+          },
+          {
+            "icon": "📂",
+            "title": "Categorizacion de gastos",
+            "desc": "Categoriza automaticamente transacciones bancarias, escaneos de recibos y cargos de tarjeta de credito en las cuentas correctas."
+          },
+          {
+            "icon": "📄",
+            "title": "Generacion y seguimiento de facturas",
+            "desc": "Crea facturas profesionales, rastrea estado de pago, envia recordatorios y marca cuentas vencidas."
+          },
+          {
+            "icon": "📊",
+            "title": "Reportes financieros",
+            "desc": "Genera estados de resultados, balances generales, reportes de flujo de caja y dashboards financieros personalizados bajo demanda."
+          },
+          {
+            "icon": "👥",
+            "title": "Gestion de nomina",
+            "desc": "Calcula nomina, genera recibos de pago, rastrea acumulacion de vacaciones y presenta remesas del empleador."
+          },
+          {
+            "icon": "⏰",
+            "title": "Seguimiento de plazos con escalamiento",
+            "desc": "Monitorea cada plazo fiscal y obligacion de declaracion. Los recordatorios comienzan suaves y se intensifican al acercarse la fecha."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Ejemplos reales de IA contable",
+        "items": [
+          {
+            "title": "Temporada fiscal sin panico",
+            "desc": "Un dueno de pequena empresa tiene tres corporaciones con cierres fiscales superpuestos.",
+            "real": "La IA rastrea todos los plazos de declaracion, prepara comprobantes T4A y enmiendas T5 por adelantado, compila documentos de soporte y presenta las declaraciones T2 completas antes de la fecha limite."
+          },
+          {
+            "title": "Seguimiento de gastos en tiempo real",
+            "desc": "Los gastos de una firma consultora estan repartidos en 4 tarjetas de credito y 2 cuentas bancarias.",
+            "real": "La IA extrae transacciones diariamente, categoriza cada una (comidas, viajes, software, desarrollo profesional), marca cargos inusuales y mantiene los libros actualizados en tiempo real."
+          },
+          {
+            "title": "Automatizacion de facturacion",
+            "desc": "Un negocio de servicios envia mas de 30 facturas al mes con tarifas y terminos variables.",
+            "real": "La IA genera facturas basadas en horas registradas y terminos contractuales, las envia a tiempo, rastrea estado de pago y da seguimiento automatico a cuentas vencidas."
+          },
+          {
+            "title": "Conciliacion multi-entidad",
+            "desc": "Las transacciones intercompania entre tres corporaciones relacionadas necesitan conciliacion mensual.",
+            "real": "La IA hace coincidir cargos intercompania, genera asientos de eliminacion y produce estados financieros consolidados para la empresa matriz."
+          }
+        ]
+      },
+      "howItWorks": {
+        "title": "Como empezar",
+        "steps": [
+          {
+            "title": "Comparte tu configuracion financiera",
+            "desc": "Cuentanos sobre tus entidades, software contable (Wave, QuickBooks, Xero), cuentas bancarias y las tareas que consumen tu tiempo."
+          },
+          {
+            "title": "Construimos tu IA contable",
+            "desc": "Tu IA aprende tu catalogo de cuentas, obligaciones fiscales, plantillas de factura y flujos financieros."
+          },
+          {
+            "title": "Libros siempre limpios",
+            "desc": "Categorizacion en tiempo real, facturacion automatizada y gestion proactiva de plazos. Tus libros siempre listos para auditoria."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Listo para temporadas fiscales sin estres?",
+        "sub": "Tu contador IA rastrea cada dolar, presenta cada declaracion y nunca pierde un plazo. La temporada fiscal es solo otro martes.",
+        "button": "Obtener tu IA contable →"
       }
     }
   }
