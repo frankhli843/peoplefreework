@@ -47,7 +47,7 @@ export default function IndustryPage({ industryKey }) {
           <h1 className="industry-hero-title">{heroTitle}</h1>
           <p className="industry-hero-sub">{heroSub}</p>
           <div className="hero-actions">
-            <a href="#solutions" className="btn btn-primary industry-btn">{t('industries.common.seeSolutions', 'See How It Works')}</a>
+            <button className="btn btn-primary industry-btn" onClick={() => document.getElementById('solutions')?.scrollIntoView({ behavior: 'smooth' })}>{t('industries.common.seeSolutions', 'See How It Works')}</button>
             <a href="mailto:hello@peoplefree.work" className="btn btn-secondary">{t('hero.getInTouch')}</a>
           </div>
         </div>

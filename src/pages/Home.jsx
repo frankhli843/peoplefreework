@@ -75,7 +75,7 @@ export default function Home() {
           {' '}<em>{t('hero.subBold')}</em>
         </p>
         <div className="hero-actions">
-          <a href="#team" className="btn btn-primary">{t('hero.meetTeam')}</a>
+          <button className="btn btn-primary" onClick={() => document.getElementById('team')?.scrollIntoView({ behavior: 'smooth' })}>{t('hero.meetTeam')}</button>
           <a href="mailto:hello@peoplefree.work" className="btn btn-secondary">{t('hero.getInTouch')}</a>
         </div>
       </section>

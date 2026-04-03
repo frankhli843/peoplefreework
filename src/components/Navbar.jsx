@@ -1,6 +1,6 @@
-import { useState } from 'react'
+import { useState, useCallback } from 'react'
 import { useTranslation } from 'react-i18next'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate, useLocation } from 'react-router-dom'
 
 const languages = [
   { code: 'en', label: 'EN', flag: '🇺🇸' },
@@ -56,6 +56,20 @@ function LanguagePicker() {
 export default function Navbar() {
   const { t } = useTranslation()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const navigate = useNavigate()
+  const location = useLocation()
+
+  const scrollToSection = useCallback((sectionId) => {
+    setMobileMenuOpen(false)
+    if (location.pathname !== '/') {
+      navigate('/')
+      setTimeout(() => {
+        document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' })
+      }, 100)
+    } else {
+      document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' })
+    }
+  }, [location.pathname, navigate])
 
   return (
     <nav className="nav">
@@ -64,8 +78,8 @@ export default function Navbar() {
           people<span className="logo-accent">free</span>.work
         </Link>
         <div className="nav-links">
-          <Link to="/#team">{t('nav.team')}</Link>
-          <Link to="/#perks">{t('nav.whyUs')}</Link>
+          <a href="#" onClick={(e) => { e.preventDefault(); scrollToSection('team') }}>{t('nav.team')}</a>
+          <a href="#" onClick={(e) => { e.preventDefault(); scrollToSection('perks') }}>{t('nav.whyUs')}</a>
           <div className="nav-dropdown">
             <button className="nav-dropdown-btn">{t('industries.navTitle', 'Industries')} ▾</button>
             <div className="nav-dropdown-menu">
@@ -77,7 +91,7 @@ export default function Navbar() {
               ))}
             </div>
           </div>
-          <Link to="/#pricing">{t('nav.pricing')}</Link>
+          <a href="#" onClick={(e) => { e.preventDefault(); scrollToSection('pricing') }}>{t('nav.pricing')}</a>
         </div>
         <div className="nav-right">
           <LanguagePicker />
@@ -89,9 +103,9 @@ export default function Navbar() {
       </div>
       {mobileMenuOpen && (
         <div className="mobile-menu">
-          <Link to="/" onClick={() => setMobileMenuOpen(false)}>{t('nav.team')}</Link>
-          <Link to="/#perks" onClick={() => setMobileMenuOpen(false)}>{t('nav.whyUs')}</Link>
-          <Link to="/#pricing" onClick={() => setMobileMenuOpen(false)}>{t('nav.pricing')}</Link>
+          <a href="#" onClick={(e) => { e.preventDefault(); scrollToSection('team') }}>{t('nav.team')}</a>
+          <a href="#" onClick={(e) => { e.preventDefault(); scrollToSection('perks') }}>{t('nav.whyUs')}</a>
+          <a href="#" onClick={(e) => { e.preventDefault(); scrollToSection('pricing') }}>{t('nav.pricing')}</a>
           <div className="mobile-menu-section">
             <div className="mobile-menu-label">{t('industries.navTitle', 'Industries')}</div>
             {industryRoutes.map(r => (
