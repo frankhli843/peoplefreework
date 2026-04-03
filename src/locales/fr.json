@@ -368,11 +368,11 @@
       "heroTitle": "IA pour cabinets juridiques",
       "heroSub": "Votre assistant juridique qui ne dort jamais. Dictez vos facturations, suivez les echeances, recherchez la jurisprudence et redigez des notes pendant que vous gagnez vos dossiers.",
       "problems": {
-        "title": "Le probleme de l'administration juridique",
+        "title": "Votre Cabinet Perd des Heures Facturables",
         "items": [
-          "Les avocats consacrent plus de 40% de leur temps a des taches administratives non facturables : classement, suivi des echeances et mise en forme de documents.",
-          "Les notes vocales et manuscrites s'accumulent car personne n'a le temps de les transcrire et de les structurer en entrees facturables.",
-          "Les echeances critiques de depot sont noyees dans des boites de reception debordantes, et une echeance manquee peut couter un dossier."
+          "L'avocat moyen perd 8-12 heures par semaine sur des tâches administratives non facturables : saisie du temps, suivi des échéances, classement des documents. À 300$/heure, cela représente plus de 125 000$ de valeur qui s'évapore chaque année.",
+          "Les mémos vocaux et notes manuscrites restent non retranscrits pendant des jours. Quand quelqu'un s'en occupe enfin, le contexte est perdu et la précision de facturation diminue. Les études montrent que les cabinets sous-facturent de 10-30% à cause de la saisie tardive du temps.",
+          "Une date de prescription manquée peut coûter une affaire et une carrière. Le suivi des échéances par tableur ne passe pas à l'échelle au-delà de 50 dossiers, et le coût d'un seul oubli est catastrophique."
         ]
       },
       "solutions": {
@@ -411,27 +411,27 @@
         ]
       },
       "examples": {
-        "title": "Exemples reels d'IA juridique",
+        "title": "Argent Récupéré. Heures Réclamées. Échéances Respectées.",
         "items": [
           {
-            "title": "Facturation vocale en deplacement",
-            "desc": "Apres une reunion client, un avocat dicte 12 minutes de notes de facturation en conduisant.",
-            "real": "L'IA transcrit la note vocale, identifie le client, categorise le type de travail et enregistre une entree de facturation structuree de 0,2 heure, le tout avant que l'avocat n'arrive au bureau."
+            "title": "327 Heures Facturables Récupérées en 90 Jours",
+            "desc": "Un cabinet de blessures corporelles perdait 8-12 heures par semaine sur l'arriéré de saisie du temps. Les avocats finissaient une journée de dépositions et d'appels clients, puis devaient passer une heure à reconstituer les notes de facturation de mémoire.",
+            "real": "Nous avons déployé une IA qui accepte la dictée vocale après chaque appel ou réunion. L'avocat dit 'je viens de terminer 45 minutes avec la succession Johnson sur l'affaire de mort injuste, révision des dossiers médicaux et discussion de la fourchette de règlement.' L'IA l'enregistre comme 0.75 heure, l'attribue au bon dossier, et applique le taux de facturation correct. En trois mois, le cabinet a récupéré 327 heures qui n'étaient pas facturées auparavant."
           },
           {
-            "title": "Zero echeance manquee",
-            "desc": "Un avocat en pratique solo gere plus de 40 dossiers actifs avec des delais de prescription chevauchants.",
-            "real": "L'IA suit chaque echeance, envoie des resumes hebdomadaires et intensifie les rappels quotidiens a l'approche des dates. Zero echeance manquee la premiere annee."
+            "title": "De 6 Heures à 20 Minutes : Recherche de Zonage",
+            "desc": "Un avocat immobilier avait besoin de recherches de précédents sur un changement de zonage à usage mixte pour un client faisant face à une audience municipale en 48 heures. L'associé habituellement chargé de la recherche était en vacances.",
+            "real": "L'IA a recherché la jurisprudence dans trois juridictions, identifié 11 précédents pertinents, et rédigé un mémo de recherche de 4 pages avec citations et recommandation. L'associé l'a relu, fait des modifications mineures, et l'a déposé. Temps total de l'avocat : 20 minutes de révision au lieu de 6 heures de recherche."
           },
           {
-            "title": "Recherche en minutes",
-            "desc": "Un litige de zonage necessite une recherche de precedents dans plusieurs juridictions.",
-            "real": "L'IA interroge les bases de donnees juridiques, compile la jurisprudence pertinente et redige une note de recherche de 3 pages en moins de 15 minutes."
+            "title": "Zéro Date de Prescription Manquée sur 340 Dossiers",
+            "desc": "Un cabinet de contentieux boutique suivait les délais de prescription sur un tableur partagé. Un presque-oubli a poussé l'associé dirigeant à chercher une vraie solution.",
+            "real": "L'IA surveille maintenant tous les dossiers actifs, calcule les dates de prescription à partir des données d'admission, et envoie des rappels escaladés : 90 jours, 30 jours, 14 jours, 7 jours, puis quotidiens. Elle croise avec le calendrier du tribunal et signale les conflits. En 14 mois, zéro échéance manquée sur 340 dossiers actifs. Le tableur est abandonné."
           },
           {
-            "title": "Manuscrit au numerique",
-            "desc": "Un avocat remplit un bloc de notes juridiques pendant une audience de decouverte.",
-            "real": "Une photo des notes est envoyee par message. L'IA les transcrit en texte numerique propre, organise par sujet, en quelques secondes."
+            "title": "Notes de Déposition Retranscrites Avant la Descente en Ascenseur",
+            "desc": "Un plaideur prend des notes manuscrites pendant les audiences de découverte car taper semble conflictuel. Le problème : ces notes restent dans un bloc-notes légal pendant des semaines avant que quelqu'un les tape.",
+            "real": "Maintenant l'avocat photographie les notes après chaque audience et envoie l'image par message. L'IA retranscrit l'écriture manuscrite, l'organise par sujet, signale les éléments d'action, et l'archive dans le dossier. Les notes tapées arrivent dans le dossier avant que l'avocat n'atteigne sa voiture."
           }
         ]
       },
@@ -464,11 +464,11 @@
       "heroTitle": "IA pour l'industrie",
       "heroSub": "Le bras droit de votre directeur d'usine. Briefings operationnels quotidiens, suivi des stocks, analyses des ventes et gestion des couts, sans embauche supplementaire.",
       "problems": {
-        "title": "Les problemes en production",
+        "title": "Les Coûts Cachés Rongent Vos Marges",
         "items": [
-          "Les dirigeants commencent chaque journee en fouillant des systemes deconnectes : email, ERP, tableurs et tableaux de bord de production, juste pour comprendre ce qui s'est passe la nuit.",
-          "Les commerciaux et responsables d'exploitation perdent des heures a compiler manuellement des rapports clients, des resumes de stock et des ventilations de couts.",
-          "Les perturbations de la chaine d'approvisionnement, les problemes qualite et les creances en retard sont decouverts trop tard car personne ne surveille les donnees en temps reel."
+          "Les dirigeants gaspillent 45+ minutes chaque matin à fouiller dans des systèmes déconnectés : email, ERP, tableurs, tableaux de bord de production. C'est plus de 180 heures par an du temps d'un cadre supérieur passé à récupérer de l'information, pas à prendre des décisions.",
+          "Les écarts de prix fournisseurs, tendances de rejets qualité, et pénuries d'inventaire remontent des semaines ou mois plus tard parce que personne ne surveille les données en temps réel. Quand vous le voyez, les dégâts sont à six chiffres.",
+          "Les rapports de fin de mois consomment 2-3 jours de votre équipe comptable sur le vieillissement manuel des créances, la réconciliation, et la mise en forme des données. C'est 30+ jours par an passés à produire des rapports au lieu d'agir dessus."
         ]
       },
       "solutions": {
@@ -507,27 +507,27 @@
         ]
       },
       "examples": {
-        "title": "Exemples reels d'IA industrielle",
+        "title": "Coûts Réduits. Problèmes Détectés Tôt. Rapports Auto-Générés.",
         "items": [
           {
-            "title": "Briefing a 6h, zero effort",
-            "desc": "Un dirigeant industriel consulte son telephone en prenant son cafe du matin.",
-            "real": "Son IA a deja compile les donnees de production de la nuit, signale deux retards fournisseurs, resume 14 emails non lus et liste les reunions du jour. Le tout en un seul message."
+            "title": "180K$ Économisés en Détectant une Dérive de Prix Fournisseur",
+            "desc": "Un fabricant d'outils de précision s'approvisionne en nickel, cuivre, et alliages spéciaux auprès de 12 fournisseurs. Les prix fluctuent trimestriellement, et un responsable achats suit tout cela dans un tableur toujours en retard d'un mois.",
+            "real": "L'IA extrait les données tarifaires des portails fournisseurs et bons de commande quotidiennement, compare aux tarifs contractés, et signale les écarts supérieurs à 3%. En un mois, elle a détecté qu'un fournisseur de nickel facturait 7% au-dessus du tarif convenu sur les commandes récurrentes, une surfacturation passée inaperçue pendant cinq mois. Facture corrective : 180K$ récupérés."
           },
           {
-            "title": "Rapport client en secondes",
-            "desc": "Un commercial a besoin d'une comparaison annuelle pour un compte cle avant une reunion a 10h.",
-            "real": "L'IA extrait les donnees ERP, genere un rapport formate avec graphiques et le livre dans la boite de reception du commercial en moins de 2 minutes."
+            "title": "Briefing Matinal Qui Se Lit Vraiment",
+            "desc": "Un directeur d'usine noyait sous 200+ emails nocturnes de qualité, maintenance, logistique, et ventes. Les signaux importants étaient enterrés. Le point matinal commençait par 'qu'est-ce que j'ai raté ?' chaque jour.",
+            "real": "L'IA livre maintenant un seul briefing à 6h : production nocturne vs objectif, toute alarme équipement, bons de commande en attente d'approbation, éléments créances dépassant 60 jours, et planning de réunions du jour. Deux taps sur le téléphone, café en main. Le directeur dit que ça remplace 45 minutes de fouille dans la boîte mail."
           },
           {
-            "title": "Alerte stock sauve une production",
-            "desc": "Une matiere premiere critique est en rupture apres un lot rejete pour defaut qualite.",
-            "real": "L'IA detecte l'ecart de stock, croise les delais de livraison et genere automatiquement un BC urgent au fournisseur de secours avant l'arret de la ligne."
+            "title": "Modèle de Rejets Qualité Détecté 3 Semaines à l'Avance",
+            "desc": "Un fabricant de superabrasifs voyait des rejets qualité intermittents sur une ligne de liaison par fusion. Les rejets étaient dans les tolérances individuellement, mais la tendance était invisible dans les chiffres quotidiens.",
+            "real": "L'IA suit les taux de rejet par ligne de produit, équipe, et machine. Elle a signalé une augmentation hebdomadaire de 1.2% sur la Ligne 3, deuxième équipe seulement, corrélée avec un lot de matière première spécifique. La maintenance a trouvé une dérive de calibration du thermocouple de four. Détecté trois semaines avant que ça déclenche un retour client."
           },
           {
-            "title": "Anciennete des creances en un clin d'oeil",
-            "desc": "La comptabilite de fin de mois necessite un rapport precis d'anciennete des creances sur plus de 200 comptes.",
-            "real": "L'IA genere la ventilation complete de l'anciennete des creances, triee par tranches de retard, et signale les 5 comptes necessitant un suivi immediat."
+            "title": "Rapport de Créances Vieillissantes Qui Se Génère",
+            "desc": "La fin de mois chez un fabricant moyen-taille signifiait deux jours pour l'employé comptable à extraire les données créances, les formater, contacter les commerciaux pour le contexte sur les comptes en retard, et construire le rapport pour le CFO.",
+            "real": "L'IA génère le détail complet de vieillissement des créances chaque lundi matin : trié par tranches 30/60/90/120+ jours, annoté avec date de dernier contact et notes des commerciaux, signalant tout compte ayant franchi un seuil depuis la semaine dernière. Le processus de deux jours est maintenant une révision de cinq minutes."
           }
         ]
       },
@@ -560,11 +560,11 @@
       "heroTitle": "IA pour l'immobilier",
       "heroSub": "L'arme secrete des meilleurs agents. Suivis automatises, recherche de marche instantanee, gestion des annonces et coordination client qui ne perd jamais un prospect.",
       "problems": {
-        "title": "Les problemes en immobilier",
+        "title": "Chaque Suivi Manqué Est une Commission Perdue",
         "items": [
-          "Les agents jonglent avec des dizaines de clients actifs et de prospects, et les suivis manuels signifient que les prospects chauds refroidissent pendant que vous montrez des biens.",
-          "La recherche de marche pour la tarification, les comparables et l'analyse de quartier prend des heures de recherche manuelle CRM et MLS pour chaque nouvelle annonce.",
-          "Coordonner les visites, gerer les annonces sur plusieurs plateformes et tenir les clients informes consomme le temps que vous devriez passer a conclure des ventes."
+          "L'agent moyen perd 2-3 affaires par trimestre à cause de suivis lents. À 15 000$ de commission moyenne, c'est 60 000-90 000$ par an de revenus qui vont à un concurrent plus rapide.",
+          "La recherche CMA manuelle prend 2-4 heures par annonce. Pendant que vous tirez les comparables, le vendeur reçoit trois autres avis. Le premier agent avec des chiffres gagne le rendez-vous d'inscription.",
+          "Coordonner 8+ visites, gérer des clients multilingues, et maintenir 30+ prospects actifs simultanément est physiquement impossible pour une personne. Soit vous laissez tomber des balles, soit vous plafonnez votre business."
         ]
       },
       "solutions": {
@@ -603,27 +603,27 @@
         ]
       },
       "examples": {
-        "title": "Exemples reels d'IA immobiliere",
+        "title": "Plus d'Affaires Conclues. Réponses Plus Rapides. Zéro Prospect Abandonné.",
         "items": [
           {
-            "title": "Aucun prospect oublie",
-            "desc": "Un agent a 35 prospects acheteurs actifs a differentes etapes.",
-            "real": "L'IA envoie des suivis personnalises a chaque prospect selon le planning : nouvelles annonces pour les acheteurs actifs, mises a jour du marche pour les prospects en maturation, et rappels d'anniversaire pour les anciens clients."
+            "title": "14 Annonces Gérées Solo Sans Manquer un Suivi",
+            "desc": "Un agent performant jonglant avec 14 annonces actives laissait tomber les suivis. Les acheteurs visitaient une propriété, exprimaient de l'intérêt, puis n'entendaient rien pendant une semaine. Trois affaires sont tombées à l'eau en un trimestre à cause d'offres concurrentes pendant le silence.",
+            "real": "L'IA envoie des suivis personnalisés dans les 4 heures après chaque visite : 'Merci d'avoir visité le 42 Maple Drive aujourd'hui. J'ai remarqué que vous avez demandé sur le district scolaire, voici les dernières évaluations.' Elle suit les modèles de réponse et escalade les prospects chauds. Le taux de suivi est passé de 60% à 100%. L'agent a conclu 11 de ces 14 annonces le trimestre suivant."
           },
           {
-            "title": "Rapport comparatif instantane",
-            "desc": "Un vendeur veut connaitre la valeur de sa maison avant de la mettre en vente.",
-            "real": "L'IA extrait les ventes comparables recentes dans un rayon de 500m, ajuste selon la superficie et les caracteristiques, et livre un rapport d'analyse de marche en moins de 3 minutes."
+            "title": "Rapport Comparable Généré Pendant le Rendez-vous d'Inscription",
+            "desc": "Un vendeur demande 'que vaut ma maison ?' pendant le rendez-vous d'inscription. L'agent avait l'habitude de dire 'je vous enverrai une ACM demain.' Le vendeur recevait trois autres opinions avant l'arrivée de cette ACM.",
+            "real": "Maintenant l'agent message l'IA depuis la cuisine : '4 chambres 2 salles de bains, 2 100 pieds carrés, construit 1998, 42 Maple Dr.' En 90 secondes, l'IA tire 8 ventes comparables dans un rayon de 800m des 6 derniers mois, ajuste pour la taille du terrain et l'état, et livre un rapport comparable formaté. L'agent le montre sur son téléphone avant la fin du rendez-vous."
           },
           {
-            "title": "Service client multilingue",
-            "desc": "Un client en relocation parle mandarin et a besoin d'une recherche de quartier sur les districts scolaires.",
-            "real": "L'IA recherche les classements scolaires, les temps de trajet et les commodites locales, puis livre un rapport de quartier complet en mandarin."
+            "title": "Acheteur Mandarin Servi Entièrement dans Sa Langue",
+            "desc": "Un client de relocalisation de Shanghai avait besoin de recherche de quartier pour deux enfants d'âge scolaire. L'agent référent ne parlait qu'anglais et perdait le client face à un concurrent parlant mandarin.",
+            "real": "L'IA a géré toute la communication en mandarin : recherché les évaluations d'écoles, scores de marchabilité, temps de trajet vers le nouveau bureau du client, et épiceries chinoises à proximité. Elle a livré un rapport de comparaison de quartiers en mandarin et anglais. Le client est resté et a acheté une maison en 6 semaines."
           },
           {
-            "title": "Coordination jour de visites",
-            "desc": "Un agent a 8 visites programmees a travers la ville un samedi.",
-            "real": "L'IA optimise l'itineraire, envoie des confirmations a tous les clients, prepare des fiches de propriete pour chaque arret, et reprogramme automatiquement une annulation."
+            "title": "8 Visites, Zéro Conflit de Planning",
+            "desc": "Un agent d'acheteur avait programmé 8 visites à travers la ville un samedi. Deux vendeurs ont changé de disponibilité à la dernière minute. Un acheteur était en retard de 20 minutes. Le résultat habituel : chaos, créneaux manqués, et message d'excuse.",
+            "real": "L'IA a ré-optimisé l'itinéraire en temps réel, envoyé des confirmations mises à jour à toutes les parties, reprogrammé les deux conflits dans des créneaux d'après-midi ouverts, et ajusté l'heure de prise en charge de l'acheteur. Les 8 visites ont été complétées. L'acheteur a fait une offre sur la visite n°6 ce soir-là."
           }
         ]
       },
@@ -656,11 +656,11 @@
       "heroTitle": "IA pour les createurs de contenu",
       "heroSub": "Votre equipe creative qui ne s'epuise jamais. Redaction SEO, gestion de calendrier editorial et publication multi-plateforme a grande echelle.",
       "problems": {
-        "title": "Le goulot du contenu",
+        "title": "Votre Machine à Contenu Cale",
         "items": [
-          "La creation de contenu reguliere est epuisante. Les redacteurs s'epuisent, les freelances disparaissent et votre calendrier editorial prend du retard en quelques semaines.",
-          "La recherche SEO, l'optimisation de mots-cles et le suivi analytique pour chaque contenu multiplient la charge de travail bien au-dela de la simple redaction.",
-          "Gerer plusieurs plateformes, maintenir la voix de marque sur tous les canaux et adapter le contenu a differents formats est un travail de coordination a plein temps."
+          "La publication consistante nécessite 15-20 heures par semaine de recherche, écriture, et édition. La plupart des équipes peuvent maintenir 2-3 articles par semaine avant que la qualité chute. Vos concurrents publient quotidiennement.",
+          "Chaque article non optimisé SEO est du trafic laissé sur la table. Une bibliothèque de contenu de 200 articles avec de mauvaises méta-descriptions et des lacunes de mots-clés pourrait perdre 40%+ de son potentiel organique.",
+          "Un article de blog devrait générer 10+ pièces de contenu dérivé à travers les canaux. Au lieu de ça, la plupart des entreprises le partagent une fois sur LinkedIn et passent à autre chose. C'est 90% de la valeur du contenu non réalisée."
         ]
       },
       "solutions": {
@@ -699,27 +699,27 @@
         ]
       },
       "examples": {
-        "title": "Exemples reels d'IA contenu",
+        "title": "Plus de Contenu. Meilleur Classement. Portée Plus Large.",
         "items": [
           {
-            "title": "10 articles par semaine, zero epuisement",
-            "desc": "Une marque lifestyle de luxe a besoin de contenu hebdomadaire regulier dans plusieurs categories.",
-            "real": "L'IA recherche les sujets tendance, redige des articles optimises SEO avec des credits auteur, et les publie directement dans le CMS selon le planning."
+            "title": "52 Articles Publiés en 60 Jours, Tous On-Brand",
+            "desc": "Une publication lifestyle de luxe devait passer de 2 articles par semaine à 10 pour rivaliser pour le trafic de recherche. Les freelances livraient une qualité incohérente et manquaient les deadlines. L'éditeur passait plus de temps à réécrire qu'à écrire.",
+            "real": "L'IA a étudié les 200+ articles existants de la publication, extrait la voix de marque, et commencé à produire 2 articles quotidiens. Chacun : recherché, écrit avec signatures appropriées, optimisé SEO, et formaté pour le CMS. Le rôle de l'éditeur est passé de la réécriture à l'approbation. Trafic organique +340% au premier trimestre."
           },
           {
-            "title": "Voix de marque verrouillee",
-            "desc": "Le contenu de l'entreprise sonne differemment a chaque changement de freelance.",
-            "real": "L'IA etudie plus de 50 articles existants, extrait le profil de voix de marque et produit un nouveau contenu indiscernable des redacteurs originaux."
+            "title": "Un Article de Blog Devient 12 Pièces de Contenu",
+            "desc": "Une entreprise B2B publie un article de blog approfondi hebdomadaire. L'équipe marketing sait qu'elle devrait le réutiliser pour les réseaux, email, et vidéo, mais personne n'a le temps. L'article de blog est partagé une fois sur LinkedIn et c'est tout.",
+            "real": "L'IA prend chaque article publié et génère : 3 posts LinkedIn (angles différents), 2 fils Twitter, une intro de newsletter email, un résumé de présentation, une copie de carrousel Instagram, et un plan de script vidéo YouTube. Tout adapté au format et ton de chaque plateforme. Une pièce de contenu drive maintenant l'engagement sur 6 canaux."
           },
           {
-            "title": "Reutilisation pour les reseaux sociaux",
-            "desc": "Un article de blog long doit devenir 5 posts sociaux, une intro de newsletter et un article LinkedIn.",
-            "real": "L'IA genere tout le contenu derive dans le format et le ton corrects pour chaque plateforme en quelques minutes apres la publication de l'article original."
+            "title": "Audit SEO Récupère 40% de Trafic Perdu",
+            "desc": "Un site de contenu avec 180+ articles a vu son trafic organique chuter de 40% après une mise à jour d'algorithme Google. L'équipe soupçonnait du contenu léger et de la cannibalisation de mots-clés mais n'avait pas la bande passante pour tout auditer.",
+            "real": "L'IA a audité les 180 articles en 3 heures : signalé 23 avec du contenu léger, identifié 11 groupes de cannibalisation de mots-clés, et trouvé 34 méta-descriptions manquantes. Elle a réécrit les articles légers, consolidé les groupes cannibalisés, et optimisé toutes les méta-balises. Le trafic a récupéré en 6 semaines."
           },
           {
-            "title": "Audit et optimisation SEO",
-            "desc": "Une bibliotheque de contenu existante de plus de 200 articles necessite une optimisation SEO.",
-            "real": "L'IA audite chaque article pour les lacunes de mots-cles, meta-descriptions, structure de titres et liens internes, puis effectue des ameliorations ciblees."
+            "title": "Calendrier d'Événements Qui Se Remplit Tout Seul",
+            "desc": "Une marque lifestyle urbaine veut publier des récapitulatifs d'événements locaux hebdomadaires, mais rechercher les événements à travers 15+ lieux, offices de tourisme, et comptes sociaux prend une journée complète à un stagiaire.",
+            "real": "L'IA surveille les calendriers de lieux, agrégateurs d'événements, et actualités locales quotidiennement. Chaque lundi matin, elle livre un récapitulatif d'événements brouillon : curé, catégorisé par type, avec photos sourcées et prêt à publier. L'éditeur révise, ajoute une note personnelle en haut, et publie avant midi."
           }
         ]
       },
@@ -752,11 +752,11 @@
       "heroTitle": "IA pour le genie logiciel",
       "heroSub": "Votre ingenieur senior qui aime etre d'astreinte. Revues de code, surveillance d'infrastructure auto-reparatrice et automatisation du deploiement qui ne dort jamais.",
       "problems": {
-        "title": "Le goulot d'etranglement de l'ingenierie",
+        "title": "Votre équipe est coincée en mode pompier",
         "items": [
-          "Les rotations d'astreinte epuisent vos meilleurs ingenieurs. Les alertes a 3h du matin, les incidents le week-end et le changement de contexte entre le codage et la resolution d'incidents tuent la productivite.",
-          "Les revues de code s'accumulent dans les files de PR, bloquant les deploiements et ralentissant toute l'equipe. Les ingenieurs seniors passent plus de temps a reviser qu'a construire.",
-          "La surveillance de l'infrastructure est reactive, pas proactive. Quand vous voyez l'alerte, les utilisateurs sont deja affectes."
+          "L'épuisement des astreintes vous coûte vos meilleurs ingénieurs. Remplacer un ingénieur senior coûte 50 000 $ à 100 000 $ en recrutement et montée en compétences. Pendant ce temps, des incidents à 3 h du matin qui auraient pu être résolus automatiquement réveillent vos collaborateurs les plus coûteux.",
+          "Les files d'attente de revue de PR dépassant 2 jours en moyenne bloquent les déploiements et démoralisent les équipes. Chaque jour d'attente d'une PR accumule des conflits de fusion et une perte de contexte. Votre vitesse de livraison est plafonnée par la bande passante de revue.",
+          "La surveillance réactive de l'infrastructure signifie que vos utilisateurs découvrent vos pannes avant vous. Chaque heure d'indisponibilité non détectée coûte de la confiance, du chiffre d'affaires et des pénalités SLA. L'auto-réparation proactive se rentabilise dès la première panne interceptée à 3 h du matin."
         ]
       },
       "solutions": {
@@ -795,27 +795,27 @@
         ]
       },
       "examples": {
-        "title": "Exemples reels d'IA logicielle",
+        "title": "Revues plus rapides. Systèmes auto-réparateurs. Ingénieurs reposés.",
         "items": [
           {
-            "title": "Revues de PR en minutes",
-            "desc": "Une equipe de 8 ingenieurs genere plus de 15 PR par jour, et les revues sont le goulot.",
-            "real": "L'IA revise chaque PR en quelques minutes apres soumission : verifie les violations de style, genere un resume des differences avec diagrammes d'architecture et publie des commentaires inline sur les problemes potentiels."
+            "title": "Retard de revue de PR éliminé en une semaine",
+            "desc": "Une équipe de 8 ingénieurs avait un goulet d'étranglement en revue de PR : plus de 15 PR ouvertes quotidiennement, temps de revue moyen de 2,3 jours. Les ingénieurs alternaient entre écriture et revue de code, et rien n'avançait vite.",
+            "real": "L'IA examine chaque PR dans les 5 minutes suivant sa soumission : vérifie les violations de style, les patterns de sécurité, les lacunes de couverture de tests et génère un diagramme d'architecture montrant l'impact du changement. Elle poste des commentaires inline spécifiques, pas des suggestions génériques. Les réviseurs humains ne se concentrent plus que sur les décisions de logique métier. Le temps de revue moyen est passé de 2,3 jours à 4 heures."
           },
           {
-            "title": "Auto-reparation a 3h du matin",
-            "desc": "Un epuisement du pool de connexions de la base de donnees fait tomber un service API a 3h12.",
-            "real": "L'IA detecte la panne via les checks heartbeat, redemarre le service, purge les connexions perimees, verifie la reprise et publie un rapport d'incident complet. L'ingenieur d'astreinte le lit au petit dejeuner."
+            "title": "Panne à 3 h du matin résolue avant le réveil de quiconque",
+            "desc": "Le pool de connexions de base de données d'une plateforme SaaS s'est épuisé à 3 h 12 un mardi. Le téléphone de l'ingénieur d'astreinte a sonné, mais il était en sommeil profond après une longue journée de déploiement.",
+            "real": "L'IA a détecté la panne via la surveillance des heartbeats, identifié la cause racine (fuite de connexions suite à un déploiement récent), redémarré le service avec une limite de connexions sûre, nettoyé le pool obsolète, vérifié le correctif avec des requêtes synthétiques et posté un rapport d'incident détaillé dans le canal de l'équipe. L'ingénieur d'astreinte s'est réveillé avec un incident résolu et une analyse de cause racine prête pour le standup du matin."
           },
           {
-            "title": "Confiance dans le deploiement",
-            "desc": "Un deploiement en production un vendredi apres-midi necessite une confiance supplementaire.",
-            "real": "L'IA execute la suite de tests complete, compare les artefacts de build, effectue un deploiement canari sur 5% du trafic, surveille les taux d'erreur pendant 15 minutes, puis complete le deploiement."
+            "title": "5 serveurs, zéro vérification manuelle de santé",
+            "desc": "Une petite équipe gère 5 instances de serveurs chez deux fournisseurs cloud. Quelqu'un se connectait en SSH à chacun chaque semaine pour vérifier l'espace disque, les certificats SSL et l'état des services. Parfois on oubliait. Parfois on trouvait des problèmes qui traînaient depuis des jours.",
+            "real": "L'IA effectue des vérifications de santé automatiques toutes les 30 minutes : utilisation disque, mémoire, expiration SSL, disponibilité des services, fraîcheur des sauvegardes et validité des jetons d'authentification. Quand le disque d'une instance a atteint 85 %, elle a nettoyé les anciens journaux automatiquement. Quand un certificat SSL était à 14 jours de l'expiration, elle l'a renouvelé. L'équipe ne s'est pas connectée en SSH pour une vérification manuelle depuis 6 mois."
           },
           {
-            "title": "Surveillance multi-serveurs",
-            "desc": "Une equipe gere plus de 5 instances serveur chez plusieurs fournisseurs cloud.",
-            "real": "L'IA execute des checks heartbeat toutes les 30 minutes, surveille l'espace disque, l'expiration des certificats SSL, le temps de fonctionnement des services et gere automatiquement les sauvegardes chiffrees vers le stockage cloud."
+            "title": "Documentation toujours à jour",
+            "desc": "Une base de code en croissance avait une documentation vieille de 18 mois à laquelle personne ne faisait confiance. Les nouveaux ingénieurs passaient leur première semaine à lire le code plutôt que la documentation, car les docs étaient pires qu'inexistantes : elles étaient trompeuses.",
+            "real": "L'IA surveille chaque PR fusionnée et met à jour automatiquement la documentation correspondante : les changements d'API sont reflétés dans les docs en quelques heures, les endpoints dépréciés sont signalés et les nouvelles fonctionnalités sont documentées avant même que l'auteur n'y pense. Le README a maintenant un horodatage « dernière vérification » qui ne dépasse jamais un jour."
           }
         ]
       },
@@ -848,11 +848,11 @@
       "heroTitle": "IA pour la comptabilite",
       "heroSub": "Votre comptable qui aime la saison des impots. Declarations d'entreprise, categorisation des depenses, gestion des factures et suivi des echeances sans faille.",
       "problems": {
-        "title": "Les points de douleur comptables",
+        "title": "Des livres en retard coûtent de l'argent réel",
         "items": [
-          "Les petites entreprises ne peuvent pas se permettre un comptable a plein temps, alors les taches financieres s'accumulent jusqu'a la panique de la saison fiscale.",
-          "Les entreprises multi-entites jonglent avec des echeances de depot chevauchantes, des transactions inter-societes et differentes obligations fiscales faciles a manquer.",
-          "La categorisation manuelle des depenses, le suivi des factures et le rapprochement bancaire consomment des heures chaque semaine qui pourraient etre consacrees a la croissance."
+          "Les petites entreprises dépensent 5 000 $ à 15 000 $ par an en comptabilité perpétuellement en retard de 2 à 3 mois. Quand vous voyez enfin les chiffres, les décisions qu'ils auraient dû éclairer sont déjà prises.",
+          "Les entreprises multi-entités manquent en moyenne 1 à 2 échéances de déclaration par an. Les pénalités de l'ARC commencent à 100 $ et peuvent s'accumuler à des milliers. Un seul amendement T5 oublié peut déclencher une pénalité Part III.1 de plus de 9 000 $.",
+          "Le suivi manuel des factures signifie que de l'argent reste sur la table. La petite entreprise moyenne envoie ses factures 5 à 7 jours après la fin du travail. Ce seul délai repousse l'encaissement de 3 à 4 semaines."
         ]
       },
       "solutions": {
@@ -891,27 +891,27 @@
         ]
       },
       "examples": {
-        "title": "Exemples reels d'IA comptable",
+        "title": "Pénalités évitées. Remboursements découverts. Livres toujours à jour.",
         "items": [
           {
-            "title": "Saison fiscale sans panique",
-            "desc": "Un proprietaire de petite entreprise possede trois societes avec des fins d'exercice chevauchantes.",
-            "real": "L'IA suit toutes les echeances de depot, prepare les feuillets T4A et les modifications T5 a l'avance, compile les documents justificatifs et depose les declarations T2 completes avant la date limite."
+            "title": "Trois sociétés, zéro échéance manquée",
+            "desc": "Un dirigeant gère une société de conseil en Ontario, une société tech en Colombie-Britannique et une société de portefeuille personnelle. Chacune a des dates de fin d'exercice, des exigences de déclaration et des obligations fiscales différentes. Le tableur du comptable avait des trous.",
+            "real": "L'IA suit chaque échéance pour les trois entités : déclarations T2, feuillets T4A, rapports T5 sur les dividendes, déclarations TVH/TPS, rapports annuels et remises de paie. Les rappels commencent 30 jours avant et passent à quotidiens à l'approche de l'échéance. Elle a détecté un amendement T5 oublié qui aurait déclenché une pénalité de 9 000 $. Toutes les déclarations déposées à temps deux années consécutives."
           },
           {
-            "title": "Suivi des depenses en temps reel",
-            "desc": "Les depenses d'un cabinet de conseil sont reparties sur 4 cartes de credit et 2 comptes bancaires.",
-            "real": "L'IA extrait les transactions quotidiennement, categorise chacune (repas, deplacement, logiciel, formation), signale les charges inhabituelles et maintient les livres a jour en temps reel."
+            "title": "25 000 $ de remboursement découvert dans un trop-perçu d'acomptes",
+            "desc": "Une société de conseil versait des acomptes trimestriels basés sur le revenu de l'année précédente, une année exceptionnelle. L'année en cours était plus calme, mais les acomptes continuaient au même rythme. Personne ne l'avait remarqué.",
+            "real": "L'IA a comparé le chiffre d'affaires cumulé aux acomptes versés et signalé un trop-perçu de 25 000 $. Elle a généré les calculs, préparé les pièces justificatives et le dirigeant a ajusté l'acompte du trimestre suivant. Le trop-perçu a été récupéré comme crédit d'impôt sur la prochaine déclaration T2."
           },
           {
-            "title": "Automatisation de la facturation",
-            "desc": "Une entreprise de services envoie plus de 30 factures par mois avec des tarifs et conditions variables.",
-            "real": "L'IA genere des factures basees sur les heures enregistrees et les conditions contractuelles, les envoie a temps, suit les statuts de paiement et relance automatiquement les comptes en retard."
+            "title": "Catégorisation des dépenses : 400 transactions, 20 minutes",
+            "desc": "Un cabinet de conseil gère ses dépenses sur 4 cartes de crédit et 2 comptes bancaires. Chaque mois, le comptable télécharge les CSV, catégorise manuellement chaque transaction et rapproche les reçus. Cela prend deux jours complets.",
+            "real": "L'IA récupère les transactions quotidiennement, les catégorise automatiquement selon des schémas appris (ce fournisseur est toujours « Abonnements logiciels », celui-là est toujours « Réceptions clients »), signale les anomalies et génère un rapport mensuel de dépenses prêt à valider. Le processus de deux jours se réduit à 20 minutes de vérification ponctuelle."
           },
           {
-            "title": "Rapprochement multi-entites",
-            "desc": "Les transactions inter-societes entre trois societes liees necessitent un rapprochement mensuel.",
-            "real": "L'IA fait correspondre les charges inter-societes, genere les ecritures d'elimination et produit les etats financiers consolides pour la societe mere."
+            "title": "Facture envoyée 4 minutes après la fin de la réunion",
+            "desc": "Un consultant indépendant termine une session stratégique de 2 heures avec un client. Normalement, la facture part « dans la semaine », ce qui signifie en réalité « quand j'y pense ». Net 30 devient net 60 parce que le compteur démarre en retard.",
+            "real": "Le consultant envoie un message vocal : « Je viens de terminer 2 heures avec Meridian sur leur revue stratégique T3. » L'IA génère la facture au bon tarif, l'envoie au service comptable du client et enregistre les heures. Le client reçoit la facture 4 minutes après la réunion. Le délai moyen d'encaissement s'améliore de 22 jours."
           }
         ]
       },
