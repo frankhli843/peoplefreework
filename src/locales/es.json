@@ -938,5 +938,34 @@
         "button": "Obtener tu IA contable →"
       }
     }
+  },
+  "industriesShowcase": {
+    "sectionTitle": "Industrias que servimos",
+    "sectionSub": "Cada industria tiene sus desafíos. Creamos empleados IA que entienden los tuyos.",
+    "learnMore": "Saber más",
+    "legal": {
+      "title": "Legal",
+      "desc": "Facturación por voz, seguimiento de casos, investigación jurídica y procesamiento de documentos. Tu asistente legal que nunca duerme."
+    },
+    "manufacturing": {
+      "title": "Manufactura",
+      "desc": "Monitoreo de producción, análisis de cadena de suministro, reportes de calidad y briefings operativos. El brazo derecho de tu gerente de planta."
+    },
+    "realEstate": {
+      "title": "Bienes raíces",
+      "desc": "Integración MLS, gestión de listados, seguimiento de clientes e investigación de mercado. El arma secreta de tu mejor agente."
+    },
+    "content": {
+      "title": "Creación de contenido",
+      "desc": "Redacción SEO, flujos de publicación, calendarios editoriales y consistencia de marca. Tu equipo creativo incansable."
+    },
+    "software": {
+      "title": "Ingeniería de software",
+      "desc": "Revisión de código, monitoreo de infraestructura, automatización CI/CD y guardia 24/7. Tu ingeniero senior que ama estar de guardia."
+    },
+    "accounting": {
+      "title": "Contabilidad",
+      "desc": "Declaraciones fiscales, contabilidad, facturación y cumplimiento corporativo. Tu contador que realmente disfruta la temporada fiscal."
+    }
   }
 }

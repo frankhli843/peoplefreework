@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import { Link } from 'react-router-dom'
 
 const teamKeys = ['sarah', 'olivia', 'devon', 'marcus', 'priya', 'james', 'sofia', 'elena', 'yuki', 'aisha']
 
@@ -216,6 +217,31 @@ export default function Home() {
               <a href={searchMailto} className="btn btn-primary">{t('team.search.cta')}</a>
             </div>
           )}
+        </div>
+      </section>
+
+      {/* Industries We Serve */}
+      <section className="section" id="industries">
+        <div className="section-header">
+          <h2 className="section-title">{t('industriesShowcase.sectionTitle')}</h2>
+          <p className="section-sub">{t('industriesShowcase.sectionSub')}</p>
+        </div>
+        <div className="industries-grid">
+          {[
+            { key: 'legal', icon: '⚖️', color: '#6366f1', route: '/industries/legal' },
+            { key: 'manufacturing', icon: '🏭', color: '#f59e0b', route: '/industries/manufacturing' },
+            { key: 'realEstate', icon: '🏠', color: '#10b981', route: '/industries/real-estate' },
+            { key: 'content', icon: '✍️', color: '#ec4899', route: '/industries/content' },
+            { key: 'software', icon: '💻', color: '#0ea5e9', route: '/industries/software' },
+            { key: 'accounting', icon: '📊', color: '#f59e0b', route: '/industries/accounting' },
+          ].map((ind) => (
+            <Link to={ind.route} className="industry-showcase-card" key={ind.key} style={{ '--card-accent': ind.color }}>
+              <div className="industry-showcase-icon">{ind.icon}</div>
+              <h3 className="industry-showcase-title">{t(`industriesShowcase.${ind.key}.title`)}</h3>
+              <p className="industry-showcase-desc">{t(`industriesShowcase.${ind.key}.desc`)}</p>
+              <span className="industry-showcase-link">{t('industriesShowcase.learnMore')}</span>
+            </Link>
+          ))}
         </div>
       </section>
 
