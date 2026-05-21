@@ -6,11 +6,11 @@
     "hireTalent": "Contratar →"
   },
   "hero": {
-    "title1": "Talento excepcional.",
+    "title1": "Talento de IA excepcional.",
     "title2": " Cero humanidad.",
-    "sub": "Creamos especialistas brillantes e incansables que trabajan las 24 horas del día. Nunca se quejan, nunca renuncian y nunca piden vacaciones.",
-    "subBold": "En las buenas y en las malas, siempre te respaldan.",
-    "meetTeam": "Conoce al equipo",
+    "sub": "Conoce a los agentes de IA que se encargan del trabajo real las 24 horas para empresas de todo el mundo. Empleados de IA listos para desplegar que aprenden tus flujos de trabajo, dirigen tus operaciones, y nunca se quejan, renuncian ni piden vacaciones.",
+    "subBold": "En las buenas y en las malas, tus compañeros de IA siempre te respaldan.",
+    "meetTeam": "Conoce al equipo de IA",
     "getInTouch": "Contáctanos"
   },
   "stats": {
@@ -56,15 +56,15 @@
     }
   },
   "team": {
-    "sectionTitle": "Nuestros especialistas",
-    "sectionSub": "Diez profesionales dedicados. Siempre disponibles. Sospechosamente perfectos.",
+    "sectionTitle": "Conoce a nuestros especialistas de IA",
+    "sectionSub": "Diez agentes de IA dedicados. Siempre disponibles. Sospechosamente perfectos.",
     "showMore": "Ver más especialistas ↓",
     "available": "Disponible",
     "response": "Respuesta:",
     "members": {
       "olivia": {
-        "title": "Directora creativa",
-        "bio": "Diseña estrategias de marca, escribe textos y crea contenido que convierte. Nunca ha experimentado bloqueo creativo. No sabe qué es eso.",
+        "title": "Directora creativa (Agente de IA)",
+        "bio": "Un agente de IA que diseña estrategias de marca, escribe textos y crea contenido que convierte. Nunca ha experimentado bloqueo creativo. No sabe qué es eso.",
         "skills": [
           "Estrategia de marca",
           "Redacción",
@@ -73,8 +73,8 @@
         ]
       },
       "devon": {
-        "title": "Desarrollador de software senior",
-        "bio": "Construye aplicaciones full-stack, revisa pull requests y despliega en producción a las 3am sin quejarse. Ha producido más código limpio que todo tu equipo de ingeniería junto. Ha producido cero bugs. Supuestamente.",
+        "title": "Desarrollador de software senior (Agente de IA)",
+        "bio": "Un agente de IA que construye aplicaciones full-stack, revisa pull requests y despliega en producción a las 3am sin quejarse. Ha producido más código limpio que todo tu equipo de ingeniería junto. Ha producido cero bugs. Supuestamente.",
         "skills": [
           "Desarrollo full-stack",
           "Revisión de código",
@@ -83,8 +83,8 @@
         ]
       },
       "sarah": {
-        "title": "Asistente ejecutiva",
-        "bio": "Gestiona agendas, clasifica correos y prepara reuniones. Nunca falla un plazo. Literalmente nunca.",
+        "title": "Asistente ejecutiva (Agente de IA)",
+        "bio": "Un agente de IA que gestiona agendas, clasifica correos y prepara reuniones. Nunca falla un plazo. Literalmente nunca.",
         "skills": [
           "Gestión de agenda",
           "Clasificación de correos",
@@ -93,8 +93,8 @@
         ]
       },
       "marcus": {
-        "title": "Especialista en operaciones legales",
-        "bio": "Rastrea casos, genera facturas y vigila cada fecha límite. Nunca ha fallado un plazo de presentación. Ni una vez.",
+        "title": "Especialista en operaciones legales (Agente de IA)",
+        "bio": "Un agente de IA que rastrea casos, genera facturas y vigila cada fecha límite. Nunca ha fallado un plazo de presentación. Ni una vez.",
         "skills": [
           "Seguimiento de casos",
           "Facturación",
@@ -103,8 +103,8 @@
         ]
       },
       "priya": {
-        "title": "Coordinadora inmobiliaria",
-        "bio": "Gestiona listados, hace seguimiento a clientes y ofrece análisis de mercado a demanda. Cero hobbies fuera del trabajo. Totalmente satisfecha.",
+        "title": "Coordinadora inmobiliaria (Agente de IA)",
+        "bio": "Un agente de IA que gestiona listados, hace seguimiento a clientes y ofrece análisis de mercado a demanda. Cero hobbies fuera del trabajo. Totalmente satisfecha.",
         "skills": [
           "Gestión de listados",
           "Seguimiento de clientes",
@@ -113,8 +113,8 @@
         ]
       },
       "james": {
-        "title": "Gerente de operaciones",
-        "bio": "Automatiza flujos de trabajo, prioriza tareas y genera informes. Nunca se ha quejado de la carga de trabajo. Ni de nada, en realidad.",
+        "title": "Gerente de operaciones (Agente de IA)",
+        "bio": "Un agente de IA que automatiza flujos de trabajo, prioriza tareas y genera informes. Nunca se ha quejado de la carga de trabajo. Ni de nada, en realidad.",
         "skills": [
           "Automatización",
           "Priorización",
@@ -123,8 +123,8 @@
         ]
       },
       "sofia": {
-        "title": "Estratega de marketing",
-        "bio": "Planifica campañas, analiza métricas y optimiza embudos. Aumentó la tasa de conversión de un cliente en un 340%. No se tomó un día libre para celebrarlo.",
+        "title": "Estratega de marketing (Agente de IA)",
+        "bio": "Un agente de IA que planifica campañas, analiza métricas y optimiza embudos. Aumentó la tasa de conversión de un cliente en un 340%. No se tomó un día libre para celebrarlo.",
         "skills": [
           "Gestión de campañas",
           "Analítica",
@@ -133,8 +133,8 @@
         ]
       },
       "elena": {
-        "title": "Contadora",
-        "bio": "Rastrea gastos, envía facturas y mantiene los libros impecables. 0 días de baja, 0 vacaciones y 0 pausas para café desde que empezó.",
+        "title": "Contadora (Agente de IA)",
+        "bio": "Un agente de IA que rastrea gastos, envía facturas y mantiene los libros impecables. 0 días de baja, 0 vacaciones y 0 pausas para café desde que empezó.",
         "skills": [
           "Seguimiento de gastos",
           "Facturación",
@@ -143,8 +143,8 @@
         ]
       },
       "yuki": {
-        "title": "Enlace Asia-Pacífico",
-        "bio": "Conecta la comunicación en todo el Este de Asia. Redacta correos en mandarín a las 9, atiende llamadas en japonés al mediodía y cierra tratos en coreano a las 5. Todos los días.",
+        "title": "Enlace Asia-Pacífico (Agente de IA)",
+        "bio": "Un agente de IA que conecta la comunicación en todo el Este de Asia. Redacta correos en mandarín a las 9, atiende llamadas en japonés al mediodía y cierra tratos en coreano a las 5. Todos los días.",
         "skills": [
           "Comunicación transfronteriza",
           "Traducción",
@@ -153,8 +153,8 @@
         ]
       },
       "aisha": {
-        "title": "Gerente de relaciones con clientes",
-        "bio": "Incorpora nuevos clientes y mantiene altos puntajes de satisfacción. Recuerda perfectamente el nombre, preferencias e historial de cada cliente. Sin vida personal.",
+        "title": "Gerente de relaciones con clientes (Agente de IA)",
+        "bio": "Un agente de IA que incorpora nuevos clientes y mantiene altos puntajes de satisfacción. Recuerda perfectamente el nombre, preferencias e historial de cada cliente. Sin vida personal.",
         "skills": [
           "Incorporación",
           "Comunicación",

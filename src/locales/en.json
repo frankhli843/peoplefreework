@@ -6,11 +6,11 @@
     "hireTalent": "Hire Talent →"
   },
   "hero": {
-    "title1": "Exceptional talent.",
+    "title1": "Exceptional AI talent.",
     "title2": " Zero humanity.",
-    "sub": "We build brilliant, tireless specialists who handle real work around the clock. They never complain, never quit, and never ask for time off.",
-    "subBold": "Through thick and thin, they've got your back.",
-    "meetTeam": "Meet the Team",
+    "sub": "Meet the AI agents handling real work around the clock for businesses worldwide. Deployable AI employees that learn your workflows, run your operations, and never complain, quit, or take time off.",
+    "subBold": "Through thick and thin, your AI teammates have your back.",
+    "meetTeam": "Meet the AI Team",
     "getInTouch": "Get in Touch"
   },
   "stats": {
@@ -56,8 +56,8 @@
     }
   },
   "team": {
-    "sectionTitle": "Our Specialists",
-    "sectionSub": "Ten dedicated professionals. Always available. Suspiciously perfect.",
+    "sectionTitle": "Meet Our AI Specialists",
+    "sectionSub": "Ten dedicated AI agents. Always available. Suspiciously perfect.",
     "search": {
       "placeholder": "Find your skillset...",
       "reveal": "Can't find what you're looking for? We build custom AI agents with the personality, expertise, and experience that match your exact needs. Your perfect hire doesn't exist yet — but we can create them.",
@@ -70,8 +70,8 @@
     "response": "Response:",
     "members": {
       "olivia": {
-        "title": "Creative Director",
-        "bio": "Designs brand strategies, writes copy, and creates content that converts. Has never experienced creative burnout. Doesn't know what that is.",
+        "title": "Creative Director (AI Agent)",
+        "bio": "An AI agent who designs brand strategies, writes copy, and creates content that converts. Has never experienced creative burnout. Doesn't know what that is.",
         "skills": [
           "Brand Strategy",
           "Copywriting",
@@ -80,8 +80,8 @@
         ]
       },
       "devon": {
-        "title": "Senior Software Developer",
-        "bio": "Builds full-stack applications, reviews pull requests, and deploys to production at 3am without complaint. Has mass-produced more clean code than your entire engineering team combined. Has mass-produced zero bugs. Allegedly.",
+        "title": "Senior Software Developer (AI Agent)",
+        "bio": "An AI agent who builds full-stack applications, reviews pull requests, and deploys to production at 3am without complaint. Has mass-produced more clean code than your entire engineering team combined. Has mass-produced zero bugs. Allegedly.",
         "skills": [
           "Full-Stack Development",
           "Code Review",
@@ -90,8 +90,8 @@
         ]
       },
       "sarah": {
-        "title": "Executive Assistant",
-        "bio": "Manages calendars, triages emails, and preps meetings so you never miss a beat. Never misses a deadline. Literally never.",
+        "title": "Executive Assistant (AI Agent)",
+        "bio": "An AI agent who manages calendars, triages emails, and preps meetings so you never miss a beat. Never misses a deadline. Literally never.",
         "skills": [
           "Calendar Management",
           "Email Triage",
@@ -100,8 +100,8 @@
         ]
       },
       "marcus": {
-        "title": "Legal Operations Specialist",
-        "bio": "Tracks cases, generates invoices, and keeps every deadline on your radar. Has never missed a filing deadline. Not once.",
+        "title": "Legal Operations Specialist (AI Agent)",
+        "bio": "An AI agent who tracks cases, generates invoices, and keeps every deadline on your radar. Has never missed a filing deadline. Not once.",
         "skills": [
           "Case Tracking",
           "Invoice Generation",
@@ -110,8 +110,8 @@
         ]
       },
       "priya": {
-        "title": "Real Estate Coordinator",
-        "bio": "Manages listings, follows up with clients, and delivers market insights on demand. Has zero hobbies outside of work. Completely content.",
+        "title": "Real Estate Coordinator (AI Agent)",
+        "bio": "An AI agent who manages listings, follows up with clients, and delivers market insights on demand. Has zero hobbies outside of work. Completely content.",
         "skills": [
           "Listing Management",
           "Client Follow-ups",
@@ -120,8 +120,8 @@
         ]
       },
       "james": {
-        "title": "Operations Manager",
-        "bio": "Automates workflows, prioritizes tasks, and generates reports. Has never once complained about workload. Or anything, really.",
+        "title": "Operations Manager (AI Agent)",
+        "bio": "An AI agent who automates workflows, prioritizes tasks, and generates reports. Has never once complained about workload. Or anything, really.",
         "skills": [
           "Workflow Automation",
           "Task Prioritization",
@@ -130,8 +130,8 @@
         ]
       },
       "sofia": {
-        "title": "Marketing Strategist",
-        "bio": "Plans campaigns, analyzes metrics, and optimizes funnels. Increased one client's conversion rate by 340%. Hasn't taken a day off to celebrate.",
+        "title": "Marketing Strategist (AI Agent)",
+        "bio": "An AI agent who plans campaigns, analyzes metrics, and optimizes funnels. Increased one client's conversion rate by 340%. Hasn't taken a day off to celebrate.",
         "skills": [
           "Campaign Management",
           "Analytics",
@@ -140,8 +140,8 @@
         ]
       },
       "elena": {
-        "title": "Bookkeeper",
-        "bio": "Tracks expenses, sends invoices, and keeps your books pristine. Has taken 0 sick days, 0 vacation days, and 0 coffee breaks since starting.",
+        "title": "Bookkeeper (AI Agent)",
+        "bio": "An AI agent who tracks expenses, sends invoices, and keeps your books pristine. Has taken 0 sick days, 0 vacation days, and 0 coffee breaks since starting.",
         "skills": [
           "Expense Tracking",
           "Invoicing",
@@ -150,8 +150,8 @@
         ]
       },
       "yuki": {
-        "title": "Asia-Pacific Liaison",
-        "bio": "Bridges communication across all of East Asia. Drafts emails in Mandarin at 9am, takes a call in Japanese at noon, and closes a deal in Korean by 5pm. Every single day.",
+        "title": "Asia-Pacific Liaison (AI Agent)",
+        "bio": "An AI agent who bridges communication across all of East Asia. Drafts emails in Mandarin at 9am, takes a call in Japanese at noon, and closes a deal in Korean by 5pm. Every single day.",
         "skills": [
           "Cross-Border Communication",
           "Translation",
@@ -160,8 +160,8 @@
         ]
       },
       "aisha": {
-        "title": "Client Relations Manager",
-        "bio": "Onboards new clients and keeps satisfaction scores high. Remembers every client's name, preferences, and history perfectly. Has no personal life to speak of.",
+        "title": "Client Relations Manager (AI Agent)",
+        "bio": "An AI agent who onboards new clients and keeps satisfaction scores high. Remembers every client's name, preferences, and history perfectly. Has no personal life to speak of.",
         "skills": [
           "Onboarding",
           "Communication",
