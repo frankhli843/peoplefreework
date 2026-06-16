@@ -188,49 +188,50 @@
     }
   },
   "pricing": {
-    "sectionTitle": "Tarification simple et transparente",
-    "sectionSub": "Un employé à temps plein coûte 100 000 $+/an. Les nôtres coûtent 12 000 $. Faites le calcul.",
+    "sectionTitle": "Des tarifs adaptés à votre cas d'usage",
+    "sectionSub": "Chaque employé IA est dimensionné selon le travail à accomplir, les outils à connecter et la valeur en jeu. Expliquez-nous votre besoin et nous proposerons le bon plan.",
     "setup": {
-      "label": "Mise en place",
-      "price": "1 000 $",
-      "desc": "Frais uniques pour créer votre employé IA. Configuration des flux, intégration des outils et remise des clés.",
+      "label": "Individuels",
+      "price": "Parlons-en",
+      "desc": "Pour fondateurs, indépendants et professionnels qui veulent un employé IA concentré sur une mission précise.",
       "features": [
-        "Configuration personnalisée",
-        "Intégration d'outils",
-        "Formation et calibrage",
-        "Entièrement dédié à votre entreprise"
-      ]
+        "Démarrage avec un workflow clair",
+        "Mise en place légère",
+        "Outils adaptés au quotidien",
+        "Proposition claire avant construction"
+      ],
+      "cta": "Discuter de votre cas"
     },
     "monthly": {
       "popular": "Le plus populaire",
-      "label": "Mensuel",
-      "price": "1 000 $ US",
-      "per": "/mois",
-      "desc": "Par membre de l'équipe. Tâches illimitées, prix prévisible et soutien fiable au quotidien.",
+      "label": "Équipes",
+      "price": "Plan sur mesure",
+      "per": "",
+      "desc": "Pour petites entreprises et équipes où le prix dépend des workflows, des intégrations et du niveau de support.",
       "features": [
-        "Tâches illimitées",
-        "Disponibilité 24/7/365",
-        "Support continu quand vous en avez besoin",
-        "Ne tombe jamais malade",
-        "Performance constante chaque jour"
+        "Plusieurs workflows ou rôles",
+        "Outils et boîtes partagés",
+        "Support continu au besoin",
+        "Périmètre évolutif",
+        "Prix aligné sur la valeur métier"
       ],
-      "cta": "Commencer"
+      "cta": "Obtenir un plan sur mesure"
     },
     "yearly": {
-      "popular": "Le Plus Populaire",
-      "label": "Annuel",
-      "price": "11 000 $ US",
-      "per": "/an",
-      "desc": "Facturé annuellement. La même couverture complète pour un coût total réduit.",
-      "savings": "Économisez 1 000 $ par an",
+      "popular": "Idéal pour les entreprises",
+      "label": "Entreprise",
+      "price": "Devis sur mesure",
+      "per": "",
+      "desc": "Pour départements, workflows réglementés et opérations à l'échelle de l'entreprise, avec un périmètre lié au ROI mesurable.",
+      "savings": "Construit autour du ROI, pas des sièges",
       "features": [
-        "Tâches illimitées",
-        "Disponibilité 24/7/365",
-        "Support continu quand vous en avez besoin",
-        "Ne tombe jamais malade",
-        "Performance constante chaque jour"
+        "Intégrations complexes",
+        "Opérations à plus haut volume",
+        "Gouvernance et accès",
+        "Options de support prioritaire",
+        "Déploiement du pilote à la production"
       ],
-      "cta": "Choisir l’Annuel"
+      "cta": "Planifier un appel tarifs"
     }
   },
   "cta": {

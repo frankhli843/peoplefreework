@@ -188,49 +188,50 @@
     }
   },
   "pricing": {
-    "sectionTitle": "Precios simples y transparentes",
-    "sectionSub": "Un empleado a tiempo completo cuesta $100,000+/año. Los nuestros cuestan $12,000. Haz las cuentas.",
+    "sectionTitle": "Precios según tu caso de uso",
+    "sectionSub": "Cada empleado de IA se define según el trabajo, las herramientas y el valor en juego. Cuéntanos qué necesitas y diseñaremos el plan adecuado.",
     "setup": {
-      "label": "Configuración",
-      "price": "$1,000",
-      "desc": "Tarifa única para construir tu empleado de IA. Configuramos flujos, integramos herramientas y te entregamos las llaves.",
+      "label": "Individuales",
+      "price": "Hablemos",
+      "desc": "Para fundadores, operadores independientes y profesionales que necesitan un empleado de IA enfocado en una tarea concreta.",
       "features": [
-        "Configuración personalizada",
-        "Integración de herramientas",
-        "Entrenamiento y calibración",
-        "Totalmente dedicado a tu negocio"
-      ]
+        "Empieza con un flujo claro",
+        "Configuración ligera",
+        "Herramientas alineadas con tu día a día",
+        "Propuesta clara antes de construir"
+      ],
+      "cta": "Hablar de tu caso"
     },
     "monthly": {
       "popular": "Más popular",
-      "label": "Mensual",
-      "price": "$1,000 USD",
-      "per": "/mes",
-      "desc": "Por miembro del equipo. Tareas ilimitadas, precio predecible y soporte confiable día a día.",
+      "label": "Equipos",
+      "price": "Plan a medida",
+      "per": "",
+      "desc": "Para pequeñas empresas y equipos donde el precio depende de flujos, integraciones y nivel de soporte.",
       "features": [
-        "Tareas ilimitadas",
-        "Disponibilidad 24/7/365",
-        "Soporte siempre activo cuando lo necesites",
-        "Nunca se enferma",
-        "Rendimiento constante todos los días"
+        "Varios flujos o roles",
+        "Herramientas e inboxes compartidos",
+        "Soporte continuo cuando haga falta",
+        "Alcance que puede crecer",
+        "Precio alineado con el valor del negocio"
       ],
-      "cta": "Empezar"
+      "cta": "Pedir un plan a medida"
     },
     "yearly": {
-      "popular": "Más Popular",
-      "label": "Anual",
-      "price": "$11,000 USD",
-      "per": "/año",
-      "desc": "Facturación anual. La misma cobertura completa con menor costo total.",
-      "savings": "Ahorra $1,000 al año",
+      "popular": "Ideal para empresas",
+      "label": "Empresa",
+      "price": "Cotización a medida",
+      "per": "",
+      "desc": "Para departamentos, flujos regulados y operaciones de empresa, con alcance definido alrededor de ROI medible.",
+      "savings": "Diseñado alrededor del ROI, no de asientos",
       "features": [
-        "Tareas ilimitadas",
-        "Disponibilidad 24/7/365",
-        "Soporte siempre activo cuando lo necesites",
-        "Nunca se enferma",
-        "Rendimiento constante todos los días"
+        "Integraciones complejas",
+        "Operaciones de mayor volumen",
+        "Diseño de gobernanza y accesos",
+        "Opciones de soporte prioritario",
+        "Despliegue de piloto a producción"
       ],
-      "cta": "Elegir Plan Anual"
+      "cta": "Agendar llamada de precios"
     }
   },
   "cta": {

@@ -188,49 +188,50 @@
     }
   },
   "pricing": {
-    "sectionTitle": "Simple, Transparent Pricing",
-    "sectionSub": "A full-time employee costs $100,000+/year. Ours cost $12,000. You do the math.",
+    "sectionTitle": "Pricing Built Around Your Use Case",
+    "sectionSub": "Every AI employee is scoped to the work, the tools, and the value at stake. Tell us what you need done and we'll shape the right plan.",
     "setup": {
-      "label": "Setup",
-      "price": "$1,000",
-      "desc": "One-time fee to build your AI employee. We configure their workflows, integrate your tools, and hand over the keys.",
+      "label": "Individuals",
+      "price": "Talk to us",
+      "desc": "For founders, solo operators, and professionals who want one focused AI employee for a specific job.",
       "features": [
-        "Custom workflow setup",
-        "Tool integration",
-        "Training & calibration",
-        "Fully dedicated to your business"
-      ]
+        "Start with one clear workflow",
+        "Lightweight setup",
+        "Tools matched to your day-to-day",
+        "Clear proposal before we build"
+      ],
+      "cta": "Discuss Your Use Case"
     },
     "monthly": {
       "popular": "Most Popular",
-      "label": "Monthly",
-      "price": "$1,000 USD",
-      "per": "/mo",
-      "desc": "Per team member. Unlimited tasks, predictable pricing, and dependable day-to-day support.",
+      "label": "Teams",
+      "price": "Custom plan",
+      "per": "",
+      "desc": "For small businesses and teams where the right price depends on workflows, integrations, and support needs.",
       "features": [
-        "Unlimited tasks",
-        "24/7/365 availability",
-        "Always-on support when needed",
-        "Never gets sick",
-        "Consistent performance every day"
+        "Multiple workflows or roles",
+        "Shared team tools and inboxes",
+        "Ongoing support when needed",
+        "Scope can expand over time",
+        "Pricing matched to business value"
       ],
-      "cta": "Get Started"
+      "cta": "Get a Custom Plan"
     },
     "yearly": {
-      "popular": "Most Popular",
-      "label": "Yearly",
-      "price": "$11,000 USD",
-      "per": "/yr",
-      "desc": "Billed annually. Same full coverage, lower total cost.",
-      "savings": "Save $1,000 per year",
+      "popular": "Best for Companies",
+      "label": "Company",
+      "price": "Custom quote",
+      "per": "",
+      "desc": "For departments, regulated workflows, and company-wide operations where we scope around measurable ROI.",
+      "savings": "Built around ROI, not seats",
       "features": [
-        "Unlimited tasks",
-        "24/7/365 availability",
-        "Always-on support when needed",
-        "Never gets sick",
-        "Consistent performance every day"
+        "Complex integrations",
+        "Higher-volume operations",
+        "Governance and access design",
+        "Priority support options",
+        "Pilot-to-production rollout"
       ],
-      "cta": "Choose Yearly"
+      "cta": "Book a Pricing Call"
     }
   },
   "cta": {

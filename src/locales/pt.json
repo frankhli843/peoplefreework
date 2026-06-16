@@ -188,49 +188,50 @@
     }
   },
   "pricing": {
-    "sectionTitle": "Preços simples e transparentes",
-    "sectionSub": "Um funcionário em tempo integral custa $100.000+/ano. Os nossos custam $12.000. Faça as contas.",
+    "sectionTitle": "Preços conforme o seu caso de uso",
+    "sectionSub": "Cada funcionário de IA é definido pelo trabalho, pelas ferramentas e pelo valor envolvido. Conte-nos o que precisa e montaremos o plano certo.",
     "setup": {
-      "label": "Configuração",
-      "price": "$1.000",
-      "desc": "Taxa única para construir seu funcionário de IA. Configuramos fluxos, integramos ferramentas e entregamos as chaves.",
+      "label": "Individuais",
+      "price": "Vamos conversar",
+      "desc": "Para fundadores, operadores solo e profissionais que querem um funcionário de IA focado em uma tarefa específica.",
       "features": [
-        "Configuração personalizada",
-        "Integração de ferramentas",
-        "Treinamento e calibração",
-        "Totalmente dedicado ao seu negócio"
-      ]
+        "Comece com um fluxo claro",
+        "Configuração leve",
+        "Ferramentas alinhadas ao dia a dia",
+        "Proposta clara antes de construir"
+      ],
+      "cta": "Discutir seu caso de uso"
     },
     "monthly": {
       "popular": "Mais popular",
-      "label": "Mensal",
-      "price": "US$ 1.000",
-      "per": "/mês",
-      "desc": "Por membro da equipe. Tarefas ilimitadas, preço previsível e suporte confiável no dia a dia.",
+      "label": "Equipes",
+      "price": "Plano personalizado",
+      "per": "",
+      "desc": "Para pequenas empresas e equipes em que o preço depende de fluxos, integrações e nível de suporte.",
       "features": [
-        "Tarefas ilimitadas",
-        "Disponibilidade 24/7/365",
-        "Suporte contínuo quando você precisar",
-        "Nunca fica doente",
-        "Desempenho consistente todos os dias"
+        "Vários fluxos ou funções",
+        "Ferramentas e inboxes compartilhados",
+        "Suporte contínuo quando necessário",
+        "Escopo que pode crescer",
+        "Preço alinhado ao valor do negócio"
       ],
-      "cta": "Começar"
+      "cta": "Receber plano personalizado"
     },
     "yearly": {
-      "popular": "Mais Popular",
-      "label": "Anual",
-      "price": "US$ 11.000",
-      "per": "/ano",
-      "desc": "Cobrança anual. A mesma cobertura completa com menor custo total.",
-      "savings": "Economize US$ 1.000 por ano",
+      "popular": "Ideal para empresas",
+      "label": "Empresa",
+      "price": "Cotação personalizada",
+      "per": "",
+      "desc": "Para departamentos, fluxos regulados e operações empresariais, com escopo definido em torno de ROI mensurável.",
+      "savings": "Construído em torno de ROI, não de assentos",
       "features": [
-        "Tarefas ilimitadas",
-        "Disponibilidade 24/7/365",
-        "Suporte contínuo quando você precisar",
-        "Nunca fica doente",
-        "Desempenho consistente todos os dias"
+        "Integrações complexas",
+        "Operações de maior volume",
+        "Governança e desenho de acesso",
+        "Opções de suporte prioritário",
+        "Implantação do piloto à produção"
       ],
-      "cta": "Escolher Anual"
+      "cta": "Agendar conversa de preços"
     }
   },
   "cta": {

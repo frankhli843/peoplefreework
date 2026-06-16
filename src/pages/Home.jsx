@@ -278,10 +278,13 @@ export default function Home() {
                 <li key={f}>{f}</li>
               ))}
             </ul>
+            {t('pricing.setup.cta', { defaultValue: '' }) && (
+              <a href="mailto:hello@peoplefree.work" className="btn btn-primary" style={{ width: '100%', textAlign: 'center' }}>{t('pricing.setup.cta')}</a>
+            )}
           </div>
           <div className="pricing-card">
             <div className="pricing-label">{t('pricing.monthly.label')}</div>
-            <div className="price">{t('pricing.monthly.price')}<span>{t('pricing.monthly.per')}</span></div>
+            <div className="price">{t('pricing.monthly.price')}{t('pricing.monthly.per') && <span>{t('pricing.monthly.per')}</span>}</div>
             <p className="pricing-desc">{t('pricing.monthly.desc')}</p>
             <ul className="pricing-features">
               {t('pricing.monthly.features', { returnObjects: true }).map((f) => (
@@ -293,9 +296,9 @@ export default function Home() {
           <div className="pricing-card featured">
             <div className="pricing-popular">{t('pricing.yearly.popular')}</div>
             <div className="pricing-label">{t('pricing.yearly.label')}</div>
-            <div className="price">{t('pricing.yearly.price')}<span>{t('pricing.yearly.per')}</span></div>
+            <div className="price">{t('pricing.yearly.price')}{t('pricing.yearly.per') && <span>{t('pricing.yearly.per')}</span>}</div>
             <p className="pricing-desc">{t('pricing.yearly.desc')}</p>
-            <p className="pricing-savings">{t('pricing.yearly.savings')}</p>
+            {t('pricing.yearly.savings') && <p className="pricing-savings">{t('pricing.yearly.savings')}</p>}
             <ul className="pricing-features">
               {t('pricing.yearly.features', { returnObjects: true }).map((f) => (
                 <li key={f}>{f}</li>
