@@ -461,98 +461,436 @@
     },
     "manufacturing": {
       "slug": "manufacturing",
-      "icon": "🏭",
-      "heroTitle": "IA pour l'industrie",
-      "heroSub": "Le bras droit de votre directeur d'usine. Briefings operationnels quotidiens, suivi des stocks, analyses des ventes et gestion des couts, sans embauche supplementaire.",
-      "problems": {
-        "title": "Les Coûts Cachés Rongent Vos Marges",
+      "icon": "MFG",
+      "heroTitle": "The AI Operations Agent for Manufacturing",
+      "heroSub": "A dedicated AI employee that monitors inboxes, ERP, sales, inventory, receivables, shipments, and reports so leadership sees the business clearly every day.",
+      "heroProof": [
+        {
+          "value": "24/7",
+          "label": "inbox, ERP, and operations monitoring"
+        },
+        {
+          "value": "3x/day",
+          "label": "executive briefings when you want them"
+        },
+        {
+          "value": "ERP-ready",
+          "label": "sales, inventory, AR, backlog, and shortage reports"
+        },
+        {
+          "value": "Report links",
+          "label": "interactive dashboards with CSV exports"
+        }
+      ],
+      "overview": {
+        "kicker": "What you are really buying",
+        "title": "Not a chatbot. A manufacturing analyst that keeps watch.",
+        "body": "Most manufacturers already have the data. It is scattered across email, ERP tables, spreadsheets, customer threads, supplier notes, calendars, and tribal knowledge. The agent sits across those systems, turns raw activity into operational judgment, and hands leaders the reports, summaries, and follow-up drafts they need before the day gets away from them.",
         "items": [
-          "Les dirigeants gaspillent 45+ minutes chaque matin à fouiller dans des systèmes déconnectés : email, ERP, tableurs, tableaux de bord de production. C'est plus de 180 heures par an du temps d'un cadre supérieur passé à récupérer de l'information, pas à prendre des décisions.",
-          "Les écarts de prix fournisseurs, tendances de rejets qualité, et pénuries d'inventaire remontent des semaines ou mois plus tard parce que personne ne surveille les données en temps réel. Quand vous le voyez, les dégâts sont à six chiffres.",
-          "Les rapports de fin de mois consomment 2-3 jours de votre équipe comptable sur le vieillissement manuel des créances, la réconciliation, et la mise en forme des données. C'est 30+ jours par an passés à produire des rapports au lieu d'agir dessus."
+          {
+            "icon": "📬",
+            "title": "Executive inbox layer",
+            "desc": "Monitors priority contacts, flags urgent threads, drafts replies, preserves real email threading, and separates informational messages from items that need action."
+          },
+          {
+            "icon": "🧾",
+            "title": "ERP reporting analyst",
+            "desc": "Queries order, invoice, inventory, customer, product, backlog, AR, and shipment data using reporting rules agreed with your team."
+          },
+          {
+            "icon": "📊",
+            "title": "Dashboard builder",
+            "desc": "Turns analysis into interactive HTML reports with KPI cards, trend tables, notes, source CSVs, and shareable links."
+          },
+          {
+            "icon": "🛡️",
+            "title": "Ops reliability monitor",
+            "desc": "Checks report delivery, link health, backups, security posture, and integration health so the reporting system itself stays trustworthy."
+          }
+        ]
+      },
+      "problems": {
+        "title": "Manufacturing leaders are drowning in fragmented signals",
+        "items": [
+          "The answer to a simple executive question often spans email, ERP, calendar, spreadsheets, customer history, and yesterday’s operational context. Senior people spend their morning reconstructing the picture instead of deciding what to do.",
+          "Customer concentration, quote movement, backlog risk, shortages, overdue receivables, margin shifts, and shipment timing are visible in the data, but only after someone has time to pull and reconcile the data manually.",
+          "Reports are often trapped in one-off spreadsheets. The logic changes by person, the source data is not easy to inspect, and leadership cannot tell whether a number came from live ERP, a manual export, or a stale worksheet.",
+          "Business partners ask for updates, pricing comparisons, customer summaries, investor data-room support, or product analysis. The team can answer, but every answer steals focus from sales, production, and customer work."
         ]
       },
       "solutions": {
-        "title": "Comment l'IA resout le probleme",
+        "title": "What the manufacturing agent can own",
         "items": [
           {
-            "icon": "📊",
-            "title": "Briefings operationnels quotidiens",
-            "desc": "Briefings matinaux, de midi et du soir couvrant emails, calendrier, metriques de production et sante des systemes livres automatiquement."
+            "icon": "📬",
+            "title": "Inbox monitoring and response support",
+            "desc": "Watches priority inboxes, summarizes high-value threads, drafts replies, attaches reports, and keeps a clear audit trail of what it acted on and what it ignored."
+          },
+          {
+            "icon": "🌅",
+            "title": "Daily executive briefings",
+            "desc": "Produces morning, midday, and evening updates covering calendar, inbox, sales pulse, shipments, collections, inventory, shortages, FX, weather, and relevant market news."
+          },
+          {
+            "icon": "🏭",
+            "title": "ERP and SYSPRO-style BI",
+            "desc": "Runs governed reports across sales, backlog, AR aging, inventory, customer concentration, product movement, shortage exposure, and historical comparisons."
           },
           {
             "icon": "📈",
-            "title": "Analyses des ventes et rapports",
-            "desc": "Generez des rapports de ventes clients, des analyses de marge et des ventilations de tendances a la demande ou de maniere planifiee."
+            "title": "Customer and pricing analysis",
+            "desc": "Builds customer-specific reporting, price comparison packs, product-line views, margin change summaries, and follow-up-ready executive notes."
           },
           {
             "icon": "📦",
-            "title": "Stocks et chaine d'approvisionnement",
-            "desc": "Surveillez les niveaux de stock, suivez les delais fournisseurs et recevez des alertes quand les materiaux s'epuisent ou que les livraisons sont en retard."
+            "title": "Inventory and operational alerts",
+            "desc": "Highlights critical stock, slow-moving inventory, material risk, replenishment issues, and shipment exceptions before they become fire drills."
           },
           {
-            "icon": "💵",
-            "title": "Suivi des couts de production",
-            "desc": "Suivez les couts variables, l'utilisation des materiaux, les depenses de placage et les couts de production unitaires en temps reel."
+            "icon": "🔐",
+            "title": "Reliability and security checks",
+            "desc": "Runs daily checks for uptime, backups, disk, memory, public ports, permissions, delivery health, and report-link verification."
+          }
+        ]
+      },
+      "operatingSystem": {
+        "title": "A practical operating system for the back office",
+        "sub": "The agent is strongest where manufacturing work crosses systems and functions.",
+        "items": [
+          {
+            "label": "Sales",
+            "title": "Sales pulse and customer movement",
+            "desc": "Tracks trailing sales, top customers, customer concentration, order changes, quote movement, and account-level follow-up opportunities."
           },
           {
-            "icon": "📋",
-            "title": "Generation de bons de commande",
-            "desc": "Generation automatique de BC basee sur les seuils de stock, les listes de fournisseurs approuves et les habitudes de commande historiques."
+            "label": "Finance",
+            "title": "Receivables and collections visibility",
+            "desc": "Builds AR aging reports, flags threshold crossings, summarizes last-touch context, and prepares collection-ready account notes."
           },
           {
-            "icon": "🔍",
-            "title": "Rapports qualite et creances/dettes",
-            "desc": "Generez des resumes de controle qualite, des rapports d'anciennete des creances et un suivi des dettes sans travail manuel sur tableur."
+            "label": "Operations",
+            "title": "Backlog, shipments, and shortages",
+            "desc": "Surfaces past-due items, open orders, shipment timing, shortage warnings, and inventory pressure in a single executive view."
+          },
+          {
+            "label": "Pricing",
+            "title": "Pricing and product comparisons",
+            "desc": "Compares products, customers, periods, and price movement with source tables and clear assumptions rather than unexplained spreadsheet math."
+          },
+          {
+            "label": "Leadership",
+            "title": "Briefings that connect the dots",
+            "desc": "Combines email, calendar, ERP, operational notes, and external context into plain-English updates with specific next actions."
+          },
+          {
+            "label": "IT/Ops",
+            "title": "Delivery infrastructure that can be trusted",
+            "desc": "Verifies dashboards, links, attachments, backups, and service health before leadership relies on the output."
           }
         ]
       },
       "examples": {
-        "title": "Coûts Réduits. Problèmes Détectés Tôt. Rapports Auto-Générés.",
+        "title": "The work it can take off your team",
         "items": [
           {
-            "title": "180K$ Économisés en Détectant une Dérive de Prix Fournisseur",
-            "desc": "Un fabricant d'outils de précision s'approvisionne en nickel, cuivre, et alliages spéciaux auprès de 12 fournisseurs. Les prix fluctuent trimestriellement, et un responsable achats suit tout cela dans un tableur toujours en retard d'un mois.",
-            "real": "L'IA extrait les données tarifaires des portails fournisseurs et bons de commande quotidiennement, compare aux tarifs contractés, et signale les écarts supérieurs à 3%. En un mois, elle a détecté qu'un fournisseur de nickel facturait 7% au-dessus du tarif convenu sur les commandes récurrentes, une surfacturation passée inaperçue pendant cinq mois. Facture corrective : 180K$ récupérés."
+            "title": "Executive request answered with a report pack",
+            "desc": "A partner asks for a customer/product comparison over the last 12 months. Normally that means pulling ERP exports, cleaning rows, building a spreadsheet, writing a summary, and sending attachments.",
+            "real": "The agent generates an executive summary, an interactive dashboard, supporting CSVs, and a source-aware narrative. It can reply in-thread with the report link and attachments after approval or under agreed operating rules."
           },
           {
-            "title": "Briefing Matinal Qui Se Lit Vraiment",
-            "desc": "Un directeur d'usine noyait sous 200+ emails nocturnes de qualité, maintenance, logistique, et ventes. Les signaux importants étaient enterrés. Le point matinal commençait par 'qu'est-ce que j'ai raté ?' chaque jour.",
-            "real": "L'IA livre maintenant un seul briefing à 6h : production nocturne vs objectif, toute alarme équipement, bons de commande en attente d'approbation, éléments créances dépassant 60 jours, et planning de réunions du jour. Deux taps sur le téléphone, café en main. Le directeur dit que ça remplace 45 minutes de fouille dans la boîte mail."
+            "title": "Morning briefing that replaces inbox digging",
+            "desc": "A manufacturing leader starts the day with unread emails, meetings, shipment issues, sales questions, collection risks, and inventory warnings scattered across systems.",
+            "real": "The agent sends a concise briefing: what changed, what is urgent, who is waiting, which accounts need attention, which inventory items are critical, and which reports are ready to inspect."
           },
           {
-            "title": "Modèle de Rejets Qualité Détecté 3 Semaines à l'Avance",
-            "desc": "Un fabricant de superabrasifs voyait des rejets qualité intermittents sur une ligne de liaison par fusion. Les rejets étaient dans les tolérances individuellement, mais la tendance était invisible dans les chiffres quotidiens.",
-            "real": "L'IA suit les taux de rejet par ligne de produit, équipe, et machine. Elle a signalé une augmentation hebdomadaire de 1.2% sur la Ligne 3, deuxième équipe seulement, corrélée avec un lot de matière première spécifique. La maintenance a trouvé une dérive de calibration du thermocouple de four. Détecté trois semaines avant que ça déclenche un retour client."
+            "title": "Receivables report that runs every week",
+            "desc": "A finance team spends hours sorting aging buckets, checking last contact, asking sales for context, and preparing the same report again next Monday.",
+            "real": "The agent produces the AR view on schedule, highlights accounts that crossed thresholds, adds last-touch context where available, and keeps the exportable data beside the written summary."
           },
           {
-            "title": "Rapport de Créances Vieillissantes Qui Se Génère",
-            "desc": "La fin de mois chez un fabricant moyen-taille signifiait deux jours pour l'employé comptable à extraire les données créances, les formater, contacter les commerciaux pour le contexte sur les comptes en retard, et construire le rapport pour le CFO.",
-            "real": "L'IA génère le détail complet de vieillissement des créances chaque lundi matin : trié par tranches 30/60/90/120+ jours, annoté avec date de dernier contact et notes des commerciaux, signalant tout compte ayant franchi un seuil depuis la semaine dernière. Le processus de deux jours est maintenant une révision de cinq minutes."
+            "title": "Customer risk and concentration surfaced early",
+            "desc": "A few large accounts can quietly drive most revenue, backlog, or receivables exposure. When one slows down, the signal is often scattered across order history and email.",
+            "real": "The agent tracks concentration and movement over time, flags unusual drops or spikes, and prepares customer-specific summaries that leaders can use for sales, investor, or partner conversations."
+          },
+          {
+            "title": "Inventory pressure made visible",
+            "desc": "Shortages, slow movers, and critical counts are easy to miss when reports live in ERP screens that only a few people know how to read.",
+            "real": "The agent converts those signals into a ranked operations list: critical stock, likely shortages, stale inventory, shipment blockers, and recommended follow-up owners."
+          },
+          {
+            "title": "Report delivery hardened",
+            "desc": "A dashboard link is only useful if it opens, renders, and includes the right files when the executive clicks it.",
+            "real": "The agent checks the report link, browser rendering, attachments, and expiry before delivery. If something fails, it fixes the delivery path before claiming the report is ready."
+          }
+        ]
+      },
+      "reportGallery": {
+        "title": "Sample manufacturing reports it can generate",
+        "sub": "These previews use synthetic data, but mirror the kinds of interactive report artifacts the agent can deliver: executive summary, dashboard link, source CSVs, and follow-up-ready narrative.",
+        "note": "No private customer data is shown here. Live deployments use your approved data sources, access controls, retention rules, and review thresholds.",
+        "items": [
+          {
+            "badge": "Customer analysis",
+            "title": "12-month customer and product comparison",
+            "desc": "Compares customer purchasing patterns, product mix, price movement, and trailing revenue by period.",
+            "metrics": [
+              {
+                "value": "$4.8M",
+                "label": "Trailing revenue"
+              },
+              {
+                "value": "+7.4%",
+                "label": "Price movement"
+              },
+              {
+                "value": "18",
+                "label": "Products reviewed"
+              }
+            ],
+            "rows": [
+              {
+                "label": "Product Line A",
+                "width": "88%",
+                "value": "$1.9M"
+              },
+              {
+                "label": "Product Line B",
+                "width": "64%",
+                "value": "$1.2M"
+              },
+              {
+                "label": "Product Line C",
+                "width": "42%",
+                "value": "$780K"
+              }
+            ]
+          },
+          {
+            "badge": "Collections",
+            "title": "Aged receivables and follow-up pack",
+            "desc": "Buckets AR exposure, flags threshold crossings, and prepares account-level collection notes.",
+            "metrics": [
+              {
+                "value": "$612K",
+                "label": "Open AR"
+              },
+              {
+                "value": "9",
+                "label": "Accounts flagged"
+              },
+              {
+                "value": "3",
+                "label": "New over 60 days"
+              }
+            ],
+            "rows": [
+              {
+                "label": "0-30 days",
+                "width": "72%",
+                "value": "$331K"
+              },
+              {
+                "label": "31-60 days",
+                "width": "38%",
+                "value": "$141K"
+              },
+              {
+                "label": "60+ days",
+                "width": "30%",
+                "value": "$140K"
+              }
+            ]
+          },
+          {
+            "badge": "Inventory",
+            "title": "Critical inventory and shortage watch",
+            "desc": "Ranks material risk, shortage exposure, slow movers, and items requiring purchasing follow-up.",
+            "metrics": [
+              {
+                "value": "27",
+                "label": "Critical items"
+              },
+              {
+                "value": "11",
+                "label": "Shortage warnings"
+              },
+              {
+                "value": "$340K",
+                "label": "Slow-moving stock"
+              }
+            ],
+            "rows": [
+              {
+                "label": "Raw Material A",
+                "width": "92%",
+                "value": "Critical"
+              },
+              {
+                "label": "Component B",
+                "width": "66%",
+                "value": "Watch"
+              },
+              {
+                "label": "Finished Good C",
+                "width": "48%",
+                "value": "Slow"
+              }
+            ]
+          },
+          {
+            "badge": "Executive brief",
+            "title": "Daily operations briefing dashboard",
+            "desc": "Combines inbox, calendar, sales, shipments, inventory, receivables, and external context into one morning view.",
+            "metrics": [
+              {
+                "value": "14",
+                "label": "Priority emails"
+              },
+              {
+                "value": "6",
+                "label": "Shipment risks"
+              },
+              {
+                "value": "4",
+                "label": "Actions due"
+              }
+            ],
+            "rows": [
+              {
+                "label": "Sales pulse",
+                "width": "76%",
+                "value": "Warm"
+              },
+              {
+                "label": "Shipments",
+                "width": "52%",
+                "value": "Risk"
+              },
+              {
+                "label": "Collections",
+                "width": "44%",
+                "value": "Watch"
+              }
+            ]
+          }
+        ]
+      },
+      "deliverables": {
+        "title": "What leadership receives",
+        "sub": "The agent does not just chat. It produces durable artifacts your team can review, forward, archive, and audit.",
+        "items": [
+          {
+            "icon": "🗂️",
+            "title": "Executive summaries",
+            "desc": "Plain-English summaries with assumptions, next actions, and what changed since the last report."
+          },
+          {
+            "icon": "📊",
+            "title": "Interactive dashboards",
+            "desc": "Shareable report pages with KPI cards, tables, trend views, and source-aware notes."
+          },
+          {
+            "icon": "📎",
+            "title": "CSV and DOCX packets",
+            "desc": "Underlying data exports and document summaries that finance, sales, or partners can inspect."
+          },
+          {
+            "icon": "✉️",
+            "title": "Reply-ready drafts",
+            "desc": "Email responses written in context, with attachments, links, and careful threading behavior."
+          },
+          {
+            "icon": "🚨",
+            "title": "Exception alerts",
+            "desc": "Notifications for overdue replies, AR risk, inventory pressure, failed report delivery, or system degradation."
+          },
+          {
+            "icon": "📚",
+            "title": "Operating memory",
+            "desc": "Durable notes on customers, recurring reports, reporting rules, business context, and known risks."
+          },
+          {
+            "icon": "🔎",
+            "title": "Verification notes",
+            "desc": "Clear statements about what was checked, what was inferred, and where the data came from."
+          },
+          {
+            "icon": "🛠️",
+            "title": "Reliability logs",
+            "desc": "Health checks for report servers, backups, public links, permissions, and scheduled jobs."
+          }
+        ]
+      },
+      "controls": {
+        "kicker": "Built for real operations",
+        "title": "Human judgment stays in charge",
+        "sub": "Manufacturing teams need useful automation, not risky autonomy. The agent can be configured around your approval rules, data access boundaries, and delivery standards.",
+        "items": [
+          {
+            "title": "Approval gates for outbound communication",
+            "desc": "Use review-first mode for new contacts, sensitive replies, pricing conversations, or anything that should remain human-approved."
+          },
+          {
+            "title": "Source-aware reporting",
+            "desc": "Reports can include the source tables, time window, filters, and business rules used so leaders know where numbers came from."
+          },
+          {
+            "title": "No guessing when data is incomplete",
+            "desc": "If a report has missing inputs, stale exports, conflicting records, or unavailable systems, the agent says so and marks the result as partial."
+          },
+          {
+            "title": "Secure deployment posture",
+            "desc": "Access is scoped to approved systems, delivery links can expire, and operational checks watch for public exposure, stale credentials, and failed backups."
           }
         ]
       },
       "howItWorks": {
-        "title": "Comment commencer",
+        "title": "How rollout works",
         "steps": [
           {
-            "title": "Cartographiez vos operations",
-            "desc": "Partagez votre systeme ERP, vos outils de production, vos besoins en reporting et les goulots d'etranglement operationnels qui consomment le temps de votre equipe."
+            "title": "Pick the first operating lane",
+            "desc": "Start with a high-value lane such as executive briefings, customer/product reports, AR aging, inventory alerts, or inbox triage."
           },
           {
-            "title": "Nous construisons votre IA operations",
-            "desc": "Votre IA s'integre a vos systemes, apprend vos metriques et commence a generer des rapports et des alertes."
+            "title": "Connect approved sources",
+            "desc": "Integrate email, calendar, ERP exports or database access, shared folders, report templates, and any partner-facing delivery rules."
           },
           {
-            "title": "Operez plus lean",
-            "desc": "Briefings quotidiens, surveillance en temps reel et reporting automatise. Plus de production, moins de frais generaux."
+            "title": "Codify reporting rules",
+            "desc": "Agree on definitions for backlog, shortages, trailing sales, AR buckets, customer risk, and price comparisons so output is consistent."
+          },
+          {
+            "title": "Ship reports with verification",
+            "desc": "The agent generates dashboards and attachments, checks links before delivery, logs what it did, and escalates uncertainty for review."
+          }
+        ]
+      },
+      "pilot": {
+        "title": "A focused pilot can prove value quickly",
+        "sub": "Most teams start with one executive workflow, then expand once the reporting rules and trust model are proven.",
+        "items": [
+          {
+            "metric": "Week 1",
+            "label": "Map systems, priority inboxes, report definitions, and delivery approvals"
+          },
+          {
+            "metric": "Week 2",
+            "label": "Generate first briefings and sample dashboards from approved data"
+          },
+          {
+            "metric": "Week 3",
+            "label": "Add scheduled reports, CSV exports, link checks, and exception alerts"
+          },
+          {
+            "metric": "Week 4",
+            "label": "Review ROI, tighten rules, and choose the next operating lane"
           }
         ]
       },
       "cta": {
-        "title": "Pret a operer plus lean ?",
-        "sub": "Votre specialiste IA operations travaille de nuit, de jour, et chaque quart entre les deux.",
-        "button": "Obtenir votre IA industrielle →"
+        "title": "Give your manufacturing team an AI operations analyst.",
+        "sub": "One agent can watch the inbox, read the ERP, generate the report, verify the link, and prepare the follow-up while your people run the business.",
+        "button": "Build Your Manufacturing Agent →"
       }
     },
     "realEstate": {
