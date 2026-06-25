@@ -36,6 +36,7 @@ export default function IndustryPage({ industryKey }) {
   const reportGallery = t(`industries.${industryKey}.reportGallery`, { returnObjects: true, defaultValue: null })
   const operatingSystem = t(`industries.${industryKey}.operatingSystem`, { returnObjects: true, defaultValue: null })
   const deliverables = t(`industries.${industryKey}.deliverables`, { returnObjects: true, defaultValue: null })
+  const directAccess = t(`industries.${industryKey}.directAccess`, { returnObjects: true, defaultValue: null })
   const controls = t(`industries.${industryKey}.controls`, { returnObjects: true, defaultValue: null })
   const howTitle = t(`industries.${industryKey}.howItWorks.title`)
   const howSteps = t(`industries.${industryKey}.howItWorks.steps`, { returnObjects: true })
@@ -215,6 +216,42 @@ export default function IndustryPage({ industryKey }) {
                 <p>{item.desc}</p>
               </div>
             ))}
+          </div>
+        </section>
+      )}
+
+      {directAccess && Array.isArray(directAccess.channels) && Array.isArray(directAccess.messages) && (
+        <section className="section section-gray industry-chat-section">
+          <div className="industry-chat-copy">
+            <p className="industry-kicker">{directAccess.kicker}</p>
+            <h2 className="section-title">{directAccess.title}</h2>
+            <p className="section-sub">{directAccess.sub}</p>
+            <div className="industry-channel-grid">
+              {directAccess.channels.map((channel, i) => (
+                <div className="industry-channel-pill" key={i}>
+                  <span>{channel.initial}</span>
+                  <strong>{channel.name}</strong>
+                </div>
+              ))}
+            </div>
+            <p className="industry-chat-note">{directAccess.note}</p>
+          </div>
+          <div className="industry-chat-window" aria-label={directAccess.windowLabel}>
+            <div className="industry-chat-topbar">
+              <div>
+                <strong>{directAccess.agentName}</strong>
+                <span>{directAccess.status}</span>
+              </div>
+              <span className="industry-chat-live">{directAccess.liveLabel}</span>
+            </div>
+            <div className="industry-chat-thread">
+              {directAccess.messages.map((message, i) => (
+                <div className={`industry-chat-message ${message.from === 'agent' ? 'is-agent' : 'is-user'}`} key={i}>
+                  <span>{message.sender}</span>
+                  <p>{message.text}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </section>
       )}

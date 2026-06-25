@@ -891,6 +891,74 @@
         "title": "Give your manufacturing team an AI operations analyst.",
         "sub": "One agent can watch the inbox, read the ERP, generate the report, verify the link, and prepare the follow-up while your people run the business.",
         "button": "Build Your Manufacturing Agent →"
+      },
+      "directAccess": {
+        "kicker": "Always reachable",
+        "title": "Talk to the agent directly, anytime",
+        "sub": "Leaders and operators do not need to open a special dashboard to use the agent. They can ask questions, request a report, approve a draft, or check an exception from the messaging tools they already use.",
+        "note": "Channels can include Telegram, WhatsApp, Signal, email, Slack, Microsoft Teams, or a private web chat, depending on your security policy and approval rules.",
+        "agentName": "Manufacturing Ops Agent",
+        "status": "Online across approved channels",
+        "liveLabel": "Live",
+        "windowLabel": "Example manufacturing agent chat",
+        "channels": [
+          {
+            "initial": "TG",
+            "name": "Telegram"
+          },
+          {
+            "initial": "WA",
+            "name": "WhatsApp"
+          },
+          {
+            "initial": "SG",
+            "name": "Signal"
+          },
+          {
+            "initial": "EM",
+            "name": "Email"
+          },
+          {
+            "initial": "TM",
+            "name": "Teams"
+          },
+          {
+            "initial": "SL",
+            "name": "Slack"
+          }
+        ],
+        "messages": [
+          {
+            "from": "user",
+            "sender": "COO",
+            "text": "What changed overnight? Give me the short version before the production meeting."
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "Three items need attention: two priority customer emails, one shipment now at risk for Friday, and 11 inventory items below reorder threshold. I prepared the morning briefing and marked assumptions where ERP data was stale."
+          },
+          {
+            "from": "user",
+            "sender": "Sales leader",
+            "text": "Build a 12-month customer and product comparison for the top accounts. Include CSVs and a shareable dashboard."
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "Done. I generated the dashboard, attached the CSV packet, checked the link in a browser, and added a plain-English summary with pricing movement, concentration risk, and follow-up questions."
+          },
+          {
+            "from": "user",
+            "sender": "Controller",
+            "text": "Which overdue accounts need a human follow-up today?"
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "I found 9 accounts past threshold. Three are new over 60 days. I drafted review-first collection notes and separated informational threads from messages that need a reply."
+          }
+        ]
       }
     },
     "realEstate": {
