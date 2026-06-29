@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react'
+import { useState, useCallback, useEffect, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link, useNavigate, useLocation } from 'react-router-dom'
 
@@ -56,8 +56,21 @@ function LanguagePicker() {
 export default function Navbar() {
   const { t } = useTranslation()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [industryDropdownOpen, setIndustryDropdownOpen] = useState(false)
+  const industryDropdownRef = useRef(null)
   const navigate = useNavigate()
   const location = useLocation()
+
+  useEffect(() => {
+    if (!industryDropdownOpen) return
+    const handleClickOutside = (e) => {
+      if (industryDropdownRef.current && !industryDropdownRef.current.contains(e.target)) {
+        setIndustryDropdownOpen(false)
+      }
+    }
+    document.addEventListener('click', handleClickOutside)
+    return () => document.removeEventListener('click', handleClickOutside)
+  }, [industryDropdownOpen])
 
   const scrollToSection = useCallback((sectionId) => {
     setMobileMenuOpen(false)
@@ -80,16 +93,30 @@ export default function Navbar() {
         <div className="nav-links">
           <a href="#" onClick={(e) => { e.preventDefault(); scrollToSection('team') }}>{t('nav.team')}</a>
           <a href="#" onClick={(e) => { e.preventDefault(); scrollToSection('perks') }}>{t('nav.whyUs')}</a>
-          <div className="nav-dropdown">
-            <button className="nav-dropdown-btn">{t('industries.navTitle', 'Industries')} ▾</button>
-            <div className="nav-dropdown-menu">
-              {industryRoutes.map(r => (
-                <Link key={r.key} to={r.path} className="nav-dropdown-item">
-                  <span className="nav-dropdown-icon">{r.icon}</span>
-                  {t(`industries.${r.key}.heroTitle`)}
-                </Link>
-              ))}
-            </div>
+          <div className="nav-dropdown" ref={industryDropdownRef}>
+            <button
+              className="nav-dropdown-btn"
+              onClick={() => setIndustryDropdownOpen(!industryDropdownOpen)}
+              aria-expanded={industryDropdownOpen}
+              aria-haspopup="true"
+            >
+              {t('industries.navTitle', 'Industries')} {industryDropdownOpen ? '▴' : '▾'}
+            </button>
+            {industryDropdownOpen && (
+              <div className="nav-dropdown-menu">
+                {industryRoutes.map(r => (
+                  <Link
+                    key={r.key}
+                    to={r.path}
+                    className="nav-dropdown-item"
+                    onClick={() => setIndustryDropdownOpen(false)}
+                  >
+                    <span className="nav-dropdown-icon">{r.icon}</span>
+                    {t(`industries.${r.key}.heroTitle`)}
+                  </Link>
+                ))}
+              </div>
+            )}
           </div>
           <a href="#" onClick={(e) => { e.preventDefault(); scrollToSection('pricing') }}>{t('nav.pricing')}</a>
         </div>
