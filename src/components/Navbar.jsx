@@ -124,10 +124,10 @@ export default function Navbar() {
         <div className="nav-right">
           <LanguagePicker />
           <a href="mailto:hello@peoplefree.work" className="nav-cta">{t('nav.hireTalent')}</a>
+          <button className="mobile-menu-btn" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
+            {mobileMenuOpen ? '✕' : '☰'}
+          </button>
         </div>
-        <button className="mobile-menu-btn" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
-          {mobileMenuOpen ? '✕' : '☰'}
-        </button>
       </div>
       {mobileMenuOpen && (
         <div className="mobile-menu">
