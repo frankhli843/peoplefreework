@@ -2,6 +2,7 @@
   "nav": {
     "team": "Equipo",
     "whyUs": "Por qué nosotros",
+    "dailyLayer": "En el día a día",
     "pricing": "Precios",
     "hireTalent": "Contratar →"
   },
@@ -53,6 +54,55 @@
     "ip": {
       "title": "100% propiedad intelectual",
       "desc": "Cada documento, estrategia, diseño y trabajo creativo que produce tu IA te pertenece por completo. Sin derechos compartidos, sin licencias."
+    }
+  },
+  "dailyLayer": {
+    "sectionTitle": "Tu capa operativa diaria",
+    "sectionSub": "La incorporación conecta a tu empleado IA con el email, el calendario, los documentos y los mensajes que tu empresa ya usa. A partir de ahí lee esos flujos cada día y te entrega una lista corta de lo que de verdad necesita tu atención.",
+    "sources": {
+      "email": "Email",
+      "calendar": "Calendario",
+      "documents": "Documentos",
+      "messages": "Mensajes",
+      "reports": "Informes recurrentes"
+    },
+    "flowOutput": "Un briefing. Una lista de lo que necesita tu atención hoy.",
+    "capabilities": {
+      "briefing": {
+        "title": "Briefing diario",
+        "desc": "Un resumen breve que te espera cada mañana: qué vence hoy, qué está esperando a otra persona y qué se ha quedado en silencio. Dos minutos y ya sabes cómo va tu día."
+      },
+      "triage": {
+        "title": "Triaje de email",
+        "desc": "Separa la bandeja de entrada entre lo que necesita respuesta, lo que es solo informativo y lo que puede esperar. Los mensajes urgentes llegan con todo el contexto, no solo con el asunto."
+      },
+      "followUps": {
+        "title": "Seguimiento de pendientes",
+        "desc": "Mantiene la lista viva de quién debe qué. Cuando un hilo lleva una semana en silencio, te lo dice tu empleado IA antes que el cliente."
+      },
+      "drafts": {
+        "title": "Borradores de respuesta",
+        "desc": "Escribe la primera versión de las respuestas rutinarias con tu tono y la deja en tus borradores. Tú la lees, la ajustas y la envías."
+      },
+      "workflows": {
+        "title": "Tus flujos de trabajo",
+        "desc": "Cuando lo básico ya funciona, el mismo empleado IA asume el trabajo propio de tu negocio: preparación de facturación, seguimiento a proveedores, órdenes de compra, control de plazos y recordatorios de cobros."
+      },
+      "signals": {
+        "title": "Monitoreo de señales",
+        "desc": "Vigila los informes recurrentes, las hojas compartidas y los flujos operativos que abrirías a mano, y te dice qué cifras se movieron y cuáles dejaron de llegar."
+      }
+    },
+    "guardrails": {
+      "title": "Revisado por ti. Siempre.",
+      "review": {
+        "title": "Nada sale sin supervisión",
+        "desc": "Las respuestas externas se preparan como borrador y esperan tu aprobación. Tu empleado IA escribe el mensaje. Tú decides si se envía."
+      },
+      "escalate": {
+        "title": "Lo dudoso vuelve a ti",
+        "desc": "Lo que queda fuera del alcance acordado, y cualquier cosa realmente urgente, se escala a una persona en lugar de resolverse a ciegas."
+      }
     }
   },
   "team": {

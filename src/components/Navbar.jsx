@@ -93,6 +93,7 @@ export default function Navbar() {
         <div className="nav-links">
           <a href="#" onClick={(e) => { e.preventDefault(); scrollToSection('team') }}>{t('nav.team')}</a>
           <a href="#" onClick={(e) => { e.preventDefault(); scrollToSection('perks') }}>{t('nav.whyUs')}</a>
+          <a href="#" onClick={(e) => { e.preventDefault(); scrollToSection('daily-layer') }}>{t('nav.dailyLayer')}</a>
           <div className="nav-dropdown" ref={industryDropdownRef}>
             <button
               className="nav-dropdown-btn"
@@ -132,6 +133,7 @@ export default function Navbar() {
         <div className="mobile-menu">
           <a href="#" onClick={(e) => { e.preventDefault(); scrollToSection('team') }}>{t('nav.team')}</a>
           <a href="#" onClick={(e) => { e.preventDefault(); scrollToSection('perks') }}>{t('nav.whyUs')}</a>
+          <a href="#" onClick={(e) => { e.preventDefault(); scrollToSection('daily-layer') }}>{t('nav.dailyLayer')}</a>
           <a href="#" onClick={(e) => { e.preventDefault(); scrollToSection('pricing') }}>{t('nav.pricing')}</a>
           <div className="mobile-menu-section">
             <div className="mobile-menu-label">{t('industries.navTitle', 'Industries')}</div>

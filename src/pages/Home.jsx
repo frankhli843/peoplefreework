@@ -40,6 +40,28 @@ const professionalExamples = [
   { key: 'docProcessing', icon: '📄' },
 ]
 
+const dailyLayerSources = [
+  { key: 'email', icon: '📧' },
+  { key: 'calendar', icon: '📅' },
+  { key: 'documents', icon: '📄' },
+  { key: 'messages', icon: '💬' },
+  { key: 'reports', icon: '📈' },
+]
+
+const dailyLayerCapabilities = [
+  { key: 'briefing', icon: '🌅', color: '#f59e0b' },
+  { key: 'triage', icon: '📨', color: '#6366f1' },
+  { key: 'followUps', icon: '🔁', color: '#10b981' },
+  { key: 'drafts', icon: '✍️', color: '#ec4899' },
+  { key: 'workflows', icon: '🧩', color: '#0ea5e9' },
+  { key: 'signals', icon: '📊', color: '#8b5cf6' },
+]
+
+const dailyLayerGuardrails = [
+  { key: 'review', icon: '🛑' },
+  { key: 'escalate', icon: '🔔' },
+]
+
 const personalExamples = [
   { key: 'morningBriefings', icon: '🌅' },
   { key: 'familyHealth', icon: '❤️' },
@@ -104,6 +126,49 @@ export default function Home() {
               <p>{t(`perks.${key}.desc`)}</p>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* Daily Operating Layer */}
+      <section className="section" id="daily-layer">
+        <div className="section-header">
+          <h2 className="section-title">{t('dailyLayer.sectionTitle')}</h2>
+          <p className="section-sub">{t('dailyLayer.sectionSub')}</p>
+        </div>
+        <div className="daily-flow">
+          <div className="daily-flow-sources">
+            {dailyLayerSources.map((s) => (
+              <span className="daily-flow-chip" key={s.key}>
+                <span className="daily-flow-chip-icon">{s.icon}</span>
+                {t(`dailyLayer.sources.${s.key}`)}
+              </span>
+            ))}
+          </div>
+          <div className="daily-flow-arrow" aria-hidden="true">↓</div>
+          <div className="daily-flow-output">{t('dailyLayer.flowOutput')}</div>
+        </div>
+        <div className="daily-grid">
+          {dailyLayerCapabilities.map((c) => (
+            <div className="daily-card" key={c.key} style={{ '--card-accent': c.color }}>
+              <div className="daily-card-icon">{c.icon}</div>
+              <h3 className="daily-card-title">{t(`dailyLayer.capabilities.${c.key}.title`)}</h3>
+              <p className="daily-card-desc">{t(`dailyLayer.capabilities.${c.key}.desc`)}</p>
+            </div>
+          ))}
+        </div>
+        <div className="daily-guardrails">
+          <h3 className="daily-guardrails-title">{t('dailyLayer.guardrails.title')}</h3>
+          <div className="daily-guardrails-list">
+            {dailyLayerGuardrails.map((g) => (
+              <div className="daily-guardrail" key={g.key}>
+                <span className="daily-guardrail-icon">{g.icon}</span>
+                <div>
+                  <strong>{t(`dailyLayer.guardrails.${g.key}.title`)}</strong>
+                  <p>{t(`dailyLayer.guardrails.${g.key}.desc`)}</p>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 

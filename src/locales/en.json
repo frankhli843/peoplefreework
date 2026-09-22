@@ -2,6 +2,7 @@
   "nav": {
     "team": "Our Team",
     "whyUs": "Why Us",
+    "dailyLayer": "What They Do",
     "pricing": "Pricing",
     "hireTalent": "Hire Talent →"
   },
@@ -53,6 +54,55 @@
     "ip": {
       "title": "100% IP Ownership",
       "desc": "Every document, strategy, design, and creative work your AI produces belongs entirely to you. No shared rights, no licensing fees, no fine print."
+    }
+  },
+  "dailyLayer": {
+    "sectionTitle": "Your Daily Operating Layer",
+    "sectionSub": "Onboarding connects your AI employee to the email, calendar, documents, and messages your business already runs on. From then on it reads those streams every day and hands you one short list of what actually needs you.",
+    "sources": {
+      "email": "Email",
+      "calendar": "Calendar",
+      "documents": "Documents",
+      "messages": "Messages",
+      "reports": "Recurring reports"
+    },
+    "flowOutput": "One briefing. One list of what needs you today.",
+    "capabilities": {
+      "briefing": {
+        "title": "Daily Briefing",
+        "desc": "A short summary waiting for you each morning: what is due today, what is waiting on someone else, and what has gone quiet. Two minutes and you know your day."
+      },
+      "triage": {
+        "title": "Email Triage",
+        "desc": "Sorts the inbox into what needs a reply, what is only information, and what can wait. Urgent messages arrive with the full context attached, not just a subject line."
+      },
+      "followUps": {
+        "title": "Follow-Up Tracking",
+        "desc": "Keeps a live list of who owes what. When a thread has been silent for a week, you hear it from your AI employee before you hear it from the client."
+      },
+      "drafts": {
+        "title": "Draft Replies",
+        "desc": "Writes the first version of routine replies in your voice and leaves them in your drafts. You read it, change what you want, and send it yourself."
+      },
+      "workflows": {
+        "title": "Your Workflows",
+        "desc": "Once the daily basics are trusted, the same AI employee takes on the work specific to your business: billing prep, supplier chasing, purchase orders, deadline tracking, receivables reminders."
+      },
+      "signals": {
+        "title": "Signal Monitoring",
+        "desc": "Watches the recurring reports, shared sheets, and operational feeds you would otherwise open by hand, then tells you which numbers moved and which ones stopped arriving."
+      }
+    },
+    "guardrails": {
+      "title": "Reviewed by you. Every time.",
+      "review": {
+        "title": "Nothing goes out unsupervised",
+        "desc": "Outbound replies are prepared as drafts and wait for your approval. Your AI employee writes the message. You decide whether it sends."
+      },
+      "escalate": {
+        "title": "Anything unclear comes to you",
+        "desc": "Work outside the agreed scope, and anything genuinely urgent, is escalated to a person instead of handled on a guess."
+      }
     }
   },
   "team": {

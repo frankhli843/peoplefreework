@@ -2,6 +2,7 @@
   "nav": {
     "team": "Équipe",
     "whyUs": "Pourquoi nous",
+    "dailyLayer": "Au quotidien",
     "pricing": "Tarifs",
     "hireTalent": "Recruter →"
   },
@@ -53,6 +54,55 @@
     "ip": {
       "title": "100 % de propriété intellectuelle",
       "desc": "Chaque document, stratégie, design et création produit par votre IA vous appartient entièrement. Pas de droits partagés, pas de frais de licence."
+    }
+  },
+  "dailyLayer": {
+    "sectionTitle": "Votre couche opérationnelle quotidienne",
+    "sectionSub": "L'intégration connecte votre employé IA aux emails, à l'agenda, aux documents et aux messages que votre entreprise utilise déjà. Ensuite, il lit ces flux chaque jour et vous remet une courte liste de ce qui a vraiment besoin de vous.",
+    "sources": {
+      "email": "Emails",
+      "calendar": "Agenda",
+      "documents": "Documents",
+      "messages": "Messages",
+      "reports": "Rapports récurrents"
+    },
+    "flowOutput": "Un briefing. Une liste de ce qui a besoin de vous aujourd'hui.",
+    "capabilities": {
+      "briefing": {
+        "title": "Briefing quotidien",
+        "desc": "Un résumé court qui vous attend chaque matin : ce qui est dû aujourd'hui, ce qui attend une réponse de quelqu'un d'autre, et ce qui s'est arrêté. Deux minutes et votre journée est claire."
+      },
+      "triage": {
+        "title": "Tri des emails",
+        "desc": "Classe la boîte de réception entre ce qui demande une réponse, ce qui est purement informatif et ce qui peut attendre. Les messages urgents arrivent avec tout le contexte, pas seulement une ligne d'objet."
+      },
+      "followUps": {
+        "title": "Suivi des relances",
+        "desc": "Tient à jour la liste de qui doit quoi. Quand un fil reste silencieux depuis une semaine, c'est votre employé IA qui vous le dit avant le client."
+      },
+      "drafts": {
+        "title": "Brouillons de réponse",
+        "desc": "Rédige la première version des réponses courantes avec votre ton et la dépose dans vos brouillons. Vous la lisez, vous la modifiez, vous l'envoyez."
+      },
+      "workflows": {
+        "title": "Vos processus métier",
+        "desc": "Une fois le quotidien fiable, le même employé IA prend en charge le travail propre à votre activité : préparation de facturation, relance fournisseurs, bons de commande, suivi des échéances, rappels de créances."
+      },
+      "signals": {
+        "title": "Surveillance des signaux",
+        "desc": "Surveille les rapports récurrents, les feuilles partagées et les flux opérationnels que vous ouvririez à la main, puis vous dit quels chiffres ont bougé et lesquels ne sont plus arrivés."
+      }
+    },
+    "guardrails": {
+      "title": "Relu par vous. À chaque fois.",
+      "review": {
+        "title": "Rien ne part sans surveillance",
+        "desc": "Les réponses externes sont préparées en brouillon et attendent votre approbation. Votre employé IA écrit le message. Vous décidez s'il part."
+      },
+      "escalate": {
+        "title": "Le moindre doute remonte vers vous",
+        "desc": "Ce qui sort du périmètre convenu, et tout ce qui est réellement urgent, est remonté à une personne au lieu d'être traité au jugé."
+      }
     }
   },
   "team": {

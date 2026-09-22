@@ -2,6 +2,7 @@
   "nav": {
     "team": "Equipe",
     "whyUs": "Por que nós",
+    "dailyLayer": "No dia a dia",
     "pricing": "Preços",
     "hireTalent": "Contratar →"
   },
@@ -53,6 +54,55 @@
     "ip": {
       "title": "100% propriedade intelectual",
       "desc": "Cada documento, estratégia, design e trabalho criativo produzido pela sua IA pertence inteiramente a você. Sem direitos compartilhados, sem taxas de licença."
+    }
+  },
+  "dailyLayer": {
+    "sectionTitle": "A sua camada operacional diária",
+    "sectionSub": "A integração liga o seu funcionário de IA ao email, ao calendário, aos documentos e às mensagens que a sua empresa já usa. A partir daí ele lê esses fluxos todos os dias e entrega-lhe uma lista curta do que realmente precisa de si.",
+    "sources": {
+      "email": "Email",
+      "calendar": "Calendário",
+      "documents": "Documentos",
+      "messages": "Mensagens",
+      "reports": "Relatórios recorrentes"
+    },
+    "flowOutput": "Um briefing. Uma lista do que precisa de si hoje.",
+    "capabilities": {
+      "briefing": {
+        "title": "Briefing diário",
+        "desc": "Um resumo curto à sua espera todas as manhãs: o que vence hoje, o que está à espera de outra pessoa e o que ficou em silêncio. Dois minutos e já sabe como está o seu dia."
+      },
+      "triage": {
+        "title": "Triagem de email",
+        "desc": "Separa a caixa de entrada entre o que precisa de resposta, o que é apenas informação e o que pode esperar. As mensagens urgentes chegam com todo o contexto, não apenas com o assunto."
+      },
+      "followUps": {
+        "title": "Acompanhamento de pendentes",
+        "desc": "Mantém a lista viva de quem deve o quê. Quando uma thread está em silêncio há uma semana, quem lhe diz é o seu funcionário de IA, antes do cliente."
+      },
+      "drafts": {
+        "title": "Rascunhos de resposta",
+        "desc": "Escreve a primeira versão das respostas de rotina no seu tom e deixa-a nos rascunhos. O senhor lê, ajusta e envia."
+      },
+      "workflows": {
+        "title": "Os seus processos",
+        "desc": "Assim que o básico do dia a dia está sólido, o mesmo funcionário de IA assume o trabalho próprio do seu negócio: preparação de faturação, cobrança a fornecedores, ordens de compra, controlo de prazos e lembretes de recebimentos."
+      },
+      "signals": {
+        "title": "Monitorização de sinais",
+        "desc": "Vigia os relatórios recorrentes, as folhas partilhadas e os fluxos operacionais que abriria à mão, e diz-lhe que números mexeram e quais deixaram de chegar."
+      }
+    },
+    "guardrails": {
+      "title": "Revisto por si. Sempre.",
+      "review": {
+        "title": "Nada sai sem supervisão",
+        "desc": "As respostas externas são preparadas como rascunho e ficam à espera da sua aprovação. O funcionário de IA escreve a mensagem. Quem decide se é enviada é o senhor."
+      },
+      "escalate": {
+        "title": "O que for duvidoso volta para si",
+        "desc": "O que sai do âmbito acordado, e tudo o que for mesmo urgente, é escalado para uma pessoa em vez de ser resolvido por palpite."
+      }
     }
   },
   "team": {
