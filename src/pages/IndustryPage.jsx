@@ -13,6 +13,7 @@ const industryColors = {
 export default function IndustryPage({ industryKey }) {
   const { t } = useTranslation()
   const colors = industryColors[industryKey] || industryColors.legal
+  const workflow = t('industries.common.workflow', { returnObjects: true })
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -55,7 +56,7 @@ export default function IndustryPage({ industryKey }) {
           <h1 className="industry-hero-title">{heroTitle}</h1>
           <p className="industry-hero-sub">{heroSub}</p>
           {Array.isArray(heroProof) && heroProof.length > 0 && (
-            <div className="industry-proof-strip">
+            <div className={`industry-proof-strip ${heroProof.length === 3 ? 'industry-proof-strip-three' : ''}`}>
               {heroProof.map((item, i) => (
                 <div className="industry-proof-item" key={i}>
                   <strong>{item.value}</strong>
@@ -91,7 +92,7 @@ export default function IndustryPage({ industryKey }) {
       )}
 
       {/* The Problem */}
-      <section className="section section-gray" id="problems">
+      {(industryKey === 'manufacturing' || industryKey === 'realEstate') && <section className="section section-gray" id="problems">
         <div className="section-header">
           <h2 className="section-title">{problemsTitle}</h2>
         </div>
@@ -103,7 +104,7 @@ export default function IndustryPage({ industryKey }) {
             </div>
           ))}
         </div>
-      </section>
+      </section>}
 
       {/* The Solution */}
       <section className="section" id="solutions">
@@ -139,8 +140,8 @@ export default function IndustryPage({ industryKey }) {
         </section>
       )}
 
-      {/* Real Examples */}
-      <section className="section examples-section" id="examples">
+      {/* Specific workflows, with outcomes presented only where evidence exists */}
+      {(industryKey === 'manufacturing' || industryKey === 'realEstate') && <section className="section examples-section" id="examples">
         <div className="section-header">
           <h2 className="section-title">{examplesTitle}</h2>
         </div>
@@ -150,6 +151,23 @@ export default function IndustryPage({ industryKey }) {
               <h3 className="industry-example-title">{item.title}</h3>
               <p className="industry-example-desc">{item.desc}</p>
               <p className="industry-example-real">{item.real}</p>
+            </div>
+          ))}
+        </div>
+      </section>}
+
+      <section className="section section-gray industry-workflow-section">
+        <div className="section-header">
+          <p className="industry-kicker">{workflow.kicker}</p>
+          <h2 className="section-title">{workflow.title}</h2>
+          <p className="section-sub">{workflow.sub}</p>
+        </div>
+        <div className="industry-workflow-grid">
+          {workflow.items.map((item, i) => (
+            <div className="industry-workflow-card" key={item.title}>
+              <span className="industry-workflow-number">0{i + 1}</span>
+              <h3>{item.title}</h3>
+              <p>{item.desc}</p>
             </div>
           ))}
         </div>

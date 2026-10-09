@@ -643,6 +643,15 @@ body {
 
 /* Industry Page */
 .industry-page { --industry-accent: #6366f1; }
+.industry-workflow-section { background: #f7f9fc; }
+.home-workflow-section { background: #fff; }
+.industry-workflow-section .industry-kicker { text-align: center; }
+.industry-workflow-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.25rem; max-width: 1120px; margin: 2rem auto 0; }
+.industry-workflow-card { padding: 1.7rem; background: white; border: 1px solid #e5eaf0; border-radius: 20px; box-shadow: 0 12px 32px rgba(18, 34, 56, .04); }
+.industry-workflow-number { display: inline-flex; align-items: center; justify-content: center; width: 2.2rem; height: 2.2rem; border-radius: 11px; background: color-mix(in srgb, var(--industry-accent, #6366f1) 12%, white); color: var(--industry-accent, #6366f1); font-size: .8rem; font-weight: 800; }
+.industry-workflow-card h3 { margin: 1rem 0 .55rem; font-size: 1.12rem; }
+.industry-workflow-card p { margin: 0; color: #536174; line-height: 1.65; }
+@media (max-width: 760px) { .industry-workflow-grid { grid-template-columns: 1fr; } }
 .industry-hero {
   background: linear-gradient(135deg, var(--bg-gray) 0%, #fff 100%);
   padding: 100px 32px 80px; text-align: center;
@@ -686,6 +695,7 @@ body {
   max-width: 880px;
   margin: 0 auto 36px;
 }
+.industry-proof-strip-three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .industry-proof-item {
   background: #fff;
   border: 1px solid rgba(0,0,0,0.08);
@@ -1291,6 +1301,7 @@ body {
   .industry-hero { padding: 60px 20px 50px; }
   .industry-hero-title { font-size: 2rem; }
   .industry-proof-strip { grid-template-columns: repeat(2, 1fr); }
+  .industry-proof-strip-three { grid-template-columns: 1fr; }
   .industry-overview-section { grid-template-columns: 1fr; gap: 30px; }
   .industry-overview-grid { grid-template-columns: 1fr; }
   .industry-problems { grid-template-columns: 1fr; }

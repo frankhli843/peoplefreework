@@ -18,10 +18,10 @@ const teamMeta = {
 }
 
 const stats = [
-  { value: '24/7', labelKey: 'stats.availability' },
-  { value: '< 20s', labelKey: 'stats.avgResponse' },
-  { value: '0', labelKey: 'stats.sickDays' },
-  { value: '6+', labelKey: 'stats.languages' },
+  { valueKey: 'stats.current.availabilityValue', labelKey: 'stats.current.availabilityLabel' },
+  { valueKey: 'stats.current.emailValue', labelKey: 'stats.current.emailLabel' },
+  { valueKey: 'stats.current.workflowsValue', labelKey: 'stats.current.workflowsLabel' },
+  { valueKey: 'stats.current.reviewValue', labelKey: 'stats.current.reviewLabel' },
 ]
 
 const perkKeys = ['wage', 'iq', 'lang', 'balance', 'benefits', 'overtime', 'own', 'ip']
@@ -106,10 +106,27 @@ export default function Home() {
       <section className="stats-bar">
         {stats.map((s) => (
           <div className="stat" key={s.labelKey}>
-            <div className="stat-value">{s.value}</div>
+            <div className="stat-value">{t(s.valueKey)}</div>
             <div className="stat-label">{t(s.labelKey)}</div>
           </div>
         ))}
+      </section>
+
+      <section className="section industry-workflow-section home-workflow-section">
+        <div className="section-header">
+          <p className="industry-kicker">{t('industries.common.workflow.kicker')}</p>
+          <h2 className="section-title">{t('industries.common.workflow.title')}</h2>
+          <p className="section-sub">{t('industries.common.workflow.sub')}</p>
+        </div>
+        <div className="industry-workflow-grid">
+          {t('industries.common.workflow.items', { returnObjects: true }).map((item, i) => (
+            <div className="industry-workflow-card" key={item.title}>
+              <span className="industry-workflow-number">0{i + 1}</span>
+              <h3>{item.title}</h3>
+              <p>{item.desc}</p>
+            </div>
+          ))}
+        </div>
       </section>
 
       {/* Why Us / Perks */}

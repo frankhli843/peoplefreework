@@ -9,8 +9,8 @@
   "hero": {
     "title1": "Exceptional AI talent.",
     "title2": " Zero humanity.",
-    "sub": "Meet the AI agents handling real work around the clock for businesses worldwide. Deployable AI employees that learn your workflows, run your operations, and never complain, quit, or take time off.",
-    "subBold": "Through thick and thin, your AI teammates have your back.",
+    "sub": "Your AI operations partner connects the email, calendar, documents, reports, and approved messages your work already runs on. It prepares useful work for the right person to review.",
+    "subBold": "Built around your team and the work you actually do.",
     "meetTeam": "Meet the AI Team",
     "getInTouch": "Get in Touch"
   },
@@ -18,7 +18,17 @@
     "availability": "Availability",
     "avgResponse": "Avg. response time",
     "sickDays": "Sick days. Ever.",
-    "languages": "Languages per employee"
+    "languages": "Languages per employee",
+    "current": {
+      "availabilityValue": "24/7",
+      "availabilityLabel": "Agent availability",
+      "emailValue": "Email",
+      "emailLabel": "Triage and drafts",
+      "workflowsValue": "Your tools",
+      "workflowsLabel": "Connected workflows",
+      "reviewValue": "You approve",
+      "reviewLabel": "Outbound messages"
+    }
   },
   "perks": {
     "sectionTitle": "Why Companies Choose Us",
@@ -110,7 +120,7 @@
     "sectionSub": "Ten dedicated AI agents. Always available. Suspiciously perfect.",
     "search": {
       "placeholder": "Find your skillset...",
-      "reveal": "Can't find what you're looking for? We build custom AI agents with the personality, expertise, and experience that match your exact needs. Your perfect hire doesn't exist yet — but we can create them.",
+      "reveal": "Can't find what you're looking for? We build custom AI agents with the personality, expertise, and experience that match your exact needs. Your perfect hire doesn't exist yet, but we can create them.",
       "cta": "Let's Talk About It →",
       "emailSubject": "Custom AI Agent Inquiry",
       "emailBody": "Hi PeopleFreeWork team,\n\nI'm looking for an AI agent that can help with:\n\n[Describe the role, tasks, or skillset you need]"
@@ -226,7 +236,7 @@
     "sectionSub": "Getting started is simple. We handle the hard parts.",
     "step1": {
       "title": "Tell us what you need",
-      "desc": "Describe the role — we match you with the perfect specialist from our talent pool."
+      "desc": "Describe the role. We match you with the right specialist from our talent pool."
     },
     "step2": {
       "title": "We handle onboarding",
@@ -285,8 +295,8 @@
     }
   },
   "cta": {
-    "title": "Ready to build your dream team?",
-    "sub": "Brilliant, tireless, multilingual specialists — at a fraction of the cost.",
+    "title": "Ready to put an agent to work?",
+    "sub": "Tell us what takes time each day. We will scope a useful first workflow.",
     "button": "Start Hiring →"
   },
   "footer": {
@@ -296,7 +306,7 @@
   },
   "examples": {
     "sectionTitle": "See What They Can Do",
-    "sectionSub": "Real capabilities. Real results. These aren't hypothetical — they're running right now.",
+    "sectionSub": "Examples of work an agent can support. Each workflow is scoped to your tools, access, and review rules.",
     "professional": {
       "title": "For Your Business"
     },
@@ -403,7 +413,7 @@
       "smartReminders": {
         "title": "Smart Reminders with Escalation",
         "desc": "Sets reminders that start gentle and ramp up urgency as deadlines approach. Knows when to nudge and when to stay quiet.",
-        "real": "Deadline reminders start at 1x/day a week out, then 3x/day the day before, respecting quiet hours and meeting times."
+        "real": "Reminders follow the deadline and stop when the task is complete."
       }
     }
   },
@@ -411,21 +421,32 @@
     "navTitle": "Industries",
     "common": {
       "seeSolutions": "See How It Works",
-      "realExampleLabel": "In practice:"
+      "realExampleLabel": "In practice:",
+      "workflow": {
+        "kicker": "Made for your operation",
+        "title": "Your tools, your work, your decisions",
+        "sub": "We connect the approved sources, prepare useful work, and keep the final decision with your team.",
+        "items": [
+          {
+            "title": "Connect what matters",
+            "desc": "Start with the inboxes, calendars, documents, and messaging channels your team already uses. Access is scoped to the work."
+          },
+          {
+            "title": "Get work ready",
+            "desc": "The agent brings together context, highlights what needs attention, and prepares drafts, reports, or follow-up lists."
+          },
+          {
+            "title": "Keep control",
+            "desc": "Your team reviews external messages and can correct the agent. The workflow grows only when the first job earns trust."
+          }
+        ]
+      }
     },
     "legal": {
       "slug": "legal",
       "icon": "⚖️",
       "heroTitle": "AI for Law Firms",
       "heroSub": "Your paralegal that never sleeps. Dictate billing entries, track deadlines, research case law, and draft memos while you focus on winning cases.",
-      "problems": {
-        "title": "Your Firm Is Bleeding Billable Hours",
-        "items": [
-          "The average attorney loses 8-12 hours per week on non-billable admin: time entry, deadline tracking, document filing. At $300/hour, that's $125,000+ per year walking out the door.",
-          "Voice memos and handwritten notes sit untranscribed for days. By the time someone gets to them, context is lost and billing accuracy drops. Studies show firms under-bill by 10-30% due to late time entry.",
-          "One missed limitation date can cost a case and a career. Spreadsheet-based deadline tracking doesn't scale past 50 files, and the cost of a single miss is catastrophic."
-        ]
-      },
       "solutions": {
         "title": "How AI Solves It",
         "items": [
@@ -461,31 +482,6 @@
           }
         ]
       },
-      "examples": {
-        "title": "Money Recovered. Hours Reclaimed. Deadlines Kept.",
-        "items": [
-          {
-            "title": "327 Billable Hours Recovered in 90 Days",
-            "desc": "A personal injury firm was losing 8-12 hours per week on time entry backlog. Attorneys would finish a day of depositions and client calls, then face an hour of reconstructing billing notes from memory.",
-            "real": "We deployed an AI that accepts voice dictation after each call or meeting. The attorney says 'just finished 45 minutes with the Johnson estate on the wrongful death matter, reviewing medical records and discussing settlement range.' The AI logs it as 0.75 hours, codes it to the right file, and applies the correct billing rate. Three months in, the firm recovered 327 hours that were previously going unbilled."
-          },
-          {
-            "title": "From 6 Hours to 20 Minutes: Zoning Research",
-            "desc": "A real estate attorney needed precedent research on a mixed-use zoning variance for a client facing a municipal hearing in 48 hours. The associate usually assigned to research was on vacation.",
-            "real": "The AI searched case law across three jurisdictions, identified 11 relevant precedents, and drafted a 4-page research memo with citations and a recommendation. The partner reviewed it, made minor edits, and filed it. Total attorney time: 20 minutes of review instead of 6 hours of research."
-          },
-          {
-            "title": "Zero Missed Limitation Dates Across 340 Files",
-            "desc": "A litigation boutique was tracking limitation periods on a shared spreadsheet. One near-miss prompted the managing partner to look for a real solution.",
-            "real": "The AI now monitors all active files, calculates limitation dates from intake data, and sends escalating reminders: 90 days, 30 days, 14 days, 7 days, then daily. It cross-references the court calendar and flags conflicts. In 14 months, zero missed deadlines across 340 active files. The spreadsheet is gone."
-          },
-          {
-            "title": "Deposition Notes Transcribed Before the Elevator Ride Down",
-            "desc": "A litigator takes handwritten notes during discovery hearings because typing feels adversarial. The problem: those notes sit in a legal pad for weeks before someone types them up.",
-            "real": "Now the attorney photographs the notes after each hearing and sends the image via message. The AI transcribes the handwriting, organizes it by topic, flags action items, and files it to the case. The typed notes arrive in the case file before the attorney reaches their car."
-          }
-        ]
-      },
       "howItWorks": {
         "title": "Getting Started",
         "steps": [
@@ -512,7 +508,7 @@
     "manufacturing": {
       "slug": "manufacturing",
       "icon": "MFG",
-      "heroTitle": "The AI Operations Agent for Manufacturing",
+      "heroTitle": "AI Operations for Manufacturing",
       "heroSub": "A dedicated AI employee that monitors inboxes, ERP, sales, inventory, receivables, shipments, and reports so leadership sees the business clearly every day.",
       "heroProof": [
         {
@@ -1014,97 +1010,123 @@
     "realEstate": {
       "slug": "real-estate",
       "icon": "🏠",
-      "heroTitle": "AI for Real Estate",
-      "heroSub": "Your top-producing agent's secret weapon. Automated follow-ups, instant market research, listing management, and client coordination that never drops a lead.",
+      "heroTitle": "An AI operations partner for real estate",
+      "heroSub": "Give a brokerage office one clearer view of its leads, client conversations, appointments, and follow-ups. Your team stays in charge of every client-facing message.",
       "problems": {
-        "title": "Every Missed Follow-Up Is a Lost Commission",
+        "title": "What gets lost between channels",
         "items": [
-          "The average agent loses 2-3 deals per quarter to slow follow-ups. At $15,000 average commission, that's $60,000-90,000 per year in revenue that walked to a faster competitor.",
-          "Manual CMA research takes 2-4 hours per listing. While you're pulling comps, the seller is getting three other opinions. The first agent with numbers wins the listing appointment.",
-          "Coordinating 8+ showings, managing multi-language clients, and keeping 30+ leads warm simultaneously is physically impossible for one person. You either drop balls or cap your business."
+          "A client texts one team member while another holds the email thread. Staff spend time reconstructing the conversation before they can answer.",
+          "New inquiries, appointment changes, and pending documents arrive throughout the day. Without one owner and one list, follow-ups slip.",
+          "Generic automation can send a message without the right history or authority. A brokerage needs reviewable drafts and clear access boundaries."
         ]
       },
       "solutions": {
-        "title": "How AI Solves It",
+        "title": "What your real estate agent can prepare",
         "items": [
           {
-            "icon": "🏘️",
-            "title": "MLS Integration & Listings",
-            "desc": "Pull MLS data, manage listings across platforms, and get instant alerts when new inventory matches your client criteria."
+            "icon": "📧",
+            "title": "Email triage and reply drafts",
+            "desc": "Sort incoming mail, surface urgent client needs, and prepare replies in the right thread for a person to review."
           },
           {
             "icon": "📱",
-            "title": "Automated Client Follow-ups",
-            "desc": "Smart follow-up sequences that keep every lead warm. Personalized messages based on client preferences and activity."
-          },
-          {
-            "icon": "📊",
-            "title": "Market Research on Demand",
-            "desc": "Instant comparable sales, neighborhood analysis, price trend reports, and investment ROI calculations."
+            "title": "SMS and MMS follow-up",
+            "desc": "With an approved US line, capture supported text conversations and prepare follow-ups. Group MMS and RCS require a carrier and device pilot."
           },
           {
             "icon": "📅",
-            "title": "Showing Coordination",
-            "desc": "Schedule showings, send confirmations, handle reschedules, and provide clients with property details before each visit."
+            "title": "Showing and meeting coordination",
+            "desc": "Summarize schedule changes, identify conflicts, and prepare confirmations for the responsible team member."
           },
           {
-            "icon": "🌍",
-            "title": "Multi-Language Communication",
-            "desc": "Communicate with clients in their preferred language. Your AI speaks 6+ languages fluently."
-          },
-          {
-            "icon": "🔔",
-            "title": "Automated Property Alerts",
-            "desc": "Set up custom alerts for clients based on price, location, features, and investment criteria. Never miss a listing."
+            "icon": "📋",
+            "title": "Office action list",
+            "desc": "Bring leads, documents, and promised callbacks into one list with owners, source links, and next steps."
           }
         ]
       },
       "examples": {
-        "title": "More Deals Closed. Faster Responses. Zero Dropped Leads.",
+        "title": "Inside a better day at the office",
         "items": [
           {
-            "title": "14 Listings Managed Solo Without Missing a Follow-Up",
-            "desc": "A top-producing agent juggling 14 active listings was dropping follow-ups. Buyers would tour a property, express interest, and then hear nothing for a week. Three deals fell through in a quarter because competing offers came in during the silence.",
-            "real": "The AI sends personalized follow-ups within 4 hours of every showing: 'Thank you for visiting 42 Maple Drive today. I noticed you asked about the school district, here are the latest ratings.' It tracks response patterns and escalates warm leads. Follow-up rate went from 60% to 100%. The agent closed 11 of those 14 listings in the next quarter."
+            "title": "The morning office brief",
+            "desc": "Instead of checking every mailbox and calendar separately, the team starts with a concise view of new leads, changed appointments, and replies due.",
+            "real": "Illustrative workflow: each item links to the original conversation so the assigned person can verify the context."
           },
           {
-            "title": "Comp Report Generated During the Listing Appointment",
-            "desc": "A seller asks 'what's my home worth?' during the listing appointment. The agent used to say 'I'll send you a CMA by tomorrow.' The seller would get three more opinions before that CMA arrived.",
-            "real": "Now the agent messages the AI from the kitchen: '4 bed 2 bath, 2,100 sqft, built 1998, 42 Maple Dr.' Within 90 seconds, the AI pulls 8 comparable sales within 800m from the last 6 months, adjusts for lot size and condition, and delivers a formatted comp report. The agent shows it on their phone before the appointment ends."
+            "title": "A text reply with its email history",
+            "desc": "A prospect replies to the brokerage number after an earlier email exchange. The agent finds the related context and prepares a response.",
+            "real": "Illustrative workflow: the person responsible reviews the draft and sends it. Text capture depends on the connected line and carrier."
           },
           {
-            "title": "Mandarin Buyer Served Entirely in Their Language",
-            "desc": "A relocation client from Shanghai needed neighborhood research for two school-age children. The referring agent spoke English only and was losing the client to a competitor who spoke Mandarin.",
-            "real": "The AI handled all communication in Mandarin: researched school ratings, walkability scores, commute times to the client's new office, and nearby Chinese grocery stores. It delivered a neighborhood comparison report in both Mandarin and English. The client stayed and bought a home within 6 weeks."
-          },
-          {
-            "title": "8 Showings, Zero Scheduling Conflicts",
-            "desc": "A buyer's agent booked 8 showings across the city on a Saturday. Two sellers changed availability last-minute. One buyer was running 20 minutes late. The usual result: chaos, missed slots, and an apologetic voicemail.",
-            "real": "The AI re-optimized the route in real time, sent updated confirmations to all parties, rescheduled the two conflicts into open afternoon slots, and adjusted the buyer's pickup time. All 8 showings completed. The buyer put in an offer on showing #6 that evening."
+            "title": "A handoff that stays visible",
+            "desc": "An agent promises a buyer a document while an assistant handles the showing schedule. Both steps appear in the office action list.",
+            "real": "Illustrative workflow: the owner, due time, and source record stay together until the work is complete."
           }
         ]
       },
       "howItWorks": {
-        "title": "Getting Started",
+        "title": "Start with one office workflow",
         "steps": [
           {
-            "title": "Share your practice",
-            "desc": "Tell us about your market, client base, preferred CRM, and the tasks that eat your selling time."
+            "title": "Choose the first job",
+            "desc": "Pick a high-value workflow such as inbox triage, lead follow-up, or appointment coordination."
           },
           {
-            "title": "We build your real estate AI",
-            "desc": "Your AI learns your market, connects to your MLS, and starts managing leads and listings."
+            "title": "Connect and test",
+            "desc": "Approve the data sources and people who can use them. Test texting and group messaging on the intended carrier before relying on them."
           },
           {
-            "title": "Close more deals",
-            "desc": "Automated follow-ups, instant research, and 24/7 client communication. Sell more, admin less."
+            "title": "Review, then expand",
+            "desc": "Staff review early drafts and correct the agent. Add more workflows after the first one is dependable."
           }
         ]
       },
       "cta": {
-        "title": "Ready to close more deals?",
-        "sub": "Your AI agent works every open house, every evening showing, and every holiday weekend. No commission split required.",
-        "button": "Get Your Real Estate AI →"
+        "title": "Give your office its time back",
+        "sub": "Tell us where your team loses the thread. We will scope a useful first workflow and its review rules.",
+        "button": "Discuss your brokerage workflow →"
+      },
+      "heroProof": [
+        {
+          "value": "Office-wide",
+          "label": "Built around the brokerage"
+        },
+        {
+          "value": "Email + text",
+          "label": "One follow-up view when connected"
+        },
+        {
+          "value": "Human review",
+          "label": "Client messages stay in your hands"
+        }
+      ],
+      "overview": {
+        "kicker": "For brokerage teams",
+        "title": "Your office has the context. Give it a way to act.",
+        "body": "Leads arrive in one inbox, clients reply by text, showing details live on a calendar, and the next step hides in a document. A dedicated agent can connect those approved sources and prepare the work for the right person to review.",
+        "items": [
+          {
+            "icon": "📬",
+            "title": "Shared inbox clarity",
+            "desc": "Sort inquiries, requests, and updates into a short action list with the source conversation attached."
+          },
+          {
+            "icon": "💬",
+            "title": "Text with context",
+            "desc": "When a dedicated line is connected, bring replies into the same follow-up view as email. Group texting is tested with your carrier before rollout."
+          },
+          {
+            "icon": "📅",
+            "title": "Appointments and handoffs",
+            "desc": "Track who owns the next step, what was promised, and when the office needs to respond."
+          },
+          {
+            "icon": "📄",
+            "title": "Documents ready for review",
+            "desc": "Organize the details staff need for listing packets, client updates, and recurring office work."
+          }
+        ]
       }
     },
     "content": {
@@ -1112,14 +1134,6 @@
       "icon": "✍️",
       "heroTitle": "AI for Content Creators",
       "heroSub": "Your creative team that never burns out. SEO-optimized writing, content calendar management, and multi-platform publishing at scale.",
-      "problems": {
-        "title": "Your Content Machine Is Stalling",
-        "items": [
-          "Consistent publishing requires 15-20 hours per week of research, writing, and editing. Most teams can sustain 2-3 articles per week before quality drops. Your competitors are publishing daily.",
-          "Every article that isn't SEO-optimized is traffic left on the table. A content library of 200 articles with poor meta descriptions and keyword gaps could be losing 40%+ of its organic potential.",
-          "One blog post should generate 10+ pieces of derivative content across channels. Instead, most companies share it once on LinkedIn and move on. That's 90% of the content's value unrealized."
-        ]
-      },
       "solutions": {
         "title": "How AI Solves It",
         "items": [
@@ -1155,31 +1169,6 @@
           }
         ]
       },
-      "examples": {
-        "title": "More Content. Better Rankings. Wider Reach.",
-        "items": [
-          {
-            "title": "52 Articles Published in 60 Days, All On-Brand",
-            "desc": "A luxury lifestyle publication needed to ramp from 2 articles per week to 10 to compete for search traffic. Freelancers delivered inconsistent quality and missed deadlines. The editor spent more time rewriting than writing.",
-            "real": "The AI studied the publication's existing 200+ articles, extracted the brand voice, and began producing 2 articles daily. Each one: researched, written with proper bylines, SEO-optimized, and formatted for the CMS. The editor's role shifted from rewriting to approving. Organic traffic up 340% in the first quarter."
-          },
-          {
-            "title": "One Blog Post Became 12 Pieces of Content",
-            "desc": "A B2B company publishes a weekly deep-dive blog post. The marketing team knows they should repurpose it for social, email, and video, but nobody has the time. The blog post gets shared once on LinkedIn and that's it.",
-            "real": "The AI takes each published post and generates: 3 LinkedIn posts (different angles), 2 Twitter threads, an email newsletter intro, a slide deck summary, Instagram carousel copy, and a YouTube video script outline. All tailored to each platform's format and tone. One piece of content now drives engagement across 6 channels."
-          },
-          {
-            "title": "SEO Audit Recovered 40% Lost Traffic",
-            "desc": "A content site with 180+ articles saw organic traffic drop 40% after a Google algorithm update. The team suspected thin content and keyword cannibalization but didn't have the bandwidth to audit everything.",
-            "real": "The AI audited all 180 articles in 3 hours: flagged 23 with thin content, identified 11 sets of keyword cannibalization, and found 34 missing meta descriptions. It rewrote the thin articles, consolidated the cannibalized sets, and optimized all meta tags. Traffic recovered within 6 weeks."
-          },
-          {
-            "title": "Event Calendar That Fills Itself",
-            "desc": "A city lifestyle brand wants to publish local event roundups weekly, but researching events across 15+ venues, tourist boards, and social accounts takes an intern a full day.",
-            "real": "The AI monitors venue calendars, event aggregators, and local news daily. Every Monday morning, it delivers a draft event roundup: curated, categorized by type, with photos sourced and publication-ready. The editor reviews, adds a personal note at the top, and publishes by noon."
-          }
-        ]
-      },
       "howItWorks": {
         "title": "Getting Started",
         "steps": [
@@ -1208,14 +1197,6 @@
       "icon": "💻",
       "heroTitle": "AI for Software Engineering",
       "heroSub": "Your senior engineer who actually likes being on-call. Code reviews, infrastructure monitoring with self-healing, and deployment automation that never sleeps.",
-      "problems": {
-        "title": "Your Team Is Stuck in Reactive Mode",
-        "items": [
-          "On-call burnout costs you your best engineers. Replacing a senior engineer costs $50,000-100,000 in recruiting and ramp-up. Meanwhile, 3 AM incidents that could have been auto-resolved are waking up your most expensive people.",
-          "PR review queues averaging 2+ days block deployments and demoralize teams. Every day a PR sits unreviewed, it accumulates merge conflicts and loses context. Your shipping velocity is capped by review bandwidth.",
-          "Reactive infrastructure monitoring means users discover your outages before you do. Every hour of undetected downtime costs trust, revenue, and SLA credits. Proactive self-healing pays for itself the first time it catches a 3 AM failure."
-        ]
-      },
       "solutions": {
         "title": "How AI Solves It",
         "items": [
@@ -1251,31 +1232,6 @@
           }
         ]
       },
-      "examples": {
-        "title": "Faster Reviews. Self-Healing Systems. Engineers Who Sleep.",
-        "items": [
-          {
-            "title": "PR Review Backlog Eliminated in One Week",
-            "desc": "An 8-person engineering team had a PR review bottleneck: 15+ PRs open daily, average review time 2.3 days. Engineers context-switched between writing code and reviewing code, and nothing moved fast.",
-            "real": "The AI reviews every PR within 5 minutes of submission: checks for style violations, security patterns, test coverage gaps, and generates an architecture diagram showing the change impact. It posts specific inline comments, not generic suggestions. Human reviewers now focus only on business logic decisions. Average review time dropped from 2.3 days to 4 hours."
-          },
-          {
-            "title": "3 AM Outage Resolved Before Anyone Woke Up",
-            "desc": "A SaaS platform's database connection pool exhausted at 3:12 AM on a Tuesday. The on-call engineer's phone buzzed, but they were in deep sleep after a long deployment day.",
-            "real": "The AI detected the failure via heartbeat monitoring, identified the root cause (connection leak from a recent deployment), restarted the service with a safe connection limit, cleared the stale pool, verified the fix with synthetic requests, and posted a detailed incident report to the team channel. The on-call engineer woke up to a resolved incident and a root cause analysis ready for the morning standup."
-          },
-          {
-            "title": "5 Servers, Zero Manual Health Checks",
-            "desc": "A small team runs 5 server instances across two cloud providers. Someone used to SSH into each one weekly to check disk space, SSL certs, and service status. Sometimes they forgot. Sometimes they found problems that had been festering for days.",
-            "real": "The AI runs automated health checks every 30 minutes: disk usage, memory, SSL expiration, service uptime, backup freshness, and auth token validity. When disk hit 85% on one instance, it cleaned up old logs automatically. When an SSL cert was 14 days from expiry, it renewed it. The team hasn't SSH'd in for a manual check in 6 months."
-          },
-          {
-            "title": "Documentation That Stays Current",
-            "desc": "A growing codebase had documentation from 18 months ago that no one trusted. New engineers spent their first week reading code instead of docs, because the docs were worse than useless, they were misleading.",
-            "real": "The AI monitors every merged PR and updates the relevant documentation automatically: API changes get reflected in the docs within hours, deprecated endpoints get flagged, and new features get documented before the author has to think about it. The README now has a 'last verified' timestamp that's never more than a day old."
-          }
-        ]
-      },
       "howItWorks": {
         "title": "Getting Started",
         "steps": [
@@ -1304,14 +1260,6 @@
       "icon": "📊",
       "heroTitle": "AI for Accounting",
       "heroSub": "Your bookkeeper who actually enjoys tax season. Corporate filings, expense categorization, invoice management, and deadline tracking that never drops a number.",
-      "problems": {
-        "title": "Late Books Cost Real Money",
-        "items": [
-          "Small businesses spend $5,000-15,000 per year on bookkeeping that's perpetually 2-3 months behind. By the time you see the numbers, the decisions they should have informed are already made.",
-          "Multi-entity businesses miss an average of 1-2 filing deadlines per year. CRA penalties start at $100 and compound to thousands. One overlooked T5 amendment can trigger a $9,000+ Part III.1 penalty.",
-          "Manual invoice tracking means money sits on the table. The average small business sends invoices 5-7 days after work is completed. That delay alone pushes payment collection out by 3-4 weeks."
-        ]
-      },
       "solutions": {
         "title": "How AI Solves It",
         "items": [
@@ -1344,31 +1292,6 @@
             "icon": "⏰",
             "title": "Deadline Tracking with Escalation",
             "desc": "Monitors every tax deadline and filing obligation. Reminders start gentle, then escalate as due dates approach."
-          }
-        ]
-      },
-      "examples": {
-        "title": "Penalties Avoided. Refunds Found. Books That Stay Current.",
-        "items": [
-          {
-            "title": "Three Corporations, Zero Missed Deadlines",
-            "desc": "A business owner runs an Ontario consulting corp, a BC tech corp, and a personal holding company. Each has different fiscal year-ends, different filing requirements, and different tax obligations. The accountant's spreadsheet had gaps.",
-            "real": "The AI tracks every deadline across all three entities: T2 corporate returns, T4A slips, T5 dividend reporting, HST/GST filings, annual returns, and payroll remittances. Reminders start 30 days out and escalate to daily as deadlines approach. It caught an overlooked T5 amendment that would have triggered a $9,000 penalty. All filings completed on time for two consecutive years."
-          },
-          {
-            "title": "$25K Refund Found in Instalment Overpayment",
-            "desc": "A consulting corporation had been making quarterly tax instalments based on the prior year's income, which was a banner year. The current year was slower, but the instalments kept going at the old rate. Nobody noticed.",
-            "real": "The AI compared YTD revenue against instalment payments and flagged a $25K overpayment. It generated the calculations, prepared the supporting documentation, and the business owner adjusted the next quarter's instalment. The overpayment was recovered as a credit on the next T2 filing."
-          },
-          {
-            "title": "Expense Categorization: 400 Transactions, 20 Minutes",
-            "desc": "A consulting firm runs expenses across 4 credit cards and 2 bank accounts. Every month, the bookkeeper downloads CSVs, manually categorizes each transaction, and reconciles against receipts. It takes two full days.",
-            "real": "The AI pulls transactions daily, auto-categorizes each one based on learned patterns (this vendor is always 'Software Subscriptions,' that one is always 'Client Entertainment'), flags anything unusual, and generates a monthly expense report ready for review. The two-day process is now a 20-minute spot-check."
-          },
-          {
-            "title": "Invoice Sent 4 Minutes After the Meeting Ended",
-            "desc": "A freelance consultant finishes a 2-hour strategy session with a client. Normally, the invoice goes out 'sometime this week,' which really means 'whenever I remember.' Net 30 becomes net 60 because the clock starts late.",
-            "real": "The consultant sends a voice note: 'Just finished 2 hours with Meridian on their Q3 strategy review.' The AI generates the invoice with the correct rate, sends it to the client's billing email, and logs the hours. The client receives the invoice 4 minutes after the meeting. Payment arrives 22 days faster on average."
           }
         ]
       },
@@ -1410,7 +1333,7 @@
     },
     "realEstate": {
       "title": "Real Estate",
-      "desc": "MLS integration, listing management, client follow-ups, and market research. Your top agent's secret weapon."
+      "desc": "One office view for email, text, appointments, and follow-ups, with staff reviewing client messages."
     },
     "content": {
       "title": "Content Creation",

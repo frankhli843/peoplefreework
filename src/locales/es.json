@@ -9,8 +9,8 @@
   "hero": {
     "title1": "Talento de IA excepcional.",
     "title2": " Cero humanidad.",
-    "sub": "Conoce a los agentes de IA que se encargan del trabajo real las 24 horas para empresas de todo el mundo. Empleados de IA listos para desplegar que aprenden tus flujos de trabajo, dirigen tus operaciones, y nunca se quejan, renuncian ni piden vacaciones.",
-    "subBold": "En las buenas y en las malas, tus compañeros de IA siempre te respaldan.",
+    "sub": "Tu socio de operaciones con IA conecta el correo, calendario, documentos, informes y mensajes aprobados que tu equipo ya utiliza. Prepara trabajo útil para revisión.",
+    "subBold": "Adaptado a tu equipo y a su trabajo real.",
     "meetTeam": "Conoce al equipo de IA",
     "getInTouch": "Contáctanos"
   },
@@ -18,7 +18,17 @@
     "availability": "Disponibilidad",
     "avgResponse": "Tiempo de respuesta promedio",
     "sickDays": "Días de baja. Nunca.",
-    "languages": "Idiomas por empleado"
+    "languages": "Idiomas por empleado",
+    "current": {
+      "availabilityValue": "24/7",
+      "availabilityLabel": "Disponibilidad del agente",
+      "emailValue": "Correo",
+      "emailLabel": "Clasificación y borradores",
+      "workflowsValue": "Tus herramientas",
+      "workflowsLabel": "Flujos conectados",
+      "reviewValue": "Tú apruebas",
+      "reviewLabel": "Mensajes salientes"
+    }
   },
   "perks": {
     "sectionTitle": "Por qué las empresas nos eligen",
@@ -215,7 +225,7 @@
     },
     "search": {
       "placeholder": "Encuentra tu habilidad...",
-      "reveal": "¿No encuentras lo que buscas? Creamos agentes de IA personalizados con la personalidad, experiencia y conocimientos que se ajustan exactamente a tus necesidades. Tu contratación perfecta aún no existe — pero podemos crearla.",
+      "reveal": "¿No encuentras lo que buscas? Creamos agentes de IA personalizados con la personalidad, experiencia y conocimientos que se ajustan exactamente a tus necesidades. Tu contratación perfecta aún no existe, pero podemos crearla.",
       "cta": "Hablemos →",
       "emailSubject": "Consulta sobre agente de IA personalizado",
       "emailBody": "Hola equipo de PeopleFreeWork,\n\nEstoy buscando un agente de IA que pueda ayudar con:\n\n[Describa el rol, las tareas o las habilidades que necesita]"
@@ -285,8 +295,8 @@
     }
   },
   "cta": {
-    "title": "¿Listo para crear tu equipo soñado?",
-    "sub": "Especialistas brillantes, incansables y multilingües — a una fracción del costo.",
+    "title": "¿Listo para poner a trabajar a un agente?",
+    "sub": "Cuéntanos qué consume tiempo cada día. Definiremos un primer flujo útil.",
     "button": "Empieza a contratar →"
   },
   "footer": {
@@ -296,7 +306,7 @@
   },
   "examples": {
     "sectionTitle": "Mira lo que pueden hacer",
-    "sectionSub": "Capacidades reales. Resultados reales. No son hipotéticos, están funcionando ahora mismo.",
+    "sectionSub": "Ejemplos de tareas que puede apoyar un agente. Cada flujo se define según tus herramientas, accesos y reglas de revisión.",
     "professional": {
       "title": "Para tu negocio"
     },
@@ -403,7 +413,7 @@
       "smartReminders": {
         "title": "Recordatorios inteligentes con escalación",
         "desc": "Establece recordatorios que comienzan suaves y aumentan la urgencia a medida que se acercan los plazos. Sabe cuándo insistir y cuándo guardar silencio.",
-        "real": "Los recordatorios de fecha limite comienzan con 1x/dia una semana antes, luego 3x/dia el dia anterior, respetando horas tranquilas y reuniones."
+        "real": "Los recordatorios siguen el plazo y se detienen al completar la tarea."
       }
     }
   },
@@ -411,21 +421,32 @@
     "navTitle": "Industrias",
     "common": {
       "seeSolutions": "Ver soluciones",
-      "realExampleLabel": "En la practica:"
+      "realExampleLabel": "En la practica:",
+      "workflow": {
+        "kicker": "Hecho para tu operación",
+        "title": "Tus herramientas, tu trabajo, tus decisiones",
+        "sub": "Conectamos las fuentes aprobadas, preparamos trabajo útil y dejamos la decisión final en manos de tu equipo.",
+        "items": [
+          {
+            "title": "Conecta lo importante",
+            "desc": "Empieza por los correos, calendarios, documentos y canales de mensajes que tu equipo ya utiliza."
+          },
+          {
+            "title": "Trabajo listo para revisar",
+            "desc": "El agente reúne el contexto, destaca prioridades y prepara borradores, informes y listas de seguimiento."
+          },
+          {
+            "title": "Mantén el control",
+            "desc": "Tu equipo revisa los mensajes externos y corrige al agente. El alcance crece cuando el primer trabajo es fiable."
+          }
+        ]
+      }
     },
     "legal": {
       "slug": "legal",
       "icon": "⚖️",
       "heroTitle": "IA para bufetes de abogados",
       "heroSub": "Tu asistente legal que nunca duerme. Dicta facturaciones, rastrea plazos, investiga jurisprudencia y redacta memorandos mientras te concentras en ganar casos.",
-      "problems": {
-        "title": "Tu bufete está perdiendo horas facturables",
-        "items": [
-          "El abogado promedio pierde 8-12 horas por semana en tareas administrativas no facturables: registro de tiempo, seguimiento de plazos, archivo de documentos. A $300/hora, eso supone más de $125,000 al año que se esfuman.",
-          "Los memos de voz y las notas manuscritas quedan sin transcribir durante días. Para cuando alguien las procesa, el contexto se ha perdido y la precisión de facturación cae. Los estudios muestran que los bufetes subfacturan entre un 10-30% por la entrada tardía de tiempos.",
-          "Un solo plazo de prescripción perdido puede costar un caso y una carrera. El seguimiento de plazos en hojas de cálculo no escala más allá de 50 expedientes, y el costo de un solo descuido es catastrófico."
-        ]
-      },
       "solutions": {
         "title": "Como la IA lo resuelve",
         "items": [
@@ -461,31 +482,6 @@
           }
         ]
       },
-      "examples": {
-        "title": "Ingresos recuperados. Horas reclamadas. Plazos cumplidos.",
-        "items": [
-          {
-            "title": "327 horas facturables recuperadas en 90 días",
-            "desc": "Un bufete de daños personales perdía 8-12 horas semanales por el retraso en el registro de tiempos. Los abogados terminaban un día de deposiciones y llamadas con clientes, y luego enfrentaban una hora reconstruyendo notas de facturación de memoria.",
-            "real": "Desplegamos una IA que acepta dictado por voz después de cada llamada o reunión. El abogado dice 'acabo de terminar 45 minutos con el patrimonio Johnson sobre el caso de muerte injusta, revisando registros médicos y discutiendo el rango de acuerdo.' La IA lo registra como 0.75 horas, lo asigna al expediente correcto y aplica la tarifa de facturación correspondiente. En tres meses, el bufete recuperó 327 horas que antes no se facturaban."
-          },
-          {
-            "title": "De 6 horas a 20 minutos: investigación de zonificación",
-            "desc": "Un abogado inmobiliario necesitaba investigación de precedentes sobre una varianza de zonificación de uso mixto para un cliente con una audiencia municipal en 48 horas. El asociado normalmente asignado a la investigación estaba de vacaciones.",
-            "real": "La IA buscó jurisprudencia en tres jurisdicciones, identificó 11 precedentes relevantes y redactó un memorando de investigación de 4 páginas con citas y una recomendación. El socio lo revisó, hizo ediciones menores y lo presentó. Tiempo total del abogado: 20 minutos de revisión en lugar de 6 horas de investigación."
-          },
-          {
-            "title": "Cero plazos de prescripción perdidos en 340 expedientes",
-            "desc": "Un bufete boutique de litigio hacía seguimiento de plazos de prescripción en una hoja de cálculo compartida. Un casi-olvido motivó al socio director a buscar una solución real.",
-            "real": "La IA ahora monitorea todos los expedientes activos, calcula los plazos de prescripción a partir de los datos de admisión y envía recordatorios escalonados: 90 días, 30 días, 14 días, 7 días, luego diariamente. Cruza con el calendario judicial y señala conflictos. En 14 meses, cero plazos perdidos en 340 expedientes activos. La hoja de cálculo fue eliminada."
-          },
-          {
-            "title": "Notas de deposición transcritas antes de llegar al ascensor",
-            "desc": "Un litigante toma notas manuscritas durante las audiencias de descubrimiento porque escribir a máquina se siente confrontativo. El problema: esas notas se quedan en un bloc legal durante semanas antes de que alguien las transcriba.",
-            "real": "Ahora el abogado fotografía las notas después de cada audiencia y envía la imagen por mensaje. La IA transcribe la escritura, la organiza por tema, señala elementos de acción y la archiva en el expediente. Las notas transcritas aparecen en el expediente antes de que el abogado llegue a su auto."
-          }
-        ]
-      },
       "howItWorks": {
         "title": "Como empezar",
         "steps": [
@@ -512,7 +508,7 @@
     "manufacturing": {
       "slug": "manufacturing",
       "icon": "MFG",
-      "heroTitle": "The AI Operations Agent for Manufacturing",
+      "heroTitle": "Agente de operaciones con IA para fabricación",
       "heroSub": "A dedicated AI employee that monitors inboxes, ERP, sales, inventory, receivables, shipments, and reports so leadership sees the business clearly every day.",
       "heroProof": [
         {
@@ -1014,97 +1010,123 @@
     "realEstate": {
       "slug": "real-estate",
       "icon": "🏠",
-      "heroTitle": "IA para bienes raices",
-      "heroSub": "El arma secreta del mejor agente. Seguimientos automatizados, investigacion de mercado instantanea, gestion de listados y coordinacion de clientes que nunca pierde un prospecto.",
+      "heroTitle": "Un socio de operaciones con IA para inmobiliarias",
+      "heroSub": "Dale a tu oficina una visión clara de clientes potenciales, conversaciones, citas y seguimientos. Tu equipo controla cada mensaje al cliente.",
       "problems": {
-        "title": "Cada seguimiento perdido es una comisión que se va",
+        "title": "Cuando el contexto se pierde entre canales",
         "items": [
-          "El agente promedio pierde 2-3 operaciones por trimestre por seguimientos lentos. Con una comisión promedio de $15,000, eso son $60,000-90,000 al año en ingresos que se fueron a un competidor más rápido.",
-          "La investigación manual de comparables toma 2-4 horas por propiedad. Mientras tú sacas los datos, el vendedor está recibiendo tres opiniones más. El primer agente con los números gana la cita de listado.",
-          "Coordinar más de 8 visitas, gestionar clientes multilingües y mantener 30+ prospectos activos simultáneamente es físicamente imposible para una sola persona. O pierdes oportunidades o pones un techo a tu negocio."
+          "Un cliente escribe por SMS a una persona mientras otra tiene el correo. El equipo debe reconstruir la conversación antes de responder.",
+          "Consultas, cambios de cita y documentos pendientes llegan todo el día. Sin una lista y un responsable, se pierden seguimientos.",
+          "La automatización genérica puede enviar mensajes sin el historial o permiso adecuados. La oficina necesita borradores revisables y límites de acceso."
         ]
       },
       "solutions": {
-        "title": "Como la IA lo resuelve",
+        "title": "Qué puede preparar tu agente inmobiliario",
         "items": [
           {
-            "icon": "🏘️",
-            "title": "Integracion MLS y listados",
-            "desc": "Extrae datos MLS, gestiona listados en todas las plataformas y recibe alertas instantaneas cuando nuevos inventarios coinciden con los criterios de tus clientes."
+            "icon": "📧",
+            "title": "Correo y borradores",
+            "desc": "Clasifica mensajes, destaca necesidades urgentes y prepara respuestas en el hilo correcto para revisión humana."
           },
           {
             "icon": "📱",
-            "title": "Seguimientos automatizados",
-            "desc": "Secuencias de seguimiento inteligentes que mantienen cada prospecto caliente. Mensajes personalizados basados en preferencias y actividad del cliente."
-          },
-          {
-            "icon": "📊",
-            "title": "Investigacion de mercado on-demand",
-            "desc": "Ventas comparables instantaneas, analisis de vecindario, reportes de tendencias de precios y calculos de ROI de inversion."
+            "title": "Seguimiento por SMS y MMS",
+            "desc": "Con una línea estadounidense aprobada, registra conversaciones compatibles y prepara seguimientos. Los grupos MMS y RCS requieren una prueba real."
           },
           {
             "icon": "📅",
-            "title": "Coordinacion de visitas",
-            "desc": "Programa visitas, envia confirmaciones, maneja reprogramaciones y proporciona detalles de la propiedad antes de cada visita."
+            "title": "Coordinación de visitas",
+            "desc": "Resume cambios, detecta conflictos y prepara confirmaciones para la persona responsable."
           },
           {
-            "icon": "🌍",
-            "title": "Comunicacion multilingue",
-            "desc": "Comunicate con clientes en su idioma preferido. Tu IA habla con fluidez mas de 6 idiomas."
-          },
-          {
-            "icon": "🔔",
-            "title": "Alertas de propiedades automaticas",
-            "desc": "Configura alertas personalizadas basadas en precio, ubicacion, caracteristicas y criterios de inversion. Nunca pierdas un listado."
+            "icon": "📋",
+            "title": "Lista de acciones",
+            "desc": "Reúne contactos, documentos y llamadas prometidas con responsable, fuente y siguiente paso."
           }
         ]
       },
       "examples": {
-        "title": "Más cierres. Respuestas más rápidas. Cero prospectos olvidados.",
+        "title": "Así puede trabajar tu oficina",
         "items": [
           {
-            "title": "14 listados activos gestionados en solitario sin perder un seguimiento",
-            "desc": "Un agente top con 14 listados activos dejaba caer seguimientos. Los compradores visitaban una propiedad, expresaban interés y luego no recibían noticias durante una semana. Tres operaciones se cayeron en un trimestre porque ofertas competidoras llegaron durante el silencio.",
-            "real": "La IA envía seguimientos personalizados dentro de las 4 horas posteriores a cada visita: 'Gracias por visitar 42 Maple Drive hoy. Noté que preguntó sobre el distrito escolar, aquí están las últimas calificaciones.' Rastrea patrones de respuesta y escala prospectos calientes. La tasa de seguimiento pasó del 60% al 100%. El agente cerró 11 de los 14 listados en el trimestre siguiente."
+            "title": "Resumen de la mañana",
+            "desc": "El equipo ve nuevos contactos, citas cambiadas y respuestas pendientes sin revisar cada correo y calendario.",
+            "real": "Flujo ilustrativo: cada elemento enlaza la conversación original para verificar el contexto."
           },
           {
-            "title": "Informe de comparables generado durante la cita de listado",
-            "desc": "Un vendedor pregunta '¿cuánto vale mi casa?' durante la cita de listado. El agente solía decir 'le envío un análisis comparativo mañana.' El vendedor recibía tres opiniones más antes de que ese análisis llegara.",
-            "real": "Ahora el agente envía un mensaje a la IA desde la cocina: '4 recámaras 2 baños, 2,100 pies², construida en 1998, 42 Maple Dr.' En 90 segundos, la IA extrae 8 ventas comparables dentro de 800m de los últimos 6 meses, ajusta por tamaño del lote y condición, y entrega un informe comparativo formateado. El agente lo muestra en su teléfono antes de que termine la cita."
+            "title": "Un SMS con historial de correo",
+            "desc": "Un posible cliente responde al número de la oficina tras intercambiar correos. El agente encuentra el contexto y prepara la respuesta.",
+            "real": "Flujo ilustrativo: la persona responsable revisa y envía. La captura depende de la línea y el operador."
           },
           {
-            "title": "Comprador mandarín atendido completamente en su idioma",
-            "desc": "Un cliente de reubicación de Shanghái necesitaba investigación de barrios para dos hijos en edad escolar. El agente referente solo hablaba inglés y estaba perdiendo al cliente frente a un competidor que hablaba mandarín.",
-            "real": "La IA manejó toda la comunicación en mandarín: investigó calificaciones escolares, puntuaciones de caminabilidad, tiempos de traslado a la nueva oficina del cliente y supermercados chinos cercanos. Entregó un informe comparativo de barrios en mandarín e inglés. El cliente se quedó y compró una vivienda en 6 semanas."
-          },
-          {
-            "title": "8 visitas, cero conflictos de agenda",
-            "desc": "Un agente de compradores programó 8 visitas por toda la ciudad un sábado. Dos vendedores cambiaron su disponibilidad a último minuto. Un comprador iba 20 minutos tarde. El resultado habitual: caos, horarios perdidos y un mensaje de voz pidiendo disculpas.",
-            "real": "La IA reoptimizó la ruta en tiempo real, envió confirmaciones actualizadas a todas las partes, reprogramó los dos conflictos en huecos de la tarde y ajustó la hora de recogida del comprador. Las 8 visitas se completaron. El comprador hizo una oferta sobre la propiedad #6 esa misma noche."
+            "title": "Un traspaso visible",
+            "desc": "Un agente promete un documento al comprador mientras un asistente organiza la visita. Ambas tareas quedan en la lista de acciones.",
+            "real": "Flujo ilustrativo: responsable, plazo y fuente permanecen unidos hasta terminar."
           }
         ]
       },
       "howItWorks": {
-        "title": "Como empezar",
+        "title": "Empieza con un flujo de oficina",
         "steps": [
           {
-            "title": "Comparte tu practica",
-            "desc": "Cuentanos sobre tu mercado, base de clientes, CRM preferido y las tareas que consumen tu tiempo de ventas."
+            "title": "Elige el primer trabajo",
+            "desc": "Escoge clasificación de correo, seguimiento de clientes o coordinación de citas."
           },
           {
-            "title": "Construimos tu IA inmobiliaria",
-            "desc": "Tu IA aprende tu mercado, se conecta a tu MLS y comienza a gestionar prospectos y listados."
+            "title": "Conecta y prueba",
+            "desc": "Aprueba fuentes y usuarios. Prueba SMS y grupos con el operador previsto antes de depender de ellos."
           },
           {
-            "title": "Cierra mas tratos",
-            "desc": "Seguimientos automatizados, investigacion instantanea y comunicacion 24/7 con clientes. Vende mas, administra menos."
+            "title": "Revisa y amplía",
+            "desc": "El personal revisa los primeros borradores y corrige al agente. Añade flujos cuando el primero sea fiable."
           }
         ]
       },
       "cta": {
-        "title": "Listo para cerrar mas tratos?",
-        "sub": "Tu agente IA trabaja cada open house, cada visita nocturna y cada fin de semana festivo. Sin division de comision.",
-        "button": "Obtener tu IA inmobiliaria →"
+        "title": "Devuelve tiempo a tu oficina",
+        "sub": "Cuéntanos dónde tu equipo pierde el hilo. Definiremos un primer flujo útil y sus reglas de revisión.",
+        "button": "Hablar de tu oficina →"
+      },
+      "heroProof": [
+        {
+          "value": "Toda la oficina",
+          "label": "Pensado para la inmobiliaria"
+        },
+        {
+          "value": "Correo y SMS",
+          "label": "Seguimiento común al conectar"
+        },
+        {
+          "value": "Revisión humana",
+          "label": "Tú decides los mensajes al cliente"
+        }
+      ],
+      "overview": {
+        "kicker": "Para equipos inmobiliarios",
+        "title": "Tu oficina tiene el contexto. Conviértelo en acción.",
+        "body": "Los contactos llegan por correo, los clientes responden por SMS, las visitas están en el calendario y el siguiente paso se esconde en un documento. Un agente dedicado conecta las fuentes aprobadas y prepara el trabajo para revisión.",
+        "items": [
+          {
+            "icon": "📬",
+            "title": "Bandeja compartida clara",
+            "desc": "Organiza consultas y novedades en una lista breve con enlace a la conversación original."
+          },
+          {
+            "icon": "💬",
+            "title": "SMS con contexto",
+            "desc": "Con una línea dedicada, reúne respuestas de texto y correos en un mismo seguimiento. Los grupos se prueban con tu operador antes del lanzamiento."
+          },
+          {
+            "icon": "📅",
+            "title": "Citas y traspasos",
+            "desc": "Sigue quién lleva el siguiente paso, qué se prometió y cuándo debe responder la oficina."
+          },
+          {
+            "icon": "📄",
+            "title": "Documentos para revisar",
+            "desc": "Organiza datos para fichas de propiedades, actualizaciones a clientes y trabajo recurrente."
+          }
+        ]
       }
     },
     "content": {
@@ -1112,14 +1134,6 @@
       "icon": "✍️",
       "heroTitle": "IA para creadores de contenido",
       "heroSub": "Tu equipo creativo que nunca se agota. Escritura SEO, gestion de calendario editorial y publicacion multiplataforma a escala.",
-      "problems": {
-        "title": "Tu máquina de contenido se está deteniendo",
-        "items": [
-          "Publicar consistentemente requiere 15-20 horas semanales de investigación, redacción y edición. La mayoría de los equipos pueden sostener 2-3 artículos por semana antes de que la calidad caiga. Tus competidores publican a diario.",
-          "Cada artículo sin optimización SEO es tráfico dejado en la mesa. Una biblioteca de 200 artículos con meta descripciones deficientes y brechas de palabras clave podría estar perdiendo más del 40% de su potencial orgánico.",
-          "Un artículo de blog debería generar más de 10 piezas de contenido derivado en distintos canales. En cambio, la mayoría de las empresas lo comparten una vez en LinkedIn y listo. Eso es el 90% del valor del contenido sin aprovechar."
-        ]
-      },
       "solutions": {
         "title": "Como la IA lo resuelve",
         "items": [
@@ -1155,31 +1169,6 @@
           }
         ]
       },
-      "examples": {
-        "title": "Más contenido. Mejor posicionamiento. Mayor alcance.",
-        "items": [
-          {
-            "title": "52 artículos publicados en 60 días, todos fieles a la marca",
-            "desc": "Una publicación de estilo de vida premium necesitaba pasar de 2 a 10 artículos semanales para competir por tráfico de búsqueda. Los freelancers entregaban calidad inconsistente y no cumplían plazos. La editora pasaba más tiempo reescribiendo que escribiendo.",
-            "real": "La IA estudió los 200+ artículos existentes de la publicación, extrajo la voz de la marca y comenzó a producir 2 artículos diarios. Cada uno: investigado, escrito con firmas apropiadas, optimizado para SEO y formateado para el CMS. El rol de la editora pasó de reescribir a aprobar. Tráfico orgánico un 340% más en el primer trimestre."
-          },
-          {
-            "title": "Un artículo de blog se convirtió en 12 piezas de contenido",
-            "desc": "Una empresa B2B publica un artículo profundo cada semana. El equipo de marketing sabe que debería reutilizarlo para redes sociales, email y video, pero nadie tiene tiempo. El artículo se comparte una vez en LinkedIn y ahí queda.",
-            "real": "La IA toma cada artículo publicado y genera: 3 publicaciones de LinkedIn (diferentes ángulos), 2 hilos de Twitter, una introducción para el newsletter, un resumen en diapositivas, copy para carrusel de Instagram y un esquema de guión para YouTube. Todo adaptado al formato y tono de cada plataforma. Una pieza de contenido ahora genera engagement en 6 canales."
-          },
-          {
-            "title": "Auditoría SEO recuperó el 40% de tráfico perdido",
-            "desc": "Un sitio de contenido con más de 180 artículos vio su tráfico orgánico caer un 40% tras una actualización del algoritmo de Google. El equipo sospechaba de contenido delgado y canibalización de palabras clave pero no tenía el ancho de banda para auditar todo.",
-            "real": "La IA auditó los 180 artículos en 3 horas: señaló 23 con contenido delgado, identificó 11 conjuntos de canibalización de palabras clave y encontró 34 meta descripciones faltantes. Reescribió los artículos delgados, consolidó los conjuntos canibalizados y optimizó todas las meta etiquetas. El tráfico se recuperó en 6 semanas."
-          },
-          {
-            "title": "Calendario de eventos que se llena solo",
-            "desc": "Una marca de estilo de vida urbano quiere publicar resúmenes semanales de eventos locales, pero investigar eventos en más de 15 sedes, oficinas de turismo y cuentas sociales le toma a un pasante todo el día.",
-            "real": "La IA monitorea diariamente los calendarios de sedes, agregadores de eventos y noticias locales. Cada lunes por la mañana, entrega un borrador de resumen de eventos: curado, categorizado por tipo, con fotos obtenidas y listo para publicar. La editora revisa, añade una nota personal al inicio y publica antes del mediodía."
-          }
-        ]
-      },
       "howItWorks": {
         "title": "Como empezar",
         "steps": [
@@ -1208,14 +1197,6 @@
       "icon": "💻",
       "heroTitle": "IA para ingenieria de software",
       "heroSub": "Tu ingeniero senior que disfruta estar de guardia. Revisiones de codigo, monitoreo de infraestructura con auto-reparacion y automatizacion de deploys que nunca duerme.",
-      "problems": {
-        "title": "Tu equipo está atrapado en modo reactivo",
-        "items": [
-          "El desgaste por guardias te cuesta a tus mejores ingenieros. Reemplazar a un ingeniero senior cuesta $50,000-100,000 en reclutamiento y preparación. Mientras tanto, incidentes a las 3 AM que podrían haberse resuelto automáticamente están despertando a tu gente más cara.",
-          "Las colas de revisión de PR con promedio superior a 2 días bloquean despliegues y desmoralizan equipos. Cada día que un PR permanece sin revisar, acumula conflictos de merge y pierde contexto. Tu velocidad de entrega está limitada por el ancho de banda de revisión.",
-          "El monitoreo reactivo de infraestructura significa que tus usuarios descubren tus caídas antes que tú. Cada hora de inactividad no detectada cuesta confianza, ingresos y créditos SLA. La auto-reparación proactiva se paga sola la primera vez que captura una falla a las 3 AM."
-        ]
-      },
       "solutions": {
         "title": "Como la IA lo resuelve",
         "items": [
@@ -1251,31 +1232,6 @@
           }
         ]
       },
-      "examples": {
-        "title": "Revisiones más rápidas. Sistemas que se auto-reparan. Ingenieros que duermen.",
-        "items": [
-          {
-            "title": "Retraso de revisión de PR eliminado en una semana",
-            "desc": "Un equipo de 8 ingenieros tenía un cuello de botella en revisión de PR: más de 15 PR abiertos diarios, tiempo promedio de revisión de 2.3 días. Los ingenieros alternaban entre escribir código y revisar código, y nada avanzaba rápido.",
-            "real": "La IA revisa cada PR dentro de los 5 minutos posteriores a su envío: verifica violaciones de estilo, patrones de seguridad, brechas de cobertura de tests y genera un diagrama de arquitectura mostrando el impacto del cambio. Publica comentarios inline específicos, no sugerencias genéricas. Los revisores humanos ahora solo se enfocan en decisiones de lógica de negocio. El tiempo promedio de revisión bajó de 2.3 días a 4 horas."
-          },
-          {
-            "title": "Caída a las 3 AM resuelta antes de que nadie despertara",
-            "desc": "El pool de conexiones de base de datos de una plataforma SaaS se agotó a las 3:12 AM de un martes. El teléfono del ingeniero de guardia sonó, pero estaba en sueño profundo después de un largo día de despliegues.",
-            "real": "La IA detectó la falla mediante monitoreo de heartbeat, identificó la causa raíz (fuga de conexiones de un despliegue reciente), reinició el servicio con un límite de conexiones seguro, limpió el pool obsoleto, verificó la corrección con solicitudes sintéticas y publicó un informe detallado del incidente en el canal del equipo. El ingeniero de guardia despertó con un incidente resuelto y un análisis de causa raíz listo para el standup de la mañana."
-          },
-          {
-            "title": "5 servidores, cero verificaciones manuales de salud",
-            "desc": "Un equipo pequeño opera 5 instancias de servidor en dos proveedores de nube. Alguien solía conectarse por SSH a cada uno semanalmente para revisar espacio en disco, certificados SSL y estado de servicios. A veces se olvidaban. A veces encontraban problemas que llevaban días acumulándose.",
-            "real": "La IA ejecuta verificaciones de salud automatizadas cada 30 minutos: uso de disco, memoria, vencimiento SSL, tiempo de actividad del servicio, frescura de backups y validez de tokens de autenticación. Cuando el disco de una instancia alcanzó el 85%, limpió logs antiguos automáticamente. Cuando un certificado SSL estaba a 14 días de vencer, lo renovó. El equipo no ha hecho SSH para una verificación manual en 6 meses."
-          },
-          {
-            "title": "Documentación que se mantiene actualizada",
-            "desc": "Una base de código en crecimiento tenía documentación de hace 18 meses en la que nadie confiaba. Los ingenieros nuevos pasaban su primera semana leyendo código en vez de documentación, porque los docs eran peor que nada: eran engañosos.",
-            "real": "La IA monitorea cada PR fusionado y actualiza automáticamente la documentación relevante: los cambios de API se reflejan en los docs en horas, los endpoints deprecados se señalan y las nuevas funcionalidades se documentan antes de que el autor tenga que pensar en ello. El README ahora tiene un timestamp de 'última verificación' que nunca tiene más de un día de antigüedad."
-          }
-        ]
-      },
       "howItWorks": {
         "title": "Como empezar",
         "steps": [
@@ -1304,14 +1260,6 @@
       "icon": "📊",
       "heroTitle": "IA para contabilidad",
       "heroSub": "Tu contador que disfruta la temporada de impuestos. Declaraciones corporativas, categorizacion de gastos, gestion de facturas y seguimiento de plazos sin fallas.",
-      "problems": {
-        "title": "Los libros atrasados cuestan dinero real",
-        "items": [
-          "Las pequeñas empresas gastan $5,000-15,000 al año en contabilidad que perpetuamente va 2-3 meses atrasada. Para cuando ves los números, las decisiones que debían informar ya están tomadas.",
-          "Las empresas multi-entidad pierden un promedio de 1-2 plazos de declaración al año. Las multas de la CRA empiezan en $100 y se acumulan hasta miles. Una sola enmienda T5 pasada por alto puede provocar una multa Part III.1 de más de $9,000.",
-          "El seguimiento manual de facturas significa que el dinero queda sobre la mesa. La pequeña empresa promedio envía facturas 5-7 días después de completar el trabajo. Ese retraso por sí solo empuja el cobro 3-4 semanas más."
-        ]
-      },
       "solutions": {
         "title": "Como la IA lo resuelve",
         "items": [
@@ -1344,31 +1292,6 @@
             "icon": "⏰",
             "title": "Seguimiento de plazos con escalamiento",
             "desc": "Monitorea cada plazo fiscal y obligacion de declaracion. Los recordatorios comienzan suaves y se intensifican al acercarse la fecha."
-          }
-        ]
-      },
-      "examples": {
-        "title": "Multas evitadas. Reembolsos encontrados. Libros siempre al día.",
-        "items": [
-          {
-            "title": "Tres empresas, cero plazos perdidos",
-            "desc": "Un empresario opera una consultora en Ontario, una tech en Columbia Británica y un holding personal. Cada una tiene diferentes cierres fiscales, diferentes requisitos de declaración y diferentes obligaciones tributarias. La hoja de cálculo del contador tenía huecos.",
-            "real": "La IA rastrea cada plazo de las tres entidades: declaraciones T2, boletas T4A, informes T5 de dividendos, declaraciones HST/GST, informes anuales y remesas de nómina. Los recordatorios empiezan 30 días antes y escalan a diarios conforme se acerca el plazo. Detectó una enmienda T5 pasada por alto que habría provocado una multa de $9,000. Todas las declaraciones presentadas a tiempo durante dos años consecutivos."
-          },
-          {
-            "title": "$25K de reembolso encontrado en pagos a cuenta excesivos",
-            "desc": "Una consultora hacía pagos a cuenta trimestrales basados en los ingresos del año anterior, que fue un año excepcional. El año actual fue más lento, pero los pagos seguían al ritmo anterior. Nadie se dio cuenta.",
-            "real": "La IA comparó los ingresos acumulados del año contra los pagos a cuenta y señaló un exceso de pago de $25K. Generó los cálculos, preparó la documentación de soporte y el empresario ajustó el pago del trimestre siguiente. El exceso fue recuperado como crédito fiscal en la siguiente declaración T2."
-          },
-          {
-            "title": "Categorización de gastos: 400 transacciones, 20 minutos",
-            "desc": "Una consultora maneja gastos en 4 tarjetas de crédito y 2 cuentas bancarias. Cada mes, el contador descarga CSVs, categoriza manualmente cada transacción y concilia contra recibos. Toma dos días completos.",
-            "real": "La IA extrae transacciones diariamente, las categoriza automáticamente según patrones aprendidos (este proveedor siempre es 'Suscripciones de Software', aquel siempre es 'Entretenimiento de Clientes'), señala anomalías y genera un informe mensual de gastos listo para revisión. El proceso de dos días se convierte en 20 minutos de revisión puntual."
-          },
-          {
-            "title": "Factura enviada 4 minutos después de terminada la reunión",
-            "desc": "Un consultor freelance termina una sesión de estrategia de 2 horas con un cliente. Normalmente, la factura sale 'en algún momento de la semana', lo que realmente significa 'cuando me acuerde'. Net 30 se convierte en net 60 porque el reloj empieza tarde.",
-            "real": "El consultor envía una nota de voz: 'Acabo de terminar 2 horas con Meridian sobre su revisión estratégica del T3.' La IA genera la factura con la tarifa correcta, la envía al correo de facturación del cliente y registra las horas. El cliente recibe la factura 4 minutos después de la reunión. El cobro se adelanta 22 días en promedio."
           }
         ]
       },
@@ -1410,7 +1333,7 @@
     },
     "realEstate": {
       "title": "Bienes raíces",
-      "desc": "Integración MLS, gestión de listados, seguimiento de clientes e investigación de mercado. El arma secreta de tu mejor agente."
+      "desc": "Correo, SMS, citas y seguimientos en una vista, con revisión humana de los mensajes al cliente."
     },
     "content": {
       "title": "Creación de contenido",
