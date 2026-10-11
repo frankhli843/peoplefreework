@@ -343,7 +343,7 @@
       "corpTax": {
         "title": "法人税務・会計",
         "desc": "確定申告、請求書作成、経費分類、法人税務義務の追跡を行います。",
-        "real": "AI経理がT4A書類の提出、T5の修正を支援し、中小企業の完全なT2法人税申告書を作成しました。"
+        "real": "会計業務エージェントが小規模企業向けにT4AとT5の支援資料、T2申告パックを準備し、人がレビューできる状態にしました。"
       },
       "codeReview": {
         "title": "コードレビュー＆デプロイ",
@@ -458,7 +458,7 @@
           {
             "icon": "📅",
             "title": "締切管理",
-            "desc": "提出締切を二度と見逃しません。AIが裁判期日、時効期限、回答期限を監視し、段階的にリマインダーを送信します。"
+            "desc": "裁判期日、時効期限、回答期限、クライアントへの約束を監視し、段階的なリマインダーを送ります。"
           },
           {
             "icon": "📚",
@@ -578,445 +578,374 @@
     "manufacturing": {
       "slug": "manufacturing",
       "icon": "MFG",
-      "heroTitle": "製造業向けAI業務エージェント",
-      "heroSub": "A dedicated AI employee that monitors inboxes, ERP, sales, inventory, receivables, shipments, and reports so leadership sees the business clearly every day.",
+      "heroTitle": "製造業向けAIオペレーション",
+      "heroSub": "専任のAIオペレーションエージェントが受信箱、ERP、売上、在庫、売掛金、出荷、レポート、チームの連絡チャネルを監視し、経営層が毎日事業を明確に把握できるようにします。",
       "heroProof": [
         {
           "value": "24/7",
-          "label": "inbox, ERP, and operations monitoring"
+          "label": "メール、ERP、業務の監視"
         },
         {
-          "value": "3x/day",
-          "label": "executive briefings when you want them"
+          "value": "1日3回",
+          "label": "必要なタイミングで経営向けブリーフィング"
         },
         {
-          "value": "ERP-ready",
-          "label": "sales, inventory, AR, backlog, and shortage reports"
+          "value": "ERP対応",
+          "label": "売上、在庫、売掛金、受注残、欠品レポート"
         },
         {
-          "value": "Report links",
-          "label": "interactive dashboards with CSV exports"
+          "value": "レポートリンク",
+          "label": "CSV出力付きインタラクティブダッシュボード"
         }
       ],
       "overview": {
-        "kicker": "What you are really buying",
-        "title": "Not a chatbot. A manufacturing analyst that keeps watch.",
-        "body": "Most manufacturers already have the data. It is scattered across email, ERP tables, spreadsheets, customer threads, supplier notes, calendars, and tribal knowledge. The agent sits across those systems, turns raw activity into operational judgment, and hands leaders the reports, summaries, and follow-up drafts they need before the day gets away from them.",
+        "kicker": "本当に手に入るもの",
+        "title": "チャットボットではありません。常に見張る製造業アナリストです。",
+        "body": "多くの製造企業にはすでにデータがあります。ただしメール、ERPテーブル、スプレッドシート、顧客スレッド、仕入先メモ、カレンダー、現場知識に散らばっています。エージェントはそれらの上に立ち、日々の活動を業務判断に変え、経営層が必要とするレポート、要約、フォローアップ草案を先回りして渡します。",
         "items": [
           {
             "icon": "📬",
-            "title": "Executive inbox layer",
-            "desc": "Monitors priority contacts, flags urgent threads, drafts replies, preserves real email threading, and separates informational messages from items that need action."
+            "title": "経営向け受信箱レイヤー",
+            "desc": "優先連絡先を監視し、緊急スレッドを示し、返信を下書きし、実際のメールスレッドを保ちながら、情報共有と対応が必要な項目を分けます。"
           },
           {
             "icon": "🧾",
-            "title": "ERP reporting analyst",
-            "desc": "Queries order, invoice, inventory, customer, product, backlog, AR, and shipment data using reporting rules agreed with your team."
+            "title": "ERPレポート分析担当",
+            "desc": "チームと合意したレポートルールに基づき、注文、請求、在庫、顧客、製品、受注残、売掛金、出荷データを照会します。"
           },
           {
             "icon": "📊",
-            "title": "Dashboard builder",
-            "desc": "Turns analysis into interactive HTML reports with KPI cards, trend tables, notes, source CSVs, and shareable links."
+            "title": "ダッシュボード作成担当",
+            "desc": "分析をKPIカード、トレンド表、メモ、元データCSV、共有リンク付きのインタラクティブHTMLレポートに変換します。"
           },
           {
             "icon": "🛡️",
-            "title": "Ops reliability monitor",
-            "desc": "Checks report delivery, link health, backups, security posture, and integration health so the reporting system itself stays trustworthy."
+            "title": "業務信頼性モニター",
+            "desc": "レポート配信、リンク状態、バックアップ、セキュリティ態勢、連携の健全性を確認し、レポート基盤そのものを信頼できる状態に保ちます。"
           }
         ]
       },
       "problems": {
-        "title": "Manufacturing leaders are drowning in fragmented signals",
+        "title": "製造業のリーダーは断片化したシグナルに埋もれています",
         "items": [
-          "The answer to a simple executive question often spans email, ERP, calendar, spreadsheets, customer history, and yesterday’s operational context. Senior people spend their morning reconstructing the picture instead of deciding what to do.",
-          "Customer concentration, quote movement, backlog risk, shortages, overdue receivables, margin shifts, and shipment timing are visible in the data, but only after someone has time to pull and reconcile the data manually.",
-          "Reports are often trapped in one-off spreadsheets. The logic changes by person, the source data is not easy to inspect, and leadership cannot tell whether a number came from live ERP, a manual export, or a stale worksheet.",
-          "Business partners ask for updates, pricing comparisons, customer summaries, investor data-room support, or product analysis. The team can answer, but every answer steals focus from sales, production, and customer work."
+          "単純な経営判断の問いでも、答えはメール、ERP、カレンダー、スプレッドシート、顧客履歴、昨日の業務文脈にまたがります。シニアメンバーは意思決定の前に状況の再構築で朝を使ってしまいます。",
+          "顧客集中、見積変化、受注残リスク、欠品、滞留売掛、粗利変化、出荷タイミングはデータにありますが、誰かが手で抽出して照合するまで見えません。",
+          "レポートは一度きりの表計算に閉じ込められがちです。ロジックは人によって変わり、元データは確認しづらく、経営層は数字がライブERP、手動エクスポート、古いシートのどれから来たのか分かりません。",
+          "事業パートナーは更新、価格比較、顧客要約、投資家データルーム支援、製品分析を求めます。チームは答えられますが、そのたびに営業、生産、顧客対応から集中が奪われます。"
         ]
       },
       "solutions": {
-        "title": "製造 Agent が担える仕事",
+        "title": "製造業エージェントが担える仕事",
         "items": [
           {
             "icon": "📬",
-            "title": "Inbox monitoring and response support",
-            "desc": "Watches priority inboxes, summarizes high-value threads, drafts replies, attaches reports, and keeps a clear audit trail of what it acted on and what it ignored."
+            "title": "受信箱監視と返信支援",
+            "desc": "優先受信箱を見守り、重要スレッドを要約し、返信を下書きし、レポートを添付し、何に対応し何を見送ったかを明確に残します。"
           },
           {
             "icon": "🌅",
-            "title": "Daily executive briefings",
-            "desc": "Produces morning, midday, and evening updates covering calendar, inbox, sales pulse, shipments, collections, inventory, shortages, FX, weather, and relevant market news."
+            "title": "毎日の経営ブリーフィング",
+            "desc": "朝、昼、夕方に、カレンダー、メール、売上動向、出荷、回収、在庫、欠品、為替、天候、関連市場ニュースをまとめた更新を作ります。"
           },
           {
             "icon": "🏭",
-            "title": "ERP and SYSPRO-style BI",
-            "desc": "Runs governed reports across sales, backlog, AR aging, inventory, customer concentration, product movement, shortage exposure, and historical comparisons."
+            "title": "ERPとSYSPRO風BI",
+            "desc": "売上、受注残、売掛金年齢、在庫、顧客集中、製品移動、欠品リスク、履歴比較にまたがる統制済みレポートを実行します。"
           },
           {
             "icon": "📈",
-            "title": "Customer and pricing analysis",
-            "desc": "Builds customer-specific reporting, price comparison packs, product-line views, margin change summaries, and follow-up-ready executive notes."
+            "title": "顧客と価格の分析",
+            "desc": "顧客別レポート、価格比較パック、製品ライン別ビュー、粗利変化の要約、フォローアップ用の経営メモを作ります。"
           },
           {
             "icon": "📦",
-            "title": "Inventory and operational alerts",
-            "desc": "Highlights critical stock, slow-moving inventory, material risk, replenishment issues, and shipment exceptions before they become fire drills."
+            "title": "在庫と業務アラート",
+            "desc": "緊急対応になる前に、重要在庫、滞留在庫、材料リスク、補充問題、出荷例外を目立たせます。"
           },
           {
             "icon": "🔐",
-            "title": "Reliability and security checks",
-            "desc": "Runs daily checks for uptime, backups, disk, memory, public ports, permissions, delivery health, and report-link verification."
+            "title": "信頼性とセキュリティの確認",
+            "desc": "稼働状況、バックアップ、ディスク、メモリ、公開ポート、権限、配信状態、レポートリンク検証を毎日確認します。"
           }
         ]
       },
       "operatingSystem": {
-        "title": "A practical operating system for the back office",
-        "sub": "The agent is strongest where manufacturing work crosses systems and functions.",
+        "title": "バックオフィスのための実用的な業務OS",
+        "sub": "製造業務がシステムと部門をまたぐところで、エージェントは最も力を発揮します。",
         "items": [
           {
-            "label": "Sales",
-            "title": "Sales pulse and customer movement",
-            "desc": "Tracks trailing sales, top customers, customer concentration, order changes, quote movement, and account-level follow-up opportunities."
+            "label": "営業",
+            "title": "売上動向と顧客の動き",
+            "desc": "継続売上、主要顧客、顧客集中、注文変化、見積動向、アカウント別フォロー機会を追跡します。"
           },
           {
-            "label": "Finance",
-            "title": "Receivables and collections visibility",
-            "desc": "Builds AR aging reports, flags threshold crossings, summarizes last-touch context, and prepares collection-ready account notes."
+            "label": "財務",
+            "title": "売掛金と回収の可視化",
+            "desc": "売掛金年齢表を作り、閾値超過を示し、最後の接点を要約し、回収に使えるアカウントメモを準備します。"
           },
           {
-            "label": "Operations",
-            "title": "Backlog, shipments, and shortages",
-            "desc": "Surfaces past-due items, open orders, shipment timing, shortage warnings, and inventory pressure in a single executive view."
+            "label": "業務",
+            "title": "受注残、出荷、欠品",
+            "desc": "期限超過、未処理注文、出荷タイミング、欠品警告、在庫圧力を単一の経営ビューに表示します。"
           },
           {
-            "label": "Pricing",
-            "title": "Pricing and product comparisons",
-            "desc": "Compares products, customers, periods, and price movement with source tables and clear assumptions rather than unexplained spreadsheet math."
+            "label": "価格",
+            "title": "価格と製品の比較",
+            "desc": "説明のない表計算ではなく、元テーブルと明確な前提で製品、顧客、期間、価格変化を比較します。"
           },
           {
-            "label": "Leadership",
-            "title": "Briefings that connect the dots",
-            "desc": "Combines email, calendar, ERP, operational notes, and external context into plain-English updates with specific next actions."
+            "label": "経営",
+            "title": "点をつなぐブリーフィング",
+            "desc": "メール、カレンダー、ERP、業務メモ、外部文脈を、具体的な次の行動付きの平易な更新にまとめます。"
           },
           {
             "label": "IT/Ops",
-            "title": "Delivery infrastructure that can be trusted",
-            "desc": "Verifies dashboards, links, attachments, backups, and service health before leadership relies on the output."
+            "title": "信頼できる配信インフラ",
+            "desc": "経営層が出力に頼る前に、ダッシュボード、リンク、添付、バックアップ、サービス健全性を検証します。"
           }
         ]
       },
       "examples": {
-        "title": "Agent が背景から引き受けられる仕事",
+        "title": "チームから引き取れる仕事",
         "items": [
           {
-            "title": "経営層の依頼をレポート一式へ",
-            "desc": "パートナーが過去12か月の顧客別・製品別比較を求めます。通常は ERP エクスポート、行の整理、表計算、要約、添付送付が必要です。",
-            "real": "Agent が経営サマリー、インタラクティブダッシュボード、CSV、出典つき説明を生成し、承認後または合意済みルールでスレッドにリンクと添付を返します。"
+            "title": "経営リクエストにレポートパックで回答",
+            "desc": "パートナーが過去12か月の顧客と製品の比較を求めます。通常はERPエクスポートを取り、行を整え、表を作り、要約を書き、添付を送る作業です。",
+            "real": "エージェントは経営要約、インタラクティブダッシュボード、補助CSV、出典を意識した説明文を生成します。承認後または合意済みルールのもとで、元のスレッドにレポートリンクと添付を返信できます。"
           },
           {
-            "title": "受信箱を掘らずに済む朝のブリーフィング",
-            "desc": "製造リーダーは未読メール、会議、出荷問題、営業質問、回収リスク、在庫警告が散らばった状態で一日を始めます。",
-            "real": "Agent が短いブリーフを送ります。何が変わったか、何が急ぎか、誰が待っているか、注意すべき口座、重要在庫、確認可能なレポートをまとめます。"
+            "title": "受信箱確認を置き換える朝のブリーフィング",
+            "desc": "製造業のリーダーは、未読メール、会議、出荷問題、営業質問、回収リスク、在庫警告がシステム全体に散らばった状態で一日を始めます。",
+            "real": "エージェントは、何が変わったか、何が緊急か、誰が待っているか、どのアカウントに注意が必要か、どの在庫が重要か、どのレポートが確認可能かを簡潔に送ります。"
           },
           {
-            "title": "毎週走る売掛レポート",
-            "desc": "財務チームは年齢表の整理、最終連絡の確認、営業への背景確認、同じレポート作成に毎週時間を使います。",
-            "real": "Agent が予定通り AR ビューを作成し、しきい値を越えた口座を示し、可能な最終接触文脈を加え、エクスポートデータを要約の横に残します。"
+            "title": "毎週動く売掛金レポート",
+            "desc": "財務チームは年齢区分を並べ、最後の接点を確認し、営業に背景を尋ね、翌週月曜にも同じレポートを作るために何時間も使います。",
+            "real": "エージェントは予定どおり売掛金ビューを作成し、閾値を超えたアカウントを示し、可能な場合は最後の接点の背景を加え、書面要約の横にエクスポート可能データを置きます。"
           },
           {
-            "title": "顧客リスクと集中度を早めに表示",
-            "desc": "少数の大口顧客が売上、バックログ、売掛リスクの大半を担うことがあります。変化の兆候は注文履歴やメールに散らばりがちです。",
-            "real": "Agent が集中度と動きを追跡し、異常な下落や上昇を示し、営業、投資家、パートナー会話に使える顧客別サマリーを準備します。"
+            "title": "顧客リスクと集中を早期に浮上",
+            "desc": "少数の大口顧客が売上、受注残、売掛リスクの大部分を静かに占めることがあります。動きが鈍ると、その信号は注文履歴とメールに散らばりがちです。",
+            "real": "エージェントは集中度と動きを継続追跡し、不自然な低下や急増を示し、営業、投資家、パートナーとの会話に使える顧客別要約を準備します。"
           },
           {
             "title": "在庫圧力を見える化",
-            "desc": "不足、滞留品、重要カウントは、ERP 画面の中だけにあると見落とされやすくなります。",
-            "real": "Agent が信号を優先順位つき業務リストに変えます。重要在庫、不足見込み、滞留在庫、出荷ブロッカー、推奨フォロー担当を示します。"
+            "desc": "レポートが一部の人しか読めないERP画面にあると、欠品、滞留品、重要数量を見落としやすくなります。",
+            "real": "エージェントはそれらの信号を優先業務リストに変換します。重要在庫、欠品見込み、滞留在庫、出荷ブロッカー、推奨フォロー担当です。"
           },
           {
-            "title": "信頼できるレポート配信",
-            "desc": "ダッシュボードリンクは、開けて、正しく表示され、必要ファイルが含まれていて初めて役に立ちます。",
-            "real": "Agent が配信前にリンク、ブラウザ表示、添付、期限を確認します。失敗があれば、準備完了と言う前に配信経路を直します。"
+            "title": "レポート配信を堅牢化",
+            "desc": "ダッシュボードリンクは、経営者がクリックしたときに開き、表示され、正しいファイルを含んで初めて役に立ちます。",
+            "real": "エージェントは配信前にレポートリンク、ブラウザ表示、添付、期限を確認します。問題があれば、準備完了と言う前に配信経路を直します。"
           }
         ]
       },
       "reportGallery": {
-        "title": "Sample manufacturing reports it can generate",
-        "sub": "These previews use synthetic data, but mirror the kinds of interactive report artifacts the agent can deliver: executive summary, dashboard link, source CSVs, and follow-up-ready narrative.",
-        "note": "No private customer data is shown here. Live deployments use your approved data sources, access controls, retention rules, and review thresholds.",
+        "title": "生成できる製造業レポート例",
+        "sub": "これらのプレビューは合成データですが、エージェントが届けられる成果物を反映しています。経営要約、ダッシュボードリンク、元CSV、フォローアップ用の説明文です。",
+        "note": "ここに顧客の非公開データは表示していません。実運用では承認済みデータソース、アクセス制御、保持ルール、レビュー閾値を使います。",
         "items": [
           {
-            "badge": "Customer analysis",
-            "title": "12-month customer and product comparison",
-            "desc": "Compares customer purchasing patterns, product mix, price movement, and trailing revenue by period.",
+            "badge": "顧客分析",
+            "title": "12か月の顧客と製品比較",
+            "desc": "顧客の購買傾向、製品構成、価格変化、期間別の継続売上を比較します。",
             "metrics": [
               {
                 "value": "$4.8M",
-                "label": "Trailing revenue"
+                "label": "継続売上"
               },
               {
                 "value": "+7.4%",
-                "label": "Price movement"
+                "label": "価格変化"
               },
               {
                 "value": "18",
-                "label": "Products reviewed"
+                "label": "レビュー済み製品"
               }
             ],
             "rows": [
               {
-                "label": "Product Line A",
+                "label": "製品ラインA",
                 "width": "88%",
                 "value": "$1.9M"
               },
               {
-                "label": "Product Line B",
+                "label": "製品ラインB",
                 "width": "64%",
                 "value": "$1.2M"
               },
               {
-                "label": "Product Line C",
+                "label": "製品ラインC",
                 "width": "42%",
                 "value": "$780K"
               }
             ]
           },
           {
-            "badge": "Collections",
-            "title": "Aged receivables and follow-up pack",
-            "desc": "Buckets AR exposure, flags threshold crossings, and prepares account-level collection notes.",
+            "badge": "回収",
+            "title": "売掛金年齢とフォローアップパック",
+            "desc": "売掛リスクを区分し、閾値超過を示し、アカウント別回収メモを準備します。",
             "metrics": [
               {
                 "value": "$612K",
-                "label": "Open AR"
+                "label": "未回収売掛金"
               },
               {
                 "value": "9",
-                "label": "Accounts flagged"
+                "label": "フラグ付きアカウント"
               },
               {
                 "value": "3",
-                "label": "New over 60 days"
+                "label": "60日超の新規"
               }
             ],
             "rows": [
               {
-                "label": "0-30 days",
+                "label": "0から30日",
                 "width": "72%",
                 "value": "$331K"
               },
               {
-                "label": "31-60 days",
+                "label": "31から60日",
                 "width": "38%",
                 "value": "$141K"
               },
               {
-                "label": "60+ days",
+                "label": "60日超",
                 "width": "30%",
                 "value": "$140K"
               }
             ]
           },
           {
-            "badge": "Inventory",
-            "title": "Critical inventory and shortage watch",
-            "desc": "Ranks material risk, shortage exposure, slow movers, and items requiring purchasing follow-up.",
+            "badge": "在庫",
+            "title": "重要在庫と欠品の監視",
+            "desc": "材料リスク、欠品リスク、滞留品、購買フォローが必要な品目をランク付けします。",
             "metrics": [
               {
                 "value": "27",
-                "label": "Critical items"
+                "label": "重要品目"
               },
               {
                 "value": "11",
-                "label": "Shortage warnings"
+                "label": "欠品警告"
               },
               {
                 "value": "$340K",
-                "label": "Slow-moving stock"
+                "label": "滞留在庫"
               }
             ],
             "rows": [
               {
-                "label": "Raw Material A",
+                "label": "原材料A",
                 "width": "92%",
-                "value": "Critical"
+                "value": "重要"
               },
               {
-                "label": "Component B",
+                "label": "部品B",
                 "width": "66%",
-                "value": "Watch"
+                "value": "監視"
               },
               {
-                "label": "Finished Good C",
+                "label": "完成品C",
                 "width": "48%",
-                "value": "Slow"
+                "value": "低速"
               }
             ]
           },
           {
-            "badge": "Executive brief",
-            "title": "Daily operations briefing dashboard",
-            "desc": "Combines inbox, calendar, sales, shipments, inventory, receivables, and external context into one morning view.",
+            "badge": "経営ブリーフ",
+            "title": "日次業務ブリーフィングダッシュボード",
+            "desc": "受信箱、カレンダー、売上、出荷、在庫、売掛金、外部文脈を1つの朝のビューにまとめます。",
             "metrics": [
               {
                 "value": "14",
-                "label": "Priority emails"
+                "label": "優先メール"
               },
               {
                 "value": "6",
-                "label": "Shipment risks"
+                "label": "出荷リスク"
               },
               {
                 "value": "4",
-                "label": "Actions due"
+                "label": "期限付きアクション"
               }
             ],
             "rows": [
               {
-                "label": "Sales pulse",
+                "label": "売上動向",
                 "width": "76%",
-                "value": "Warm"
+                "value": "良好"
               },
               {
-                "label": "Shipments",
+                "label": "出荷",
                 "width": "52%",
-                "value": "Risk"
+                "value": "リスク"
               },
               {
-                "label": "Collections",
+                "label": "回収",
                 "width": "44%",
-                "value": "Watch"
+                "value": "監視"
               }
             ]
           }
         ]
       },
       "deliverables": {
-        "title": "What leadership receives",
-        "sub": "The agent does not just chat. It produces durable artifacts your team can review, forward, archive, and audit.",
+        "title": "経営層が受け取るもの",
+        "sub": "エージェントは会話するだけではありません。チームが確認、転送、保管、監査できる持続的な成果物を作ります。",
         "items": [
           {
             "icon": "🗂️",
-            "title": "Executive summaries",
-            "desc": "Plain-English summaries with assumptions, next actions, and what changed since the last report."
+            "title": "経営要約",
+            "desc": "前提、次の行動、前回レポートからの変化を平易にまとめます。"
           },
           {
             "icon": "📊",
-            "title": "Interactive dashboards",
-            "desc": "Shareable report pages with KPI cards, tables, trend views, and source-aware notes."
+            "title": "インタラクティブダッシュボード",
+            "desc": "KPIカード、表、トレンドビュー、出典を意識したメモを備えた共有可能なレポートページです。"
           },
           {
             "icon": "📎",
-            "title": "CSV and DOCX packets",
-            "desc": "Underlying data exports and document summaries that finance, sales, or partners can inspect."
+            "title": "CSVとDOCXパック",
+            "desc": "財務、営業、パートナーが確認できる基礎データ出力と文書要約です。"
           },
           {
             "icon": "✉️",
-            "title": "Reply-ready drafts",
-            "desc": "Email responses written in context, with attachments, links, and careful threading behavior."
+            "title": "返信準備済み草案",
+            "desc": "文脈に沿って書かれたメール返信で、添付、リンク、慎重なスレッド処理を含みます。"
           },
           {
             "icon": "🚨",
-            "title": "Exception alerts",
-            "desc": "Notifications for overdue replies, AR risk, inventory pressure, failed report delivery, or system degradation."
+            "title": "例外アラート",
+            "desc": "返信遅延、売掛リスク、在庫圧力、レポート配信失敗、システム劣化を通知します。"
           },
           {
             "icon": "📚",
-            "title": "Operating memory",
-            "desc": "Durable notes on customers, recurring reports, reporting rules, business context, and known risks."
+            "title": "業務メモリ",
+            "desc": "顧客、定期レポート、レポートルール、事業文脈、既知リスクに関する持続的なメモです。"
           },
           {
             "icon": "🔎",
-            "title": "Verification notes",
-            "desc": "Clear statements about what was checked, what was inferred, and where the data came from."
+            "title": "検証メモ",
+            "desc": "何を確認し、何を推論し、データがどこから来たかを明確に示します。"
           },
           {
             "icon": "🛠️",
-            "title": "Reliability logs",
-            "desc": "Health checks for report servers, backups, public links, permissions, and scheduled jobs."
+            "title": "信頼性ログ",
+            "desc": "レポートサーバー、バックアップ、公開リンク、権限、定期ジョブの健全性確認です。"
           }
         ]
-      },
-      "controls": {
-        "kicker": "Built for real operations",
-        "title": "人の判断が主導権を保ちます",
-        "sub": "Manufacturing teams need useful automation, not risky autonomy. The agent can be configured around your approval rules, data access boundaries, and delivery standards.",
-        "items": [
-          {
-            "title": "外部連絡の承認ゲート",
-            "desc": "新規連絡先、慎重な返信、価格の会話、人の承認が必要な内容にはレビュー優先モードを使います。"
-          },
-          {
-            "title": "出典を示すレポート",
-            "desc": "レポートにはソース表、期間、フィルター、業務ルールを含められるため、数字の由来がわかります。"
-          },
-          {
-            "title": "データ不足では推測しない",
-            "desc": "入力不足、古いエクスポート、矛盾した記録、利用不可のシステムがあれば、Agent は明記し、結果を部分的として示します。"
-          },
-          {
-            "title": "安全なデプロイ姿勢",
-            "desc": "アクセスは承認済みシステムに限定し、リンクは期限付きにでき、運用チェックが公開露出、古い認証情報、バックアップ失敗を監視します。"
-          }
-        ]
-      },
-      "howItWorks": {
-        "title": "How rollout works",
-        "steps": [
-          {
-            "title": "Pick the first operating lane",
-            "desc": "Start with a high-value lane such as executive briefings, customer/product reports, AR aging, inventory alerts, or inbox triage."
-          },
-          {
-            "title": "Connect approved sources",
-            "desc": "Integrate email, calendar, ERP exports or database access, shared folders, report templates, and any partner-facing delivery rules."
-          },
-          {
-            "title": "Codify reporting rules",
-            "desc": "Agree on definitions for backlog, shortages, trailing sales, AR buckets, customer risk, and price comparisons so output is consistent."
-          },
-          {
-            "title": "Ship reports with verification",
-            "desc": "The agent generates dashboards and attachments, checks links before delivery, logs what it did, and escalates uncertainty for review."
-          }
-        ]
-      },
-      "pilot": {
-        "title": "A focused pilot can prove value quickly",
-        "sub": "Most teams start with one executive workflow, then expand once the reporting rules and trust model are proven.",
-        "items": [
-          {
-            "metric": "Week 1",
-            "label": "Map systems, priority inboxes, report definitions, and delivery approvals"
-          },
-          {
-            "metric": "Week 2",
-            "label": "Generate first briefings and sample dashboards from approved data"
-          },
-          {
-            "metric": "Week 3",
-            "label": "Add scheduled reports, CSV exports, link checks, and exception alerts"
-          },
-          {
-            "metric": "Week 4",
-            "label": "Review ROI, tighten rules, and choose the next operating lane"
-          }
-        ]
-      },
-      "cta": {
-        "title": "Give your manufacturing team an AI operations analyst.",
-        "sub": "One agent can watch the inbox, read the ERP, generate the report, verify the link, and prepare the follow-up while your people run the business.",
-        "button": "Build Your Manufacturing Agent →"
       },
       "directAccess": {
-        "kicker": "現場、オフィス、移動中から依頼",
-        "title": "Teams、WhatsApp、メール、Telegram から製造 Agent と話せます",
-        "sub": "リーダーは新しいダッシュボードを開かずにレポート依頼、下書き承認、例外確認ができます。Agent は ERP、受信箱、出荷、売掛の文脈を質問が始まったチャネルへ戻します。",
-        "note": "チャネルは Telegram、WhatsApp、Signal、メール、Slack、Microsoft Teams、非公開Webチャットなど。セキュリティポリシーと承認ルールに合わせます。",
-        "agentName": "製造運用 Agent",
-        "status": "承認済みチャネルでオンライン",
+        "kicker": "工場、オフィス、移動中から質問",
+        "title": "Teams、WhatsApp、メール、Telegramから製造業エージェントに話しかける",
+        "sub": "リーダーは新しいダッシュボードを開かずに、レポートを依頼し、草案を承認し、例外を確認できます。エージェントはERP、メール、出荷、売掛金の文脈を、質問が始まったチャネルに戻します。",
+        "note": "チャネルは、セキュリティポリシーと承認ルールに応じて、Telegram、WhatsApp、Signal、メール、Slack、Microsoft Teams、または非公開Webチャットにできます。",
+        "agentName": "製造オペレーションエージェント",
+        "status": "承認済みチャネルで稼働中",
         "liveLabel": "ライブ",
-        "windowLabel": "製造 Agent チャット例",
+        "windowLabel": "製造業エージェントのチャット例",
         "channels": [
           {
             "initial": "TM",
@@ -1046,25 +975,96 @@
         "messages": [
           {
             "from": "user",
-            "sender": "COO",
-            "text": "夜間に何が変わった？生産会議前に短く教えて。"
+            "sender": "業務責任者",
+            "text": "昨夜何が変わった？生産会議の前に短く教えて。"
           },
           {
             "from": "agent",
-            "sender": "Agent",
-            "text": "注意が必要な項目は3つです。優先顧客メール2件、金曜出荷リスク1件、再発注しきい値を下回る在庫11件。ERPデータが古い箇所には仮定を付けました。"
+            "sender": "エージェント",
+            "text": "注意が必要な項目は3つです。優先顧客メールが2件、金曜出荷にリスクが出たものが1件、再発注閾値を下回った在庫が11品目です。ERPデータが古い箇所には前提を付けました。"
           },
           {
             "from": "user",
-            "sender": "営業リーダー",
-            "text": "主要顧客の12か月の顧客別・製品別比較を作って。CSVと共有ダッシュボードも。"
+            "sender": "営業責任者",
+            "text": "主要アカウント向けに12か月の顧客と製品比較を作って。CSVと共有ダッシュボードも含めて。"
           },
           {
             "from": "agent",
-            "sender": "Agent",
-            "text": "完了しました。ダッシュボードを生成し、CSVパケットを添付し、リンクを確認し、承認用の平易な要約を作成しました。"
+            "sender": "エージェント",
+            "text": "完了しました。ダッシュボードを生成し、CSVパックを添付し、リンクを確認し、承認用の平易な要約を下書きしました。"
           }
         ]
+      },
+      "controls": {
+        "kicker": "実業務のために構築",
+        "title": "人の判断が主導権を持ちます",
+        "sub": "製造チームに必要なのは役に立つ自動化であり、危険な自律性ではありません。エージェントは承認ルール、データアクセス境界、配信基準に合わせて設定できます。",
+        "items": [
+          {
+            "title": "外部コミュニケーションの承認ゲート",
+            "desc": "新規連絡先、慎重な返信、価格会話、人の承認が必要なものにはレビュー優先モードを使います。"
+          },
+          {
+            "title": "出典を意識したレポート",
+            "desc": "レポートには元テーブル、期間、フィルター、利用した業務ルールを含められるため、経営層は数字の出所を理解できます。"
+          },
+          {
+            "title": "データ不足時に推測しない",
+            "desc": "入力不足、古いエクスポート、矛盾する記録、利用不能なシステムがある場合、エージェントはそれを示し、結果を部分的として扱います。"
+          },
+          {
+            "title": "安全な導入姿勢",
+            "desc": "アクセスは承認済みシステムに限定され、配信リンクは期限設定でき、運用チェックが公開露出、古い認証情報、バックアップ失敗を監視します。"
+          }
+        ]
+      },
+      "howItWorks": {
+        "title": "導入の進め方",
+        "steps": [
+          {
+            "title": "最初の業務レーンを選ぶ",
+            "desc": "経営ブリーフィング、顧客/製品レポート、売掛金年齢、在庫アラート、受信箱トリアージなど価値の高いレーンから始めます。"
+          },
+          {
+            "title": "承認済みソースを接続",
+            "desc": "メール、カレンダー、ERPエクスポートやデータベースアクセス、共有フォルダ、レポートテンプレート、パートナー向け配信ルールを統合します。"
+          },
+          {
+            "title": "レポートルールをコード化",
+            "desc": "受注残、欠品、継続売上、売掛金区分、顧客リスク、価格比較の定義を合意し、出力を一貫させます。"
+          },
+          {
+            "title": "検証付きでレポートを出荷",
+            "desc": "エージェントはダッシュボードと添付を生成し、配信前にリンクを確認し、実行内容を記録し、不確実性をレビューに上げます。"
+          }
+        ]
+      },
+      "pilot": {
+        "title": "集中したパイロットで早く価値を証明できます",
+        "sub": "多くのチームは1つの経営ワークフローから始め、レポートルールと信頼モデルが証明されてから拡張します。",
+        "items": [
+          {
+            "metric": "1週目",
+            "label": "システム、優先受信箱、レポート定義、配信承認を整理"
+          },
+          {
+            "metric": "2週目",
+            "label": "承認済みデータから最初のブリーフィングとサンプルダッシュボードを生成"
+          },
+          {
+            "metric": "3週目",
+            "label": "定期レポート、CSV出力、リンク確認、例外アラートを追加"
+          },
+          {
+            "metric": "4週目",
+            "label": "ROIを確認し、ルールを締め、次の業務レーンを選択"
+          }
+        ]
+      },
+      "cta": {
+        "title": "製造チームにAIオペレーション分析担当を。",
+        "sub": "1つのエージェントがTeamsやWhatsAppで応答し、ERPを読み、レポートを生成し、リンクを検証し、フォローアップを準備します。その間、人は事業運営に集中できます。",
+        "button": "製造業エージェントを作る →"
       }
     },
     "realEstate": {
@@ -1509,9 +1509,9 @@
       "slug": "accounting",
       "icon": "📊",
       "heroTitle": "会計チームの AI オペレーション",
-      "heroSub": "税務シーズンを楽しむ経理。法人申告、経費分類、請求書管理、漏れのない締切管理。",
+      "heroSub": "会計業務エージェントがメール、テキスト、共有フォルダ、スプレッドシート、会計ソフト上で働き、照合、請求書フォロー、期限確認を準備します。",
       "solutions": {
-        "title": "AIによる解決",
+        "title": "会計エージェントが準備できること",
         "items": [
           {
             "icon": "🏛️",
@@ -1546,26 +1546,26 @@
         ]
       },
       "howItWorks": {
-        "title": "始め方",
+        "title": "1つの会計レーンから開始",
         "steps": [
           {
-            "title": "財務構成を共有",
-            "desc": "法人、会計ソフト（Wave、QuickBooks、Xero）、銀行口座、時間を消費するタスクについて教えてください。"
+            "title": "財務設定を共有",
+            "desc": "法人、会計ソフト、受信箱、領収書の流れ、期限について教えてください。"
           },
           {
-            "title": "会計AIを構築",
-            "desc": "AIが勘定科目表、税務義務、請求書テンプレート、財務ワークフローを学習します。"
+            "title": "レビュー規則を構築",
+            "desc": "エージェントが勘定科目表、承認しきい値、請求書テンプレート、エスカレーション規則を学習します。"
           },
           {
-            "title": "帳簿は常にクリーン",
-            "desc": "リアルタイム分類、自動請求、プロアクティブな締切管理。帳簿は常に監査に対応可能。"
+            "title": "帳簿は準備された状態に",
+            "desc": "エージェントが仕訳、リマインダー、レポート、草案を準備し、会計担当者が判断と最終承認を担います。"
           }
         ]
       },
       "cta": {
-        "title": "ストレスフリーな税務シーズンの準備はできましたか？",
-        "sub": "AI経理が全ての金額を追跡し、全ての申告を提出し、締切を漏らしません。税務シーズンはただの火曜日。",
-        "button": "会計AIを入手 →"
+        "title": "帳簿にレビュー準備済みの業務レイヤーを。",
+        "sub": "エージェントに定型作業を準備させ、会計判断が必要な事項を浮かび上がらせます。",
+        "button": "会計エージェントを作る →"
       },
       "examples": {
         "title": "レビュー準備済みの会計ワークフロー",
@@ -1622,7 +1622,7 @@
           },
           {
             "from": "agent",
-            "sender": "Agent",
+            "sender": "エージェント",
             "text": "詳細を抽出し、カテゴリを提案し、1件の仕入先を未払請求に一致させ、3件すべてを会計承認待ちにしました。"
           },
           {
@@ -1632,7 +1632,7 @@
           },
           {
             "from": "agent",
-            "sender": "Agent",
+            "sender": "エージェント",
             "text": "4件がしきい値を超えました。最終支払文脈つきのフォローアップメールを下書きし、慎重な対応が必要な口座はレビュー用に保留しました。"
           }
         ]

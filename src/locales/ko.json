@@ -343,7 +343,7 @@
       "corpTax": {
         "title": "법인 세무 및 회계",
         "desc": "세금 신고, 청구서 생성, 비용 분류, 법인 세무 의무 추적을 수행합니다.",
-        "real": "AI 경리가 소규모 사업체의 T4A 슬립 제출, T5 수정을 지원하고 전체 T2 법인 세금 신고서를 준비했습니다."
+        "real": "회계 운영 에이전트가 소규모 사업체를 위해 T4A와 T5 지원 자료 및 T2 신고 패키지를 준비해 사람이 검토할 수 있게 했습니다."
       },
       "codeReview": {
         "title": "코드 리뷰 및 배포",
@@ -458,7 +458,7 @@
           {
             "icon": "📅",
             "title": "마감일 추적",
-            "desc": "제출 마감일을 다시는 놓치지 않습니다. AI가 법정 기일, 소멸시효, 답변 기한을 모니터링하고 단계적 리마인더를 보냅니다."
+            "desc": "법정 기일, 소멸시효, 답변 기한, 고객 약속을 모니터링하고 단계적 리마인더를 보냅니다."
           },
           {
             "icon": "📚",
@@ -578,445 +578,374 @@
     "manufacturing": {
       "slug": "manufacturing",
       "icon": "MFG",
-      "heroTitle": "제조업을 위한 AI 운영 에이전트",
-      "heroSub": "A dedicated AI employee that monitors inboxes, ERP, sales, inventory, receivables, shipments, and reports so leadership sees the business clearly every day.",
+      "heroTitle": "제조업을 위한 AI 운영",
+      "heroSub": "전담 AI 운영 에이전트가 받은편지함, ERP, 매출, 재고, 미수금, 출하, 보고서, 팀 채널을 모니터링해 경영진이 매일 비즈니스를 명확하게 볼 수 있게 합니다.",
       "heroProof": [
         {
           "value": "24/7",
-          "label": "inbox, ERP, and operations monitoring"
+          "label": "이메일, ERP, 운영 모니터링"
         },
         {
-          "value": "3x/day",
-          "label": "executive briefings when you want them"
+          "value": "하루 3회",
+          "label": "원할 때 받는 경영진 브리핑"
         },
         {
-          "value": "ERP-ready",
-          "label": "sales, inventory, AR, backlog, and shortage reports"
+          "value": "ERP 연동 준비",
+          "label": "매출, 재고, 미수금, 백로그, 부족 보고서"
         },
         {
-          "value": "Report links",
-          "label": "interactive dashboards with CSV exports"
+          "value": "보고서 링크",
+          "label": "CSV 내보내기가 있는 인터랙티브 대시보드"
         }
       ],
       "overview": {
-        "kicker": "What you are really buying",
-        "title": "Not a chatbot. A manufacturing analyst that keeps watch.",
-        "body": "Most manufacturers already have the data. It is scattered across email, ERP tables, spreadsheets, customer threads, supplier notes, calendars, and tribal knowledge. The agent sits across those systems, turns raw activity into operational judgment, and hands leaders the reports, summaries, and follow-up drafts they need before the day gets away from them.",
+        "kicker": "실제로 구매하는 것",
+        "title": "챗봇이 아니라 계속 지켜보는 제조 분석가입니다.",
+        "body": "대부분의 제조사는 이미 데이터를 가지고 있습니다. 다만 이메일, ERP 테이블, 스프레드시트, 고객 스레드, 공급업체 메모, 캘린더, 현장 지식에 흩어져 있습니다. 에이전트는 이 시스템들 위에서 원시 활동을 운영 판단으로 바꾸고, 하루가 지나가기 전에 리더에게 필요한 보고서, 요약, 후속 초안을 전달합니다.",
         "items": [
           {
             "icon": "📬",
-            "title": "Executive inbox layer",
-            "desc": "Monitors priority contacts, flags urgent threads, drafts replies, preserves real email threading, and separates informational messages from items that need action."
+            "title": "경영진 받은편지함 레이어",
+            "desc": "우선 연락처를 모니터링하고, 긴급 스레드를 표시하고, 답장을 초안으로 만들며, 실제 이메일 흐름을 보존하고 정보성 메시지와 조치가 필요한 항목을 구분합니다."
           },
           {
             "icon": "🧾",
-            "title": "ERP reporting analyst",
-            "desc": "Queries order, invoice, inventory, customer, product, backlog, AR, and shipment data using reporting rules agreed with your team."
+            "title": "ERP 보고 분석가",
+            "desc": "팀과 합의한 보고 규칙에 따라 주문, 송장, 재고, 고객, 제품, 백로그, 미수금, 출하 데이터를 조회합니다."
           },
           {
             "icon": "📊",
-            "title": "Dashboard builder",
-            "desc": "Turns analysis into interactive HTML reports with KPI cards, trend tables, notes, source CSVs, and shareable links."
+            "title": "대시보드 빌더",
+            "desc": "분석을 KPI 카드, 추세 표, 메모, 원본 CSV, 공유 링크가 포함된 인터랙티브 HTML 보고서로 바꿉니다."
           },
           {
             "icon": "🛡️",
-            "title": "Ops reliability monitor",
-            "desc": "Checks report delivery, link health, backups, security posture, and integration health so the reporting system itself stays trustworthy."
+            "title": "운영 신뢰성 모니터",
+            "desc": "보고서 전달, 링크 상태, 백업, 보안 자세, 통합 상태를 확인해 보고 시스템 자체가 신뢰를 유지하도록 합니다."
           }
         ]
       },
       "problems": {
-        "title": "Manufacturing leaders are drowning in fragmented signals",
+        "title": "제조 리더는 조각난 신호에 파묻혀 있습니다",
         "items": [
-          "The answer to a simple executive question often spans email, ERP, calendar, spreadsheets, customer history, and yesterday’s operational context. Senior people spend their morning reconstructing the picture instead of deciding what to do.",
-          "Customer concentration, quote movement, backlog risk, shortages, overdue receivables, margin shifts, and shipment timing are visible in the data, but only after someone has time to pull and reconcile the data manually.",
-          "Reports are often trapped in one-off spreadsheets. The logic changes by person, the source data is not easy to inspect, and leadership cannot tell whether a number came from live ERP, a manual export, or a stale worksheet.",
-          "Business partners ask for updates, pricing comparisons, customer summaries, investor data-room support, or product analysis. The team can answer, but every answer steals focus from sales, production, and customer work."
+          "간단한 경영 질문의 답도 이메일, ERP, 캘린더, 스프레드시트, 고객 이력, 어제의 운영 맥락을 가로지르는 경우가 많습니다. 시니어 인력은 무엇을 결정할지보다 상황을 재구성하는 데 아침을 씁니다.",
+          "고객 집중도, 견적 움직임, 백로그 위험, 부족, 연체 미수금, 마진 변화, 출하 타이밍은 데이터에 있지만 누군가 수동으로 가져와 맞춰 보기 전까지는 잘 보이지 않습니다.",
+          "보고서는 일회성 스프레드시트에 갇히기 쉽습니다. 로직은 사람마다 달라지고, 원본 데이터는 확인하기 어렵고, 경영진은 숫자가 실시간 ERP, 수동 내보내기, 오래된 시트 중 어디에서 왔는지 알기 어렵습니다.",
+          "비즈니스 파트너는 업데이트, 가격 비교, 고객 요약, 투자자 데이터룸 지원, 제품 분석을 요청합니다. 팀은 답할 수 있지만, 매번 영업, 생산, 고객 업무의 집중이 줄어듭니다."
         ]
       },
       "solutions": {
-        "title": "제조 Agent가 맡을 수 있는 일",
+        "title": "제조 에이전트가 맡을 수 있는 일",
         "items": [
           {
             "icon": "📬",
-            "title": "Inbox monitoring and response support",
-            "desc": "Watches priority inboxes, summarizes high-value threads, drafts replies, attaches reports, and keeps a clear audit trail of what it acted on and what it ignored."
+            "title": "받은편지함 모니터링과 답변 지원",
+            "desc": "우선 받은편지함을 지켜보고, 가치 높은 스레드를 요약하고, 답장을 초안으로 만들고, 보고서를 첨부하며, 무엇을 처리하고 무엇을 무시했는지 명확한 기록을 남깁니다."
           },
           {
             "icon": "🌅",
-            "title": "Daily executive briefings",
-            "desc": "Produces morning, midday, and evening updates covering calendar, inbox, sales pulse, shipments, collections, inventory, shortages, FX, weather, and relevant market news."
+            "title": "매일 경영진 브리핑",
+            "desc": "아침, 정오, 저녁 업데이트를 만들어 캘린더, 이메일, 매출 흐름, 출하, 수금, 재고, 부족, 환율, 날씨, 관련 시장 뉴스를 다룹니다."
           },
           {
             "icon": "🏭",
-            "title": "ERP and SYSPRO-style BI",
-            "desc": "Runs governed reports across sales, backlog, AR aging, inventory, customer concentration, product movement, shortage exposure, and historical comparisons."
+            "title": "ERP 및 SYSPRO 스타일 BI",
+            "desc": "매출, 백로그, 미수금 에이징, 재고, 고객 집중도, 제품 움직임, 부족 노출, 과거 비교에 대한 관리형 보고서를 실행합니다."
           },
           {
             "icon": "📈",
-            "title": "Customer and pricing analysis",
-            "desc": "Builds customer-specific reporting, price comparison packs, product-line views, margin change summaries, and follow-up-ready executive notes."
+            "title": "고객 및 가격 분석",
+            "desc": "고객별 보고서, 가격 비교 패키지, 제품 라인별 보기, 마진 변화 요약, 후속 조치 가능한 경영진 메모를 만듭니다."
           },
           {
             "icon": "📦",
-            "title": "Inventory and operational alerts",
-            "desc": "Highlights critical stock, slow-moving inventory, material risk, replenishment issues, and shipment exceptions before they become fire drills."
+            "title": "재고 및 운영 알림",
+            "desc": "화재 진압 상황이 되기 전에 핵심 재고, 저회전 재고, 자재 위험, 보충 문제, 출하 예외를 강조합니다."
           },
           {
             "icon": "🔐",
-            "title": "Reliability and security checks",
-            "desc": "Runs daily checks for uptime, backups, disk, memory, public ports, permissions, delivery health, and report-link verification."
+            "title": "신뢰성 및 보안 점검",
+            "desc": "가동 시간, 백업, 디스크, 메모리, 공개 포트, 권한, 전달 상태, 보고서 링크 검증을 매일 확인합니다."
           }
         ]
       },
       "operatingSystem": {
-        "title": "A practical operating system for the back office",
-        "sub": "The agent is strongest where manufacturing work crosses systems and functions.",
+        "title": "백오피스를 위한 실용 운영 시스템",
+        "sub": "제조 업무가 시스템과 부서를 넘나드는 지점에서 에이전트가 가장 강합니다.",
         "items": [
           {
-            "label": "Sales",
-            "title": "Sales pulse and customer movement",
-            "desc": "Tracks trailing sales, top customers, customer concentration, order changes, quote movement, and account-level follow-up opportunities."
+            "label": "영업",
+            "title": "매출 흐름과 고객 움직임",
+            "desc": "누적 매출, 주요 고객, 고객 집중도, 주문 변화, 견적 움직임, 계정별 후속 기회를 추적합니다."
           },
           {
-            "label": "Finance",
-            "title": "Receivables and collections visibility",
-            "desc": "Builds AR aging reports, flags threshold crossings, summarizes last-touch context, and prepares collection-ready account notes."
+            "label": "재무",
+            "title": "미수금과 수금 가시성",
+            "desc": "미수금 에이징 보고서를 만들고, 임계값 초과를 표시하고, 마지막 접촉 맥락을 요약하고, 수금에 바로 쓸 계정 메모를 준비합니다."
           },
           {
-            "label": "Operations",
-            "title": "Backlog, shipments, and shortages",
-            "desc": "Surfaces past-due items, open orders, shipment timing, shortage warnings, and inventory pressure in a single executive view."
+            "label": "운영",
+            "title": "백로그, 출하, 부족",
+            "desc": "기한 지난 항목, 미결 주문, 출하 타이밍, 부족 경고, 재고 압박을 하나의 경영진 보기로 보여줍니다."
           },
           {
-            "label": "Pricing",
-            "title": "Pricing and product comparisons",
-            "desc": "Compares products, customers, periods, and price movement with source tables and clear assumptions rather than unexplained spreadsheet math."
+            "label": "가격",
+            "title": "가격 및 제품 비교",
+            "desc": "설명 없는 스프레드시트 계산이 아니라 원본 표와 명확한 가정으로 제품, 고객, 기간, 가격 변화를 비교합니다."
           },
           {
-            "label": "Leadership",
-            "title": "Briefings that connect the dots",
-            "desc": "Combines email, calendar, ERP, operational notes, and external context into plain-English updates with specific next actions."
+            "label": "리더십",
+            "title": "점을 이어 주는 브리핑",
+            "desc": "이메일, 캘린더, ERP, 운영 메모, 외부 맥락을 구체적인 다음 조치가 담긴 쉬운 업데이트로 결합합니다."
           },
           {
             "label": "IT/Ops",
-            "title": "Delivery infrastructure that can be trusted",
-            "desc": "Verifies dashboards, links, attachments, backups, and service health before leadership relies on the output."
+            "title": "믿을 수 있는 전달 인프라",
+            "desc": "리더십이 결과에 의존하기 전에 대시보드, 링크, 첨부, 백업, 서비스 상태를 검증합니다."
           }
         ]
       },
       "examples": {
-        "title": "Agent가 배경에서 맡을 수 있는 일",
+        "title": "팀에서 덜어낼 수 있는 일",
         "items": [
           {
-            "title": "임원 요청을 보고서 패키지로 응답",
-            "desc": "파트너가 지난 12개월의 고객 및 제품 비교를 요청합니다. 보통 ERP 내보내기, 행 정리, 스프레드시트 작성, 요약, 첨부 발송이 필요합니다.",
-            "real": "Agent가 임원 요약, 인터랙티브 대시보드, 지원 CSV, 출처가 보이는 설명을 생성하고 승인 후 또는 합의된 규칙에 따라 스레드에 링크와 첨부를 보냅니다."
+            "title": "보고서 패키지로 답하는 경영진 요청",
+            "desc": "파트너가 최근 12개월 고객/제품 비교를 요청합니다. 보통은 ERP 내보내기를 뽑고, 행을 정리하고, 스프레드시트를 만들고, 요약을 쓰고, 첨부를 보내야 합니다.",
+            "real": "에이전트는 경영진 요약, 인터랙티브 대시보드, 지원 CSV, 출처를 고려한 서술을 생성합니다. 승인 후 또는 합의된 운영 규칙에 따라 같은 스레드에 보고서 링크와 첨부로 답할 수 있습니다."
           },
           {
-            "title": "받은편지함을 뒤지지 않아도 되는 아침 브리핑",
-            "desc": "제조 리더는 읽지 않은 이메일, 회의, 배송 이슈, 영업 질문, 수금 리스크, 재고 경고가 흩어진 상태로 하루를 시작합니다.",
-            "real": "Agent가 간결한 브리핑을 보냅니다. 무엇이 바뀌었는지, 무엇이 급한지, 누가 기다리는지, 어떤 계정과 재고가 중요한지, 어떤 보고서를 확인할 수 있는지 정리합니다."
+            "title": "받은편지함 뒤지기를 대신하는 아침 브리핑",
+            "desc": "제조 리더는 읽지 않은 이메일, 회의, 출하 문제, 영업 질문, 수금 위험, 재고 경고가 여러 시스템에 흩어진 상태로 하루를 시작합니다.",
+            "real": "에이전트는 무엇이 바뀌었는지, 무엇이 긴급한지, 누가 기다리는지, 어떤 계정이 주의가 필요한지, 어떤 재고 품목이 중요한지, 어떤 보고서를 확인할 수 있는지 간결히 보냅니다."
           },
           {
             "title": "매주 실행되는 미수금 보고서",
-            "desc": "재무팀은 aging bucket 정리, 마지막 연락 확인, 영업 맥락 요청, 같은 보고서 반복 준비에 시간을 씁니다.",
-            "real": "Agent가 일정에 맞춰 AR 뷰를 만들고, 기준을 넘은 계정을 표시하며, 가능한 마지막 접촉 맥락을 더하고, 내보낼 수 있는 데이터를 요약 옆에 둡니다."
+            "desc": "재무팀은 에이징 구간을 나누고, 마지막 연락을 확인하고, 영업에 맥락을 물어보고, 다음 월요일에도 같은 보고서를 준비하느라 시간을 씁니다.",
+            "real": "에이전트는 일정에 맞춰 미수금 보기를 만들고, 임계값을 넘은 계정을 강조하고, 가능한 경우 마지막 접촉 맥락을 추가하며, 내보낼 수 있는 데이터를 작성 요약 옆에 둡니다."
           },
           {
-            "title": "고객 리스크와 집중도 조기 노출",
-            "desc": "몇몇 대형 계정이 매출, 백로그, 미수금 노출의 대부분을 차지할 수 있습니다. 변화 신호는 주문 이력과 이메일에 흩어집니다.",
-            "real": "Agent가 집중도와 움직임을 추적하고 이상 하락이나 상승을 표시하며, 영업, 투자자, 파트너 대화에 쓸 고객별 요약을 준비합니다."
+            "title": "고객 위험과 집중도를 조기에 표시",
+            "desc": "몇몇 대형 계정이 매출, 백로그, 미수금 노출의 대부분을 조용히 차지할 수 있습니다. 하나가 느려지면 신호는 주문 이력과 이메일에 흩어져 있는 경우가 많습니다.",
+            "real": "에이전트는 시간에 따른 집중도와 움직임을 추적하고, 이례적 하락이나 급등을 표시하고, 영업, 투자자, 파트너 대화에 쓸 고객별 요약을 준비합니다."
           },
           {
-            "title": "재고 압력 가시화",
-            "desc": "부족, 느린 품목, 중요 수량은 소수만 읽는 ERP 화면 안에 있으면 놓치기 쉽습니다.",
-            "real": "Agent가 신호를 우선순위 운영 목록으로 바꿉니다. 중요 재고, 예상 부족, 정체 재고, 배송 차단 요소, 추천 후속 담당자를 보여줍니다."
+            "title": "재고 압박을 보이게 만들기",
+            "desc": "보고서가 일부 사람만 읽을 줄 아는 ERP 화면에 있으면 부족, 저회전 품목, 중요 수량을 놓치기 쉽습니다.",
+            "real": "에이전트는 그 신호를 우선순위 운영 목록으로 바꿉니다. 핵심 재고, 예상 부족, 오래된 재고, 출하 차단 요인, 권장 후속 담당자입니다."
           },
           {
-            "title": "신뢰할 수 있는 보고서 전달",
-            "desc": "대시보드 링크는 열리고, 렌더링되고, 올바른 파일을 포함해야만 가치가 있습니다.",
-            "real": "Agent가 전달 전에 링크, 브라우저 렌더링, 첨부, 만료를 확인합니다. 문제가 있으면 준비 완료라고 말하기 전에 전달 경로를 고칩니다."
+            "title": "보고서 전달 강화",
+            "desc": "대시보드 링크는 경영진이 클릭했을 때 열리고, 제대로 렌더링되고, 올바른 파일을 포함해야 유용합니다.",
+            "real": "에이전트는 전달 전 보고서 링크, 브라우저 렌더링, 첨부, 만료를 확인합니다. 문제가 있으면 보고서가 준비됐다고 말하기 전에 전달 경로를 고칩니다."
           }
         ]
       },
       "reportGallery": {
-        "title": "Sample manufacturing reports it can generate",
-        "sub": "These previews use synthetic data, but mirror the kinds of interactive report artifacts the agent can deliver: executive summary, dashboard link, source CSVs, and follow-up-ready narrative.",
-        "note": "No private customer data is shown here. Live deployments use your approved data sources, access controls, retention rules, and review thresholds.",
+        "title": "생성 가능한 제조 보고서 예시",
+        "sub": "이 미리보기는 합성 데이터를 사용하지만, 에이전트가 전달할 수 있는 인터랙티브 보고 산출물을 반영합니다. 경영진 요약, 대시보드 링크, 원본 CSV, 후속 조치용 서술입니다.",
+        "note": "여기에는 비공개 고객 데이터가 표시되지 않습니다. 실제 배포는 승인된 데이터 소스, 접근 제어, 보존 규칙, 검토 임계값을 사용합니다.",
         "items": [
           {
-            "badge": "Customer analysis",
-            "title": "12-month customer and product comparison",
-            "desc": "Compares customer purchasing patterns, product mix, price movement, and trailing revenue by period.",
+            "badge": "고객 분석",
+            "title": "12개월 고객 및 제품 비교",
+            "desc": "기간별 고객 구매 패턴, 제품 믹스, 가격 움직임, 누적 매출을 비교합니다.",
             "metrics": [
               {
                 "value": "$4.8M",
-                "label": "Trailing revenue"
+                "label": "누적 매출"
               },
               {
                 "value": "+7.4%",
-                "label": "Price movement"
+                "label": "가격 움직임"
               },
               {
                 "value": "18",
-                "label": "Products reviewed"
+                "label": "검토 제품"
               }
             ],
             "rows": [
               {
-                "label": "Product Line A",
+                "label": "제품 라인 A",
                 "width": "88%",
                 "value": "$1.9M"
               },
               {
-                "label": "Product Line B",
+                "label": "제품 라인 B",
                 "width": "64%",
                 "value": "$1.2M"
               },
               {
-                "label": "Product Line C",
+                "label": "제품 라인 C",
                 "width": "42%",
                 "value": "$780K"
               }
             ]
           },
           {
-            "badge": "Collections",
-            "title": "Aged receivables and follow-up pack",
-            "desc": "Buckets AR exposure, flags threshold crossings, and prepares account-level collection notes.",
+            "badge": "수금",
+            "title": "에이징 미수금과 후속 패키지",
+            "desc": "미수금 노출을 구간화하고, 임계값 초과를 표시하고, 계정별 수금 메모를 준비합니다.",
             "metrics": [
               {
                 "value": "$612K",
-                "label": "Open AR"
+                "label": "미결 미수금"
               },
               {
                 "value": "9",
-                "label": "Accounts flagged"
+                "label": "표시된 계정"
               },
               {
                 "value": "3",
-                "label": "New over 60 days"
+                "label": "60일 초과 신규"
               }
             ],
             "rows": [
               {
-                "label": "0-30 days",
+                "label": "0에서 30일",
                 "width": "72%",
                 "value": "$331K"
               },
               {
-                "label": "31-60 days",
+                "label": "31에서 60일",
                 "width": "38%",
                 "value": "$141K"
               },
               {
-                "label": "60+ days",
+                "label": "60일 초과",
                 "width": "30%",
                 "value": "$140K"
               }
             ]
           },
           {
-            "badge": "Inventory",
-            "title": "Critical inventory and shortage watch",
-            "desc": "Ranks material risk, shortage exposure, slow movers, and items requiring purchasing follow-up.",
+            "badge": "재고",
+            "title": "핵심 재고와 부족 감시",
+            "desc": "자재 위험, 부족 노출, 저회전 품목, 구매 후속이 필요한 항목의 순위를 매깁니다.",
             "metrics": [
               {
                 "value": "27",
-                "label": "Critical items"
+                "label": "핵심 품목"
               },
               {
                 "value": "11",
-                "label": "Shortage warnings"
+                "label": "부족 경고"
               },
               {
                 "value": "$340K",
-                "label": "Slow-moving stock"
+                "label": "저회전 재고"
               }
             ],
             "rows": [
               {
-                "label": "Raw Material A",
+                "label": "원자재 A",
                 "width": "92%",
-                "value": "Critical"
+                "value": "위험"
               },
               {
-                "label": "Component B",
+                "label": "부품 B",
                 "width": "66%",
-                "value": "Watch"
+                "value": "관찰"
               },
               {
-                "label": "Finished Good C",
+                "label": "완제품 C",
                 "width": "48%",
-                "value": "Slow"
+                "value": "느림"
               }
             ]
           },
           {
-            "badge": "Executive brief",
-            "title": "Daily operations briefing dashboard",
-            "desc": "Combines inbox, calendar, sales, shipments, inventory, receivables, and external context into one morning view.",
+            "badge": "경영진 브리핑",
+            "title": "일일 운영 브리핑 대시보드",
+            "desc": "받은편지함, 캘린더, 매출, 출하, 재고, 미수금, 외부 맥락을 하나의 아침 보기로 결합합니다.",
             "metrics": [
               {
                 "value": "14",
-                "label": "Priority emails"
+                "label": "우선 이메일"
               },
               {
                 "value": "6",
-                "label": "Shipment risks"
+                "label": "출하 위험"
               },
               {
                 "value": "4",
-                "label": "Actions due"
+                "label": "마감 조치"
               }
             ],
             "rows": [
               {
-                "label": "Sales pulse",
+                "label": "매출 흐름",
                 "width": "76%",
-                "value": "Warm"
+                "value": "양호"
               },
               {
-                "label": "Shipments",
+                "label": "출하",
                 "width": "52%",
-                "value": "Risk"
+                "value": "위험"
               },
               {
-                "label": "Collections",
+                "label": "수금",
                 "width": "44%",
-                "value": "Watch"
+                "value": "관찰"
               }
             ]
           }
         ]
       },
       "deliverables": {
-        "title": "What leadership receives",
-        "sub": "The agent does not just chat. It produces durable artifacts your team can review, forward, archive, and audit.",
+        "title": "리더십이 받는 것",
+        "sub": "에이전트는 단순히 대화하지 않습니다. 팀이 검토, 전달, 보관, 감사할 수 있는 지속적인 산출물을 만듭니다.",
         "items": [
           {
             "icon": "🗂️",
-            "title": "Executive summaries",
-            "desc": "Plain-English summaries with assumptions, next actions, and what changed since the last report."
+            "title": "경영진 요약",
+            "desc": "가정, 다음 조치, 마지막 보고 이후 바뀐 점을 쉬운 말로 정리합니다."
           },
           {
             "icon": "📊",
-            "title": "Interactive dashboards",
-            "desc": "Shareable report pages with KPI cards, tables, trend views, and source-aware notes."
+            "title": "인터랙티브 대시보드",
+            "desc": "KPI 카드, 표, 추세 보기, 출처를 고려한 메모가 포함된 공유 가능한 보고 페이지입니다."
           },
           {
             "icon": "📎",
-            "title": "CSV and DOCX packets",
-            "desc": "Underlying data exports and document summaries that finance, sales, or partners can inspect."
+            "title": "CSV 및 DOCX 패키지",
+            "desc": "재무, 영업, 파트너가 확인할 수 있는 원본 데이터 내보내기와 문서 요약입니다."
           },
           {
             "icon": "✉️",
-            "title": "Reply-ready drafts",
-            "desc": "Email responses written in context, with attachments, links, and careful threading behavior."
+            "title": "답장 준비 초안",
+            "desc": "맥락에 맞춰 작성된 이메일 답장으로, 첨부, 링크, 신중한 스레드 처리를 포함합니다."
           },
           {
             "icon": "🚨",
-            "title": "Exception alerts",
-            "desc": "Notifications for overdue replies, AR risk, inventory pressure, failed report delivery, or system degradation."
+            "title": "예외 알림",
+            "desc": "지연된 답장, 미수금 위험, 재고 압박, 보고서 전달 실패, 시스템 저하에 대한 알림입니다."
           },
           {
             "icon": "📚",
-            "title": "Operating memory",
-            "desc": "Durable notes on customers, recurring reports, reporting rules, business context, and known risks."
+            "title": "운영 메모리",
+            "desc": "고객, 반복 보고서, 보고 규칙, 비즈니스 맥락, 알려진 위험에 대한 지속적인 메모입니다."
           },
           {
             "icon": "🔎",
-            "title": "Verification notes",
-            "desc": "Clear statements about what was checked, what was inferred, and where the data came from."
+            "title": "검증 메모",
+            "desc": "무엇을 확인했고, 무엇을 추론했으며, 데이터가 어디에서 왔는지를 명확히 밝힙니다."
           },
           {
             "icon": "🛠️",
-            "title": "Reliability logs",
-            "desc": "Health checks for report servers, backups, public links, permissions, and scheduled jobs."
+            "title": "신뢰성 로그",
+            "desc": "보고서 서버, 백업, 공개 링크, 권한, 예약 작업에 대한 상태 점검입니다."
           }
         ]
-      },
-      "controls": {
-        "kicker": "Built for real operations",
-        "title": "사람의 판단이 계속 주도합니다",
-        "sub": "Manufacturing teams need useful automation, not risky autonomy. The agent can be configured around your approval rules, data access boundaries, and delivery standards.",
-        "items": [
-          {
-            "title": "외부 커뮤니케이션 승인 게이트",
-            "desc": "새 연락처, 민감한 답장, 가격 대화 또는 사람이 승인해야 하는 내용에는 검토 우선 모드를 사용합니다."
-          },
-          {
-            "title": "출처가 보이는 보고",
-            "desc": "보고서에는 원본 테이블, 기간, 필터, 비즈니스 규칙을 포함해 리더가 숫자의 출처를 알 수 있습니다."
-          },
-          {
-            "title": "데이터가 부족하면 추측하지 않음",
-            "desc": "입력 누락, 오래된 내보내기, 충돌하는 기록, 사용할 수 없는 시스템이 있으면 Agent가 이를 밝히고 결과를 부분으로 표시합니다."
-          },
-          {
-            "title": "안전한 배포 자세",
-            "desc": "접근은 승인된 시스템으로 제한되고, 링크는 만료될 수 있으며, 운영 점검은 공개 노출, 오래된 자격 증명, 백업 실패를 감시합니다."
-          }
-        ]
-      },
-      "howItWorks": {
-        "title": "How rollout works",
-        "steps": [
-          {
-            "title": "Pick the first operating lane",
-            "desc": "Start with a high-value lane such as executive briefings, customer/product reports, AR aging, inventory alerts, or inbox triage."
-          },
-          {
-            "title": "Connect approved sources",
-            "desc": "Integrate email, calendar, ERP exports or database access, shared folders, report templates, and any partner-facing delivery rules."
-          },
-          {
-            "title": "Codify reporting rules",
-            "desc": "Agree on definitions for backlog, shortages, trailing sales, AR buckets, customer risk, and price comparisons so output is consistent."
-          },
-          {
-            "title": "Ship reports with verification",
-            "desc": "The agent generates dashboards and attachments, checks links before delivery, logs what it did, and escalates uncertainty for review."
-          }
-        ]
-      },
-      "pilot": {
-        "title": "A focused pilot can prove value quickly",
-        "sub": "Most teams start with one executive workflow, then expand once the reporting rules and trust model are proven.",
-        "items": [
-          {
-            "metric": "Week 1",
-            "label": "Map systems, priority inboxes, report definitions, and delivery approvals"
-          },
-          {
-            "metric": "Week 2",
-            "label": "Generate first briefings and sample dashboards from approved data"
-          },
-          {
-            "metric": "Week 3",
-            "label": "Add scheduled reports, CSV exports, link checks, and exception alerts"
-          },
-          {
-            "metric": "Week 4",
-            "label": "Review ROI, tighten rules, and choose the next operating lane"
-          }
-        ]
-      },
-      "cta": {
-        "title": "Give your manufacturing team an AI operations analyst.",
-        "sub": "One agent can watch the inbox, read the ERP, generate the report, verify the link, and prepare the follow-up while your people run the business.",
-        "button": "Build Your Manufacturing Agent →"
       },
       "directAccess": {
-        "kicker": "현장, 사무실, 이동 중 어디서든 요청",
-        "title": "Teams, WhatsApp, 이메일, Telegram에서 제조 Agent와 대화하세요",
-        "sub": "리더는 새 대시보드를 열지 않고 보고서 요청, 초안 승인, 예외 확인을 할 수 있습니다. Agent는 ERP, 받은편지함, 배송, 미수금 맥락을 질문이 시작된 채널로 가져옵니다.",
-        "note": "채널은 Telegram, WhatsApp, Signal, 이메일, Slack, Microsoft Teams, 비공개 웹 채팅 등 보안 정책과 승인 규칙에 맞춰 구성할 수 있습니다.",
-        "agentName": "제조 운영 Agent",
+        "kicker": "현장, 사무실, 이동 중 어디서나 질문",
+        "title": "Teams, WhatsApp, 이메일, Telegram에서 제조 에이전트와 대화",
+        "sub": "리더는 새 대시보드를 열지 않고 보고서를 요청하고, 초안을 승인하고, 예외를 확인할 수 있습니다. 에이전트는 ERP, 이메일, 출하, 미수금 맥락을 질문이 시작된 채널로 되돌려 줍니다.",
+        "note": "채널은 보안 정책과 승인 규칙에 따라 Telegram, WhatsApp, Signal, 이메일, Slack, Microsoft Teams 또는 비공개 웹 채팅이 될 수 있습니다.",
+        "agentName": "제조 운영 에이전트",
         "status": "승인된 채널에서 온라인",
         "liveLabel": "실시간",
-        "windowLabel": "제조 Agent 채팅 예시",
+        "windowLabel": "제조 에이전트 채팅 예시",
         "channels": [
           {
             "initial": "TM",
@@ -1046,25 +975,96 @@
         "messages": [
           {
             "from": "user",
-            "sender": "COO",
-            "text": "밤사이 무엇이 바뀌었지? 생산 회의 전에 짧게 알려줘."
+            "sender": "운영 책임자",
+            "text": "밤사이 무엇이 바뀌었나요? 생산 회의 전에 짧게 알려 주세요."
           },
           {
             "from": "agent",
-            "sender": "Agent",
-            "text": "세 가지가 주의 필요합니다: 우선 고객 이메일 2건, 금요일 배송 위험 1건, 재주문 기준 이하 재고 11건입니다. ERP 데이터가 오래된 곳에는 가정을 표시했습니다."
+            "sender": "에이전트",
+            "text": "세 가지 항목에 주의가 필요합니다. 우선 고객 이메일 2건, 금요일 출하 위험 1건, 재주문 기준 아래로 떨어진 재고 11개입니다. ERP 데이터가 오래된 곳에는 가정을 표시했습니다."
           },
           {
             "from": "user",
             "sender": "영업 리더",
-            "text": "상위 계정의 12개월 고객 및 제품 비교를 만들어줘. CSV와 공유 대시보드도 포함해."
+            "text": "상위 계정 대상으로 12개월 고객 및 제품 비교를 만들어 주세요. CSV와 공유 대시보드도 포함해 주세요."
           },
           {
             "from": "agent",
-            "sender": "Agent",
-            "text": "완료했습니다. 대시보드를 생성하고 CSV 패킷을 첨부했으며 링크를 확인하고 승인용 요약을 작성했습니다."
+            "sender": "에이전트",
+            "text": "완료했습니다. 대시보드를 생성하고, CSV 패키지를 첨부하고, 링크를 확인하고, 승인용 쉬운 요약을 초안으로 만들었습니다."
           }
         ]
+      },
+      "controls": {
+        "kicker": "실제 운영을 위해 구축",
+        "title": "사람의 판단이 계속 주도합니다",
+        "sub": "제조팀에는 위험한 자율성이 아니라 유용한 자동화가 필요합니다. 에이전트는 승인 규칙, 데이터 접근 경계, 전달 기준에 맞춰 구성할 수 있습니다.",
+        "items": [
+          {
+            "title": "외부 커뮤니케이션 승인 게이트",
+            "desc": "새 연락처, 민감한 답변, 가격 대화, 사람이 승인해야 하는 모든 항목에는 검토 우선 모드를 사용합니다."
+          },
+          {
+            "title": "출처가 보이는 보고",
+            "desc": "보고서에는 원본 표, 기간, 필터, 사용한 비즈니스 규칙을 포함할 수 있어 리더가 숫자의 출처를 알 수 있습니다."
+          },
+          {
+            "title": "데이터가 부족할 때 추측하지 않음",
+            "desc": "입력 누락, 오래된 내보내기, 충돌 기록, 사용할 수 없는 시스템이 있으면 에이전트가 이를 말하고 결과를 부분 결과로 표시합니다."
+          },
+          {
+            "title": "안전한 배포 자세",
+            "desc": "접근은 승인된 시스템으로 제한되고, 전달 링크는 만료될 수 있으며, 운영 점검은 공개 노출, 오래된 자격 증명, 실패한 백업을 감시합니다."
+          }
+        ]
+      },
+      "howItWorks": {
+        "title": "배포 방식",
+        "steps": [
+          {
+            "title": "첫 운영 레인 선택",
+            "desc": "경영진 브리핑, 고객/제품 보고서, 미수금 에이징, 재고 알림, 받은편지함 분류처럼 가치 높은 레인에서 시작합니다."
+          },
+          {
+            "title": "승인된 소스 연결",
+            "desc": "이메일, 캘린더, ERP 내보내기 또는 데이터베이스 접근, 공유 폴더, 보고서 템플릿, 파트너 대상 전달 규칙을 통합합니다."
+          },
+          {
+            "title": "보고 규칙 코드화",
+            "desc": "백로그, 부족, 누적 매출, 미수금 구간, 고객 위험, 가격 비교의 정의를 합의해 출력이 일관되게 합니다."
+          },
+          {
+            "title": "검증과 함께 보고서 전달",
+            "desc": "에이전트는 대시보드와 첨부를 만들고, 전달 전 링크를 확인하고, 수행 내용을 기록하며, 불확실성은 검토로 올립니다."
+          }
+        ]
+      },
+      "pilot": {
+        "title": "집중 파일럿으로 가치를 빠르게 입증할 수 있습니다",
+        "sub": "대부분의 팀은 하나의 경영 워크플로부터 시작하고, 보고 규칙과 신뢰 모델이 입증되면 확장합니다.",
+        "items": [
+          {
+            "metric": "1주차",
+            "label": "시스템, 우선 받은편지함, 보고서 정의, 전달 승인 매핑"
+          },
+          {
+            "metric": "2주차",
+            "label": "승인된 데이터로 첫 브리핑과 샘플 대시보드 생성"
+          },
+          {
+            "metric": "3주차",
+            "label": "예약 보고서, CSV 내보내기, 링크 점검, 예외 알림 추가"
+          },
+          {
+            "metric": "4주차",
+            "label": "ROI 검토, 규칙 조정, 다음 운영 레인 선택"
+          }
+        ]
+      },
+      "cta": {
+        "title": "제조팀에 AI 운영 분석가를 더하세요.",
+        "sub": "하나의 에이전트가 Teams나 WhatsApp에서 응답하고, ERP를 읽고, 보고서를 만들고, 링크를 검증하고, 후속 조치를 준비하는 동안 사람들은 비즈니스 운영에 집중할 수 있습니다.",
+        "button": "제조 에이전트 만들기 →"
       }
     },
     "realEstate": {
@@ -1509,9 +1509,9 @@
       "slug": "accounting",
       "icon": "📊",
       "heroTitle": "회계 팀을 위한 AI 운영",
-      "heroSub": "세무 시즌을 즐기는 경리. 법인 신고, 비용 분류, 청구서 관리, 빈틈없는 마감일 추적.",
+      "heroSub": "회계 운영 에이전트가 이메일, 문자, 공유 폴더, 스프레드시트, 회계 소프트웨어에서 일하며 조정, 인보이스 후속, 마감 확인을 준비합니다.",
       "solutions": {
-        "title": "AI 해결책",
+        "title": "회계 에이전트가 준비할 수 있는 일",
         "items": [
           {
             "icon": "🏛️",
@@ -1546,26 +1546,26 @@
         ]
       },
       "howItWorks": {
-        "title": "시작하기",
+        "title": "하나의 회계 레인에서 시작",
         "steps": [
           {
-            "title": "재무 구조 공유",
-            "desc": "법인, 회계 소프트웨어(Wave, QuickBooks, Xero), 은행 계좌, 시간을 소모하는 업무를 알려주세요."
+            "title": "재무 설정 공유",
+            "desc": "법인, 회계 소프트웨어, 받은편지함, 영수증 흐름, 마감일을 알려주세요."
           },
           {
-            "title": "회계 AI 구축",
-            "desc": "AI가 계정과목표, 세무 의무, 청구서 템플릿, 재무 워크플로를 학습합니다."
+            "title": "검토 규칙 구축",
+            "desc": "에이전트가 계정과목표, 승인 기준, 인보이스 템플릿, 에스컬레이션 규칙을 학습합니다."
           },
           {
-            "title": "장부는 항상 깔끔",
-            "desc": "실시간 분류, 자동 청구, 선제적 마감일 관리. 장부가 항상 감사 준비 완료."
+            "title": "장부를 준비된 상태로 유지",
+            "desc": "에이전트가 분개, 알림, 보고서, 초안을 준비하고 회계 담당자는 판단과 최종 승인을 맡습니다."
           }
         ]
       },
       "cta": {
-        "title": "스트레스 없는 세무 시즌을 시작할 준비가 되셨나요?",
-        "sub": "AI 경리가 모든 금액을 추적하고, 모든 신고서를 제출하며, 마감일을 놓치지 않습니다. 세무 시즌은 그냥 또 다른 화요일일 뿐.",
-        "button": "회계 AI 시작하기 →"
+        "title": "장부에 검토 준비가 된 운영 레이어를 더하세요.",
+        "sub": "에이전트가 반복 업무를 준비하고 회계 판단이 필요한 항목을 드러내게 하세요.",
+        "button": "회계 에이전트 만들기 →"
       },
       "examples": {
         "title": "검토 준비 상태를 유지하는 회계 워크플로",
@@ -1622,7 +1622,7 @@
           },
           {
             "from": "agent",
-            "sender": "Agent",
+            "sender": "에이전트",
             "text": "세부 정보를 추출하고 분류를 제안했으며 한 공급업체를 미지급 청구서와 매칭하고 세 항목 모두 회계 승인 대기로 남겼습니다."
           },
           {
@@ -1632,7 +1632,7 @@
           },
           {
             "from": "agent",
-            "sender": "Agent",
+            "sender": "에이전트",
             "text": "네 건이 기준을 넘었습니다. 최근 결제 맥락이 담긴 후속 이메일을 작성했고 민감한 계정은 검토용으로 보류했습니다."
           }
         ]

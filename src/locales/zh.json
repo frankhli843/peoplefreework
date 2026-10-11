@@ -343,7 +343,7 @@
       "corpTax": {
         "title": "企业税务与会计",
         "desc": "报税、生成发票、分类费用并追踪企业税务义务。",
-        "real": "AI记账员协助一家小企业提交T4A表格、T5修正案，并准备了完整的T2企业所得税申报表。"
+        "real": "一个会计运营助手为一家小企业准备了 T4A 和 T5 支持材料以及 T2 申报包，供人工审核。"
       },
       "codeReview": {
         "title": "代码审查与部署",
@@ -458,7 +458,7 @@
           {
             "icon": "📅",
             "title": "截止日期追踪",
-            "desc": "再也不会错过提交截止日期。AI监控庭期、诉讼时效和答辩期限，并发送逐级升级的提醒。"
+            "desc": "监控庭期、诉讼时效、答复期限和客户承诺，并发送逐级提醒。"
           },
           {
             "icon": "📚",
@@ -578,445 +578,374 @@
     "manufacturing": {
       "slug": "manufacturing",
       "icon": "MFG",
-      "heroTitle": "制造业 AI 运营助手",
-      "heroSub": "A dedicated AI employee that monitors inboxes, ERP, sales, inventory, receivables, shipments, and reports so leadership sees the business clearly every day.",
+      "heroTitle": "制造业 AI 运营",
+      "heroSub": "专属 AI 运营助手会监控收件箱、ERP、销售、库存、应收账款、发货、报表和团队渠道，让管理层每天都能清楚看到业务状况。",
       "heroProof": [
         {
           "value": "24/7",
-          "label": "inbox, ERP, and operations monitoring"
+          "label": "邮件、ERP 和运营监控"
         },
         {
-          "value": "3x/day",
-          "label": "executive briefings when you want them"
+          "value": "每天 3 次",
+          "label": "按需发送管理层简报"
         },
         {
-          "value": "ERP-ready",
-          "label": "sales, inventory, AR, backlog, and shortage reports"
+          "value": "可接入 ERP",
+          "label": "销售、库存、应收账款、积压订单和短缺报表"
         },
         {
-          "value": "Report links",
-          "label": "interactive dashboards with CSV exports"
+          "value": "报表链接",
+          "label": "带 CSV 导出的交互式仪表板"
         }
       ],
       "overview": {
-        "kicker": "What you are really buying",
-        "title": "Not a chatbot. A manufacturing analyst that keeps watch.",
-        "body": "Most manufacturers already have the data. It is scattered across email, ERP tables, spreadsheets, customer threads, supplier notes, calendars, and tribal knowledge. The agent sits across those systems, turns raw activity into operational judgment, and hands leaders the reports, summaries, and follow-up drafts they need before the day gets away from them.",
+        "kicker": "你真正买到的是什么",
+        "title": "不是聊天机器人，而是持续守望的制造业分析员。",
+        "body": "多数制造企业已经拥有数据，只是散落在邮件、ERP 表、电子表格、客户线程、供应商备注、日历和团队经验里。这个助手横跨这些系统，把原始活动转成运营判断，并在一天被琐事占满之前，把管理层需要的报表、摘要和跟进草稿交到他们手上。",
         "items": [
           {
             "icon": "📬",
-            "title": "Executive inbox layer",
-            "desc": "Monitors priority contacts, flags urgent threads, drafts replies, preserves real email threading, and separates informational messages from items that need action."
+            "title": "管理层收件箱层",
+            "desc": "监控优先联系人，标记紧急线程，起草回复，保留真实邮件脉络，并区分信息类消息和需要行动的事项。"
           },
           {
             "icon": "🧾",
-            "title": "ERP reporting analyst",
-            "desc": "Queries order, invoice, inventory, customer, product, backlog, AR, and shipment data using reporting rules agreed with your team."
+            "title": "ERP 报表分析员",
+            "desc": "按团队认可的报表规则查询订单、发票、库存、客户、产品、积压订单、应收账款和发货数据。"
           },
           {
             "icon": "📊",
-            "title": "Dashboard builder",
-            "desc": "Turns analysis into interactive HTML reports with KPI cards, trend tables, notes, source CSVs, and shareable links."
+            "title": "仪表板生成器",
+            "desc": "把分析转成交互式 HTML 报表，包含 KPI 卡片、趋势表、备注、源 CSV 和可分享链接。"
           },
           {
             "icon": "🛡️",
-            "title": "Ops reliability monitor",
-            "desc": "Checks report delivery, link health, backups, security posture, and integration health so the reporting system itself stays trustworthy."
+            "title": "运营可靠性监控",
+            "desc": "检查报表发送、链接健康、备份、安全状态和集成健康，让报表系统本身保持可信。"
           }
         ]
       },
       "problems": {
-        "title": "Manufacturing leaders are drowning in fragmented signals",
+        "title": "制造业领导者被碎片信号淹没",
         "items": [
-          "The answer to a simple executive question often spans email, ERP, calendar, spreadsheets, customer history, and yesterday’s operational context. Senior people spend their morning reconstructing the picture instead of deciding what to do.",
-          "Customer concentration, quote movement, backlog risk, shortages, overdue receivables, margin shifts, and shipment timing are visible in the data, but only after someone has time to pull and reconcile the data manually.",
-          "Reports are often trapped in one-off spreadsheets. The logic changes by person, the source data is not easy to inspect, and leadership cannot tell whether a number came from live ERP, a manual export, or a stale worksheet.",
-          "Business partners ask for updates, pricing comparisons, customer summaries, investor data-room support, or product analysis. The team can answer, but every answer steals focus from sales, production, and customer work."
+          "一个简单的管理问题，答案往往横跨邮件、ERP、日历、电子表格、客户历史和昨天的运营背景。资深人员把上午花在拼图上，而不是决策。",
+          "客户集中度、报价变化、积压风险、短缺、逾期应收款、利润率变化和发货时间都在数据里，但通常要等有人手动拉取和核对后才看得见。",
+          "报表常困在一次性的表格里。逻辑因人而异，源数据不易检查，管理层也难判断数字来自实时 ERP、手动导出还是过期工作表。",
+          "业务伙伴会要更新、价格对比、客户摘要、投资者资料室支持或产品分析。团队能回答，但每次回答都会分走销售、生产和客户工作的注意力。"
         ]
       },
       "solutions": {
-        "title": "制造 Agent 可以承担的工作",
+        "title": "制造业助手可以承担的工作",
         "items": [
           {
             "icon": "📬",
-            "title": "Inbox monitoring and response support",
-            "desc": "Watches priority inboxes, summarizes high-value threads, drafts replies, attaches reports, and keeps a clear audit trail of what it acted on and what it ignored."
+            "title": "收件箱监控和回复支持",
+            "desc": "监控优先邮箱，总结高价值线程，起草回复，附上报表，并清楚记录它处理了什么、忽略了什么。"
           },
           {
             "icon": "🌅",
-            "title": "Daily executive briefings",
-            "desc": "Produces morning, midday, and evening updates covering calendar, inbox, sales pulse, shipments, collections, inventory, shortages, FX, weather, and relevant market news."
+            "title": "每日管理层简报",
+            "desc": "生成早间、午间和晚间更新，覆盖日历、邮件、销售脉搏、发货、收款、库存、短缺、汇率、天气和相关市场新闻。"
           },
           {
             "icon": "🏭",
-            "title": "ERP and SYSPRO-style BI",
-            "desc": "Runs governed reports across sales, backlog, AR aging, inventory, customer concentration, product movement, shortage exposure, and historical comparisons."
+            "title": "ERP 和 SYSPRO 风格 BI",
+            "desc": "运行受控报表，覆盖销售、积压订单、应收账款账龄、库存、客户集中度、产品流动、短缺风险和历史对比。"
           },
           {
             "icon": "📈",
-            "title": "Customer and pricing analysis",
-            "desc": "Builds customer-specific reporting, price comparison packs, product-line views, margin change summaries, and follow-up-ready executive notes."
+            "title": "客户和价格分析",
+            "desc": "生成客户专属报表、价格对比包、产品线视图、利润率变化摘要和可直接跟进的管理层备注。"
           },
           {
             "icon": "📦",
-            "title": "Inventory and operational alerts",
-            "desc": "Highlights critical stock, slow-moving inventory, material risk, replenishment issues, and shipment exceptions before they become fire drills."
+            "title": "库存和运营提醒",
+            "desc": "在问题变成救火前，突出关键库存、慢动库存、材料风险、补货问题和发货异常。"
           },
           {
             "icon": "🔐",
-            "title": "Reliability and security checks",
-            "desc": "Runs daily checks for uptime, backups, disk, memory, public ports, permissions, delivery health, and report-link verification."
+            "title": "可靠性和安全检查",
+            "desc": "每日检查可用性、备份、磁盘、内存、公开端口、权限、发送健康和报表链接验证。"
           }
         ]
       },
       "operatingSystem": {
-        "title": "A practical operating system for the back office",
-        "sub": "The agent is strongest where manufacturing work crosses systems and functions.",
+        "title": "面向后台的实用运营系统",
+        "sub": "当制造工作跨系统、跨职能时，这个助手最有价值。",
         "items": [
           {
-            "label": "Sales",
-            "title": "Sales pulse and customer movement",
-            "desc": "Tracks trailing sales, top customers, customer concentration, order changes, quote movement, and account-level follow-up opportunities."
+            "label": "销售",
+            "title": "销售脉搏和客户变化",
+            "desc": "跟踪滚动销售、重点客户、客户集中度、订单变化、报价动态和按账户跟进的机会。"
           },
           {
-            "label": "Finance",
-            "title": "Receivables and collections visibility",
-            "desc": "Builds AR aging reports, flags threshold crossings, summarizes last-touch context, and prepares collection-ready account notes."
+            "label": "财务",
+            "title": "应收账款和收款可见性",
+            "desc": "生成账龄报表，标记越过阈值的账户，总结最近联系，并准备可用于收款的账户备注。"
           },
           {
-            "label": "Operations",
-            "title": "Backlog, shipments, and shortages",
-            "desc": "Surfaces past-due items, open orders, shipment timing, shortage warnings, and inventory pressure in a single executive view."
+            "label": "运营",
+            "title": "积压订单、发货和短缺",
+            "desc": "在一个管理视图中呈现逾期项目、未结订单、发货时间、短缺预警和库存压力。"
           },
           {
-            "label": "Pricing",
-            "title": "Pricing and product comparisons",
-            "desc": "Compares products, customers, periods, and price movement with source tables and clear assumptions rather than unexplained spreadsheet math."
+            "label": "定价",
+            "title": "价格和产品对比",
+            "desc": "用源表和清晰假设比较产品、客户、期间和价格变化，而不是无法解释的表格公式。"
           },
           {
-            "label": "Leadership",
-            "title": "Briefings that connect the dots",
-            "desc": "Combines email, calendar, ERP, operational notes, and external context into plain-English updates with specific next actions."
+            "label": "管理层",
+            "title": "把线索连起来的简报",
+            "desc": "把邮件、日历、ERP、运营备注和外部背景合成清晰更新，并列出具体下一步。"
           },
           {
             "label": "IT/Ops",
-            "title": "Delivery infrastructure that can be trusted",
-            "desc": "Verifies dashboards, links, attachments, backups, and service health before leadership relies on the output."
+            "title": "可信的交付基础设施",
+            "desc": "在管理层依赖结果前，验证仪表板、链接、附件、备份和服务健康。"
           }
         ]
       },
       "examples": {
-        "title": "Agent 可以从后台接走的工作",
+        "title": "它能从团队手中接过的工作",
         "items": [
           {
-            "title": "高管请求变成报告包",
-            "desc": "合作方想看过去 12 个月的客户和产品对比。通常需要导出 ERP、清洗行、制作表格、写摘要并发送附件。",
-            "real": "Agent 生成高管摘要、交互式仪表盘、支持 CSV 和带来源的说明，并可在批准后或按既定规则把链接与附件发回原线程。"
+            "title": "用报表包回答管理层请求",
+            "desc": "合作方要求过去 12 个月的客户和产品对比。通常这意味着拉取 ERP 导出、清理行、制作表格、写摘要并发送附件。",
+            "real": "助手会生成管理摘要、交互式仪表板、支持 CSV 和带来源说明的叙述。经批准或按约定规则，它可以在原线程中回复报表链接和附件。"
           },
           {
-            "title": "晨间简报，不必翻找每个收件箱",
-            "desc": "制造负责人一天开始时，未读邮件、会议、发货问题、销售问题、回款风险和库存警报散在各处。",
-            "real": "Agent 发送简明简报：什么变了、什么紧急、谁在等待、哪些客户需要关注、哪些库存关键、哪些报告可检查。"
+            "title": "代替翻邮箱的晨间简报",
+            "desc": "制造业负责人一早面对未读邮件、会议、发货问题、销售问题、收款风险和库存预警，全部散落在不同系统里。",
+            "real": "助手发送简洁简报：发生了什么变化、什么最紧急、谁在等待、哪些账户需要关注、哪些库存项目关键、哪些报表已可查看。"
           },
           {
-            "title": "每周自动运行的应收报告",
-            "desc": "财务团队花数小时整理账龄、查最后联系、向销售要背景，并在下周一重复同样工作。",
-            "real": "Agent 按计划生成 AR 视图，突出跨过阈值的账户，添加可用的最近接触背景，并把可导出数据放在摘要旁。"
+            "title": "每周自动运行的应收账款报表",
+            "desc": "财务团队花数小时整理账龄、检查最近联系、向销售询问背景，并准备下周一还要再做一次的同一份报表。",
+            "real": "助手按计划生成应收视图，突出越过阈值的账户，在可用时添加最近联系背景，并把可导出的数据放在书面摘要旁边。"
           },
           {
-            "title": "客户风险和集中度及早浮现",
-            "desc": "少数大客户可能悄悄承担大部分收入、积压或应收风险。当某个客户放慢，信号常散在订单历史和邮件中。",
-            "real": "Agent 跟踪集中度和变化，标出异常下滑或上升，并准备客户级摘要供销售、投资者或合作伙伴沟通。"
+            "title": "提前发现客户风险和集中度",
+            "desc": "少数大客户可能悄悄驱动大部分收入、积压订单或应收风险。当其中一个放慢时，信号常散落在订单历史和邮件里。",
+            "real": "助手持续跟踪集中度和变化，标记异常下降或上升，并准备客户级摘要，供销售、投资者或伙伴沟通使用。"
           },
           {
-            "title": "库存压力变得可见",
-            "desc": "短缺、慢动品和关键计数很容易被错过，特别是报告藏在少数人才会看的 ERP 页面里。",
-            "real": "Agent 把这些信号转成排序后的运营清单：关键库存、可能短缺、滞销库存、发货阻塞和建议跟进负责人。"
+            "title": "让库存压力变得可见",
+            "desc": "当报表藏在只有少数人会读的 ERP 屏幕里，短缺、慢动品和关键数量很容易被错过。",
+            "real": "助手把这些信号转成优先运营清单：关键库存、可能短缺、滞销库存、发货阻塞和建议跟进负责人。"
           },
           {
-            "title": "报告交付更可靠",
-            "desc": "仪表盘链接只有在能打开、能渲染并包含正确文件时才有价值。",
-            "real": "Agent 在交付前检查链接、浏览器渲染、附件和过期时间。若失败，会先修复交付路径再声明报告已准备好。"
+            "title": "加强报表交付",
+            "desc": "仪表板链接只有在打开、正确渲染并包含正确文件时，才对点击它的管理者有用。",
+            "real": "助手在交付前检查报表链接、浏览器渲染、附件和过期时间。如果失败，会先修复交付路径，再声明报表已准备好。"
           }
         ]
       },
       "reportGallery": {
-        "title": "Sample manufacturing reports it can generate",
-        "sub": "These previews use synthetic data, but mirror the kinds of interactive report artifacts the agent can deliver: executive summary, dashboard link, source CSVs, and follow-up-ready narrative.",
-        "note": "No private customer data is shown here. Live deployments use your approved data sources, access controls, retention rules, and review thresholds.",
+        "title": "它可以生成的制造业报表示例",
+        "sub": "这些预览使用合成数据，但反映助手可交付的交互式报表成果：管理摘要、仪表板链接、源 CSV 和可跟进叙述。",
+        "note": "这里不展示任何客户私有数据。实际部署会使用你批准的数据源、访问控制、保留规则和审核阈值。",
         "items": [
           {
-            "badge": "Customer analysis",
-            "title": "12-month customer and product comparison",
-            "desc": "Compares customer purchasing patterns, product mix, price movement, and trailing revenue by period.",
+            "badge": "客户分析",
+            "title": "12 个月客户和产品对比",
+            "desc": "按期间比较客户购买模式、产品组合、价格变化和滚动收入。",
             "metrics": [
               {
                 "value": "$4.8M",
-                "label": "Trailing revenue"
+                "label": "滚动收入"
               },
               {
                 "value": "+7.4%",
-                "label": "Price movement"
+                "label": "价格变化"
               },
               {
                 "value": "18",
-                "label": "Products reviewed"
+                "label": "已审产品"
               }
             ],
             "rows": [
               {
-                "label": "Product Line A",
+                "label": "产品线 A",
                 "width": "88%",
                 "value": "$1.9M"
               },
               {
-                "label": "Product Line B",
+                "label": "产品线 B",
                 "width": "64%",
                 "value": "$1.2M"
               },
               {
-                "label": "Product Line C",
+                "label": "产品线 C",
                 "width": "42%",
                 "value": "$780K"
               }
             ]
           },
           {
-            "badge": "Collections",
-            "title": "Aged receivables and follow-up pack",
-            "desc": "Buckets AR exposure, flags threshold crossings, and prepares account-level collection notes.",
+            "badge": "收款",
+            "title": "账龄应收和跟进包",
+            "desc": "按账龄分组应收风险，标记越过阈值的账户，并准备账户级收款备注。",
             "metrics": [
               {
                 "value": "$612K",
-                "label": "Open AR"
+                "label": "未结应收"
               },
               {
                 "value": "9",
-                "label": "Accounts flagged"
+                "label": "标记账户"
               },
               {
                 "value": "3",
-                "label": "New over 60 days"
+                "label": "新增超过 60 天"
               }
             ],
             "rows": [
               {
-                "label": "0-30 days",
+                "label": "0 至 30 天",
                 "width": "72%",
                 "value": "$331K"
               },
               {
-                "label": "31-60 days",
+                "label": "31 至 60 天",
                 "width": "38%",
                 "value": "$141K"
               },
               {
-                "label": "60+ days",
+                "label": "超过 60 天",
                 "width": "30%",
                 "value": "$140K"
               }
             ]
           },
           {
-            "badge": "Inventory",
-            "title": "Critical inventory and shortage watch",
-            "desc": "Ranks material risk, shortage exposure, slow movers, and items requiring purchasing follow-up.",
+            "badge": "库存",
+            "title": "关键库存和短缺观察",
+            "desc": "排序材料风险、短缺暴露、慢动品和需要采购跟进的项目。",
             "metrics": [
               {
                 "value": "27",
-                "label": "Critical items"
+                "label": "关键项目"
               },
               {
                 "value": "11",
-                "label": "Shortage warnings"
+                "label": "短缺预警"
               },
               {
                 "value": "$340K",
-                "label": "Slow-moving stock"
+                "label": "慢动库存"
               }
             ],
             "rows": [
               {
-                "label": "Raw Material A",
+                "label": "原材料 A",
                 "width": "92%",
-                "value": "Critical"
+                "value": "关键"
               },
               {
-                "label": "Component B",
+                "label": "组件 B",
                 "width": "66%",
-                "value": "Watch"
+                "value": "观察"
               },
               {
-                "label": "Finished Good C",
+                "label": "成品 C",
                 "width": "48%",
-                "value": "Slow"
+                "value": "慢动"
               }
             ]
           },
           {
-            "badge": "Executive brief",
-            "title": "Daily operations briefing dashboard",
-            "desc": "Combines inbox, calendar, sales, shipments, inventory, receivables, and external context into one morning view.",
+            "badge": "管理简报",
+            "title": "每日运营简报仪表板",
+            "desc": "把邮件、日历、销售、发货、库存、应收账款和外部背景合成一个晨间视图。",
             "metrics": [
               {
                 "value": "14",
-                "label": "Priority emails"
+                "label": "优先邮件"
               },
               {
                 "value": "6",
-                "label": "Shipment risks"
+                "label": "发货风险"
               },
               {
                 "value": "4",
-                "label": "Actions due"
+                "label": "待办动作"
               }
             ],
             "rows": [
               {
-                "label": "Sales pulse",
+                "label": "销售脉搏",
                 "width": "76%",
-                "value": "Warm"
+                "value": "平稳"
               },
               {
-                "label": "Shipments",
+                "label": "发货",
                 "width": "52%",
-                "value": "Risk"
+                "value": "风险"
               },
               {
-                "label": "Collections",
+                "label": "收款",
                 "width": "44%",
-                "value": "Watch"
+                "value": "观察"
               }
             ]
           }
         ]
       },
       "deliverables": {
-        "title": "What leadership receives",
-        "sub": "The agent does not just chat. It produces durable artifacts your team can review, forward, archive, and audit.",
+        "title": "管理层会收到什么",
+        "sub": "助手不只是聊天。它会产出团队可审核、转发、归档和审计的持久成果。",
         "items": [
           {
             "icon": "🗂️",
-            "title": "Executive summaries",
-            "desc": "Plain-English summaries with assumptions, next actions, and what changed since the last report."
+            "title": "管理摘要",
+            "desc": "用清晰语言说明假设、下一步和自上次报表以来的变化。"
           },
           {
             "icon": "📊",
-            "title": "Interactive dashboards",
-            "desc": "Shareable report pages with KPI cards, tables, trend views, and source-aware notes."
+            "title": "交互式仪表板",
+            "desc": "可分享的报表页面，包含 KPI 卡片、表格、趋势视图和带来源意识的备注。"
           },
           {
             "icon": "📎",
-            "title": "CSV and DOCX packets",
-            "desc": "Underlying data exports and document summaries that finance, sales, or partners can inspect."
+            "title": "CSV 和 DOCX 包",
+            "desc": "财务、销售或伙伴可检查的底层数据导出和文档摘要。"
           },
           {
             "icon": "✉️",
-            "title": "Reply-ready drafts",
-            "desc": "Email responses written in context, with attachments, links, and careful threading behavior."
+            "title": "可直接回复的草稿",
+            "desc": "在上下文中写好的邮件回复，包含附件、链接和谨慎的线程处理。"
           },
           {
             "icon": "🚨",
-            "title": "Exception alerts",
-            "desc": "Notifications for overdue replies, AR risk, inventory pressure, failed report delivery, or system degradation."
+            "title": "异常提醒",
+            "desc": "针对逾期回复、应收风险、库存压力、报表发送失败或系统退化发送通知。"
           },
           {
             "icon": "📚",
-            "title": "Operating memory",
-            "desc": "Durable notes on customers, recurring reports, reporting rules, business context, and known risks."
+            "title": "运营记忆",
+            "desc": "关于客户、周期性报表、报表规则、业务背景和已知风险的持久备注。"
           },
           {
             "icon": "🔎",
-            "title": "Verification notes",
-            "desc": "Clear statements about what was checked, what was inferred, and where the data came from."
+            "title": "验证备注",
+            "desc": "清楚说明检查了什么、推断了什么以及数据来自哪里。"
           },
           {
             "icon": "🛠️",
-            "title": "Reliability logs",
-            "desc": "Health checks for report servers, backups, public links, permissions, and scheduled jobs."
+            "title": "可靠性日志",
+            "desc": "针对报表服务器、备份、公开链接、权限和计划任务的健康检查。"
           }
         ]
-      },
-      "controls": {
-        "kicker": "Built for real operations",
-        "title": "人的判断仍然主导",
-        "sub": "Manufacturing teams need useful automation, not risky autonomy. The agent can be configured around your approval rules, data access boundaries, and delivery standards.",
-        "items": [
-          {
-            "title": "外部沟通的审批关口",
-            "desc": "对新联系人、敏感回复、价格讨论，或任何应保持人工批准的内容，使用先审核模式。"
-          },
-          {
-            "title": "带来源意识的报告",
-            "desc": "报告可包含来源表、时间窗口、筛选条件和业务规则，让负责人知道数字来自哪里。"
-          },
-          {
-            "title": "数据不完整时不猜测",
-            "desc": "若输入缺失、导出陈旧、记录冲突或系统不可用，Agent 会明确说明并把结果标为部分完成。"
-          },
-          {
-            "title": "安全的部署姿态",
-            "desc": "访问限制在批准系统内，交付链接可过期，运行检查会监控公开暴露、过期凭据和备份失败。"
-          }
-        ]
-      },
-      "howItWorks": {
-        "title": "How rollout works",
-        "steps": [
-          {
-            "title": "Pick the first operating lane",
-            "desc": "Start with a high-value lane such as executive briefings, customer/product reports, AR aging, inventory alerts, or inbox triage."
-          },
-          {
-            "title": "Connect approved sources",
-            "desc": "Integrate email, calendar, ERP exports or database access, shared folders, report templates, and any partner-facing delivery rules."
-          },
-          {
-            "title": "Codify reporting rules",
-            "desc": "Agree on definitions for backlog, shortages, trailing sales, AR buckets, customer risk, and price comparisons so output is consistent."
-          },
-          {
-            "title": "Ship reports with verification",
-            "desc": "The agent generates dashboards and attachments, checks links before delivery, logs what it did, and escalates uncertainty for review."
-          }
-        ]
-      },
-      "pilot": {
-        "title": "A focused pilot can prove value quickly",
-        "sub": "Most teams start with one executive workflow, then expand once the reporting rules and trust model are proven.",
-        "items": [
-          {
-            "metric": "Week 1",
-            "label": "Map systems, priority inboxes, report definitions, and delivery approvals"
-          },
-          {
-            "metric": "Week 2",
-            "label": "Generate first briefings and sample dashboards from approved data"
-          },
-          {
-            "metric": "Week 3",
-            "label": "Add scheduled reports, CSV exports, link checks, and exception alerts"
-          },
-          {
-            "metric": "Week 4",
-            "label": "Review ROI, tighten rules, and choose the next operating lane"
-          }
-        ]
-      },
-      "cta": {
-        "title": "Give your manufacturing team an AI operations analyst.",
-        "sub": "One agent can watch the inbox, read the ERP, generate the report, verify the link, and prepare the follow-up while your people run the business.",
-        "button": "Build Your Manufacturing Agent →"
       },
       "directAccess": {
-        "kicker": "从车间、办公室或路上直接提问",
-        "title": "通过 Teams、WhatsApp、邮件或 Telegram 与制造 Agent 对话",
-        "sub": "管理者可以请求报告、批准草稿、检查异常，而不用打开新仪表盘。Agent 会把 ERP、收件箱、发货和应收款上下文带回问题开始的渠道。",
-        "note": "渠道可包括 Telegram、WhatsApp、Signal、邮件、Slack、Microsoft Teams 或私有网页聊天，按你的安全政策和审批规则配置。",
-        "agentName": "制造运营 Agent",
-        "status": "在已批准渠道在线",
+        "kicker": "从车间、办公室或路上提问",
+        "title": "通过 Teams、WhatsApp、邮件或 Telegram 与制造业助手对话",
+        "sub": "领导者无需打开新仪表板，就能请求报表、批准草稿和查看异常。助手会把 ERP、邮件、发货和应收账款背景带回问题最初出现的渠道。",
+        "note": "渠道可以包括 Telegram、WhatsApp、Signal、邮件、Slack、Microsoft Teams 或私有网页聊天，具体取决于你的安全政策和审批规则。",
+        "agentName": "制造运营助手",
+        "status": "已在批准渠道在线",
         "liveLabel": "在线",
-        "windowLabel": "制造 Agent 聊天示例",
+        "windowLabel": "制造业助手聊天示例",
         "channels": [
           {
             "initial": "TM",
@@ -1046,25 +975,96 @@
         "messages": [
           {
             "from": "user",
-            "sender": "COO",
-            "text": "昨晚有什么变化？生产会前给我简短版本。"
+            "sender": "运营负责人",
+            "text": "昨晚有什么变化？生产会议前给我简短版。"
           },
           {
             "from": "agent",
-            "sender": "Agent",
-            "text": "三件事需要关注：两封优先客户邮件、一个周五可能受影响的发货，以及 11 个低于补货阈值的库存项目。我已标出 ERP 数据陈旧处的假设。"
+            "sender": "助手",
+            "text": "三件事需要关注：两封优先客户邮件、一票周五发货现在有风险、还有 11 个库存项目低于补货阈值。我已标出 ERP 数据过期处的假设。"
           },
           {
             "from": "user",
             "sender": "销售负责人",
-            "text": "为重点客户做一份 12 个月客户和产品对比，包含 CSV 和可分享仪表盘。"
+            "text": "给主要账户做一份 12 个月客户和产品对比。包括 CSV 和可分享仪表板。"
           },
           {
             "from": "agent",
-            "sender": "Agent",
-            "text": "已完成。我生成了仪表盘，附上 CSV 包，检查了链接，并起草了可审批的简明摘要。"
+            "sender": "助手",
+            "text": "完成。我生成了仪表板，附上 CSV 包，检查了链接，并起草了清晰摘要等待批准。"
           }
         ]
+      },
+      "controls": {
+        "kicker": "为真实运营而建",
+        "title": "人类判断始终掌控",
+        "sub": "制造团队需要有用的自动化，而不是有风险的自主运行。助手可以围绕你的审批规则、数据访问边界和交付标准配置。",
+        "items": [
+          {
+            "title": "外发沟通审批门",
+            "desc": "对新联系人、敏感回复、价格谈话或任何应由人工批准的事项使用先审后发模式。"
+          },
+          {
+            "title": "带来源意识的报表",
+            "desc": "报表可以包含源表、时间窗口、筛选条件和业务规则，让领导知道数字从哪里来。"
+          },
+          {
+            "title": "数据不完整时不猜测",
+            "desc": "如果报表缺少输入、导出过旧、记录冲突或系统不可用，助手会说明并把结果标记为部分结果。"
+          },
+          {
+            "title": "安全的部署姿态",
+            "desc": "访问范围限定在批准系统内，交付链接可以过期，运营检查会监控公开暴露、过期凭据和失败备份。"
+          }
+        ]
+      },
+      "howItWorks": {
+        "title": "上线方式",
+        "steps": [
+          {
+            "title": "选择第一条运营通道",
+            "desc": "从高价值通道开始，例如管理层简报、客户/产品报表、应收账款账龄、库存提醒或邮件分诊。"
+          },
+          {
+            "title": "连接批准的数据源",
+            "desc": "集成邮件、日历、ERP 导出或数据库访问、共享文件夹、报表模板和面向伙伴的交付规则。"
+          },
+          {
+            "title": "固化报表规则",
+            "desc": "统一积压订单、短缺、滚动销售、应收账款区间、客户风险和价格对比的定义，让输出保持一致。"
+          },
+          {
+            "title": "带验证交付报表",
+            "desc": "助手生成仪表板和附件，交付前检查链接，记录已做事项，并把不确定性升级给人工审核。"
+          }
+        ]
+      },
+      "pilot": {
+        "title": "聚焦试点可以快速证明价值",
+        "sub": "多数团队先从一个管理层流程开始，等报表规则和信任模型被证明后再扩展。",
+        "items": [
+          {
+            "metric": "第 1 周",
+            "label": "梳理系统、优先邮箱、报表定义和交付审批"
+          },
+          {
+            "metric": "第 2 周",
+            "label": "用已批准数据生成首批简报和示例仪表板"
+          },
+          {
+            "metric": "第 3 周",
+            "label": "加入定时报表、CSV 导出、链接检查和异常提醒"
+          },
+          {
+            "metric": "第 4 周",
+            "label": "复盘 ROI，收紧规则并选择下一条运营通道"
+          }
+        ]
+      },
+      "cta": {
+        "title": "给你的制造团队一位 AI 运营分析员。",
+        "sub": "一个助手可以从 Teams 或 WhatsApp 回复、读取 ERP、生成报表、验证链接并准备跟进，让你的团队专注经营业务。",
+        "button": "创建你的制造业助手 →"
       }
     },
     "realEstate": {
@@ -1509,9 +1509,9 @@
       "slug": "accounting",
       "icon": "📊",
       "heroTitle": "会计团队 AI 运营",
-      "heroSub": "真正享受报税季的记账员。企业申报、费用分类、发票管理和滴水不漏的截止日期追踪。",
+      "heroSub": "一个会计运营助手，可通过邮件、短信、共享文件夹、电子表格和会计软件工作，准备对账、发票跟进和截止日期检查。",
       "solutions": {
-        "title": "AI如何解决",
+        "title": "你的会计助手可以准备什么",
         "items": [
           {
             "icon": "🏛️",
@@ -1546,26 +1546,26 @@
         ]
       },
       "howItWorks": {
-        "title": "如何开始",
+        "title": "从一条会计流程开始",
         "steps": [
           {
-            "title": "分享你的财务架构",
-            "desc": "告诉我们你的企业实体、会计软件（Wave、QuickBooks、Xero）、银行账户以及消耗时间的任务。"
+            "title": "分享你的财务设置",
+            "desc": "告诉我们你的实体、会计软件、收件箱、收据流和截止日期。"
           },
           {
-            "title": "我们构建你的会计AI",
-            "desc": "你的AI学习你的科目表、税务义务、发票模板和财务工作流。"
+            "title": "我们构建审核规则",
+            "desc": "助手学习你的科目表、审批阈值、发票模板和升级规则。"
           },
           {
-            "title": "账目始终清晰",
-            "desc": "实时分类、自动开票和主动截止日期管理。你的账目随时准备好接受审计。"
+            "title": "账目保持准备状态",
+            "desc": "助手准备分录、提醒、报表和草稿，同时会计人员保留判断和最终签字。"
           }
         ]
       },
       "cta": {
-        "title": "准备好无压力的报税季了吗？",
-        "sub": "你的AI记账员追踪每一分钱，提交每一份申报，从不错过任何截止日期。报税季不过是又一个星期二。",
-        "button": "获取会计AI →"
+        "title": "给你的账目一层可审核的运营支持。",
+        "sub": "让助手准备例行工作，并把需要会计判断的事项浮出水面。",
+        "button": "创建你的会计助手 →"
       },
       "examples": {
         "title": "保持待审核状态的会计工作流",
@@ -1622,7 +1622,7 @@
           },
           {
             "from": "agent",
-            "sender": "Agent",
+            "sender": "助手",
             "text": "我提取了明细，建议分类，把一个供应商匹配到未结账单，并把三条记录都留给会计批准。"
           },
           {
@@ -1632,7 +1632,7 @@
           },
           {
             "from": "agent",
-            "sender": "Agent",
+            "sender": "助手",
             "text": "四张超过阈值。我根据最近付款背景起草了跟进邮件，并把敏感账户留给你审核。"
           }
         ]

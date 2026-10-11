@@ -343,7 +343,7 @@
       "corpTax": {
         "title": "Impuestos corporativos y contabilidad",
         "desc": "Presenta declaraciones de impuestos, genera facturas, categoriza gastos y rastrea obligaciones fiscales corporativas.",
-        "real": "Un contador IA ayudo a presentar formularios T4A, enmiendas T5 y preparo la declaracion corporativa T2 completa para una pequena empresa."
+        "real": "Un agente de operaciones contables preparó soporte T4A y T5 más un paquete T2 para revisión humana en una pequeña empresa."
       },
       "codeReview": {
         "title": "Revisión de código y despliegue",
@@ -458,7 +458,7 @@
           {
             "icon": "📅",
             "title": "Seguimiento de plazos",
-            "desc": "Nunca mas pierdas un plazo de presentacion. La IA monitorea fechas judiciales, prescripciones y plazos de respuesta con recordatorios progresivos."
+            "desc": "Monitorea fechas judiciales, plazos de prescripción, vencimientos de respuesta y promesas a clientes con recordatorios progresivos."
           },
           {
             "icon": "📚",
@@ -578,448 +578,377 @@
     "manufacturing": {
       "slug": "manufacturing",
       "icon": "MFG",
-      "heroTitle": "Agente de operaciones con IA para fabricación",
-      "heroSub": "A dedicated AI employee that monitors inboxes, ERP, sales, inventory, receivables, shipments, and reports so leadership sees the business clearly every day.",
+      "heroTitle": "Operaciones IA para fabricación",
+      "heroSub": "Un agente de operaciones con IA dedicado vigila bandejas de entrada, ERP, ventas, inventario, cuentas por cobrar, envíos, reportes y canales del equipo para que la dirección vea el negocio con claridad todos los días.",
       "heroProof": [
         {
           "value": "24/7",
-          "label": "inbox, ERP, and operations monitoring"
+          "label": "monitoreo de correo, ERP y operaciones"
         },
         {
-          "value": "3x/day",
-          "label": "executive briefings when you want them"
+          "value": "3 veces/día",
+          "label": "briefings ejecutivos cuando los necesites"
         },
         {
-          "value": "ERP-ready",
-          "label": "sales, inventory, AR, backlog, and shortage reports"
+          "value": "Listo para ERP",
+          "label": "ventas, inventario, cuentas por cobrar, backlog y reportes de faltantes"
         },
         {
-          "value": "Report links",
-          "label": "interactive dashboards with CSV exports"
+          "value": "Enlaces de reportes",
+          "label": "dashboards interactivos con exportaciones CSV"
         }
       ],
       "overview": {
-        "kicker": "What you are really buying",
-        "title": "Not a chatbot. A manufacturing analyst that keeps watch.",
-        "body": "Most manufacturers already have the data. It is scattered across email, ERP tables, spreadsheets, customer threads, supplier notes, calendars, and tribal knowledge. The agent sits across those systems, turns raw activity into operational judgment, and hands leaders the reports, summaries, and follow-up drafts they need before the day gets away from them.",
+        "kicker": "Lo que realmente compras",
+        "title": "No es un chatbot. Es un analista de fabricación que se mantiene atento.",
+        "body": "La mayoría de los fabricantes ya tiene los datos. Están dispersos entre correo, tablas de ERP, hojas de cálculo, hilos con clientes, notas de proveedores, calendarios y conocimiento operativo. El agente se ubica sobre esos sistemas, convierte la actividad cruda en criterio operativo y entrega a los líderes reportes, resúmenes y borradores de seguimiento antes de que el día se les escape.",
         "items": [
           {
             "icon": "📬",
-            "title": "Executive inbox layer",
-            "desc": "Monitors priority contacts, flags urgent threads, drafts replies, preserves real email threading, and separates informational messages from items that need action."
+            "title": "Capa de correo ejecutivo",
+            "desc": "Monitorea contactos prioritarios, marca hilos urgentes, redacta respuestas, conserva los hilos reales de email y separa mensajes informativos de asuntos que requieren acción."
           },
           {
             "icon": "🧾",
-            "title": "ERP reporting analyst",
-            "desc": "Queries order, invoice, inventory, customer, product, backlog, AR, and shipment data using reporting rules agreed with your team."
+            "title": "Analista de reportes ERP",
+            "desc": "Consulta datos de pedidos, facturas, inventario, clientes, productos, backlog, cuentas por cobrar y envíos con reglas de reporte acordadas con tu equipo."
           },
           {
             "icon": "📊",
-            "title": "Dashboard builder",
-            "desc": "Turns analysis into interactive HTML reports with KPI cards, trend tables, notes, source CSVs, and shareable links."
+            "title": "Constructor de dashboards",
+            "desc": "Convierte el análisis en reportes HTML interactivos con tarjetas KPI, tablas de tendencias, notas, CSV de origen y enlaces compartibles."
           },
           {
             "icon": "🛡️",
-            "title": "Ops reliability monitor",
-            "desc": "Checks report delivery, link health, backups, security posture, and integration health so the reporting system itself stays trustworthy."
+            "title": "Monitor de confiabilidad operativa",
+            "desc": "Revisa entrega de reportes, salud de enlaces, respaldos, postura de seguridad e integraciones para que el sistema de reportes siga siendo confiable."
           }
         ]
       },
       "problems": {
-        "title": "Manufacturing leaders are drowning in fragmented signals",
+        "title": "Los líderes de fabricación se ahogan en señales fragmentadas",
         "items": [
-          "The answer to a simple executive question often spans email, ERP, calendar, spreadsheets, customer history, and yesterday’s operational context. Senior people spend their morning reconstructing the picture instead of deciding what to do.",
-          "Customer concentration, quote movement, backlog risk, shortages, overdue receivables, margin shifts, and shipment timing are visible in the data, but only after someone has time to pull and reconcile the data manually.",
-          "Reports are often trapped in one-off spreadsheets. The logic changes by person, the source data is not easy to inspect, and leadership cannot tell whether a number came from live ERP, a manual export, or a stale worksheet.",
-          "Business partners ask for updates, pricing comparisons, customer summaries, investor data-room support, or product analysis. The team can answer, but every answer steals focus from sales, production, and customer work."
+          "La respuesta a una pregunta ejecutiva simple suele cruzar correo, ERP, calendario, hojas de cálculo, historial de clientes y el contexto operativo de ayer. Las personas senior pasan la mañana reconstruyendo el panorama en lugar de decidir qué hacer.",
+          "La concentración de clientes, movimiento de cotizaciones, riesgo de backlog, faltantes, cuentas por cobrar vencidas, cambios de margen y tiempos de envío ya están en los datos, pero solo después de que alguien tenga tiempo de extraerlos y conciliarlos manualmente.",
+          "Los reportes suelen quedar atrapados en hojas de cálculo únicas. La lógica cambia según la persona, los datos fuente no son fáciles de inspeccionar y la dirección no sabe si un número salió del ERP en vivo, de una exportación manual o de una hoja vieja.",
+          "Socios del negocio piden actualizaciones, comparaciones de precios, resúmenes de clientes, soporte para data rooms de inversionistas o análisis de productos. El equipo puede responder, pero cada respuesta roba foco a ventas, producción y trabajo con clientes."
         ]
       },
       "solutions": {
-        "title": "Lo que puede asumir el agente de manufactura",
+        "title": "Qué puede asumir el agente de fabricación",
         "items": [
           {
             "icon": "📬",
-            "title": "Inbox monitoring and response support",
-            "desc": "Watches priority inboxes, summarizes high-value threads, drafts replies, attaches reports, and keeps a clear audit trail of what it acted on and what it ignored."
+            "title": "Monitoreo de correo y soporte de respuestas",
+            "desc": "Vigila bandejas prioritarias, resume hilos de alto valor, redacta respuestas, adjunta reportes y mantiene una auditoría clara de lo que atendió y lo que ignoró."
           },
           {
             "icon": "🌅",
-            "title": "Daily executive briefings",
-            "desc": "Produces morning, midday, and evening updates covering calendar, inbox, sales pulse, shipments, collections, inventory, shortages, FX, weather, and relevant market news."
+            "title": "Briefings ejecutivos diarios",
+            "desc": "Produce actualizaciones de mañana, mediodía y tarde sobre calendario, correo, pulso de ventas, envíos, cobranza, inventario, faltantes, FX, clima y noticias de mercado relevantes."
           },
           {
             "icon": "🏭",
-            "title": "ERP and SYSPRO-style BI",
-            "desc": "Runs governed reports across sales, backlog, AR aging, inventory, customer concentration, product movement, shortage exposure, and historical comparisons."
+            "title": "BI de ERP y estilo SYSPRO",
+            "desc": "Ejecuta reportes gobernados de ventas, backlog, antigüedad de cuentas por cobrar, inventario, concentración de clientes, movimiento de productos, exposición a faltantes y comparaciones históricas."
           },
           {
             "icon": "📈",
-            "title": "Customer and pricing analysis",
-            "desc": "Builds customer-specific reporting, price comparison packs, product-line views, margin change summaries, and follow-up-ready executive notes."
+            "title": "Análisis de clientes y precios",
+            "desc": "Construye reportes por cliente, paquetes comparativos de precios, vistas por línea de producto, resúmenes de cambios de margen y notas ejecutivas listas para seguimiento."
           },
           {
             "icon": "📦",
-            "title": "Inventory and operational alerts",
-            "desc": "Highlights critical stock, slow-moving inventory, material risk, replenishment issues, and shipment exceptions before they become fire drills."
+            "title": "Alertas de inventario y operación",
+            "desc": "Destaca stock crítico, inventario de baja rotación, riesgo de materiales, problemas de reposición y excepciones de envío antes de que se vuelvan emergencias."
           },
           {
             "icon": "🔐",
-            "title": "Reliability and security checks",
-            "desc": "Runs daily checks for uptime, backups, disk, memory, public ports, permissions, delivery health, and report-link verification."
+            "title": "Revisiones de confiabilidad y seguridad",
+            "desc": "Ejecuta controles diarios de disponibilidad, respaldos, disco, memoria, puertos públicos, permisos, salud de entregas y verificación de enlaces de reportes."
           }
         ]
       },
       "operatingSystem": {
-        "title": "A practical operating system for the back office",
-        "sub": "The agent is strongest where manufacturing work crosses systems and functions.",
+        "title": "Un sistema operativo práctico para el back office",
+        "sub": "El agente es más fuerte donde el trabajo de fabricación cruza sistemas y funciones.",
         "items": [
           {
-            "label": "Sales",
-            "title": "Sales pulse and customer movement",
-            "desc": "Tracks trailing sales, top customers, customer concentration, order changes, quote movement, and account-level follow-up opportunities."
+            "label": "Ventas",
+            "title": "Pulso de ventas y movimiento de clientes",
+            "desc": "Sigue ventas acumuladas, principales clientes, concentración de clientes, cambios de pedidos, movimiento de cotizaciones y oportunidades de seguimiento por cuenta."
           },
           {
-            "label": "Finance",
-            "title": "Receivables and collections visibility",
-            "desc": "Builds AR aging reports, flags threshold crossings, summarizes last-touch context, and prepares collection-ready account notes."
+            "label": "Finanzas",
+            "title": "Visibilidad de cuentas por cobrar y cobranza",
+            "desc": "Construye reportes de antigüedad, marca cruces de umbral, resume el último contacto y prepara notas de cuenta listas para cobranza."
           },
           {
-            "label": "Operations",
-            "title": "Backlog, shipments, and shortages",
-            "desc": "Surfaces past-due items, open orders, shipment timing, shortage warnings, and inventory pressure in a single executive view."
+            "label": "Operaciones",
+            "title": "Backlog, envíos y faltantes",
+            "desc": "Muestra pendientes vencidos, pedidos abiertos, tiempos de envío, alertas de faltantes y presión de inventario en una sola vista ejecutiva."
           },
           {
-            "label": "Pricing",
-            "title": "Pricing and product comparisons",
-            "desc": "Compares products, customers, periods, and price movement with source tables and clear assumptions rather than unexplained spreadsheet math."
+            "label": "Precios",
+            "title": "Comparaciones de precios y productos",
+            "desc": "Compara productos, clientes, periodos y movimientos de precio con tablas fuente y supuestos claros, no con matemática de hojas de cálculo sin explicación."
           },
           {
-            "label": "Leadership",
-            "title": "Briefings that connect the dots",
-            "desc": "Combines email, calendar, ERP, operational notes, and external context into plain-English updates with specific next actions."
+            "label": "Dirección",
+            "title": "Briefings que conectan los puntos",
+            "desc": "Combina correo, calendario, ERP, notas operativas y contexto externo en actualizaciones claras con próximas acciones específicas."
           },
           {
-            "label": "IT/Ops",
-            "title": "Delivery infrastructure that can be trusted",
-            "desc": "Verifies dashboards, links, attachments, backups, and service health before leadership relies on the output."
+            "label": "TI/Ops",
+            "title": "Infraestructura de entrega confiable",
+            "desc": "Verifica dashboards, enlaces, adjuntos, respaldos y salud del servicio antes de que la dirección dependa del resultado."
           }
         ]
       },
       "examples": {
-        "title": "Trabajo que el agente quita del fondo operativo",
+        "title": "El trabajo que puede quitarle al equipo",
         "items": [
           {
-            "title": "Solicitud ejecutiva respondida con un paquete de reporte",
-            "desc": "Un socio pide una comparación de clientes y productos de los últimos 12 meses. Normalmente implica exportar ERP, limpiar filas, armar una hoja, escribir un resumen y enviar adjuntos.",
-            "real": "El agente genera un resumen ejecutivo, un dashboard interactivo, CSV de soporte y una narrativa con fuentes. Puede responder en el hilo con enlace y adjuntos después de aprobación o bajo reglas acordadas."
+            "title": "Solicitud ejecutiva respondida con un paquete de reportes",
+            "desc": "Un socio pide una comparación de clientes y productos de los últimos 12 meses. Normalmente eso implica extraer datos del ERP, limpiar filas, armar una hoja, escribir un resumen y enviar adjuntos.",
+            "real": "El agente genera un resumen ejecutivo, un dashboard interactivo, CSV de soporte y una narrativa consciente de las fuentes. Puede responder en el mismo hilo con el enlace del reporte y adjuntos después de la aprobación o bajo reglas operativas acordadas."
           },
           {
-            "title": "Briefing matutino sin revisar inbox por inbox",
-            "desc": "Un líder de manufactura empieza el día con emails, reuniones, envíos, preguntas comerciales, riesgos de cobranza y alertas de inventario dispersos.",
-            "real": "El agente envía un briefing conciso: qué cambió, qué urge, quién espera, qué cuentas necesitan atención, qué inventario es crítico y qué reportes están listos."
+            "title": "Briefing matutino que reemplaza revisar el correo a mano",
+            "desc": "Un líder de fabricación empieza el día con emails sin leer, reuniones, problemas de envío, preguntas de ventas, riesgos de cobranza y alertas de inventario dispersos entre sistemas.",
+            "real": "El agente envía un briefing conciso: qué cambió, qué es urgente, quién espera, qué cuentas requieren atención, qué artículos de inventario son críticos y qué reportes están listos para revisar."
           },
           {
-            "title": "Reporte semanal de cuentas por cobrar",
-            "desc": "Finanzas pierde horas ordenando antigüedad, revisando último contacto, pidiendo contexto a ventas y preparando el mismo reporte cada lunes.",
-            "real": "El agente produce la vista AR en agenda, destaca cuentas que cruzaron umbrales, agrega último contacto cuando existe y mantiene los datos exportables junto al resumen."
+            "title": "Reporte de cuentas por cobrar que corre cada semana",
+            "desc": "Un equipo financiero pasa horas ordenando antigüedad de saldos, revisando último contacto, pidiendo contexto a ventas y preparando el mismo reporte para el lunes siguiente.",
+            "real": "El agente produce la vista de cuentas por cobrar en calendario, destaca cuentas que cruzaron umbrales, añade contexto del último contacto cuando existe y mantiene los datos exportables junto al resumen escrito."
           },
           {
-            "title": "Riesgo y concentración de clientes antes de tiempo",
-            "desc": "Unas pocas cuentas grandes pueden concentrar ingresos, backlog o exposición de cobro. Cuando una baja, la señal suele quedar dispersa.",
-            "real": "El agente sigue concentración y movimiento en el tiempo, marca caídas o picos inusuales y prepara resúmenes por cliente para conversaciones comerciales, de inversión o partners."
+            "title": "Riesgo y concentración de clientes detectados temprano",
+            "desc": "Unas pocas cuentas grandes pueden concentrar silenciosamente ingresos, backlog o exposición de cobranza. Cuando una baja el ritmo, la señal suele estar dispersa entre historial de pedidos y correo.",
+            "real": "El agente sigue concentración y movimiento en el tiempo, marca caídas o picos inusuales y prepara resúmenes por cliente para conversaciones de ventas, inversionistas o socios."
           },
           {
-            "title": "Presión de inventario visible",
-            "desc": "Faltantes, productos lentos y conteos críticos se pierden cuando los reportes viven en pantallas de ERP que pocas personas leen.",
-            "real": "El agente convierte esas señales en una lista operativa priorizada: stock crítico, faltantes probables, inventario detenido, bloqueos de envío y dueños de seguimiento."
+            "title": "Presión de inventario hecha visible",
+            "desc": "Faltantes, baja rotación y conteos críticos son fáciles de perder cuando los reportes viven en pantallas de ERP que pocas personas saben leer.",
+            "real": "El agente convierte esas señales en una lista operativa priorizada: stock crítico, faltantes probables, inventario estancado, bloqueos de envío y responsables recomendados de seguimiento."
           },
           {
-            "title": "Entrega de reportes más confiable",
-            "desc": "Un enlace de dashboard solo sirve si abre, renderiza e incluye los archivos correctos cuando el ejecutivo lo revisa.",
-            "real": "El agente revisa enlace, renderizado, adjuntos y vencimiento antes de entregar. Si algo falla, corrige la ruta antes de decir que está listo."
+            "title": "Entrega de reportes más robusta",
+            "desc": "Un enlace de dashboard solo sirve si abre, se renderiza e incluye los archivos correctos cuando un ejecutivo hace clic.",
+            "real": "El agente revisa el enlace, la visualización en navegador, los adjuntos y la expiración antes de entregar. Si algo falla, arregla la ruta de entrega antes de decir que el reporte está listo."
           }
         ]
       },
       "reportGallery": {
-        "title": "Sample manufacturing reports it can generate",
-        "sub": "These previews use synthetic data, but mirror the kinds of interactive report artifacts the agent can deliver: executive summary, dashboard link, source CSVs, and follow-up-ready narrative.",
-        "note": "No private customer data is shown here. Live deployments use your approved data sources, access controls, retention rules, and review thresholds.",
+        "title": "Ejemplos de reportes de fabricación que puede generar",
+        "sub": "Estas vistas previas usan datos sintéticos, pero reflejan artefactos interactivos que el agente puede entregar: resumen ejecutivo, enlace de dashboard, CSV fuente y narrativa lista para seguimiento.",
+        "note": "Aquí no se muestra información privada de clientes. Las implementaciones reales usan tus fuentes aprobadas, controles de acceso, reglas de retención y umbrales de revisión.",
         "items": [
           {
-            "badge": "Customer analysis",
-            "title": "12-month customer and product comparison",
-            "desc": "Compares customer purchasing patterns, product mix, price movement, and trailing revenue by period.",
+            "badge": "Análisis de clientes",
+            "title": "Comparación de clientes y productos a 12 meses",
+            "desc": "Compara patrones de compra de clientes, mezcla de productos, movimiento de precios e ingresos acumulados por periodo.",
             "metrics": [
               {
                 "value": "$4.8M",
-                "label": "Trailing revenue"
+                "label": "Ingresos acumulados"
               },
               {
                 "value": "+7.4%",
-                "label": "Price movement"
+                "label": "Movimiento de precios"
               },
               {
                 "value": "18",
-                "label": "Products reviewed"
+                "label": "Productos revisados"
               }
             ],
             "rows": [
               {
-                "label": "Product Line A",
+                "label": "Línea de producto A",
                 "width": "88%",
                 "value": "$1.9M"
               },
               {
-                "label": "Product Line B",
+                "label": "Línea de producto B",
                 "width": "64%",
                 "value": "$1.2M"
               },
               {
-                "label": "Product Line C",
+                "label": "Línea de producto C",
                 "width": "42%",
                 "value": "$780K"
               }
             ]
           },
           {
-            "badge": "Collections",
-            "title": "Aged receivables and follow-up pack",
-            "desc": "Buckets AR exposure, flags threshold crossings, and prepares account-level collection notes.",
+            "badge": "Cobranza",
+            "title": "Cuentas por cobrar vencidas y paquete de seguimiento",
+            "desc": "Agrupa exposición de cuentas por cobrar, marca cruces de umbral y prepara notas de cobranza por cuenta.",
             "metrics": [
               {
                 "value": "$612K",
-                "label": "Open AR"
+                "label": "Cuentas por cobrar abiertas"
               },
               {
                 "value": "9",
-                "label": "Accounts flagged"
+                "label": "Cuentas marcadas"
               },
               {
                 "value": "3",
-                "label": "New over 60 days"
+                "label": "Nuevas con más de 60 días"
               }
             ],
             "rows": [
               {
-                "label": "0-30 days",
+                "label": "0 a 30 días",
                 "width": "72%",
                 "value": "$331K"
               },
               {
-                "label": "31-60 days",
+                "label": "31 a 60 días",
                 "width": "38%",
                 "value": "$141K"
               },
               {
-                "label": "60+ days",
+                "label": "Más de 60 días",
                 "width": "30%",
                 "value": "$140K"
               }
             ]
           },
           {
-            "badge": "Inventory",
-            "title": "Critical inventory and shortage watch",
-            "desc": "Ranks material risk, shortage exposure, slow movers, and items requiring purchasing follow-up.",
+            "badge": "Inventario",
+            "title": "Vigilancia de inventario crítico y faltantes",
+            "desc": "Prioriza riesgo de materiales, exposición a faltantes, baja rotación y artículos que requieren seguimiento de compras.",
             "metrics": [
               {
                 "value": "27",
-                "label": "Critical items"
+                "label": "Artículos críticos"
               },
               {
                 "value": "11",
-                "label": "Shortage warnings"
+                "label": "Alertas de faltantes"
               },
               {
                 "value": "$340K",
-                "label": "Slow-moving stock"
+                "label": "Stock de baja rotación"
               }
             ],
             "rows": [
               {
-                "label": "Raw Material A",
+                "label": "Materia prima A",
                 "width": "92%",
-                "value": "Critical"
+                "value": "Crítico"
               },
               {
-                "label": "Component B",
+                "label": "Componente B",
                 "width": "66%",
-                "value": "Watch"
+                "value": "Vigilar"
               },
               {
-                "label": "Finished Good C",
+                "label": "Producto terminado C",
                 "width": "48%",
-                "value": "Slow"
+                "value": "Lento"
               }
             ]
           },
           {
-            "badge": "Executive brief",
-            "title": "Daily operations briefing dashboard",
-            "desc": "Combines inbox, calendar, sales, shipments, inventory, receivables, and external context into one morning view.",
+            "badge": "Brief ejecutivo",
+            "title": "Dashboard diario de operaciones",
+            "desc": "Combina correo, calendario, ventas, envíos, inventario, cuentas por cobrar y contexto externo en una vista matutina.",
             "metrics": [
               {
                 "value": "14",
-                "label": "Priority emails"
+                "label": "Emails prioritarios"
               },
               {
                 "value": "6",
-                "label": "Shipment risks"
+                "label": "Riesgos de envío"
               },
               {
                 "value": "4",
-                "label": "Actions due"
+                "label": "Acciones vencen"
               }
             ],
             "rows": [
               {
-                "label": "Sales pulse",
+                "label": "Pulso de ventas",
                 "width": "76%",
-                "value": "Warm"
+                "value": "Sólido"
               },
               {
-                "label": "Shipments",
+                "label": "Envíos",
                 "width": "52%",
-                "value": "Risk"
+                "value": "Riesgo"
               },
               {
-                "label": "Collections",
+                "label": "Cobranza",
                 "width": "44%",
-                "value": "Watch"
+                "value": "Vigilar"
               }
             ]
           }
         ]
       },
       "deliverables": {
-        "title": "What leadership receives",
-        "sub": "The agent does not just chat. It produces durable artifacts your team can review, forward, archive, and audit.",
+        "title": "Lo que recibe la dirección",
+        "sub": "El agente no solo conversa. Produce artefactos duraderos que tu equipo puede revisar, reenviar, archivar y auditar.",
         "items": [
           {
             "icon": "🗂️",
-            "title": "Executive summaries",
-            "desc": "Plain-English summaries with assumptions, next actions, and what changed since the last report."
+            "title": "Resúmenes ejecutivos",
+            "desc": "Resúmenes claros con supuestos, próximas acciones y lo que cambió desde el último reporte."
           },
           {
             "icon": "📊",
-            "title": "Interactive dashboards",
-            "desc": "Shareable report pages with KPI cards, tables, trend views, and source-aware notes."
+            "title": "Dashboards interactivos",
+            "desc": "Páginas de reporte compartibles con tarjetas KPI, tablas, vistas de tendencia y notas conscientes de la fuente."
           },
           {
             "icon": "📎",
-            "title": "CSV and DOCX packets",
-            "desc": "Underlying data exports and document summaries that finance, sales, or partners can inspect."
+            "title": "Paquetes CSV y DOCX",
+            "desc": "Exportaciones de datos y resúmenes documentales que finanzas, ventas o socios pueden inspeccionar."
           },
           {
             "icon": "✉️",
-            "title": "Reply-ready drafts",
-            "desc": "Email responses written in context, with attachments, links, and careful threading behavior."
+            "title": "Borradores listos para responder",
+            "desc": "Respuestas de email escritas en contexto, con adjuntos, enlaces y cuidado del hilo de conversación."
           },
           {
             "icon": "🚨",
-            "title": "Exception alerts",
-            "desc": "Notifications for overdue replies, AR risk, inventory pressure, failed report delivery, or system degradation."
+            "title": "Alertas de excepción",
+            "desc": "Notificaciones por respuestas vencidas, riesgo de cobranza, presión de inventario, fallas de entrega o degradación del sistema."
           },
           {
             "icon": "📚",
-            "title": "Operating memory",
-            "desc": "Durable notes on customers, recurring reports, reporting rules, business context, and known risks."
+            "title": "Memoria operativa",
+            "desc": "Notas duraderas sobre clientes, reportes recurrentes, reglas de reporte, contexto del negocio y riesgos conocidos."
           },
           {
             "icon": "🔎",
-            "title": "Verification notes",
-            "desc": "Clear statements about what was checked, what was inferred, and where the data came from."
+            "title": "Notas de verificación",
+            "desc": "Declaraciones claras sobre qué se revisó, qué se infirió y de dónde salieron los datos."
           },
           {
             "icon": "🛠️",
-            "title": "Reliability logs",
-            "desc": "Health checks for report servers, backups, public links, permissions, and scheduled jobs."
+            "title": "Registros de confiabilidad",
+            "desc": "Controles de salud para servidores de reportes, respaldos, enlaces públicos, permisos y tareas programadas."
           }
         ]
-      },
-      "controls": {
-        "kicker": "Built for real operations",
-        "title": "El criterio humano sigue al mando",
-        "sub": "Manufacturing teams need useful automation, not risky autonomy. The agent can be configured around your approval rules, data access boundaries, and delivery standards.",
-        "items": [
-          {
-            "title": "Compuertas de aprobación para comunicación externa",
-            "desc": "Usa modo de revisión primero para nuevos contactos, respuestas sensibles, conversaciones de precio o cualquier cosa que deba seguir aprobada por una persona."
-          },
-          {
-            "title": "Reportes con fuentes visibles",
-            "desc": "Los reportes pueden incluir tablas fuente, ventana de tiempo, filtros y reglas de negocio para que liderazgo sepa de dónde vienen los números."
-          },
-          {
-            "title": "No inventa cuando faltan datos",
-            "desc": "Si faltan entradas, hay exportaciones viejas, registros conflictivos o sistemas caídos, el agente lo dice y marca el resultado como parcial."
-          },
-          {
-            "title": "Postura de despliegue segura",
-            "desc": "El acceso se limita a sistemas aprobados, los enlaces pueden vencer y las revisiones operativas vigilan exposición pública, credenciales viejas y backups fallidos."
-          }
-        ]
-      },
-      "howItWorks": {
-        "title": "How rollout works",
-        "steps": [
-          {
-            "title": "Pick the first operating lane",
-            "desc": "Start with a high-value lane such as executive briefings, customer/product reports, AR aging, inventory alerts, or inbox triage."
-          },
-          {
-            "title": "Connect approved sources",
-            "desc": "Integrate email, calendar, ERP exports or database access, shared folders, report templates, and any partner-facing delivery rules."
-          },
-          {
-            "title": "Codify reporting rules",
-            "desc": "Agree on definitions for backlog, shortages, trailing sales, AR buckets, customer risk, and price comparisons so output is consistent."
-          },
-          {
-            "title": "Ship reports with verification",
-            "desc": "The agent generates dashboards and attachments, checks links before delivery, logs what it did, and escalates uncertainty for review."
-          }
-        ]
-      },
-      "pilot": {
-        "title": "A focused pilot can prove value quickly",
-        "sub": "Most teams start with one executive workflow, then expand once the reporting rules and trust model are proven.",
-        "items": [
-          {
-            "metric": "Week 1",
-            "label": "Map systems, priority inboxes, report definitions, and delivery approvals"
-          },
-          {
-            "metric": "Week 2",
-            "label": "Generate first briefings and sample dashboards from approved data"
-          },
-          {
-            "metric": "Week 3",
-            "label": "Add scheduled reports, CSV exports, link checks, and exception alerts"
-          },
-          {
-            "metric": "Week 4",
-            "label": "Review ROI, tighten rules, and choose the next operating lane"
-          }
-        ]
-      },
-      "cta": {
-        "title": "Give your manufacturing team an AI operations analyst.",
-        "sub": "One agent can watch the inbox, read the ERP, generate the report, verify the link, and prepare the follow-up while your people run the business.",
-        "button": "Build Your Manufacturing Agent →"
       },
       "directAccess": {
-        "kicker": "Pregunta desde planta, oficina o carretera",
-        "title": "Habla con el agente de manufactura desde Teams, WhatsApp, email o Telegram",
-        "sub": "Los líderes pueden pedir reportes, aprobar borradores y revisar excepciones sin abrir otro panel. El agente trae contexto de ERP, inbox, envíos y cuentas por cobrar al canal donde empezó la pregunta.",
+        "kicker": "Pregunta desde planta, oficina o camino",
+        "title": "Habla con el agente de fabricación desde Teams, WhatsApp, email o Telegram",
+        "sub": "Los líderes pueden pedir reportes, aprobar borradores y revisar excepciones sin abrir otro dashboard. El agente trae contexto de ERP, correo, envíos y cuentas por cobrar al canal donde empezó la pregunta.",
         "note": "Los canales pueden incluir Telegram, WhatsApp, Signal, email, Slack, Microsoft Teams o un chat web privado, según tu política de seguridad y reglas de aprobación.",
-        "agentName": "Agente de operaciones",
+        "agentName": "Agente de Operaciones de Fabricación",
         "status": "Activo en canales aprobados",
-        "liveLabel": "Activo",
-        "windowLabel": "Ejemplo de chat con agente de manufactura",
+        "liveLabel": "En vivo",
+        "windowLabel": "Ejemplo de chat con agente de fabricación",
         "channels": [
           {
-            "initial": "TM",
+            "initial": "EQ",
             "name": "Teams"
           },
           {
@@ -1046,25 +975,96 @@
         "messages": [
           {
             "from": "user",
-            "sender": "COO",
+            "sender": "Director de operaciones",
             "text": "¿Qué cambió durante la noche? Dame la versión corta antes de la reunión de producción."
           },
           {
             "from": "agent",
             "sender": "Agente",
-            "text": "Tres puntos necesitan atención: dos emails de clientes prioritarios, un envío con riesgo para el viernes y 11 artículos por debajo del punto de reorden. Marqué supuestos donde el ERP estaba desactualizado."
+            "text": "Tres asuntos requieren atención: dos emails prioritarios de clientes, un envío ahora en riesgo para el viernes y 11 artículos de inventario por debajo del punto de reposición. Marqué supuestos donde el ERP estaba desactualizado."
           },
           {
             "from": "user",
-            "sender": "Líder comercial",
-            "text": "Crea una comparación de 12 meses por cliente y producto para las cuentas principales. Incluye CSV y un panel compartible."
+            "sender": "Líder de ventas",
+            "text": "Arma una comparación de clientes y productos a 12 meses para las cuentas principales. Incluye CSV y un dashboard compartible."
           },
           {
             "from": "agent",
             "sender": "Agente",
-            "text": "Listo. Generé el panel, adjunté el paquete CSV, verifiqué el enlace y preparé un resumen claro para aprobación."
+            "text": "Listo. Generé el dashboard, adjunté el paquete CSV, revisé el enlace y redacté un resumen claro para aprobación."
           }
         ]
+      },
+      "controls": {
+        "kicker": "Diseñado para operaciones reales",
+        "title": "El criterio humano sigue al mando",
+        "sub": "Los equipos de fabricación necesitan automatización útil, no autonomía riesgosa. El agente se configura según tus reglas de aprobación, límites de acceso a datos y estándares de entrega.",
+        "items": [
+          {
+            "title": "Aprobaciones para comunicación saliente",
+            "desc": "Usa modo de revisión primero para contactos nuevos, respuestas sensibles, conversaciones de precios o cualquier cosa que deba seguir aprobada por humanos."
+          },
+          {
+            "title": "Reportes conscientes de la fuente",
+            "desc": "Los reportes pueden incluir tablas fuente, ventana de tiempo, filtros y reglas de negocio usadas para que los líderes sepan de dónde salieron los números."
+          },
+          {
+            "title": "Sin inventar cuando faltan datos",
+            "desc": "Si un reporte tiene insumos faltantes, exportaciones viejas, registros conflictivos o sistemas no disponibles, el agente lo dice y marca el resultado como parcial."
+          },
+          {
+            "title": "Postura de despliegue segura",
+            "desc": "El acceso se limita a sistemas aprobados, los enlaces de entrega pueden vencer y los controles operativos vigilan exposición pública, credenciales viejas y respaldos fallidos."
+          }
+        ]
+      },
+      "howItWorks": {
+        "title": "Cómo funciona el despliegue",
+        "steps": [
+          {
+            "title": "Elegir la primera línea operativa",
+            "desc": "Empieza con una línea de alto valor como briefings ejecutivos, reportes de clientes/productos, antigüedad de cuentas por cobrar, alertas de inventario o triage de correo."
+          },
+          {
+            "title": "Conectar fuentes aprobadas",
+            "desc": "Integra email, calendario, exportaciones o acceso a base de datos del ERP, carpetas compartidas, plantillas de reporte y reglas de entrega hacia socios."
+          },
+          {
+            "title": "Codificar reglas de reporte",
+            "desc": "Acordar definiciones para backlog, faltantes, ventas acumuladas, rangos de cuentas por cobrar, riesgo de clientes y comparaciones de precio para que la salida sea consistente."
+          },
+          {
+            "title": "Entregar reportes con verificación",
+            "desc": "El agente genera dashboards y adjuntos, revisa enlaces antes de entregar, registra lo que hizo y escala la incertidumbre para revisión."
+          }
+        ]
+      },
+      "pilot": {
+        "title": "Un piloto enfocado puede demostrar valor rápido",
+        "sub": "La mayoría de los equipos empieza con un flujo ejecutivo y luego expande cuando las reglas de reporte y el modelo de confianza están probados.",
+        "items": [
+          {
+            "metric": "Semana 1",
+            "label": "Mapear sistemas, bandejas prioritarias, definiciones de reportes y aprobaciones de entrega"
+          },
+          {
+            "metric": "Semana 2",
+            "label": "Generar los primeros briefings y dashboards de muestra con datos aprobados"
+          },
+          {
+            "metric": "Semana 3",
+            "label": "Agregar reportes programados, exportaciones CSV, revisión de enlaces y alertas de excepción"
+          },
+          {
+            "metric": "Semana 4",
+            "label": "Revisar ROI, ajustar reglas y elegir la siguiente línea operativa"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Dale a tu equipo de fabricación un analista de operaciones con IA.",
+        "sub": "Un agente puede responder desde Teams o WhatsApp, leer el ERP, generar el reporte, verificar el enlace y preparar seguimientos mientras tu equipo dirige el negocio.",
+        "button": "Crear tu agente de fabricación →"
       }
     },
     "realEstate": {
@@ -1509,9 +1509,9 @@
       "slug": "accounting",
       "icon": "📊",
       "heroTitle": "Operaciones IA para equipos contables",
-      "heroSub": "Tu contador que disfruta la temporada de impuestos. Declaraciones corporativas, categorizacion de gastos, gestion de facturas y seguimiento de plazos sin fallas.",
+      "heroSub": "Un agente de operaciones contables que trabaja por email, textos, carpetas compartidas, hojas de cálculo y software contable para preparar conciliaciones, seguimientos de facturas y revisiones de plazos.",
       "solutions": {
-        "title": "Como la IA lo resuelve",
+        "title": "Qué puede preparar tu agente contable",
         "items": [
           {
             "icon": "🏛️",
@@ -1546,26 +1546,26 @@
         ]
       },
       "howItWorks": {
-        "title": "Como empezar",
+        "title": "Empieza con una línea contable",
         "steps": [
           {
-            "title": "Comparte tu configuracion financiera",
-            "desc": "Cuentanos sobre tus entidades, software contable (Wave, QuickBooks, Xero), cuentas bancarias y las tareas que consumen tu tiempo."
+            "title": "Comparte tu configuración financiera",
+            "desc": "Cuéntanos sobre entidades, software contable, buzones, flujo de recibos y plazos."
           },
           {
-            "title": "Construimos tu IA contable",
-            "desc": "Tu IA aprende tu catalogo de cuentas, obligaciones fiscales, plantillas de factura y flujos financieros."
+            "title": "Construimos las reglas de revisión",
+            "desc": "El agente aprende tu catálogo de cuentas, umbrales de aprobación, plantillas de factura y reglas de escalamiento."
           },
           {
-            "title": "Libros siempre limpios",
-            "desc": "Categorizacion en tiempo real, facturacion automatizada y gestion proactiva de plazos. Tus libros siempre listos para auditoria."
+            "title": "Los libros se mantienen preparados",
+            "desc": "El agente prepara entradas, recordatorios, reportes y borradores mientras los contadores conservan el criterio y la aprobación final."
           }
         ]
       },
       "cta": {
-        "title": "Listo para temporadas fiscales sin estres?",
-        "sub": "Tu contador IA rastrea cada dolar, presenta cada declaracion y nunca pierde un plazo. La temporada fiscal es solo otro martes.",
-        "button": "Obtener tu IA contable →"
+        "title": "Dale a tus libros una capa operativa lista para revisión.",
+        "sub": "Deja que el agente prepare el trabajo rutinario y saque a la superficie lo que requiere criterio contable.",
+        "button": "Crear tu agente contable →"
       },
       "examples": {
         "title": "Workflows contables listos para revisión",
@@ -1627,7 +1627,7 @@
           },
           {
             "from": "user",
-            "sender": "Controller",
+            "sender": "Responsable contable",
             "text": "¿Qué facturas vencidas necesitan seguimiento humano hoy?"
           },
           {

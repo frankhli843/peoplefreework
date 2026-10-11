@@ -343,7 +343,7 @@
       "corpTax": {
         "title": "Corporate Tax & Accounting",
         "desc": "Files tax returns, generates invoices, categorizes expenses, and tracks corporate obligations.",
-        "real": "An AI bookkeeper helped file T4A slips, T5 amendments, and prepared the full T2 corporate return for a small business."
+        "real": "An accounting operations agent prepared T4A and T5 support plus a T2 return packet for human review at a small business."
       },
       "codeReview": {
         "title": "Code Review & Deployment",
