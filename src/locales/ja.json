@@ -2,68 +2,68 @@
   "nav": {
     "team": "チーム",
     "whyUs": "選ばれる理由",
-    "dailyLayer": "日々の業務",
+    "dailyLayer": "Agent の働き方",
     "pricing": "料金",
-    "hireTalent": "採用する →"
+    "hireTalent": "パイロット開始 →"
   },
   "hero": {
-    "title1": "卓越したAI人材。",
-    "title2": " 人間性ゼロ。",
-    "sub": "AI業務パートナーが、既存のメール、予定表、文書、レポート、承認済みメッセージをつなぎます。担当者が確認できる作業を準備します。",
-    "subBold": "チームと実際の業務に合わせて設計します。",
-    "meetTeam": "AIチームを見る",
-    "getInTouch": "お問い合わせ"
+    "title1": "チームが普段のツールで呼べる AI Agent。",
+    "title2": " 実務が前に進みます。",
+    "sub": "PeopleFree.work は、メール、テキスト、WhatsApp、Telegram、Signal、Slack、カレンダー、ドキュメント、業務ツールで動く AI Agent を構築します。",
+    "subBold": "背景の調整作業を引き受け、人は判断、関係性、創造性、戦略に集中できます。",
+    "meetTeam": "例を見る",
+    "getInTouch": "相談する"
   },
   "stats": {
     "availability": "稼働時間",
     "avgResponse": "平均応答時間",
-    "sickDays": "病欠日数。ゼロ。",
+    "sickDays": "人のレビュー",
     "languages": "一人あたりの言語数",
     "current": {
-      "availabilityValue": "24時間",
-      "availabilityLabel": "エージェントの稼働",
-      "emailValue": "メール",
-      "emailLabel": "仕分けと下書き",
-      "workflowsValue": "既存のツール",
-      "workflowsLabel": "連携する業務",
-      "reviewValue": "人が承認",
-      "reviewLabel": "対外メッセージ"
+      "availabilityValue": "24/7",
+      "availabilityLabel": "背景調整",
+      "emailValue": "テキスト+メール",
+      "emailLabel": "普段のチャネル",
+      "workflowsValue": "人のレビュー",
+      "workflowsLabel": "必要な場所で承認",
+      "reviewValue": "伴走型",
+      "reviewLabel": "実務に合わせて設計"
     }
   },
   "perks": {
-    "sectionTitle": "企業が私たちを選ぶ理由",
-    "sectionSub": "嘘のように聞こえる特典。でも本当です。",
+    "sectionTitle": "チームが PeopleFree.work を選ぶ理由",
+    "sectionSub": "チームがすでに使うチャネルで具体的に支援し、人のエンジニアリングが丁寧に支えます。",
     "wage": {
-      "title": "10人分の仕事をこなせる",
-      "desc": "AIスペシャリスト1人で、チーム全体分の成果を安定した品質とスピードで提供できます。"
+      "title": "背景業務を吸収する",
+      "desc": "Agent がフォローアップ、下書き、レポート、リマインダー、例外リストを担い、人が業務ノイズに埋もれないようにします。"
     },
     "iq": {
-      "title": "世界最高水準のスペシャリスト",
-      "desc": "全メンバーがそれぞれの分野で最高レベル。最高の人材だけを採用しています。"
+      "title": "強い AI を丁寧に設計",
+      "desc": "有能な AI Agent と経験ある人間のエンジニアを組み合わせ、実際のツールと制約に合わせてワークフローを作ります。"
     },
     "lang": {
-      "title": "一人6言語以上",
-      "desc": "各専門家は最低6言語に堪能。通訳は不要です。"
+      "title": "チャネルと言語をまたいで働く",
+      "desc": "メール、テキスト、WhatsApp、Telegram、Signal、Slack、Teams、ドキュメント、多言語業務を一つの運用層にできます。"
     },
     "balance": {
-      "title": "ワークライフバランス不要",
-      "desc": "当社の社員には仕事以外の生活がありません。望んでもいません。とても献身的です。"
+      "title": "人が大事なところに集中",
+      "desc": "チームは判断、関係性、センス、創造性、戦略を担い、Agent は調整と準備を支えます。"
     },
     "benefits": {
-      "title": "病欠しません",
-      "desc": "常に安定して稼働し、病欠や体調不良による中断がありません。"
+      "title": "背景を常に見守る",
+      "desc": "Agent は承認済みの受信箱、カレンダー、レポート、共有フォルダを監視し、静かな問題を早く浮かび上がらせます。"
     },
     "overtime": {
-      "title": "残業代なし",
-      "desc": "年中無休で同一料金で稼働。労働法は適用外のようです。"
+      "title": "フォローアップが抜け落ちない",
+      "desc": "約束した返信、足りない書類、期限超過請求、止まった承認は、人が閉じるまで見える状態に残ります。"
     },
     "own": {
-      "title": "どんな時でも、あなたの味方",
-      "desc": "専任のAIメンバーが長期的にあなたのビジネスを支え、業務フローを学習し、毎日チームをサポートします。"
+      "title": "あなたの運用に合わせて構築",
+      "desc": "専属 AI チームメイトは、ワークフロー、レビュー規則、声、ソースシステム、エスカレーション境界を学び続けます。"
     },
     "ip": {
-      "title": "知的財産権100%",
-      "desc": "AIが生み出す文書、戦略、デザイン、クリエイティブはすべてあなたのもの。共有権なし、ライセンス料なし、但し書きなし。"
+      "title": "成果物はあなたのもの",
+      "desc": "事業向けに作られた文書、戦略、デザイン、レポート、クリエイティブ成果物は契約に従ってあなたに帰属します。"
     }
   },
   "dailyLayer": {
@@ -116,15 +116,15 @@
     }
   },
   "team": {
-    "sectionTitle": "AI専門スタッフを紹介します",
-    "sectionSub": "10名の専属AIエージェント。常時対応可能。怪しいほど完璧。",
+    "sectionTitle": "Agent の紹介",
+    "sectionSub": "特定ワークフロー向けに設計され、レビュー規則で監督される専用 AI Agent です。",
     "showMore": "もっと見る ↓",
     "available": "対応可能",
     "response": "応答：",
     "members": {
       "olivia": {
         "title": "クリエイティブディレクター（AIエージェント）",
-        "bio": "AIエージェントとして、ブランド戦略を設計し、コピーを書き、成果を生むコンテンツを制作。クリエイティブの行き詰まりを経験したことがありません。そもそもそれが何か知りません。",
+        "bio": "ブランド戦略、コピー、キャンペーン下書きを準備し、クリエイティブ担当者がセンス、方向性、独自のアイデアに集中できるようにする AI Agent です。",
         "skills": [
           "ブランド戦略",
           "コピーライティング",
@@ -134,7 +134,7 @@
       },
       "devon": {
         "title": "シニアソフトウェアデベロッパー（AIエージェント）",
-        "bio": "AIエージェントとして、フルスタックアプリケーションを構築し、プルリクエストをレビューし、午前3時に文句ひとつ言わず本番デプロイ。あなたのエンジニアリングチーム全員を合わせたよりも多くのクリーンなコードを量産してきました。バグの量産数はゼロ。らしいです。",
+        "bio": "pull request をレビューし、CI 文脈を集め、リリースノートとデプロイチェックリストを下書きしてエンジニア承認に回す AI Agent です。",
         "skills": [
           "フルスタック開発",
           "コードレビュー",
@@ -144,7 +144,7 @@
       },
       "sarah": {
         "title": "エグゼクティブアシスタント（AIエージェント）",
-        "bio": "AIエージェントとして、スケジュール管理、メール振り分け、会議準備を行い、あなたが何も見逃さないようにします。締め切りを逃したことは一度もありません。本当に一度も。",
+        "bio": "カレンダー管理、メール整理、会議ブリーフ作成を行い、次に必要な判断を見える化する AI Agent です。",
         "skills": [
           "スケジュール管理",
           "メール振り分け",
@@ -154,7 +154,7 @@
       },
       "marcus": {
         "title": "法務オペレーション専門家（AIエージェント）",
-        "bio": "AIエージェントとして、案件追跡、請求書発行、すべての期限を管理します。提出期限を一度も逃したことがありません。一度たりとも。",
+        "bio": "案件を追跡し、請求記録を準備し、期限を見守り、法律オペレーションの定型作業をレビュー用に下書きする AI Agent です。",
         "skills": [
           "案件追跡",
           "請求書発行",
@@ -164,7 +164,7 @@
       },
       "priya": {
         "title": "不動産コーディネーター（AIエージェント）",
-        "bio": "AIエージェントとして、物件管理、顧客フォローアップ、オンデマンドの市場分析を担当します。仕事以外の趣味はゼロ。完全に満足しています。",
+        "bio": "物件情報、テキスト、メール履歴、予定、顧客フォローをつなぎ、不動産チームの関係づくりを支える AI Agent です。",
         "skills": [
           "物件管理",
           "顧客フォロー",
@@ -174,7 +174,7 @@
       },
       "james": {
         "title": "オペレーションマネージャー（AIエージェント）",
-        "bio": "AIエージェントとして、ワークフロー自動化、タスク優先順位付け、レポート作成を担当します。業務量について一度も不満を漏らしたことがありません。何についても、実は。",
+        "bio": "散らばった業務シグナルをタスクリスト、レポート、フォローアップ下書きに変え、マネージャーが動けるようにする AI Agent です。",
         "skills": [
           "ワークフロー自動化",
           "タスク優先順位付け",
@@ -184,7 +184,7 @@
       },
       "sofia": {
         "title": "マーケティングストラテジスト（AIエージェント）",
-        "bio": "AIエージェントとして、キャンペーン企画、指標分析、ファネル最適化を行います。あるクライアントのコンバージョン率を340%向上させました。お祝いの休暇は取っていません。",
+        "bio": "キャンペーン計画、指標サマリー、ファネルメモを準備し、マーケターがポジショニングと創造的判断に集中できるようにする AI Agent です。",
         "skills": [
           "キャンペーン管理",
           "アナリティクス",
@@ -194,7 +194,7 @@
       },
       "elena": {
         "title": "経理担当（AIエージェント）",
-        "bio": "AIエージェントとして、経費追跡、請求書送付、帳簿を完璧に維持します。入社以来、病欠0日、休暇0日、コーヒーブレイク0回。",
+        "bio": "経費分類、請求書フォロー、財務レポートを会計担当者のレビュー用に準備する AI Agent です。",
         "skills": [
           "経費追跡",
           "請求",
@@ -204,7 +204,7 @@
       },
       "yuki": {
         "title": "アジア太平洋リエゾン（AIエージェント）",
-        "bio": "AIエージェントとして、東アジア全域のコミュニケーションを橋渡しします。朝9時に中国語でメール作成、昼に日本語で電話、午後5時に韓国語で商談成立。毎日です。",
+        "bio": "国際コミュニケーションを支援し、多言語アップデートを下書きし、地域文脈を整理する AI Agent です。",
         "skills": [
           "越境コミュニケーション",
           "翻訳",
@@ -214,7 +214,7 @@
       },
       "aisha": {
         "title": "クライアントリレーションマネージャー（AIエージェント）",
-        "bio": "AIエージェントとして、新規顧客のオンボーディングと高い満足度の維持を担当します。すべての顧客の名前、好み、履歴を完璧に記憶。プライベートは皆無です。",
+        "bio": "オンボーディングメモ、顧客フォロー、満足度サマリーを準備し、アカウントチームが関係構築に集中できるようにする AI Agent です。",
         "skills": [
           "オンボーディング",
           "コミュニケーション",
@@ -225,7 +225,7 @@
     },
     "search": {
       "placeholder": "必要なスキルを検索...",
-      "reveal": "お探しのものが見つかりませんか？お客様のニーズにぴったりの個性、専門知識、経験を持つカスタムAIエージェントを構築します。理想の人材はまだ存在しません，でも私たちが創れます。",
+      "reveal": "必要なワークフローがありませんか？ツール、チャネル、承認、チームが手放したい作業に合わせて Agent を設計します。",
       "cta": "ご相談ください →",
       "emailSubject": "カスタムAIエージェントのお問い合わせ",
       "emailBody": "PeopleFreeWorkチームの皆様、\n\n以下のことを手伝ってくれるAIエージェントを探しています：\n\n[必要な役割、タスク、またはスキルセットをご記入ください]"
@@ -244,7 +244,7 @@
     },
     "step3": {
       "title": "業務が遂行されます",
-      "desc": "24時間体制でタスク完了。離職なし、トラブルなし、休暇申請は永遠にゼロ。"
+      "desc": "毎日時間を奪う作業を教えてください。最初の有用なワークフローと人のレビュー規則を設計します。"
     }
   },
   "pricing": {
@@ -295,14 +295,14 @@
     }
   },
   "cta": {
-    "title": "エージェントを業務に活かしませんか？",
-    "sub": "毎日時間がかかる仕事を教えてください。最初の有用な業務を一緒に決めます。",
+    "title": "Agent に頼んで、仕事を返してもらう準備はできましたか？",
+    "sub": "毎日時間を奪う作業を教えてください。最初の有用なワークフローと人のレビュー規則を設計します。",
     "button": "採用を始める →"
   },
   "footer": {
     "copy": "© 2025 PeopleFree Work. All rights reserved.",
-    "easter1": "この会社の運営に人間は一人も雇用されていません。*",
-    "easter2": "*いや、一人いました。でも彼も自分自身の代替を進めています。"
+    "easter1": "人が作り、Agent が動かします。",
+    "easter2": "大事なのは、どちらも正しい場所に置くことです。"
   },
   "examples": {
     "sectionTitle": "実際にできることを見る",
@@ -420,24 +420,24 @@
   "industries": {
     "navTitle": "業界ソリューション",
     "common": {
-      "seeSolutions": "ソリューションを見る",
+      "seeSolutions": "ワークフローを見る",
       "realExampleLabel": "実例：",
       "workflow": {
-        "kicker": "業務に合わせて設計",
-        "title": "今のツールで、今の仕事を、人の判断で",
-        "sub": "承認された情報源をつなぎ、必要な作業を準備します。最終判断はチームが行います。",
+        "kicker": "普段のチャネル向け",
+        "title": "ツール、仕事、判断はあなたのもの",
+        "sub": "Agent はチームがすでに話す場所で働き、有用な成果物を準備し、最終判断を適切な人に残します。",
         "items": [
           {
-            "title": "必要な情報をつなぐ",
-            "desc": "現在使っているメール、予定表、文書、メッセージから始め、アクセス範囲を業務に限定します。"
+            "title": "普段のチャネルを接続",
+            "desc": "承認済みの受信箱、カレンダー、文書、テキスト、WhatsApp、Telegram、Signal、Slack、Teams、業務システムから始めます。"
           },
           {
-            "title": "作業を準備する",
-            "desc": "背景を整理し、優先事項を示して、下書き、レポート、フォローアップ一覧を用意します。"
+            "title": "仕事を準備",
+            "desc": "Agent が文脈を集め、注意点を示し、下書き、レポート、リマインダー、フォローリストを準備します。"
           },
           {
-            "title": "主導権を保つ",
-            "desc": "対外メッセージはチームが確認し、エージェントを修正できます。最初の業務が安定してから広げます。"
+            "title": "コントロールを維持",
+            "desc": "人が外部メッセージを確認し、Agent を修正し、ワークフロー拡大のタイミングを決めます。"
           }
         ]
       }
@@ -445,8 +445,8 @@
     "legal": {
       "slug": "legal",
       "icon": "⚖️",
-      "heroTitle": "法律事務所向けAI",
-      "heroSub": "眠らないパラリーガル。請求エントリの口述、締切管理、判例調査、メモ起草を任せて、訴訟に集中できます。",
+      "heroTitle": "法律事務所の AI オペレーション",
+      "heroSub": "法律 Ops Agent が音声、メール、カレンダー、文書を請求下書き、期限確認、リサーチ、レビュー用返信に変えます。",
       "solutions": {
         "title": "AIによる解決",
         "items": [
@@ -501,8 +501,78 @@
       },
       "cta": {
         "title": "請求可能時間を取り戻す準備はできましたか？",
-        "sub": "AIパラリーガルが待機中。PTO申請なし、病欠なし、トラブルなし。",
+        "sub": "法律 Agent が作業を準備し、弁護士がレビュー、守秘、専門判断を保ちます。",
         "button": "法律AIを入手 →"
+      },
+      "examples": {
+        "title": "自然な法律ワークフロー",
+        "items": [
+          {
+            "title": "音声メモを請求記録へ",
+            "desc": "弁護士が閉廷後に音声メモを送り、夜に請求ソフトを開かずに済みます。",
+            "real": "Agent が文字起こしし、案件別の時間記録を提案し、戦略的な内容はクライアント記録に入る前に弁護士確認へ回します。"
+          },
+          {
+            "title": "文脈つきの顧客メール整理",
+            "desc": "緊急連絡、資料依頼、情報共有が複数の受信箱に届きます。",
+            "real": "Agent は弁護士対応が必要なものを示し、通常返信をメール下書きにし、元スレッドと資料を添えます。"
+          },
+          {
+            "title": "普段のチャネルで期限ダイジェスト",
+            "desc": "期日、時効、顧客への約束はメール、カレンダー、共有フォルダに散らばります。",
+            "real": "Agent は Signal やメールで期限、前提、人の法的判断が必要な項目を朝の要約にします。"
+          }
+        ]
+      },
+      "directAccess": {
+        "kicker": "普段使うツールから依頼",
+        "title": "法律 Agent はメール、Signal、音声メモから連絡できます",
+        "sub": "信頼しているチャネルから短い指示を送れます。Agent は請求メモ、期限確認、調査パケット、返信案を準備し、対外メッセージは人が承認するまで送信しません。",
+        "note": "利用チャネルはメール、Signal、Telegram、音声メモ、カレンダー、ドキュメントフォルダなど。事務所の守秘ルールに合わせて設定します。",
+        "agentName": "法律運用 Agent",
+        "status": "レビュー済み指示を待機中",
+        "liveLabel": "レビュー優先",
+        "windowLabel": "法律 Agent チャット例",
+        "channels": [
+          {
+            "initial": "EM",
+            "name": "メール"
+          },
+          {
+            "initial": "SG",
+            "name": "Signal"
+          },
+          {
+            "initial": "VM",
+            "name": "音声メモ"
+          },
+          {
+            "initial": "CL",
+            "name": "カレンダー"
+          }
+        ],
+        "messages": [
+          {
+            "from": "user",
+            "sender": "パートナー",
+            "text": "裁判所から音声メモを送った。請求項目にして、法的判断が必要な点を示して。"
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "完了しました。案件別に6件の項目を作成し、文字起こしを添付し、クライアント向けの2点をレビュー用にマークしました。"
+          },
+          {
+            "from": "user",
+            "sender": "アシスタント",
+            "text": "今日のクライアントメールに急ぎはありますか？"
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "3件あります。2件は定型返信を下書きし、1件の和解質問は弁護士判断が必要なためエスカレーションしました。"
+          }
+        ]
       }
     },
     "manufacturing": {
@@ -565,7 +635,7 @@
         ]
       },
       "solutions": {
-        "title": "What the manufacturing agent can own",
+        "title": "製造 Agent が担える仕事",
         "items": [
           {
             "icon": "📬",
@@ -636,37 +706,37 @@
         ]
       },
       "examples": {
-        "title": "The work it can take off your team",
+        "title": "Agent が背景から引き受けられる仕事",
         "items": [
           {
-            "title": "Executive request answered with a report pack",
-            "desc": "A partner asks for a customer/product comparison over the last 12 months. Normally that means pulling ERP exports, cleaning rows, building a spreadsheet, writing a summary, and sending attachments.",
-            "real": "The agent generates an executive summary, an interactive dashboard, supporting CSVs, and a source-aware narrative. It can reply in-thread with the report link and attachments after approval or under agreed operating rules."
+            "title": "経営層の依頼をレポート一式へ",
+            "desc": "パートナーが過去12か月の顧客別・製品別比較を求めます。通常は ERP エクスポート、行の整理、表計算、要約、添付送付が必要です。",
+            "real": "Agent が経営サマリー、インタラクティブダッシュボード、CSV、出典つき説明を生成し、承認後または合意済みルールでスレッドにリンクと添付を返します。"
           },
           {
-            "title": "Morning briefing that replaces inbox digging",
-            "desc": "A manufacturing leader starts the day with unread emails, meetings, shipment issues, sales questions, collection risks, and inventory warnings scattered across systems.",
-            "real": "The agent sends a concise briefing: what changed, what is urgent, who is waiting, which accounts need attention, which inventory items are critical, and which reports are ready to inspect."
+            "title": "受信箱を掘らずに済む朝のブリーフィング",
+            "desc": "製造リーダーは未読メール、会議、出荷問題、営業質問、回収リスク、在庫警告が散らばった状態で一日を始めます。",
+            "real": "Agent が短いブリーフを送ります。何が変わったか、何が急ぎか、誰が待っているか、注意すべき口座、重要在庫、確認可能なレポートをまとめます。"
           },
           {
-            "title": "Receivables report that runs every week",
-            "desc": "A finance team spends hours sorting aging buckets, checking last contact, asking sales for context, and preparing the same report again next Monday.",
-            "real": "The agent produces the AR view on schedule, highlights accounts that crossed thresholds, adds last-touch context where available, and keeps the exportable data beside the written summary."
+            "title": "毎週走る売掛レポート",
+            "desc": "財務チームは年齢表の整理、最終連絡の確認、営業への背景確認、同じレポート作成に毎週時間を使います。",
+            "real": "Agent が予定通り AR ビューを作成し、しきい値を越えた口座を示し、可能な最終接触文脈を加え、エクスポートデータを要約の横に残します。"
           },
           {
-            "title": "Customer risk and concentration surfaced early",
-            "desc": "A few large accounts can quietly drive most revenue, backlog, or receivables exposure. When one slows down, the signal is often scattered across order history and email.",
-            "real": "The agent tracks concentration and movement over time, flags unusual drops or spikes, and prepares customer-specific summaries that leaders can use for sales, investor, or partner conversations."
+            "title": "顧客リスクと集中度を早めに表示",
+            "desc": "少数の大口顧客が売上、バックログ、売掛リスクの大半を担うことがあります。変化の兆候は注文履歴やメールに散らばりがちです。",
+            "real": "Agent が集中度と動きを追跡し、異常な下落や上昇を示し、営業、投資家、パートナー会話に使える顧客別サマリーを準備します。"
           },
           {
-            "title": "Inventory pressure made visible",
-            "desc": "Shortages, slow movers, and critical counts are easy to miss when reports live in ERP screens that only a few people know how to read.",
-            "real": "The agent converts those signals into a ranked operations list: critical stock, likely shortages, stale inventory, shipment blockers, and recommended follow-up owners."
+            "title": "在庫圧力を見える化",
+            "desc": "不足、滞留品、重要カウントは、ERP 画面の中だけにあると見落とされやすくなります。",
+            "real": "Agent が信号を優先順位つき業務リストに変えます。重要在庫、不足見込み、滞留在庫、出荷ブロッカー、推奨フォロー担当を示します。"
           },
           {
-            "title": "Report delivery hardened",
-            "desc": "A dashboard link is only useful if it opens, renders, and includes the right files when the executive clicks it.",
-            "real": "The agent checks the report link, browser rendering, attachments, and expiry before delivery. If something fails, it fixes the delivery path before claiming the report is ready."
+            "title": "信頼できるレポート配信",
+            "desc": "ダッシュボードリンクは、開けて、正しく表示され、必要ファイルが含まれていて初めて役に立ちます。",
+            "real": "Agent が配信前にリンク、ブラウザ表示、添付、期限を確認します。失敗があれば、準備完了と言う前に配信経路を直します。"
           }
         ]
       },
@@ -869,24 +939,24 @@
       },
       "controls": {
         "kicker": "Built for real operations",
-        "title": "Human judgment stays in charge",
+        "title": "人の判断が主導権を保ちます",
         "sub": "Manufacturing teams need useful automation, not risky autonomy. The agent can be configured around your approval rules, data access boundaries, and delivery standards.",
         "items": [
           {
-            "title": "Approval gates for outbound communication",
-            "desc": "Use review-first mode for new contacts, sensitive replies, pricing conversations, or anything that should remain human-approved."
+            "title": "外部連絡の承認ゲート",
+            "desc": "新規連絡先、慎重な返信、価格の会話、人の承認が必要な内容にはレビュー優先モードを使います。"
           },
           {
-            "title": "Source-aware reporting",
-            "desc": "Reports can include the source tables, time window, filters, and business rules used so leaders know where numbers came from."
+            "title": "出典を示すレポート",
+            "desc": "レポートにはソース表、期間、フィルター、業務ルールを含められるため、数字の由来がわかります。"
           },
           {
-            "title": "No guessing when data is incomplete",
-            "desc": "If a report has missing inputs, stale exports, conflicting records, or unavailable systems, the agent says so and marks the result as partial."
+            "title": "データ不足では推測しない",
+            "desc": "入力不足、古いエクスポート、矛盾した記録、利用不可のシステムがあれば、Agent は明記し、結果を部分的として示します。"
           },
           {
-            "title": "Secure deployment posture",
-            "desc": "Access is scoped to approved systems, delivery links can expire, and operational checks watch for public exposure, stale credentials, and failed backups."
+            "title": "安全なデプロイ姿勢",
+            "desc": "アクセスは承認済みシステムに限定し、リンクは期限付きにでき、運用チェックが公開露出、古い認証情報、バックアップ失敗を監視します。"
           }
         ]
       },
@@ -939,70 +1009,60 @@
         "button": "Build Your Manufacturing Agent →"
       },
       "directAccess": {
-        "kicker": "Always reachable",
-        "title": "Talk to the agent directly, anytime",
-        "sub": "Leaders and operators do not need to open a special dashboard to use the agent. They can ask questions, request a report, approve a draft, or check an exception from the messaging tools they already use.",
-        "note": "Channels can include Telegram, WhatsApp, Signal, email, Slack, Microsoft Teams, or a private web chat, depending on your security policy and approval rules.",
-        "agentName": "Manufacturing Ops Agent",
-        "status": "Online across approved channels",
-        "liveLabel": "Live",
-        "windowLabel": "Example manufacturing agent chat",
+        "kicker": "現場、オフィス、移動中から依頼",
+        "title": "Teams、WhatsApp、メール、Telegram から製造 Agent と話せます",
+        "sub": "リーダーは新しいダッシュボードを開かずにレポート依頼、下書き承認、例外確認ができます。Agent は ERP、受信箱、出荷、売掛の文脈を質問が始まったチャネルへ戻します。",
+        "note": "チャネルは Telegram、WhatsApp、Signal、メール、Slack、Microsoft Teams、非公開Webチャットなど。セキュリティポリシーと承認ルールに合わせます。",
+        "agentName": "製造運用 Agent",
+        "status": "承認済みチャネルでオンライン",
+        "liveLabel": "ライブ",
+        "windowLabel": "製造 Agent チャット例",
         "channels": [
           {
-            "initial": "TG",
-            "name": "Telegram"
+            "initial": "TM",
+            "name": "Teams"
           },
           {
             "initial": "WA",
             "name": "WhatsApp"
           },
           {
-            "initial": "SG",
-            "name": "Signal"
-          },
-          {
             "initial": "EM",
-            "name": "Email"
+            "name": "メール"
           },
           {
-            "initial": "TM",
-            "name": "Teams"
+            "initial": "TG",
+            "name": "Telegram"
           },
           {
             "initial": "SL",
             "name": "Slack"
+          },
+          {
+            "initial": "SG",
+            "name": "Signal"
           }
         ],
         "messages": [
           {
             "from": "user",
             "sender": "COO",
-            "text": "What changed overnight? Give me the short version before the production meeting."
+            "text": "夜間に何が変わった？生産会議前に短く教えて。"
           },
           {
             "from": "agent",
             "sender": "Agent",
-            "text": "Three items need attention: two priority customer emails, one shipment now at risk for Friday, and 11 inventory items below reorder threshold. I prepared the morning briefing and marked assumptions where ERP data was stale."
+            "text": "注意が必要な項目は3つです。優先顧客メール2件、金曜出荷リスク1件、再発注しきい値を下回る在庫11件。ERPデータが古い箇所には仮定を付けました。"
           },
           {
             "from": "user",
-            "sender": "Sales leader",
-            "text": "Build a 12-month customer and product comparison for the top accounts. Include CSVs and a shareable dashboard."
+            "sender": "営業リーダー",
+            "text": "主要顧客の12か月の顧客別・製品別比較を作って。CSVと共有ダッシュボードも。"
           },
           {
             "from": "agent",
             "sender": "Agent",
-            "text": "Done. I generated the dashboard, attached the CSV packet, checked the link in a browser, and added a plain-English summary with pricing movement, concentration risk, and follow-up questions."
-          },
-          {
-            "from": "user",
-            "sender": "Controller",
-            "text": "Which overdue accounts need a human follow-up today?"
-          },
-          {
-            "from": "agent",
-            "sender": "Agent",
-            "text": "I found 9 accounts past threshold. Three are new over 60 days. I drafted review-first collection notes and separated informational threads from messages that need a reply."
+            "text": "完了しました。ダッシュボードを生成し、CSVパケットを添付し、リンクを確認し、承認用の平易な要約を作成しました。"
           }
         ]
       }
@@ -1010,7 +1070,7 @@
     "realEstate": {
       "slug": "real-estate",
       "icon": "🏠",
-      "heroTitle": "不動産会社のためのAI業務パートナー",
+      "heroTitle": "不動産チームの AI オペレーション",
       "heroSub": "見込み客、顧客との会話、予定、フォローアップを事務所全体で把握。顧客向けメッセージの最終判断はチームが行います。",
       "problems": {
         "title": "チャネルをまたぐと情報が埋もれる",
@@ -1049,19 +1109,19 @@
         "title": "事務所の一日をもっとスムーズに",
         "items": [
           {
-            "title": "朝の事務所ブリーフィング",
-            "desc": "複数の受信箱と予定表を開かずに、新規問い合わせ、変更された予定、返信期限を把握します。",
-            "real": "想定例：各項目から元の会話を開き、担当者が背景を確認できます。"
+            "title": "複数テキストをまとめて整理",
+            "desc": "買主、売主、別のエージェントがほぼ同時に連絡します。",
+            "real": "Agent が各テキストを記録に紐づけ、安全な返信を下書きし、オファーは承認へ回します。"
           },
           {
-            "title": "メール履歴を踏まえたSMS返信",
-            "desc": "メールを交わした見込み客が事務所の番号に返信。エージェントが関連する履歴を探し、返信案を作ります。",
-            "real": "想定例：担当者が確認して送信。記録できる範囲は回線と通信事業者によります。"
+            "title": "メール履歴つきのテキスト返信",
+            "desc": "見込み客がメールの後にオフィス番号へ返信します。",
+            "real": "Agent が文脈を見つけ、返信を準備し、送信は担当者に残します。"
           },
           {
-            "title": "見える引き継ぎ",
-            "desc": "担当者が買主に文書を約束し、助手が内見を調整。両方を同じ行動一覧で追います。",
-            "real": "想定例：担当者、期限、元の記録を完了まで紐づけます。"
+            "title": "見えるままの引き継ぎ",
+            "desc": "エージェントが買主への資料を約束し、アシスタントが内見予定を扱います。",
+            "real": "担当者、期限、元記録が完了まで一緒に残ります。"
           }
         ]
       },
@@ -1127,12 +1187,62 @@
             "desc": "物件資料、顧客への更新、定常業務に必要な情報を整理します。"
           }
         ]
+      },
+      "directAccess": {
+        "kicker": "テキストを管理されたアクションリストへ",
+        "title": "不動産 Agent は複数の受信テキストを同時に整理できます",
+        "sub": "買主、売主、エージェント、スタッフが同時に連絡しても、Agent は各メッセージを正しいメール履歴、カレンダー、顧客記録に結び、レビュー用の返信案を作ります。",
+        "note": "SMS/MMS、WhatsApp、メール、カレンダーは、承認済み回線、キャリア、仲介会社のレビュー規則に合わせて設定します。",
+        "agentName": "不動産運用 Agent",
+        "status": "承認済みテキストとメールを監視中",
+        "liveLabel": "レビュー優先",
+        "windowLabel": "不動産テキスト整理の例",
+        "channels": [
+          {
+            "initial": "SMS",
+            "name": "テキスト"
+          },
+          {
+            "initial": "WA",
+            "name": "WhatsApp"
+          },
+          {
+            "initial": "EM",
+            "name": "メール"
+          },
+          {
+            "initial": "CL",
+            "name": "カレンダー"
+          }
+        ],
+        "messages": [
+          {
+            "from": "user",
+            "sender": "買主テキスト",
+            "text": "4:30の内見を5:15に動かせますか？ガレージは暖房付きですか？"
+          },
+          {
+            "from": "user",
+            "sender": "売主テキスト",
+            "text": "昨日の内見の反応はありますか？"
+          },
+          {
+            "from": "user",
+            "sender": "エージェントテキスト",
+            "text": "オファーパッケージが届きました。誰が先に確認しますか？"
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "3件すべてを記録に紐づけました。買主への日程返信を下書きし、物件ファイルからガレージ情報を見つけ、売主更新を準備し、送信前にオファーを broker 承認に回しました。"
+          }
+        ]
       }
     },
     "content": {
       "slug": "content",
       "icon": "✍️",
-      "heroTitle": "コンテンツクリエイター向けAI",
+      "heroTitle": "コンテンツチームの AI オペレーション",
       "heroSub": "燃え尽きないクリエイティブチーム。SEO最適化ライティング、コンテンツカレンダー管理、マルチプラットフォーム配信をスケーラブルに。",
       "solutions": {
         "title": "AIによる解決",
@@ -1190,12 +1300,82 @@
         "title": "コンテンツをスケールする準備はできましたか？",
         "sub": "AIコンテンツチームが24時間365日、執筆、公開、最適化。クリエイティブバーンアウトは彼らの辞書にありません。",
         "button": "コンテンツAIを入手 →"
+      },
+      "examples": {
+        "title": "チームに合うコンテンツワークフロー",
+        "items": [
+          {
+            "title": "WhatsApp の一言を公開用ブリーフへ",
+            "desc": "創業者が会議の合間にキャンペーン案を送ります。",
+            "real": "Agent がブリーフ化し、カレンダーを確認し、レビュー用下書きを作り、声の最終判断はチームに残します。"
+          },
+          {
+            "title": "フォローする編集カレンダー",
+            "desc": "下書き、承認、画像、公開日は別々のツールにあります。",
+            "real": "Agent がメール、CMS、カレンダーを見守り、公開を止めている人に知らせます。"
+          },
+          {
+            "title": "執筆前のリサーチパック",
+            "desc": "ライターには初稿前に根拠、例、読者文脈が必要です。",
+            "real": "Agent がリンクを集め、主張を要約し、確認済みアウトラインを準備します。"
+          }
+        ]
+      },
+      "directAccess": {
+        "kicker": "クリエイティブ作業を流れの中に",
+        "title": "WhatsApp、メール、カレンダーからコンテンツ Agent に連絡",
+        "sub": "チームが毎日見るツールから、アイデア投入、ブリーフ依頼、下書き承認、公開ブロックの確認ができます。",
+        "note": "チャネルは WhatsApp、Telegram、メール、CMSコメント、共有ドキュメント、カレンダー、Slack などです。",
+        "agentName": "コンテンツ運用 Agent",
+        "status": "レビュー用に下書き中",
+        "liveLabel": "下書き",
+        "windowLabel": "コンテンツ Agent チャット例",
+        "channels": [
+          {
+            "initial": "WA",
+            "name": "WhatsApp"
+          },
+          {
+            "initial": "EM",
+            "name": "メール"
+          },
+          {
+            "initial": "CMS",
+            "name": "CMS"
+          },
+          {
+            "initial": "CL",
+            "name": "カレンダー"
+          }
+        ],
+        "messages": [
+          {
+            "from": "user",
+            "sender": "創業者",
+            "text": "音声メモをローンチ投稿にして、木曜がニュースレターと重なるか確認して。"
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "投稿を準備し、木曜のニュースレター競合を見つけ、金曜枠を提案し、主張の根拠リンクを3つ追加しました。"
+          },
+          {
+            "from": "user",
+            "sender": "編集者",
+            "text": "来週の記事を止めているのは誰？"
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "2本は引用承認待ち、1枚は代替テキスト不足、1テーマはトーンについて人の判断が必要です。"
+          }
+        ]
       }
     },
     "software": {
       "slug": "software",
       "icon": "💻",
-      "heroTitle": "ソフトウェアエンジニアリング向けAI",
+      "heroTitle": "ソフトウェアチームの AI オペレーション",
       "heroSub": "オンコールが好きなシニアエンジニア。コードレビュー、自己修復型インフラ監視、眠らないデプロイ自動化。",
       "solutions": {
         "title": "AIによる解決",
@@ -1251,14 +1431,84 @@
       },
       "cta": {
         "title": "より速く出荷し、よく眠る準備はできましたか？",
-        "sub": "AIエンジニアがオンコール、PRレビュー、インフラ監視を担当。燃え尽きなし、PTO申請なし、深夜3時の不満なし。",
+        "sub": "エンジニアリング Agent が文脈、チェックリスト、下書きを準備し、チームが重要判断を保ちます。",
         "button": "エンジニアリングAIを入手 →"
+      },
+      "examples": {
+        "title": "人が主導権を保つエンジニアリングワークフロー",
+        "items": [
+          {
+            "title": "Slack アラートから修正計画へ",
+            "desc": "インシデントは Slack で始まり、ログや GitHub issue は別の場所にあります。",
+            "real": "Agent がエラー経路を集め、関連しそうなコミットを示し、顧客向け投稿前にエンジニア確認を求めます。"
+          },
+          {
+            "title": "文脈探しを減らす PR レビュー",
+            "desc": "レビュアーは設計、CI 失敗、デプロイリスクを再構成しがちです。",
+            "real": "Agent が PR、CI、関連 issue を読み、承認用コメントを含むレビュー資料を作ります。"
+          },
+          {
+            "title": "進み続けるリリースチェックリスト",
+            "desc": "リリースには CI、移行、ドキュメント、ロールバック、連絡が関わります。",
+            "real": "Agent が Slack と GitHub で手順を追い、リリースノートを下書きし、人の判断が必要な決定だけを上げます。"
+          }
+        ]
+      },
+      "directAccess": {
+        "kicker": "アラートからアクションへ",
+        "title": "Slack、GitHub、メール、ページャーからエンジニアリング Agent へ",
+        "sub": "Agent はログ、CI、PR文脈、リリース状況を集め、更新文やチェックリストを下書きします。エンジニアはアーキテクチャと本番判断を担います。",
+        "note": "チャネルは Slack、GitHub、メール、PagerDuty型アラート、Linear、Jira、非公開Webチャットなどです。",
+        "agentName": "エンジニアリング運用 Agent",
+        "status": "承認済みエンジニアリングシステムを監視中",
+        "liveLabel": "オンコール",
+        "windowLabel": "エンジニアリング Agent チャット例",
+        "channels": [
+          {
+            "initial": "SL",
+            "name": "Slack"
+          },
+          {
+            "initial": "GH",
+            "name": "GitHub"
+          },
+          {
+            "initial": "EM",
+            "name": "メール"
+          },
+          {
+            "initial": "PG",
+            "name": "Pager"
+          }
+        ],
+        "messages": [
+          {
+            "from": "user",
+            "sender": "リードエンジニア",
+            "text": "デプロイ後に checkout アラートが増えた理由は？"
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "増加を release 2026.10.11 に紐づけ、失敗した決済ログを2件見つけ、ロールバックチェックリストを下書きしました。ステータス投稿前に承認を待っています。"
+          },
+          {
+            "from": "user",
+            "sender": "PM",
+            "text": "今日この PR を出せますか？"
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "CIは成功し、ドキュメントも更新済みですが、マイグレーションのロールバックメモが未作成です。エンジニアリングレビュー用に下書きしました。"
+          }
+        ]
       }
     },
     "accounting": {
       "slug": "accounting",
       "icon": "📊",
-      "heroTitle": "会計向けAI",
+      "heroTitle": "会計チームの AI オペレーション",
       "heroSub": "税務シーズンを楽しむ経理。法人申告、経費分類、請求書管理、漏れのない締切管理。",
       "solutions": {
         "title": "AIによる解決",
@@ -1316,36 +1566,175 @@
         "title": "ストレスフリーな税務シーズンの準備はできましたか？",
         "sub": "AI経理が全ての金額を追跡し、全ての申告を提出し、締切を漏らしません。税務シーズンはただの火曜日。",
         "button": "会計AIを入手 →"
+      },
+      "examples": {
+        "title": "レビュー準備済みの会計ワークフロー",
+        "items": [
+          {
+            "title": "テキストの領収書から仕訳案へ",
+            "desc": "顧客が領収書写真を送るか、仕入先請求書を転送します。",
+            "real": "Agent が詳細を抽出し、勘定科目を提案し、ルールを確認し、会計担当の承認待ちにします。"
+          },
+          {
+            "title": "人間味のある請求フォロー",
+            "desc": "延滞先への連絡は関係、履歴、金額で変わります。",
+            "real": "Agent が直近支払い文脈を添えてメールを下書きし、慎重な内容は送信前に確認を求めます。"
+          },
+          {
+            "title": "複数ツールにまたがる期限監視",
+            "desc": "税務、給与、申告、会社義務はカレンダー、表計算、会計ソフトに散らばります。",
+            "real": "Agent がメールやテキストで、準備済み、不足、会計判断が必要な項目を知らせます。"
+          }
+        ]
+      },
+      "directAccess": {
+        "kicker": "帳簿を会話の近くに",
+        "title": "領収書、請求書質問、期限確認をメールやテキストで送信",
+        "sub": "会計 Agent は照合、請求書フォロー、申告チェックリストを準備し、判断が必要な箇所は会計担当者の承認を求めます。",
+        "note": "チャネルはメール、テキスト、WhatsApp、共有フォルダ、Wave、QuickBooks、Xero、スプレッドシートなどです。",
+        "agentName": "会計運用 Agent",
+        "status": "レビュー用作業を準備中",
+        "liveLabel": "レビュー優先",
+        "windowLabel": "会計 Agent チャット例",
+        "channels": [
+          {
+            "initial": "EM",
+            "name": "メール"
+          },
+          {
+            "initial": "SMS",
+            "name": "テキスト"
+          },
+          {
+            "initial": "WA",
+            "name": "WhatsApp"
+          },
+          {
+            "initial": "QB",
+            "name": "帳簿"
+          }
+        ],
+        "messages": [
+          {
+            "from": "user",
+            "sender": "オーナーテキスト",
+            "text": "領収書2枚と仕入先請求書を送った。忘れる前に使える場所へ入れて。"
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "詳細を抽出し、カテゴリを提案し、1件の仕入先を未払請求に一致させ、3件すべてを会計承認待ちにしました。"
+          },
+          {
+            "from": "user",
+            "sender": "コントローラー",
+            "text": "今日、人がフォローすべき期限超過請求はどれ？"
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "4件がしきい値を超えました。最終支払文脈つきのフォローアップメールを下書きし、慎重な対応が必要な口座はレビュー用に保留しました。"
+          }
+        ]
       }
     }
   },
   "industriesShowcase": {
     "sectionTitle": "対応業界",
-    "sectionSub": "すべての業界に課題があります。あなたの課題を理解するAI社員を構築します。",
+    "sectionSub": "業界ごとに違うコミュニケーションの混乱があります。その中で動く Agent を作ります。",
     "learnMore": "詳しく見る",
     "legal": {
       "title": "法律",
-      "desc": "音声請求、案件追跡、法律調査、文書処理。眠らないパラリーガル。"
+      "desc": "メール、Signal、法律事務所ツールで音声請求、期限、メール整理、リサーチパックを支援。"
     },
     "manufacturing": {
       "title": "製造業",
-      "desc": "生産監視、サプライチェーン分析、品質報告、日次オペレーションブリーフィング。工場長の右腕。"
+      "desc": "Teams や WhatsApp の質問を ERP レポート、出荷アラート、フォロー下書きへ。"
     },
     "realEstate": {
       "title": "不動産",
-      "desc": "メール、SMS、予定、フォローアップを一元化。顧客向けメッセージは人が確認します。"
+      "desc": "複数テキスト、メール、内見、オファー、フォローをレビュー可能な行動リストへ。"
     },
     "content": {
       "title": "コンテンツ制作",
-      "desc": "SEO最適化ライティング、公開パイプライン、コンテンツカレンダー、ブランド一貫性。燃え尽きないクリエイティブチーム。"
+      "desc": "WhatsApp のアイデア、メール承認、CMS、カレンダー、リサーチを一つの流れへ。"
     },
     "software": {
       "title": "ソフトウェアエンジニアリング",
-      "desc": "コードレビュー、インフラ監視、CI/CD自動化、24時間オンコール。オンコールが好きなシニアエンジニア。"
+      "desc": "Slack アラート、GitHub PR、CI、リリース、インシデント更新をエンジニアレビュー用に準備。"
     },
     "accounting": {
       "title": "会計",
-      "desc": "税務申告、記帳、請求書発行、企業コンプライアンス。確定申告シーズンを楽しむ会計士。"
+      "desc": "領収書、請求書、期限、フォローをメール、テキスト、会計ソフト across で整理。"
     }
+  },
+  "homeSpotlight": {
+    "kicker": "不動産の例",
+    "title": "3件のテキストが同時に届く。Agent が管理されたフォローリストに変えます。",
+    "sub": "買主が内見時間変更を依頼し、売主が反応を求め、別のエージェントがオファー資料を送ります。Agent はメール履歴、カレンダー、物件ファイルに接続し、安全な返信を下書きし、判断が必要なものは承認を求めます。",
+    "windowLabel": "不動産の複数テキスト例",
+    "agentName": "不動産 Ops Agent",
+    "status": "承認済みテキストとメールを監視中",
+    "liveLabel": "レビュー",
+    "channels": [
+      {
+        "initial": "SMS",
+        "name": "テキスト"
+      },
+      {
+        "initial": "WA",
+        "name": "WhatsApp"
+      },
+      {
+        "initial": "EM",
+        "name": "メール"
+      },
+      {
+        "initial": "SG",
+        "name": "Signal"
+      }
+    ],
+    "messages": [
+      {
+        "from": "user",
+        "sender": "買主テキスト",
+        "text": "今日の内見を5:15にできますか？ガレージは暖房付きですか？"
+      },
+      {
+        "from": "user",
+        "sender": "売主テキスト",
+        "text": "昨日の内見の反応はありますか？"
+      },
+      {
+        "from": "user",
+        "sender": "Agent テキスト",
+        "text": "オファー資料が届きました。誰が先に確認しますか？"
+      },
+      {
+        "from": "agent",
+        "sender": "Agent",
+        "text": "3件すべてを記録に紐づけました。買主返信を下書きし、ガレージ情報を見つけ、売主更新を用意し、オファー資料は送信前にブローカー承認へ回しました。"
+      }
+    ]
+  },
+  "serviceModel": {
+    "kicker": "プレミアムサービス",
+    "title": "セルフサービスのダッシュボードではありません。AI とエンジニアリングの伴走支援です。",
+    "sub": "PeopleFree.work は強力な AI Agent と経験ある人間のエンジニアを組み合わせ、実際のワークフローを学び、適切なシステムを接続し、レビュー規則を調整します。",
+    "items": [
+      {
+        "title": "実務に合わせて設計",
+        "desc": "チームが毎日使うメール、テキスト、レポート、カレンダー、意思決定から始めます。"
+      },
+      {
+        "title": "エンジニアが伴走",
+        "desc": "統合設定、境界ケース確認、運用改善を人間のエンジニアが支えます。"
+      },
+      {
+        "title": "判断は人に残る",
+        "desc": "Agent は下書き、要約、レポート、フォロー、例外リストを準備します。信頼、関係性、専門判断はチームに残ります。"
+      }
+    ],
+    "note": "目的は人を仕事から外すことではありません。一人ひとりの視点と才能に余白を作ることです。"
   }
 }

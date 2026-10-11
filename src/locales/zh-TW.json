@@ -2,68 +2,68 @@
   "nav": {
     "team": "團隊",
     "whyUs": "為何選我們",
-    "dailyLayer": "日常運作",
+    "dailyLayer": "Agent 如何工作",
     "pricing": "價格",
-    "hireTalent": "招募人才 →"
+    "hireTalent": "啟動試點 →"
   },
   "hero": {
-    "title1": "頂尖AI人才。",
-    "title2": " 零人性。",
-    "sub": "您的 AI 營運夥伴連接工作中已有的郵件、日曆、文件、報告和獲批的訊息渠道，並為合適的人準備待審核的工作。",
-    "subBold": "圍繞團隊和實際工作打造。",
-    "meetTeam": "認識AI團隊",
-    "getInTouch": "聯繫我們"
+    "title1": "你的團隊可以直接聯絡的 AI Agent。",
+    "title2": " 真正的工作會推進。",
+    "sub": "PeopleFree.work 建構能在團隊現有渠道中工作的 AI Agent：郵件、簡訊、WhatsApp、Telegram、Signal、Slack、日曆、文件和業務工具。",
+    "subBold": "它們處理背景繁雜協調，讓人專注於判斷、關係、創造力和策略。",
+    "meetTeam": "查看範例",
+    "getInTouch": "聯絡我們"
   },
   "stats": {
     "availability": "可用性",
     "avgResponse": "平均回應時間",
-    "sickDays": "病假天數。從未。",
+    "sickDays": "人工審核",
     "languages": "每人掌握語言數",
     "current": {
-      "availabilityValue": "全天候",
-      "availabilityLabel": "智慧助手可用",
-      "emailValue": "電子郵件",
-      "emailLabel": "分類與草稿",
-      "workflowsValue": "現有工具",
-      "workflowsLabel": "連線工作流程",
-      "reviewValue": "由您批准",
-      "reviewLabel": "對外傳送的訊息"
+      "availabilityValue": "24/7",
+      "availabilityLabel": "背景協調",
+      "emailValue": "簡訊+郵件",
+      "emailLabel": "原生渠道",
+      "workflowsValue": "人工審核",
+      "workflowsLabel": "關鍵處審批",
+      "reviewValue": "白手套服務",
+      "reviewLabel": "圍繞你的工作設計"
     }
   },
   "perks": {
-    "sectionTitle": "企業選擇我們的理由",
-    "sectionSub": "這些福利好得令人難以置信。但確實如此。",
+    "sectionTitle": "團隊為什麼選擇 PeopleFree.work",
+    "sectionSub": "在團隊已經使用的渠道裡提供具體幫助，並由細緻的人類工程支援。",
     "wage": {
-      "title": "可完成10名員工的工作量",
-      "desc": "一位AI專家就能以穩定的品質與速度，交付整個團隊等級的產出。"
+      "title": "吸收背景忙碌工作",
+      "desc": "Agent 協調跟進、草稿、報告、提醒和異常清單，讓人不再被營運噪音淹沒。"
     },
     "iq": {
-      "title": "世界級專家",
-      "desc": "每位團隊成員都是各自領域的頂尖人才。我們只招最優秀的。"
+      "title": "強大的 AI，經過認真工程化",
+      "desc": "我們把有能力的 AI Agent 與經驗豐富的人類工程師結合，圍繞你的真實工具和限制塑造工作流。"
     },
     "lang": {
-      "title": "每人精通6+種語言",
-      "desc": "每位專家至少流利掌握六種語言。無需翻譯。"
+      "title": "跨渠道、跨語言工作",
+      "desc": "郵件、簡訊、WhatsApp、Telegram、Signal、Slack、Teams、文件和多語言工作可以成為同一層營運系統。"
     },
     "balance": {
-      "title": "無需工作生活平衡",
-      "desc": "我們的員工工作之外沒有生活。他們也不想要。他們非常敬業。"
+      "title": "人專注在人真正重要的地方",
+      "desc": "團隊保留判斷、關係、品味、創造力和策略，Agent 負責協調與準備。"
     },
     "benefits": {
-      "title": "從不生病",
-      "desc": "始終穩定在線，沒有病假，也不會因身體狀態中斷工作。"
+      "title": "始終關注背景",
+      "desc": "Agent 可以監控批准的信箱、日曆、報告和共享資料夾，讓安靜的問題及早浮現。"
     },
     "overtime": {
-      "title": "無加班費",
-      "desc": "他們全年無休以相同費率工作。勞動法似乎不適用。"
+      "title": "跟進不再滑落",
+      "desc": "承諾回覆、缺失文件、逾期發票和停住的審批會保持可見，直到由人關閉循環。"
     },
     "own": {
-      "title": "風雨同舟，始終為你撐腰",
-      "desc": "你的專屬AI隊友會長期陪伴業務，持續學習你的流程，每天穩定支援團隊。"
+      "title": "圍繞你的營運構建",
+      "desc": "專屬 AI 隊友會隨著時間學習你的工作流、審核規則、語氣、來源系統和升級邊界。"
     },
     "ip": {
-      "title": "100%智慧財產權",
-      "desc": "AI產出的每份文件、策略、設計和創意作品完全歸你所有。無共享權利，無授權費用，無附加條款。"
+      "title": "你的工作仍然屬於你",
+      "desc": "為你的業務產出的文件、策略、設計、報告和創意工作，在約定範圍內歸你所有。"
     }
   },
   "dailyLayer": {
@@ -116,15 +116,15 @@
     }
   },
   "team": {
-    "sectionTitle": "認識我們的AI專家",
-    "sectionSub": "十位專屬AI智能體。隨時待命。完美得令人起疑。",
+    "sectionTitle": "認識這些 Agent",
+    "sectionSub": "為特定流程設計的專屬 AI Agent，並受你的審核規則監督。",
     "showMore": "顯示更多專家 ↓",
     "available": "可用",
     "response": "回應：",
     "members": {
       "olivia": {
         "title": "創意總監（AI智能體）",
-        "bio": "一位AI智能體，設計品牌策略、撰寫文案、創作高轉化內容。從未經歷過創意枯竭。她甚至不知道那是什麼。",
+        "bio": "一位 AI Agent，準備品牌策略、文案和活動草稿，讓創意人員把更多時間放在品味、方向和原創想法上。",
         "skills": [
           "品牌策略",
           "文案撰寫",
@@ -134,7 +134,7 @@
       },
       "devon": {
         "title": "資深軟體開發工程師（AI智能體）",
-        "bio": "一位AI智能體，建構全端應用、審查程式碼、凌晨三點部署上線毫無怨言。產出的乾淨程式碼比你整個工程團隊加起來還多。產出的Bug數量：零。據稱。",
+        "bio": "一位 AI Agent，審查 pull request、彙總 CI 上下文、起草發布說明，並準備部署清單給工程師批准。",
         "skills": [
           "全端開發",
           "程式碼審查",
@@ -144,7 +144,7 @@
       },
       "sarah": {
         "title": "行政助理（AI智能體）",
-        "bio": "一位AI智能體，管理行程、分類郵件、準備會議，讓你不錯過任何事。從未錯過截止日期。真的從未。",
+        "bio": "一位 AI Agent，管理日曆、分流郵件、準備會議簡報，並讓下一步決策保持可見。",
         "skills": [
           "行程管理",
           "郵件分類",
@@ -154,7 +154,7 @@
       },
       "marcus": {
         "title": "法務營運專家（AI智能體）",
-        "bio": "一位AI智能體，追蹤案件、產生帳單、確保每個截止日期都在你的視野內。從未錯過任何一個提交截止日期。一次也沒有。",
+        "bio": "一位 AI Agent，追蹤案件、準備計費紀錄、關注截止日期，並起草待審核的法律營運工作。",
         "skills": [
           "案件追蹤",
           "帳單產生",
@@ -164,7 +164,7 @@
       },
       "priya": {
         "title": "房地產協調員（AI智能體）",
-        "bio": "一位AI智能體，管理房源、跟進客戶、按需提供市場洞察。工作之外零嗜好。完全滿足。",
+        "bio": "一位 AI Agent，連接房源細節、簡訊、郵件歷史、預約和客戶跟進，讓房地產團隊持續維護關係。",
         "skills": [
           "房源管理",
           "客戶跟進",
@@ -174,7 +174,7 @@
       },
       "james": {
         "title": "營運經理（AI智能體）",
-        "bio": "一位AI智能體，自動化工作流、確定任務優先順序、產生報告。從未抱怨過工作量。也從未抱怨過任何事。",
+        "bio": "一位 AI Agent，把分散的營運信號整理成任務清單、報告和跟進草稿，供管理者行動。",
         "skills": [
           "工作流自動化",
           "任務優先排序",
@@ -184,7 +184,7 @@
       },
       "sofia": {
         "title": "行銷策略師（AI智能體）",
-        "bio": "一位AI智能體，策劃活動、分析數據、優化漏斗。曾將客戶轉換率提升340%。但至今沒請過一天假來慶祝。",
+        "bio": "一位 AI Agent，準備活動計畫、指標摘要和漏斗筆記，讓行銷人員專注於定位和創意判斷。",
         "skills": [
           "活動管理",
           "數據分析",
@@ -194,7 +194,7 @@
       },
       "elena": {
         "title": "記帳員（AI智能體）",
-        "bio": "一位AI智能體，追蹤支出、發送帳單、保持帳目一塵不染。入職以來病假0天、年假0天、咖啡休息0次。",
+        "bio": "一位 AI Agent，準備費用分類、發票跟進和財務報告，留給會計審核。",
         "skills": [
           "費用追蹤",
           "開票",
@@ -204,7 +204,7 @@
       },
       "yuki": {
         "title": "亞太區聯絡官（AI智能體）",
-        "bio": "一位AI智能體，溝通橫跨整個東亞。早上9點用中文起草郵件，中午用日語接電話，下午5點用韓語達成交易。每天如此。",
+        "bio": "一位 AI Agent，協助跨境溝通，起草多語言更新，並保持區域背景有序。",
         "skills": [
           "跨境溝通",
           "翻譯",
@@ -214,7 +214,7 @@
       },
       "aisha": {
         "title": "客戶關係經理（AI智能體）",
-        "bio": "一位AI智能體，負責新客戶入職並保持高滿意度。完美記住每位客戶的姓名、偏好和歷史。沒有任何個人生活可言。",
+        "bio": "一位 AI Agent，準備入職說明、客戶跟進和滿意度摘要，讓客戶團隊專注於關係。",
         "skills": [
           "客戶入職",
           "溝通",
@@ -225,7 +225,7 @@
     },
     "search": {
       "placeholder": "搜尋你需要的技能...",
-      "reveal": "找不到你要的？我們可以打造具備符合你需求的個性、專業知識和經驗的客製化AI代理。你的完美人選還不存在，但我們可以創造他們。",
+      "reveal": "沒有找到需要的流程？我們會圍繞你的工具、溝通渠道、審批規則和團隊真正想卸下的工作來定制 Agent。",
       "cta": "聊聊看 →",
       "emailSubject": "客製化AI代理諮詢",
       "emailBody": "您好 PeopleFreeWork 團隊，\n\n我正在尋找一個能夠協助以下方面的AI代理：\n\n[請描述您需要的角色、任務或技能]"
@@ -244,7 +244,7 @@
     },
     "step3": {
       "title": "工作自動完成",
-      "desc": "全天候完成任務。無人員流失，無糾紛，永遠不會有請假申請。"
+      "desc": "告訴我們每天最耗時的事項。我們會定義第一個有用流程和對應人工審核規則。"
     }
   },
   "pricing": {
@@ -295,14 +295,14 @@
     }
   },
   "cta": {
-    "title": "準備好讓助手開始工作了嗎？",
-    "sub": "告訴我們每天最耗時的工作，我們會確定實用的第一項流程。",
+    "title": "準備好給 Agent 發訊息並拿回完成的工作了嗎？",
+    "sub": "告訴我們每天最耗時的事項。我們會定義第一個有用流程和對應人工審核規則。",
     "button": "開始招募 →"
   },
   "footer": {
     "copy": "© 2025 PeopleFree Work. 保留所有權利。",
-    "easter1": "本公司的營運中未僱用任何人類。*",
-    "easter2": "*好吧，有一個。但他也在努力取代自己。"
+    "easter1": "由人類建構，由 Agent 驅動。",
+    "easter2": "好的工作，是讓兩者各在其位。"
   },
   "examples": {
     "sectionTitle": "看看他們能做什麼",
@@ -420,24 +420,24 @@
   "industries": {
     "navTitle": "行業方案",
     "common": {
-      "seeSolutions": "了解解決方案",
+      "seeSolutions": "查看流程",
       "realExampleLabel": "實際案例：",
       "workflow": {
-        "kicker": "為您的業務而建",
-        "title": "用您的工具，處理您的工作，由您做決定",
-        "sub": "連線經過批准的資訊來源，準備有用的工作成果，最終決定仍由您的團隊作出。",
+        "kicker": "為你的渠道而建",
+        "title": "你的工具，你的工作，你的決策",
+        "sub": "Agent 在團隊已經溝通的地方工作，準備有用產出，並把最終決策留給合適的人。",
         "items": [
           {
-            "title": "連線重要資訊",
-            "desc": "從團隊已有的郵箱、日曆、文件和訊息渠道開始，許可權只覆蓋約定的工作。"
+            "title": "連接日常渠道",
+            "desc": "從已批准的信箱、日曆、文件、簡訊、WhatsApp、Telegram、Signal、Slack、Teams 和業務系統開始。"
           },
           {
-            "title": "準備好待辦工作",
-            "desc": "助手彙總背景、指出需要關注的事項，並準備草稿、報告或跟進清單。"
+            "title": "準備工作",
+            "desc": "Agent 彙總上下文，標出重點，並準備草稿、報告、提醒或跟進清單。"
           },
           {
-            "title": "保持掌控",
-            "desc": "團隊稽核對外訊息並糾正助手。第一項工作可靠後，再逐步擴充套件流程。"
+            "title": "保持控制",
+            "desc": "人來審核外部訊息、糾正 Agent，並決定何時擴展流程。"
           }
         ]
       }
@@ -445,8 +445,8 @@
     "legal": {
       "slug": "legal",
       "icon": "⚖️",
-      "heroTitle": "律所AI方案",
-      "heroSub": "你的全天候助理律師。口述計費、追蹤截止日期、研究判例法、起草備忘錄，讓你專注於贏得案件。",
+      "heroTitle": "律師事務所 AI 營運",
+      "heroSub": "法律營運 Agent 將語音、郵件、日曆和文件變成計費草稿、期限檢查、研究包和待審核回覆。",
       "solutions": {
         "title": "AI如何解決",
         "items": [
@@ -501,8 +501,78 @@
       },
       "cta": {
         "title": "準備好奪回你的計費時間了嗎？",
-        "sub": "你的AI助理律師隨時待命。無PTO申請，無病假，無任何麻煩。",
+        "sub": "你的法律 Agent 準備工作；律師保留審核、保密和專業判斷。",
         "button": "獲取法律AI →"
+      },
+      "examples": {
+        "title": "自然的法律工作流",
+        "items": [
+          {
+            "title": "語音備忘轉為計費紀錄",
+            "desc": "律師庭後發一段語音，不必晚上再打開計費系統。",
+            "real": "Agent 轉寫內容，按案件建議計費紀錄，並把需要法律判斷的部分留給律師審核後再進入客戶紀錄。"
+          },
+          {
+            "title": "帶上下文的客戶郵件分流",
+            "desc": "緊急郵件、文件請求和僅供參考的執行緒分散在多個信箱。",
+            "real": "Agent 標出需要律師處理的事項，在郵件中起草常規回覆，並附上原執行緒和來源文件。"
+          },
+          {
+            "title": "透過日常渠道發送期限摘要",
+            "desc": "開庭日期、時效提醒和客戶承諾常散落在郵件、日曆和共享資料夾裡。",
+            "real": "Agent 透過 Signal 或郵件發送晨間摘要，列出期限、假設和需要人工法律判斷的事項。"
+          }
+        ]
+      },
+      "directAccess": {
+        "kicker": "从你已经使用的工具里提问",
+        "title": "法律 Agent 可透過郵件、Signal 和語音備忘錄聯絡",
+        "sub": "從可信渠道傳送一句指令。Agent 會準備計費紀錄、期限檢查、研究材料和回覆草稿，在真人批准前不會傳送給客戶。",
+        "note": "常見渠道包括郵件、Signal、Telegram、語音備忘錄、日曆和文件資料夾，並按律所保密規則配置。",
+        "agentName": "法律營運 Agent",
+        "status": "等待已審核指令",
+        "liveLabel": "先审核",
+        "windowLabel": "法律 Agent 聊天示例",
+        "channels": [
+          {
+            "initial": "EM",
+            "name": "郵件"
+          },
+          {
+            "initial": "SG",
+            "name": "Signal"
+          },
+          {
+            "initial": "VM",
+            "name": "語音備忘錄"
+          },
+          {
+            "initial": "CL",
+            "name": "日曆"
+          }
+        ],
+        "messages": [
+          {
+            "from": "user",
+            "sender": "合夥人",
+            "text": "我從法院發了語音備忘錄。把它轉成計費條目，並標出需要法律判斷的地方。"
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "完成。我按事項起草了 6 條紀錄，附上轉寫，並把兩個面向客戶的點標記給你審核。"
+          },
+          {
+            "from": "user",
+            "sender": "助理",
+            "text": "今天客戶郵件裡有什麼緊急事項嗎？"
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "有三件需要關注。我起草了兩封常規回覆，並升級一個和解問題，因為它需要律師判斷。"
+          }
+        ]
       }
     },
     "manufacturing": {
@@ -565,7 +635,7 @@
         ]
       },
       "solutions": {
-        "title": "What the manufacturing agent can own",
+        "title": "製造 Agent 可以承擔的工作",
         "items": [
           {
             "icon": "📬",
@@ -636,37 +706,37 @@
         ]
       },
       "examples": {
-        "title": "The work it can take off your team",
+        "title": "Agent 可以從背景接走的工作",
         "items": [
           {
-            "title": "Executive request answered with a report pack",
-            "desc": "A partner asks for a customer/product comparison over the last 12 months. Normally that means pulling ERP exports, cleaning rows, building a spreadsheet, writing a summary, and sending attachments.",
-            "real": "The agent generates an executive summary, an interactive dashboard, supporting CSVs, and a source-aware narrative. It can reply in-thread with the report link and attachments after approval or under agreed operating rules."
+            "title": "高管請求變成報告包",
+            "desc": "合作方想看過去 12 個月的客戶和產品對比。通常需要匯出 ERP、清洗列、製作表格、寫摘要並傳送附件。",
+            "real": "Agent 生成高管摘要、互動式儀表板、支持 CSV 和帶來源的說明，並可在批准後或按既定規則把連結與附件發回原串。"
           },
           {
-            "title": "Morning briefing that replaces inbox digging",
-            "desc": "A manufacturing leader starts the day with unread emails, meetings, shipment issues, sales questions, collection risks, and inventory warnings scattered across systems.",
-            "real": "The agent sends a concise briefing: what changed, what is urgent, who is waiting, which accounts need attention, which inventory items are critical, and which reports are ready to inspect."
+            "title": "晨間簡報，不必翻找每個收件匣",
+            "desc": "製造負責人一天開始時，未讀郵件、會議、出貨問題、銷售問題、回款風險和庫存警報散在各處。",
+            "real": "Agent 傳送簡明簡報：什麼變了、什麼緊急、誰在等待、哪些客戶需要關注、哪些庫存關鍵、哪些報告可檢查。"
           },
           {
-            "title": "Receivables report that runs every week",
-            "desc": "A finance team spends hours sorting aging buckets, checking last contact, asking sales for context, and preparing the same report again next Monday.",
-            "real": "The agent produces the AR view on schedule, highlights accounts that crossed thresholds, adds last-touch context where available, and keeps the exportable data beside the written summary."
+            "title": "每週自動運行的應收報告",
+            "desc": "財務團隊花數小時整理帳齡、查最後聯絡、向銷售要背景，並在下週一重複同樣工作。",
+            "real": "Agent 按計畫生成 AR 視圖，突出跨過閾值的帳戶，添加可用的最近接觸背景，並把可匯出資料放在摘要旁。"
           },
           {
-            "title": "Customer risk and concentration surfaced early",
-            "desc": "A few large accounts can quietly drive most revenue, backlog, or receivables exposure. When one slows down, the signal is often scattered across order history and email.",
-            "real": "The agent tracks concentration and movement over time, flags unusual drops or spikes, and prepares customer-specific summaries that leaders can use for sales, investor, or partner conversations."
+            "title": "客戶風險和集中度及早浮現",
+            "desc": "少數大客戶可能悄悄承擔大部分收入、積壓或應收風險。當某個客戶放慢，信號常散在訂單歷史和郵件中。",
+            "real": "Agent 追蹤集中度和變化，標出異常下滑或上升，並準備客戶級摘要供銷售、投資者或合作夥伴溝通。"
           },
           {
-            "title": "Inventory pressure made visible",
-            "desc": "Shortages, slow movers, and critical counts are easy to miss when reports live in ERP screens that only a few people know how to read.",
-            "real": "The agent converts those signals into a ranked operations list: critical stock, likely shortages, stale inventory, shipment blockers, and recommended follow-up owners."
+            "title": "庫存壓力變得可見",
+            "desc": "短缺、慢動品和關鍵計數很容易被錯過，特別是報告藏在少數人才會看的 ERP 頁面裡。",
+            "real": "Agent 把這些信號轉成排序後的營運清單：關鍵庫存、可能短缺、滯銷庫存、出貨阻塞和建議跟進負責人。"
           },
           {
-            "title": "Report delivery hardened",
-            "desc": "A dashboard link is only useful if it opens, renders, and includes the right files when the executive clicks it.",
-            "real": "The agent checks the report link, browser rendering, attachments, and expiry before delivery. If something fails, it fixes the delivery path before claiming the report is ready."
+            "title": "報告交付更可靠",
+            "desc": "儀表板連結只有在能打開、能渲染並包含正確文件時才有價值。",
+            "real": "Agent 在交付前檢查連結、瀏覽器渲染、附件和過期時間。若失敗，會先修復交付路徑再聲明報告已準備好。"
           }
         ]
       },
@@ -869,24 +939,24 @@
       },
       "controls": {
         "kicker": "Built for real operations",
-        "title": "Human judgment stays in charge",
+        "title": "人的判斷仍然主導",
         "sub": "Manufacturing teams need useful automation, not risky autonomy. The agent can be configured around your approval rules, data access boundaries, and delivery standards.",
         "items": [
           {
-            "title": "Approval gates for outbound communication",
-            "desc": "Use review-first mode for new contacts, sensitive replies, pricing conversations, or anything that should remain human-approved."
+            "title": "外部溝通的審批關口",
+            "desc": "對新聯絡人、敏感回覆、價格討論，或任何應保持人工批准的內容，使用先審核模式。"
           },
           {
-            "title": "Source-aware reporting",
-            "desc": "Reports can include the source tables, time window, filters, and business rules used so leaders know where numbers came from."
+            "title": "帶來源意識的報告",
+            "desc": "報告可包含來源表、時間窗口、篩選條件和業務規則，讓負責人知道數字來自哪裡。"
           },
           {
-            "title": "No guessing when data is incomplete",
-            "desc": "If a report has missing inputs, stale exports, conflicting records, or unavailable systems, the agent says so and marks the result as partial."
+            "title": "資料不完整時不猜測",
+            "desc": "若輸入缺失、匯出陳舊、紀錄衝突或系統不可用，Agent 會明確說明並把結果標為部分完成。"
           },
           {
-            "title": "Secure deployment posture",
-            "desc": "Access is scoped to approved systems, delivery links can expire, and operational checks watch for public exposure, stale credentials, and failed backups."
+            "title": "安全的部署姿態",
+            "desc": "訪問限制在批准系統內，交付連結可過期，運行檢查會監控公開暴露、過期憑據和備份失敗。"
           }
         ]
       },
@@ -939,70 +1009,60 @@
         "button": "Build Your Manufacturing Agent →"
       },
       "directAccess": {
-        "kicker": "Always reachable",
-        "title": "Talk to the agent directly, anytime",
-        "sub": "Leaders and operators do not need to open a special dashboard to use the agent. They can ask questions, request a report, approve a draft, or check an exception from the messaging tools they already use.",
-        "note": "Channels can include Telegram, WhatsApp, Signal, email, Slack, Microsoft Teams, or a private web chat, depending on your security policy and approval rules.",
-        "agentName": "Manufacturing Ops Agent",
-        "status": "Online across approved channels",
-        "liveLabel": "Live",
-        "windowLabel": "Example manufacturing agent chat",
+        "kicker": "从车间、办公室或路上直接提问",
+        "title": "透過 Teams、WhatsApp、郵件或 Telegram 與製造 Agent 對話",
+        "sub": "管理者可以請求報告、批准草稿、檢查異常，而不用打開新儀表板。Agent 會把 ERP、收件匣、出貨和應收款上下文帶回問題開始的渠道。",
+        "note": "渠道可包括 Telegram、WhatsApp、Signal、郵件、Slack、Microsoft Teams 或私有網頁聊天，按你的安全政策和審批規則配置。",
+        "agentName": "製造營運 Agent",
+        "status": "在已批准渠道在線",
+        "liveLabel": "在線",
+        "windowLabel": "制造 Agent 聊天示例",
         "channels": [
           {
-            "initial": "TG",
-            "name": "Telegram"
+            "initial": "TM",
+            "name": "Teams"
           },
           {
             "initial": "WA",
             "name": "WhatsApp"
           },
           {
-            "initial": "SG",
-            "name": "Signal"
-          },
-          {
             "initial": "EM",
-            "name": "Email"
+            "name": "郵件"
           },
           {
-            "initial": "TM",
-            "name": "Teams"
+            "initial": "TG",
+            "name": "Telegram"
           },
           {
             "initial": "SL",
             "name": "Slack"
+          },
+          {
+            "initial": "SG",
+            "name": "Signal"
           }
         ],
         "messages": [
           {
             "from": "user",
             "sender": "COO",
-            "text": "What changed overnight? Give me the short version before the production meeting."
+            "text": "昨晚有什麼變化？生產會前給我簡短版本。"
           },
           {
             "from": "agent",
             "sender": "Agent",
-            "text": "Three items need attention: two priority customer emails, one shipment now at risk for Friday, and 11 inventory items below reorder threshold. I prepared the morning briefing and marked assumptions where ERP data was stale."
+            "text": "三件事需要關注：兩封優先客戶郵件、一個週五可能受影響的出貨，以及 11 個低於補貨閾值的庫存項目。我已標出 ERP 資料陳舊處的假設。"
           },
           {
             "from": "user",
-            "sender": "Sales leader",
-            "text": "Build a 12-month customer and product comparison for the top accounts. Include CSVs and a shareable dashboard."
+            "sender": "銷售負責人",
+            "text": "為重點客戶做一份 12 個月客戶和產品對比，包含 CSV 和可分享儀表板。"
           },
           {
             "from": "agent",
             "sender": "Agent",
-            "text": "Done. I generated the dashboard, attached the CSV packet, checked the link in a browser, and added a plain-English summary with pricing movement, concentration risk, and follow-up questions."
-          },
-          {
-            "from": "user",
-            "sender": "Controller",
-            "text": "Which overdue accounts need a human follow-up today?"
-          },
-          {
-            "from": "agent",
-            "sender": "Agent",
-            "text": "I found 9 accounts past threshold. Three are new over 60 days. I drafted review-first collection notes and separated informational threads from messages that need a reply."
+            "text": "已完成。我生成了儀表板，附上 CSV 包，檢查了連結，並起草了可審批的簡明摘要。"
           }
         ]
       }
@@ -1010,7 +1070,7 @@
     "realEstate": {
       "slug": "real-estate",
       "icon": "🏠",
-      "heroTitle": "為房地產業務打造的 AI 運營夥伴",
+      "heroTitle": "房地產團隊 AI 營運",
       "heroSub": "讓經紀公司清楚掌握線索、客戶溝通、預約和跟進。每一條發給客戶的訊息仍由團隊把關。",
       "problems": {
         "title": "資訊為什麼會在渠道之間丟失",
@@ -1049,19 +1109,19 @@
         "title": "看看辦公室的一天如何運作",
         "items": [
           {
-            "title": "晨間辦公室簡報",
-            "desc": "團隊無需逐一檢視郵箱和日曆，就能瞭解新線索、預約變動及待回覆訊息。",
-            "real": "示例流程：每項內容都連結到原始對話，負責人可以核對背景。"
+            "title": "多則簡訊一起分流",
+            "desc": "買家、賣家和另一位經紀人幾乎同時發來訊息。",
+            "real": "Agent 將每則簡訊連接到紀錄，起草安全回覆，並對 offer 請求審批。"
           },
           {
-            "title": "結合郵件歷史的簡訊回覆",
-            "desc": "潛在客戶在郵件交流後回覆經紀公司的號碼。助手找到相關背景並準備回覆。",
-            "real": "示例流程：負責人稽核草稿後親自傳送。簡訊記錄取決於接入的號碼和運營商。"
+            "title": "帶郵件歷史的簡訊回覆",
+            "desc": "潛在客戶在郵件交流後回覆辦公室號碼。",
+            "real": "Agent 找到上下文，準備回覆，並把發送留給負責人。"
           },
           {
-            "title": "可追蹤的工作交接",
-            "desc": "經紀人答應買家提供文件，助理負責安排帶看，兩項任務都進入辦公室行動清單。",
-            "real": "示例流程：負責人、截止時間和來源記錄始終關聯，直到工作完成。"
+            "title": "交接保持可見",
+            "desc": "經紀人承諾給買家文件，同時助理處理看屋時間。",
+            "real": "負責人、到期時間和來源紀錄會保持在一起，直到工作完成。"
           }
         ]
       },
@@ -1127,12 +1187,62 @@
             "desc": "整理房源資料、客戶更新和日常辦公室工作所需的資訊。"
           }
         ]
+      },
+      "directAccess": {
+        "kicker": "簡訊變成受控行動清單",
+        "title": "房地產 Agent 可以同時分流多條進來的簡訊",
+        "sub": "當買家、賣家、經紀人和團隊同時發來訊息時，Agent 會把每條訊息關聯到正確的郵件串、日曆事件和客戶紀錄，然後起草回覆供審核。",
+        "note": "SMS/MMS、WhatsApp、郵件和日曆會圍繞你批准的號碼、電信商和經紀公司審核規則配置。",
+        "agentName": "房地產營運 Agent",
+        "status": "監控已批准簡訊和郵件",
+        "liveLabel": "先审核",
+        "windowLabel": "房地产短信分流示例",
+        "channels": [
+          {
+            "initial": "SMS",
+            "name": "簡訊"
+          },
+          {
+            "initial": "WA",
+            "name": "WhatsApp"
+          },
+          {
+            "initial": "EM",
+            "name": "郵件"
+          },
+          {
+            "initial": "CL",
+            "name": "日曆"
+          }
+        ],
+        "messages": [
+          {
+            "from": "user",
+            "sender": "買家簡訊",
+            "text": "我們能把 4:30 的看屋改到 5:15 嗎？車庫有供暖嗎？"
+          },
+          {
+            "from": "user",
+            "sender": "賣家簡訊",
+            "text": "昨天看屋有什麼回饋嗎？"
+          },
+          {
+            "from": "user",
+            "sender": "經紀人簡訊",
+            "text": "報價包剛到了。誰先審核？"
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "我把三條訊息都匹配到對應紀錄。已起草買家改期回覆，在房源文件中找到車庫說明，準備賣家更新，並在傳送前把報價包標記給 broker 審批。"
+          }
+        ]
       }
     },
     "content": {
       "slug": "content",
       "icon": "✍️",
-      "heroTitle": "內容創作AI方案",
+      "heroTitle": "內容團隊 AI 營運",
       "heroSub": "永不倦怠的創意團隊。SEO優化寫作、內容日曆管理和規模化多平台發布。",
       "solutions": {
         "title": "AI如何解決",
@@ -1190,12 +1300,82 @@
         "title": "準備好讓內容規模化了嗎？",
         "sub": "你的AI內容團隊全天候寫作、發布和優化。創意倦怠不在他們的詞典裡。",
         "button": "獲取內容AI →"
+      },
+      "examples": {
+        "title": "適合團隊的內容工作流",
+        "items": [
+          {
+            "title": "WhatsApp 想法變成可發布簡報",
+            "desc": "創辦人在會議間隙發來一個粗略活動想法。",
+            "real": "Agent 將其整理成內容簡報，檢查日曆，起草待審核內容，並把最終語氣判斷留給團隊。"
+          },
+          {
+            "title": "會主動跟進的編輯日曆",
+            "desc": "草稿、審批、圖片和發布日期分散在不同工具。",
+            "real": "Agent 監控郵件、CMS 和日曆，當草稿、引用或審批阻塞發布時提醒對應負責人。"
+          },
+          {
+            "title": "寫作前的研究包",
+            "desc": "作者需要來源、案例和受眾背景，不能從空白頁開始。",
+            "real": "Agent 收集連結，摘要主張，並準備經過核查的大綱。"
+          }
+        ]
+      },
+      "directAccess": {
+        "kicker": "創意工作留在流程裡",
+        "title": "透過 WhatsApp、郵件或日曆給內容 Agent 發訊息",
+        "sub": "從團隊每天查看的工具裡丟一個想法、請求 brief、批准草稿，或詢問發布被什麼卡住。",
+        "note": "渠道可包括 WhatsApp、Telegram、郵件、CMS 留言、共享文件、日曆或 Slack。",
+        "agentName": "內容營運 Agent",
+        "status": "起草待审核内容",
+        "liveLabel": "草稿",
+        "windowLabel": "内容 Agent 聊天示例",
+        "channels": [
+          {
+            "initial": "WA",
+            "name": "WhatsApp"
+          },
+          {
+            "initial": "EM",
+            "name": "郵件"
+          },
+          {
+            "initial": "CMS",
+            "name": "CMS"
+          },
+          {
+            "initial": "CL",
+            "name": "日曆"
+          }
+        ],
+        "messages": [
+          {
+            "from": "user",
+            "sender": "創辦人",
+            "text": "把我的語音備忘錄變成發布帖，並檢查週四是否和 newsletter 衝突。"
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "我準備了帖子，發現週四與 newsletter 衝突，建議週五，並為聲明添加了三個來源連結。"
+          },
+          {
+            "from": "user",
+            "sender": "編輯",
+            "text": "下週文章是誰卡住了？"
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "兩篇草稿需要引用批准，一張圖片缺少 alt text，一個主題需要真人決定語氣。"
+          }
+        ]
       }
     },
     "software": {
       "slug": "software",
       "icon": "💻",
-      "heroTitle": "軟體工程AI方案",
+      "heroTitle": "軟體團隊 AI 營運",
       "heroSub": "真正喜歡值班的資深工程師。程式碼審查、自癒式基礎設施監控和永不休息的部署自動化。",
       "solutions": {
         "title": "AI如何解決",
@@ -1251,14 +1431,84 @@
       },
       "cta": {
         "title": "準備好更快交付、安心睡覺了嗎？",
-        "sub": "你的AI工程師處理值班、審查PR和監控基礎設施。無倦怠，無PTO申請，凌晨3點也無抱怨。",
+        "sub": "工程 Agent 準備上下文、清單和草稿，團隊保留重要決策。",
         "button": "獲取工程AI →"
+      },
+      "examples": {
+        "title": "人保持主導的工程工作流",
+        "items": [
+          {
+            "title": "Slack 警示到修復計畫",
+            "desc": "事故從 Slack 開始，但日誌、儀表板和 GitHub issue 在別處。",
+            "real": "Agent 彙整錯誤鏈路，連結可能相關的提交，起草狀態更新，並在對客戶發布前請工程師確認。"
+          },
+          {
+            "title": "不再到處找上下文的 PR 審查",
+            "desc": "審查者常要重建架構、測試失敗和發布風險。",
+            "real": "Agent 閱讀 PR、CI 和相關 issue，準備審查包和建議評論供工程師批准。"
+          },
+          {
+            "title": "持續推進的發布清單",
+            "desc": "發布依賴 CI、遷移、文件、回滾說明和通知。",
+            "real": "Agent 在 Slack 和 GitHub 中追蹤步驟，起草發布說明，只升級需要人判斷的決策。"
+          }
+        ]
+      },
+      "directAccess": {
+        "kicker": "从警报到行动",
+        "title": "透過 Slack、GitHub、郵件或值班警報聯絡工程 Agent",
+        "sub": "Agent 會彙總日誌、CI、PR 上下文和發布狀態，然後起草更新或清單；工程師保留架構和生產判斷。",
+        "note": "渠道可包括 Slack、GitHub、郵件、PagerDuty 類警報、Linear、Jira 或私有網頁聊天。",
+        "agentName": "工程營運 Agent",
+        "status": "監控已批准工程系統",
+        "liveLabel": "值班",
+        "windowLabel": "工程 Agent 聊天示例",
+        "channels": [
+          {
+            "initial": "SL",
+            "name": "Slack"
+          },
+          {
+            "initial": "GH",
+            "name": "GitHub"
+          },
+          {
+            "initial": "EM",
+            "name": "郵件"
+          },
+          {
+            "initial": "PG",
+            "name": "Pager"
+          }
+        ],
+        "messages": [
+          {
+            "from": "user",
+            "sender": "工程負責人",
+            "text": "為什麼部署後 checkout 警報上漲？"
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "我把上漲關聯到 release 2026.10.11，找到兩個失敗支付日誌，並起草了回滾清單。發布狀態前我會等待你的批准。"
+          },
+          {
+            "from": "user",
+            "sender": "PM",
+            "text": "今天可以發這個 PR 嗎？"
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "CI 通過，文件已更新，但遷移回滾說明缺失。我已起草給工程審核。"
+          }
+        ]
       }
     },
     "accounting": {
       "slug": "accounting",
       "icon": "📊",
-      "heroTitle": "會計AI方案",
+      "heroTitle": "會計團隊 AI 營運",
       "heroSub": "真正享受報稅季的記帳員。企業申報、費用分類、發票管理和滴水不漏的截止日期追蹤。",
       "solutions": {
         "title": "AI如何解決",
@@ -1316,36 +1566,175 @@
         "title": "準備好無壓力的報稅季了嗎？",
         "sub": "你的AI記帳員追蹤每一分錢，提交每一份申報，從不錯過任何截止日期。報稅季不過是又一個星期二。",
         "button": "獲取會計AI →"
+      },
+      "examples": {
+        "title": "保持待審核狀態的會計工作流",
+        "items": [
+          {
+            "title": "簡訊收據到分類草稿",
+            "desc": "客戶發來收據照片，或從郵件轉發供應商發票。",
+            "real": "Agent 提取細節，建議科目，檢查規則，並把分錄留待會計批准。"
+          },
+          {
+            "title": "有分寸的發票跟進",
+            "desc": "逾期帳款要根據關係、歷史和金額調整語氣。",
+            "real": "Agent 帶上最近付款背景起草郵件，並在敏感內容發送前請求批准。"
+          },
+          {
+            "title": "跨工具期限監控",
+            "desc": "稅務、薪資、申報和公司義務散落在日曆、表格和會計軟體中。",
+            "real": "Agent 透過郵件或簡訊提醒哪些已準備好、哪些缺失、哪些需要會計判斷。"
+          }
+        ]
+      },
+      "directAccess": {
+        "kicker": "账务贴着对话走",
+        "title": "透過郵件或簡訊傳送收據、發票問題和期限檢查",
+        "sub": "會計 Agent 準備對帳、發票跟進和申報清單，並在需要判斷時請求會計批准。",
+        "note": "渠道可包括郵件、簡訊、WhatsApp、共享資料夾、Wave、QuickBooks、Xero 和試算表。",
+        "agentName": "會計營運 Agent",
+        "status": "準備待審核工作",
+        "liveLabel": "先审核",
+        "windowLabel": "会计 Agent 聊天示例",
+        "channels": [
+          {
+            "initial": "EM",
+            "name": "郵件"
+          },
+          {
+            "initial": "SMS",
+            "name": "簡訊"
+          },
+          {
+            "initial": "WA",
+            "name": "WhatsApp"
+          },
+          {
+            "initial": "QB",
+            "name": "帳本"
+          }
+        ],
+        "messages": [
+          {
+            "from": "user",
+            "sender": "老闆簡訊",
+            "text": "我剛發了兩張收據和一張供應商發票。趁我忘記前把它們放到有用的位置。"
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "我提取了明細，建議分類，把一個供應商匹配到未結帳單，並把三條紀錄都留給會計批准。"
+          },
+          {
+            "from": "user",
+            "sender": "財務負責人",
+            "text": "哪些逾期發票今天需要真人跟進？"
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "四張超過閾值。我根據最近付款背景起草了跟進郵件，並把敏感帳戶留給你審核。"
+          }
+        ]
       }
     }
   },
   "industriesShowcase": {
     "sectionTitle": "我們服務的產業",
-    "sectionSub": "每個產業都有痛點。我們打造真正理解你需求的AI員工。",
+    "sectionSub": "每個產業都有不同的溝通混亂。我們建構能在其中工作的 Agent。",
     "learnMore": "了解更多",
     "legal": {
       "title": "法律",
-      "desc": "語音計費、案件追蹤、法律研究和文件處理。永不休息的律師助理。"
+      "desc": "透過郵件、Signal 和律所工具處理語音計費、期限、郵件分流和研究包。"
     },
     "manufacturing": {
       "title": "製造業",
-      "desc": "生產監控、供應鏈分析、品質報告和每日營運簡報。工廠經理的得力助手。"
+      "desc": "Teams 或 WhatsApp 問題變成 ERP 報告、出貨提醒和跟進草稿。"
     },
     "realEstate": {
       "title": "房地產",
-      "desc": "把郵件、簡訊、預約和跟進集中檢視，客戶訊息由員工稽核。"
+      "desc": "多則簡訊、郵件、看屋、offer 和跟進形成一個可審核行動清單。"
     },
     "content": {
       "title": "內容創作",
-      "desc": "SEO優化寫作、發布流程、內容日曆和品牌一致性。永不倦怠的創意團隊。"
+      "desc": "WhatsApp 想法、郵件審批、CMS、日曆和研究包進入同一流程。"
     },
     "software": {
       "title": "軟體工程",
-      "desc": "程式碼審查、基礎設施監控、CI/CD自動化和全天候待命。熱愛值班的資深工程師。"
+      "desc": "Slack 警示、GitHub PR、CI、發布和事故更新供工程師審核。"
     },
     "accounting": {
       "title": "會計",
-      "desc": "報稅、記帳、開票和企業合規。真正享受報稅季的會計師。"
+      "desc": "收據、發票、期限和跟進跨郵件、簡訊和會計軟體。"
     }
+  },
+  "homeSpotlight": {
+    "kicker": "房地產範例",
+    "title": "三則簡訊同時進來。Agent 把它們整理成一個可控跟進清單。",
+    "sub": "買家想改看屋時間，賣家要回饋，另一位經紀人發來 offer 包。Agent 將簡訊連接到對應郵件歷史、日曆和房源文件，起草安全回覆，並在需要判斷時請求審批。",
+    "windowLabel": "首頁房地產多簡訊場景",
+    "agentName": "房地產營運 Agent",
+    "status": "監控已批准的簡訊和郵件渠道",
+    "liveLabel": "先審核",
+    "channels": [
+      {
+        "initial": "SMS",
+        "name": "簡訊"
+      },
+      {
+        "initial": "WA",
+        "name": "WhatsApp"
+      },
+      {
+        "initial": "EM",
+        "name": "郵件"
+      },
+      {
+        "initial": "SG",
+        "name": "Signal"
+      }
+    ],
+    "messages": [
+      {
+        "from": "user",
+        "sender": "買家簡訊",
+        "text": "今天看屋能改到 5:15 嗎？車庫有暖氣嗎？"
+      },
+      {
+        "from": "user",
+        "sender": "賣家簡訊",
+        "text": "昨天看屋有什麼回饋？"
+      },
+      {
+        "from": "user",
+        "sender": "經紀人簡訊",
+        "text": "Offer 包剛到了。誰先審核？"
+      },
+      {
+        "from": "agent",
+        "sender": "Agent",
+        "text": "我已把三則訊息匹配到各自紀錄。已起草買家回覆，找到車庫說明，準備賣家更新，並把 offer 包標記為經紀負責人審批後再發送。"
+      }
+    ]
+  },
+  "serviceModel": {
+    "kicker": "高端服務模式",
+    "title": "不是自助儀表板，而是白手套 AI 工程夥伴。",
+    "sub": "PeopleFree.work 將強大的 AI Agent 與經驗豐富的人類工程師結合，學習你的真實流程，連接正確系統，調校審核規則，並持續提升 Agent 能安全完成的工作。",
+    "items": [
+      {
+        "title": "圍繞真實工作設計",
+        "desc": "我們從團隊每天使用的信箱、簡訊、報告、日曆和決策點開始。"
+      },
+      {
+        "title": "工程師持續參與",
+        "desc": "經驗豐富的工程師配置整合、檢查邊界情況，並讓流程成長，而不是讓團隊變成提示詞工程師。"
+      },
+      {
+        "title": "控制權留給人",
+        "desc": "Agent 準備草稿、簡報、報告、跟進和異常清單。團隊保留信任、關係、品味和專業判斷。"
+      }
+    ],
+    "note": "目標不是把人從業務中移除，而是讓每個人有更多空間發揮只有他們才有的視角和才能。"
   }
 }

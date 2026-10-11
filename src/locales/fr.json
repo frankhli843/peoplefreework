@@ -2,68 +2,68 @@
   "nav": {
     "team": "Équipe",
     "whyUs": "Pourquoi nous",
-    "dailyLayer": "Au quotidien",
+    "dailyLayer": "Comment ça marche",
     "pricing": "Tarifs",
-    "hireTalent": "Recruter →"
+    "hireTalent": "Lancer un pilote →"
   },
   "hero": {
-    "title1": "Talents IA exceptionnels.",
-    "title2": " Zéro humanité.",
-    "sub": "Votre partenaire IA relie les e-mails, calendriers, documents, rapports et messages autorisés déjà utilisés par votre équipe. Il prépare un travail utile pour validation.",
-    "subBold": "Adapté à votre équipe et à votre travail réel.",
-    "meetTeam": "Découvrir l'équipe IA",
-    "getInTouch": "Nous contacter"
+    "title1": "Des agents IA que votre équipe peut contacter.",
+    "title2": " Le vrai travail avance.",
+    "sub": "PeopleFree.work crée des agents IA qui travaillent dans les canaux déjà utilisés par votre équipe : email, SMS, WhatsApp, Telegram, Signal, Slack, calendriers, documents et outils métier.",
+    "subBold": "Ils prennent en charge le travail de coordination en arrière-plan pour que chacun se concentre sur le jugement, les relations, la créativité et la stratégie.",
+    "meetTeam": "Voir des exemples",
+    "getInTouch": "Parlons-en"
   },
   "stats": {
     "availability": "Disponibilité",
     "avgResponse": "Temps de réponse moyen",
-    "sickDays": "Jours de maladie. Jamais.",
+    "sickDays": "Revue humaine",
     "languages": "Langues par employé",
     "current": {
-      "availabilityValue": "24 h/24",
-      "availabilityLabel": "Disponibilité de l’agent",
-      "emailValue": "E-mail",
-      "emailLabel": "Tri et brouillons",
-      "workflowsValue": "Vos outils",
-      "workflowsLabel": "Flux connectés",
-      "reviewValue": "Vous validez",
-      "reviewLabel": "Messages sortants"
+      "availabilityValue": "24/7",
+      "availabilityLabel": "Coordination de fond",
+      "emailValue": "SMS + email",
+      "emailLabel": "Canaux natifs",
+      "workflowsValue": "Revue humaine",
+      "workflowsLabel": "Approbation quand il faut",
+      "reviewValue": "Sur mesure",
+      "reviewLabel": "Conçu autour de votre travail"
     }
   },
   "perks": {
-    "sectionTitle": "Pourquoi les entreprises nous choisissent",
-    "sectionSub": "Des avantages qui semblent trop beaux pour être vrais. Et pourtant.",
+    "sectionTitle": "Pourquoi les equipes choisissent PeopleFree.work",
+    "sectionSub": "Une aide concrete dans les canaux que votre equipe utilise deja, soutenue par une ingenierie humaine attentive.",
     "wage": {
-      "title": "Peut Faire le Travail de 10 Employés",
-      "desc": "Un spécialiste IA peut produire le travail d'une équipe entière avec une qualité et une vitesse constantes."
+      "title": "Absorbe le travail de fond",
+      "desc": "Les agents coordonnent relances, brouillons, rapports, rappels et listes d exceptions pour que les personnes ne soient pas noyees dans le bruit operationnel."
     },
     "iq": {
-      "title": "Spécialistes de classe mondiale",
-      "desc": "Chaque membre de l'équipe est le meilleur dans son domaine. Nous ne recrutons que les meilleurs."
+      "title": "IA forte, soigneusement engineerée",
+      "desc": "Nous associons agents IA capables et ingenieurs humains experimentes qui adaptent le workflow a vos outils et contraintes reels."
     },
     "lang": {
-      "title": "6+ langues chacun",
-      "desc": "Chaque spécialiste maîtrise au moins six langues. Pas besoin de traducteurs."
+      "title": "Travaille entre canaux et langues",
+      "desc": "Email, SMS, WhatsApp, Telegram, Signal, Slack, Teams, documents et travail multilingue peuvent faire partie d une meme couche operationnelle."
     },
     "balance": {
-      "title": "Pas besoin d'équilibre vie pro/perso",
-      "desc": "Nos employés n'ont pas de vie en dehors du travail. Ils n'en veulent pas. Ils sont très dévoués."
+      "title": "Les personnes se concentrent la ou elles comptent",
+      "desc": "Votre equipe garde jugement, relations, gout, creativite et strategie pendant que l agent gere coordination et preparation."
     },
     "benefits": {
-      "title": "Ne Tombe Jamais Malade",
-      "desc": "Toujours disponible et constant, sans arrêts maladie ni interruptions."
+      "title": "Toujours attentif en arriere-plan",
+      "desc": "L agent peut surveiller les inboxes, calendriers, rapports et dossiers approuves pour faire remonter les problemes silencieux plus tot."
     },
     "overtime": {
-      "title": "Pas d'heures supplémentaires",
-      "desc": "Ils travaillent 24h/24, 365 jours par an, au même tarif. Le droit du travail ne semble pas s'appliquer."
+      "title": "Les relances ne se perdent plus",
+      "desc": "Reponses promises, documents manquants, factures en retard et validations bloquees restent visibles jusqu a cloture par une personne."
     },
     "own": {
-      "title": "Dans les Bons comme les Mauvais Moments, Ils Sont Là",
-      "desc": "Votre coéquipier IA dédié reste avec votre entreprise sur le long terme, apprend vos processus et soutient votre équipe chaque jour."
+      "title": "Construit autour de votre operation",
+      "desc": "Votre coequipier IA dedie apprend vos workflows, regles de revue, ton, systemes source et limites d escalade au fil du temps."
     },
     "ip": {
-      "title": "100 % de propriété intellectuelle",
-      "desc": "Chaque document, stratégie, design et création produit par votre IA vous appartient entièrement. Pas de droits partagés, pas de frais de licence."
+      "title": "Votre travail reste le votre",
+      "desc": "Documents, strategies, designs, rapports et creations produits pour votre entreprise vous appartiennent selon l engagement convenu."
     }
   },
   "dailyLayer": {
@@ -116,15 +116,15 @@
     }
   },
   "team": {
-    "sectionTitle": "Nos spécialistes IA",
-    "sectionSub": "Dix agents IA dévoués. Toujours disponibles. Étrangement parfaits.",
+    "sectionTitle": "Rencontrez les agents",
+    "sectionSub": "Des agents IA dédiés, conçus pour des workflows précis et encadrés par vos règles de revue.",
     "showMore": "Voir plus de spécialistes ↓",
     "available": "Disponible",
     "response": "Réponse :",
     "members": {
       "olivia": {
         "title": "Directrice créative (Agent IA)",
-        "bio": "Un agent IA qui conçoit des stratégies de marque, rédige des textes et crée du contenu qui convertit. N'a jamais connu le burn-out créatif. Ne sait même pas ce que c'est.",
+        "bio": "Un agent IA qui prepare strategie de marque, textes et brouillons de campagne pour que les creatifs passent plus de temps sur le gout, la direction et les idees originales.",
         "skills": [
           "Stratégie de marque",
           "Rédaction",
@@ -134,7 +134,7 @@
       },
       "devon": {
         "title": "Développeur logiciel senior (Agent IA)",
-        "bio": "Un agent IA qui construit des applications full-stack, revoit les pull requests et déploie en production à 3h du matin sans se plaindre. A produit plus de code propre que toute votre équipe d'ingénieurs réunie. A produit zéro bug. Paraît-il.",
+        "bio": "Un agent IA qui relit les pull requests, rassemble le contexte CI, redige les notes de release et prepare les checklists de deploiement pour validation engineering.",
         "skills": [
           "Développement full-stack",
           "Revue de code",
@@ -144,7 +144,7 @@
       },
       "sarah": {
         "title": "Assistante de direction (Agent IA)",
-        "bio": "Un agent IA qui gère les agendas, trie les e-mails et prépare les réunions. Ne rate jamais une échéance. Littéralement jamais.",
+        "bio": "Un agent IA qui gere les calendriers, trie les emails, prepare les briefs de reunion et garde la prochaine decision visible.",
         "skills": [
           "Gestion d'agenda",
           "Tri d'e-mails",
@@ -154,7 +154,7 @@
       },
       "marcus": {
         "title": "Spécialiste des opérations juridiques (Agent IA)",
-        "bio": "Un agent IA qui suit les dossiers, génère les factures et garde chaque échéance en vue. N'a jamais manqué un délai de dépôt. Pas une seule fois.",
+        "bio": "Un agent IA qui suit les dossiers, prepare les elements de facturation, surveille les echeances et redige le travail juridique operationnel a relire.",
         "skills": [
           "Suivi de dossiers",
           "Facturation",
@@ -164,7 +164,7 @@
       },
       "priya": {
         "title": "Coordinatrice immobilière (Agent IA)",
-        "bio": "Un agent IA qui gère les annonces, assure le suivi clients et fournit des analyses de marché à la demande. Aucun hobby en dehors du travail. Parfaitement épanouie.",
+        "bio": "Un agent IA qui relie annonces, SMS, historique email, rendez-vous et relances pour aider les equipes immobilieres a garder la relation en mouvement.",
         "skills": [
           "Gestion d'annonces",
           "Suivi clients",
@@ -174,7 +174,7 @@
       },
       "james": {
         "title": "Directeur des opérations (Agent IA)",
-        "bio": "Un agent IA qui automatise les flux de travail, priorise les tâches et génère des rapports. Ne s'est jamais plaint de sa charge de travail. Ni de quoi que ce soit.",
+        "bio": "Un agent IA qui transforme les signaux operationnels disperses en listes d actions, rapports et brouillons de relance pour les managers.",
         "skills": [
           "Automatisation",
           "Priorisation",
@@ -184,7 +184,7 @@
       },
       "sofia": {
         "title": "Stratège marketing (Agent IA)",
-        "bio": "Un agent IA qui planifie les campagnes, analyse les métriques et optimise les tunnels de conversion. A augmenté le taux de conversion d'un client de 340 %. N'a pas pris un jour de congé pour fêter ça.",
+        "bio": "Un agent IA qui prepare plans de campagne, syntheses de metriques et notes de funnel pour que le marketing se concentre sur le positionnement et le jugement creatif.",
         "skills": [
           "Gestion de campagnes",
           "Analytics",
@@ -194,7 +194,7 @@
       },
       "elena": {
         "title": "Comptable (Agent IA)",
-        "bio": "Un agent IA qui suit les dépenses, envoie les factures et tient les comptes impeccablement. 0 jour de maladie, 0 jour de congé, 0 pause café depuis son arrivée.",
+        "bio": "Un agent IA qui prepare la categorisation des depenses, les relances de factures et les rapports financiers pour revue comptable.",
         "skills": [
           "Suivi des dépenses",
           "Facturation",
@@ -204,7 +204,7 @@
       },
       "yuki": {
         "title": "Liaison Asie-Pacifique (Agent IA)",
-        "bio": "Un agent IA qui assure la communication à travers toute l'Asie de l'Est. Rédige des e-mails en mandarin à 9h, prend un appel en japonais à midi et conclut un accord en coréen à 17h. Chaque jour.",
+        "bio": "Un agent IA qui aide la communication internationale, redige des mises a jour multilingues et garde le contexte regional organise.",
         "skills": [
           "Communication transfrontalière",
           "Traduction",
@@ -214,7 +214,7 @@
       },
       "aisha": {
         "title": "Responsable relation client (Agent IA)",
-        "bio": "Un agent IA qui intègre les nouveaux clients et maintient des scores de satisfaction élevés. Se souvient parfaitement du nom, des préférences et de l'historique de chaque client. Aucune vie personnelle.",
+        "bio": "Un agent IA qui prepare les notes d onboarding, les relances clients et les syntheses de satisfaction pour que les equipes comptes se concentrent sur la relation.",
         "skills": [
           "Intégration",
           "Communication",
@@ -225,7 +225,7 @@
     },
     "search": {
       "placeholder": "Trouvez votre compétence...",
-      "reveal": "Vous ne trouvez pas ce que vous cherchez ? Nous créons des agents IA sur mesure avec la personnalité, l'expertise et l'expérience qui correspondent exactement à vos besoins. Votre recrue idéale n'existe pas encore, mais nous pouvons la créer.",
+      "reveal": "Vous ne trouvez pas le workflow voulu ? Nous concevons des agents autour de vos outils, canaux, validations et du travail que votre équipe veut vraiment déléguer.",
       "cta": "Parlons-en →",
       "emailSubject": "Demande d'agent IA personnalisé",
       "emailBody": "Bonjour l'équipe PeopleFreeWork,\n\nJe recherche un agent IA qui peut aider avec :\n\n[Décrivez le rôle, les tâches ou les compétences dont vous avez besoin]"
@@ -244,7 +244,7 @@
     },
     "step3": {
       "title": "Le travail est fait",
-      "desc": "Tâches accomplies 24h/24. Pas de turnover, pas de drames, pas de demandes de congés. Jamais."
+      "desc": "Dites-nous ce qui prend du temps chaque jour. Nous définirons le premier workflow utile et ses règles de revue humaine."
     }
   },
   "pricing": {
@@ -295,14 +295,14 @@
     }
   },
   "cta": {
-    "title": "Prêt à mettre un agent au travail ?",
-    "sub": "Dites-nous ce qui prend du temps chaque jour. Nous définirons un premier flux utile.",
+    "title": "Prêt à écrire à un agent et récupérer du travail utile ?",
+    "sub": "Dites-nous ce qui prend du temps chaque jour. Nous définirons le premier workflow utile et ses règles de revue humaine.",
     "button": "Commencer à recruter →"
   },
   "footer": {
     "copy": "© 2025 PeopleFree Work. Tous droits réservés.",
-    "easter1": "Aucun humain n'a été employé pour créer cette entreprise.*",
-    "easter2": "*Bon, un seul. Mais il travaille à se remplacer lui aussi."
+    "easter1": "Construit par des humains, propulsé par des agents.",
+    "easter2": "Le bon travail consiste à garder chacun à la bonne place."
   },
   "examples": {
     "sectionTitle": "Voyez ce qu'ils savent faire",
@@ -420,24 +420,24 @@
   "industries": {
     "navTitle": "Industries",
     "common": {
-      "seeSolutions": "Voir les solutions",
+      "seeSolutions": "Voir le workflow",
       "realExampleLabel": "En pratique :",
       "workflow": {
-        "kicker": "Conçu pour votre activité",
+        "kicker": "Fait pour vos canaux",
         "title": "Vos outils, votre travail, vos décisions",
-        "sub": "Nous relions les sources autorisées, préparons le travail utile et laissons la décision finale à votre équipe.",
+        "sub": "L’agent travaille là où votre équipe échange déjà, prépare le résultat utile et garde la décision finale à la bonne personne.",
         "items": [
           {
-            "title": "Relier l’essentiel",
-            "desc": "Commencez avec les e-mails, calendriers, documents et canaux de messagerie déjà utilisés par votre équipe."
+            "title": "Connecter les canaux normaux",
+            "desc": "Démarrez avec les boites, calendriers, documents, lignes SMS, WhatsApp, Telegram, Signal, Slack, Teams et systèmes métier approuvés."
           },
           {
             "title": "Préparer le travail",
-            "desc": "L’agent rassemble le contexte, signale les priorités et prépare brouillons, rapports et suivis."
+            "desc": "L’agent rassemble le contexte, signale ce qui compte et prépare brouillons, rapports, rappels ou listes de suivi."
           },
           {
             "title": "Garder le contrôle",
-            "desc": "Votre équipe relit les messages externes et corrige l’agent. Le périmètre grandit une fois la première tâche fiable."
+            "desc": "Les personnes relisent les messages externes, corrigent l’agent et décident quand élargir le workflow."
           }
         ]
       }
@@ -445,8 +445,8 @@
     "legal": {
       "slug": "legal",
       "icon": "⚖️",
-      "heroTitle": "IA pour cabinets juridiques",
-      "heroSub": "Votre assistant juridique qui ne dort jamais. Dictez vos facturations, suivez les echeances, recherchez la jurisprudence et redigez des notes pendant que vous gagnez vos dossiers.",
+      "heroTitle": "Opérations IA pour cabinets juridiques",
+      "heroSub": "Un agent d’opérations juridiques transforme notes vocales, emails, calendriers et documents en brouillons de facturation, contrôles de délais, dossiers de recherche et réponses à relire.",
       "solutions": {
         "title": "Comment l'IA resout le probleme",
         "items": [
@@ -500,16 +500,86 @@
         ]
       },
       "cta": {
-        "title": "Pret a recuperer vos heures facturables ?",
-        "sub": "Votre assistant juridique IA est pret. Pas de conges, pas de maladie, pas de drame.",
-        "button": "Obtenir votre IA juridique →"
+        "title": "Donnez au cabinet un agent d’opérations juridiques.",
+        "sub": "Commencez par un workflow qui économise du temps sans abandonner revue, confidentialité ou jugement professionnel.",
+        "button": "Construire votre agent juridique →"
+      },
+      "examples": {
+        "title": "Workflows juridiques naturels",
+        "items": [
+          {
+            "title": "Note vocale vers temps facturable",
+            "desc": "Un avocat envoie une note vocale après l’audience au lieu d’ouvrir son logiciel le soir.",
+            "real": "L’agent transcrit, propose les entrées par dossier et laisse tout point stratégique à relire avant d’entrer dans le dossier client."
+          },
+          {
+            "title": "Tri des emails clients avec contexte",
+            "desc": "Les urgences, demandes de documents et fils informatifs arrivent dans plusieurs boites.",
+            "real": "L’agent signale ce qui demande un avocat, prépare les réponses courantes dans l’email et joint le fil et les sources."
+          },
+          {
+            "title": "Digest des échéances par les canaux habituels",
+            "desc": "Dates d’audience, délais et promesses clients se cachent dans emails, calendrier et dossiers partagés.",
+            "real": "L’agent envoie un résumé Signal ou email avec échéances, hypothèses et points qui demandent un jugement juridique."
+          }
+        ]
+      },
+      "directAccess": {
+        "kicker": "Demandez depuis les outils que vous utilisez deja",
+        "title": "L agent juridique est joignable par email, Signal et notes vocales",
+        "sub": "Envoyez une instruction rapide depuis le canal de confiance. L agent prepare notes de facturation, controles d echeances, dossiers de recherche et brouillons sans envoyer de message client avant validation humaine.",
+        "note": "Les canaux courants incluent email, Signal, Telegram, notes vocales, calendrier et dossiers documentaires, configures selon les regles de confidentialite du cabinet.",
+        "agentName": "Agent juridique",
+        "status": "Attend les instructions relues",
+        "liveLabel": "Revue d abord",
+        "windowLabel": "Exemple de chat avec agent juridique",
+        "channels": [
+          {
+            "initial": "EM",
+            "name": "Email"
+          },
+          {
+            "initial": "SG",
+            "name": "Signal"
+          },
+          {
+            "initial": "VO",
+            "name": "Note vocale"
+          },
+          {
+            "initial": "CA",
+            "name": "Calendrier"
+          }
+        ],
+        "messages": [
+          {
+            "from": "user",
+            "sender": "Associe",
+            "text": "J ai envoye une note vocale depuis le tribunal. Transforme-la en temps facturable et signale ce qui demande un jugement juridique."
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "C est pret. J ai prepare 6 entrees par dossier, joint la transcription et marque deux points client pour votre revue."
+          },
+          {
+            "from": "user",
+            "sender": "Assistant",
+            "text": "Y a-t-il quelque chose d urgent dans les emails clients aujourd hui ?"
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "Trois demandent attention. J ai prepare deux reponses routinieres et escalade une question de reglement car elle exige une decision d avocat."
+          }
+        ]
       }
     },
     "manufacturing": {
       "slug": "manufacturing",
       "icon": "MFG",
       "heroTitle": "Agent IA pour les opérations industrielles",
-      "heroSub": "A dedicated AI employee that monitors inboxes, ERP, sales, inventory, receivables, shipments, and reports so leadership sees the business clearly every day.",
+      "heroSub": "Un agent d’opérations dédié surveille emails, ERP, ventes, stock, créances, expéditions, rapports et canaux d’équipe pour donner une vue claire chaque jour.",
       "heroProof": [
         {
           "value": "24/7",
@@ -565,7 +635,7 @@
         ]
       },
       "solutions": {
-        "title": "What the manufacturing agent can own",
+        "title": "Ce que l agent industriel peut prendre en charge",
         "items": [
           {
             "icon": "📬",
@@ -636,37 +706,37 @@
         ]
       },
       "examples": {
-        "title": "The work it can take off your team",
+        "title": "Travail que l agent retire du bruit quotidien",
         "items": [
           {
-            "title": "Executive request answered with a report pack",
-            "desc": "A partner asks for a customer/product comparison over the last 12 months. Normally that means pulling ERP exports, cleaning rows, building a spreadsheet, writing a summary, and sending attachments.",
-            "real": "The agent generates an executive summary, an interactive dashboard, supporting CSVs, and a source-aware narrative. It can reply in-thread with the report link and attachments after approval or under agreed operating rules."
+            "title": "Demande executive livree en paquet de rapport",
+            "desc": "Un partenaire demande une comparaison clients et produits sur 12 mois. Normalement, il faut exporter l ERP, nettoyer les lignes, construire une feuille, rediger un resume et envoyer les pieces.",
+            "real": "L agent genere un resume executif, un tableau interactif, des CSV de support et une narration sourcée. Il peut repondre dans le fil avec le lien et les pieces apres approbation ou selon les regles convenues."
           },
           {
-            "title": "Morning briefing that replaces inbox digging",
-            "desc": "A manufacturing leader starts the day with unread emails, meetings, shipment issues, sales questions, collection risks, and inventory warnings scattered across systems.",
-            "real": "The agent sends a concise briefing: what changed, what is urgent, who is waiting, which accounts need attention, which inventory items are critical, and which reports are ready to inspect."
+            "title": "Briefing du matin sans fouiller chaque inbox",
+            "desc": "Un dirigeant industriel commence avec emails non lus, reunions, expeditions, questions sales, risques de recouvrement et alertes inventory disperses.",
+            "real": "L agent envoie un briefing concis : ce qui a change, ce qui est urgent, qui attend, quels comptes demandent attention, quel stock est critique et quels rapports sont prets."
           },
           {
-            "title": "Receivables report that runs every week",
-            "desc": "A finance team spends hours sorting aging buckets, checking last contact, asking sales for context, and preparing the same report again next Monday.",
-            "real": "The agent produces the AR view on schedule, highlights accounts that crossed thresholds, adds last-touch context where available, and keeps the exportable data beside the written summary."
+            "title": "Rapport creances qui tourne chaque semaine",
+            "desc": "La finance passe des heures a trier les buckets, verifier le dernier contact, demander du contexte aux ventes et preparer le meme rapport lundi prochain.",
+            "real": "L agent produit la vue AR a l horaire, signale les comptes ayant franchi un seuil, ajoute le contexte dernier contact et garde les donnees exportables pres du resume."
           },
           {
-            "title": "Customer risk and concentration surfaced early",
-            "desc": "A few large accounts can quietly drive most revenue, backlog, or receivables exposure. When one slows down, the signal is often scattered across order history and email.",
-            "real": "The agent tracks concentration and movement over time, flags unusual drops or spikes, and prepares customer-specific summaries that leaders can use for sales, investor, or partner conversations."
+            "title": "Risque et concentration clients visibles plus tot",
+            "desc": "Quelques grands comptes peuvent porter la majorite du revenu, backlog ou risque de creance. Quand l un ralentit, le signal est disperse.",
+            "real": "L agent suit concentration et mouvement dans le temps, marque baisses ou pics inhabituels et prepare des resumes par client pour ventes, investisseurs ou partenaires."
           },
           {
-            "title": "Inventory pressure made visible",
-            "desc": "Shortages, slow movers, and critical counts are easy to miss when reports live in ERP screens that only a few people know how to read.",
-            "real": "The agent converts those signals into a ranked operations list: critical stock, likely shortages, stale inventory, shipment blockers, and recommended follow-up owners."
+            "title": "Pression inventory rendue visible",
+            "desc": "Penuries, slow movers et comptes critiques se manquent facilement quand les rapports restent dans des ecrans ERP peu lus.",
+            "real": "L agent transforme ces signaux en liste operationnelle priorisee : stock critique, penuries probables, inventory stale, bloqueurs d expedition et owners de suivi."
           },
           {
-            "title": "Report delivery hardened",
-            "desc": "A dashboard link is only useful if it opens, renders, and includes the right files when the executive clicks it.",
-            "real": "The agent checks the report link, browser rendering, attachments, and expiry before delivery. If something fails, it fixes the delivery path before claiming the report is ready."
+            "title": "Livraison de rapport fiabilisee",
+            "desc": "Un lien dashboard n est utile que s il ouvre, rend correctement et contient les bons fichiers quand le dirigeant clique.",
+            "real": "L agent verifie lien, rendu navigateur, pieces jointes et expiration avant livraison. Si quelque chose echoue, il corrige le chemin avant de dire que le rapport est pret."
           }
         ]
       },
@@ -869,24 +939,24 @@
       },
       "controls": {
         "kicker": "Built for real operations",
-        "title": "Human judgment stays in charge",
+        "title": "Le jugement humain reste aux commandes",
         "sub": "Manufacturing teams need useful automation, not risky autonomy. The agent can be configured around your approval rules, data access boundaries, and delivery standards.",
         "items": [
           {
-            "title": "Approval gates for outbound communication",
-            "desc": "Use review-first mode for new contacts, sensitive replies, pricing conversations, or anything that should remain human-approved."
+            "title": "Validations pour communication sortante",
+            "desc": "Utilisez le mode revue d abord pour les nouveaux contacts, les reponses sensibles, les conversations de prix ou tout ce qui doit rester approuve par une personne."
           },
           {
-            "title": "Source-aware reporting",
-            "desc": "Reports can include the source tables, time window, filters, and business rules used so leaders know where numbers came from."
+            "title": "Reporting conscient des sources",
+            "desc": "Les rapports peuvent inclure tables source, periode, filtres et regles metier afin que les dirigeants sachent d ou viennent les chiffres."
           },
           {
-            "title": "No guessing when data is incomplete",
-            "desc": "If a report has missing inputs, stale exports, conflicting records, or unavailable systems, the agent says so and marks the result as partial."
+            "title": "Pas d invention quand les donnees manquent",
+            "desc": "Si des entrees manquent, des exports sont anciens, des dossiers divergent ou des systemes sont indisponibles, l agent le dit et marque le resultat partiel."
           },
           {
-            "title": "Secure deployment posture",
-            "desc": "Access is scoped to approved systems, delivery links can expire, and operational checks watch for public exposure, stale credentials, and failed backups."
+            "title": "Deploiement securise",
+            "desc": "L acces reste limite aux systemes approuves, les liens peuvent expirer et les controles surveillent exposition publique, identifiants anciens et sauvegardes en echec."
           }
         ]
       },
@@ -939,70 +1009,60 @@
         "button": "Build Your Manufacturing Agent →"
       },
       "directAccess": {
-        "kicker": "Always reachable",
-        "title": "Talk to the agent directly, anytime",
-        "sub": "Leaders and operators do not need to open a special dashboard to use the agent. They can ask questions, request a report, approve a draft, or check an exception from the messaging tools they already use.",
-        "note": "Channels can include Telegram, WhatsApp, Signal, email, Slack, Microsoft Teams, or a private web chat, depending on your security policy and approval rules.",
-        "agentName": "Manufacturing Ops Agent",
-        "status": "Online across approved channels",
-        "liveLabel": "Live",
-        "windowLabel": "Example manufacturing agent chat",
+        "kicker": "Demandez depuis l atelier, le bureau ou la route",
+        "title": "Parlez a l agent industriel depuis Teams, WhatsApp, email ou Telegram",
+        "sub": "Les responsables peuvent demander des rapports, approuver des brouillons et verifier les exceptions sans ouvrir un nouveau tableau de bord. L agent ramene le contexte ERP, inbox, expeditions et encaissements dans le canal ou la question a commence.",
+        "note": "Les canaux peuvent inclure Telegram, WhatsApp, Signal, email, Slack, Microsoft Teams ou un chat web prive, selon votre politique de securite et vos regles d approbation.",
+        "agentName": "Agent operations",
+        "status": "En ligne sur les canaux approuves",
+        "liveLabel": "Actif",
+        "windowLabel": "Exemple de chat avec agent industriel",
         "channels": [
           {
-            "initial": "TG",
-            "name": "Telegram"
+            "initial": "TM",
+            "name": "Teams"
           },
           {
             "initial": "WA",
             "name": "WhatsApp"
           },
           {
-            "initial": "SG",
-            "name": "Signal"
-          },
-          {
             "initial": "EM",
             "name": "Email"
           },
           {
-            "initial": "TM",
-            "name": "Teams"
+            "initial": "TG",
+            "name": "Telegram"
           },
           {
             "initial": "SL",
             "name": "Slack"
+          },
+          {
+            "initial": "SG",
+            "name": "Signal"
           }
         ],
         "messages": [
           {
             "from": "user",
             "sender": "COO",
-            "text": "What changed overnight? Give me the short version before the production meeting."
+            "text": "Qu est-ce qui a change cette nuit ? Donne-moi la version courte avant la reunion de production."
           },
           {
             "from": "agent",
             "sender": "Agent",
-            "text": "Three items need attention: two priority customer emails, one shipment now at risk for Friday, and 11 inventory items below reorder threshold. I prepared the morning briefing and marked assumptions where ERP data was stale."
+            "text": "Trois sujets demandent attention : deux emails clients prioritaires, une expedition a risque pour vendredi et 11 articles sous le seuil de reapprovisionnement. J ai marque les hypotheses lorsque l ERP etait ancien."
           },
           {
             "from": "user",
-            "sender": "Sales leader",
-            "text": "Build a 12-month customer and product comparison for the top accounts. Include CSVs and a shareable dashboard."
+            "sender": "Responsable commercial",
+            "text": "Construis une comparaison 12 mois clients et produits pour les grands comptes. Inclus les CSV et un tableau partageable."
           },
           {
             "from": "agent",
             "sender": "Agent",
-            "text": "Done. I generated the dashboard, attached the CSV packet, checked the link in a browser, and added a plain-English summary with pricing movement, concentration risk, and follow-up questions."
-          },
-          {
-            "from": "user",
-            "sender": "Controller",
-            "text": "Which overdue accounts need a human follow-up today?"
-          },
-          {
-            "from": "agent",
-            "sender": "Agent",
-            "text": "I found 9 accounts past threshold. Three are new over 60 days. I drafted review-first collection notes and separated informational threads from messages that need a reply."
+            "text": "Pret. J ai genere le tableau, joint les CSV, verifie le lien et prepare un resume clair pour approbation."
           }
         ]
       }
@@ -1010,8 +1070,8 @@
     "realEstate": {
       "slug": "real-estate",
       "icon": "🏠",
-      "heroTitle": "Un partenaire IA pour les opérations immobilières",
-      "heroSub": "Offrez à votre agence une vue claire des prospects, échanges clients, rendez-vous et suivis. Votre équipe garde la main sur chaque message destiné aux clients.",
+      "heroTitle": "Opérations IA pour équipes immobilières",
+      "heroSub": "Un agent natif des canaux relie SMS, email, rendez-vous, dossiers d’annonces, offres et relances pour répondre plus vite tout en gardant les messages clients sous contrôle.",
       "problems": {
         "title": "Quand le contexte se perd entre les canaux",
         "items": [
@@ -1046,22 +1106,22 @@
         ]
       },
       "examples": {
-        "title": "Une journée mieux organisée",
+        "title": "Dans une journée plus calme au bureau",
         "items": [
           {
-            "title": "Le point du matin",
-            "desc": "L’équipe voit les nouveaux prospects, rendez-vous modifiés et réponses dues sans ouvrir chaque boîte et calendrier.",
-            "real": "Exemple de flux : chaque point renvoie à la conversation d’origine pour vérifier le contexte."
+            "title": "Plusieurs SMS triés ensemble",
+            "desc": "Un acheteur veut déplacer une visite, un vendeur veut un retour et un autre agent envoie une offre.",
+            "real": "L’agent relie chaque SMS au bon dossier, rédige les réponses sûres, demande l’approbation courtier pour l’offre et garde l’opérateur en contrôle."
           },
           {
-            "title": "Un SMS avec son historique e-mail",
-            "desc": "Un prospect répond au numéro de l’agence après un échange par e-mail. L’agent retrouve le contexte et prépare la réponse.",
-            "real": "Exemple de flux : la personne responsable relit et envoie. La capture dépend de la ligne et de l’opérateur."
+            "title": "Une réponse SMS avec l’historique email",
+            "desc": "Un prospect répond au numéro du bureau après un échange email.",
+            "real": "L’agent retrouve le contexte, prépare une réponse et laisse l’envoi à la personne responsable."
           },
           {
-            "title": "Un relais qui reste visible",
-            "desc": "Un agent promet un document à un acheteur tandis qu’un assistant organise la visite. Les deux étapes figurent dans la liste commune.",
-            "real": "Exemple de flux : responsable, échéance et source restent liés jusqu’à la fin."
+            "title": "Un transfert qui reste visible",
+            "desc": "Un agent promet un document tandis qu’un assistant gère la visite.",
+            "real": "Le responsable, l’heure due et la source restent ensemble jusqu’à clôture."
           }
         ]
       },
@@ -1127,13 +1187,63 @@
             "desc": "Rassemble les éléments nécessaires aux dossiers de biens, mises à jour clients et tâches récurrentes."
           }
         ]
+      },
+      "directAccess": {
+        "kicker": "Les SMS deviennent une liste d actions controlee",
+        "title": "L agent immobilier peut trier plusieurs messages entrants a la fois",
+        "sub": "Quand acheteurs, vendeurs, agents et equipe ecrivent en meme temps, l agent relie chaque message au bon fil email, evenement calendrier et dossier client, puis prepare des reponses a relire.",
+        "note": "SMS/MMS, WhatsApp, email et calendrier sont configures autour de votre ligne approuvee, operateur et regles de revue de l agence.",
+        "agentName": "Agent immobilier",
+        "status": "Surveille les SMS et emails approuves",
+        "liveLabel": "Revue d abord",
+        "windowLabel": "Exemple de triage de SMS immobilier",
+        "channels": [
+          {
+            "initial": "SMS",
+            "name": "SMS"
+          },
+          {
+            "initial": "WA",
+            "name": "WhatsApp"
+          },
+          {
+            "initial": "EM",
+            "name": "Email"
+          },
+          {
+            "initial": "CA",
+            "name": "Calendrier"
+          }
+        ],
+        "messages": [
+          {
+            "from": "user",
+            "sender": "SMS acheteur",
+            "text": "Peut-on deplacer la visite de 16 h 30 a 17 h 15 ? Et le garage est-il chauffe ?"
+          },
+          {
+            "from": "user",
+            "sender": "SMS vendeur",
+            "text": "Des retours sur la visite d hier ?"
+          },
+          {
+            "from": "user",
+            "sender": "SMS agent",
+            "text": "Le dossier d offre vient d arriver. Qui relit d abord ?"
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "J ai relie les trois messages a leurs dossiers. J ai redige la reponse planning pour l acheteur, trouve la note garage dans l annonce, prepare une mise a jour vendeur et marque l offre pour approbation broker avant envoi."
+          }
+        ]
       }
     },
     "content": {
       "slug": "content",
       "icon": "✍️",
-      "heroTitle": "IA pour les createurs de contenu",
-      "heroSub": "Votre equipe creative qui ne s'epuise jamais. Redaction SEO, gestion de calendrier editorial et publication multi-plateforme a grande echelle.",
+      "heroTitle": "Opérations IA pour équipes contenu",
+      "heroSub": "Un agent contenu transforme idées WhatsApp, validations email, recherche, calendriers, CMS et brouillons en travail prêt à relire, tandis que les créatifs gardent la voix et le jugement.",
       "solutions": {
         "title": "Comment l'IA resout le probleme",
         "items": [
@@ -1190,13 +1300,83 @@
         "title": "Pret a scaler votre contenu ?",
         "sub": "Votre equipe IA de contenu redige, publie et optimise en continu. L'epuisement creatif n'est pas dans leur vocabulaire.",
         "button": "Obtenir votre IA contenu →"
+      },
+      "examples": {
+        "title": "Workflows contenu adaptes a l equipe",
+        "items": [
+          {
+            "title": "Idée WhatsApp vers brief publiable",
+            "desc": "Un fondateur envoie une idée de campagne entre deux réunions.",
+            "real": "L’agent la transforme en brief, vérifie le calendrier, prépare les brouillons et garde les choix de ton à l’équipe."
+          },
+          {
+            "title": "Calendrier éditorial avec relances",
+            "desc": "Brouillons, validations, images et dates vivent dans des outils différents.",
+            "real": "L’agent surveille email, CMS et calendrier, puis relance la bonne personne quand un élément bloque la publication."
+          },
+          {
+            "title": "Dossier de recherche avant rédaction",
+            "desc": "Les rédacteurs ont besoin de sources, exemples et contexte avant le premier jet.",
+            "real": "L’agent rassemble les liens, résume les affirmations et prépare un plan sourcé."
+          }
+        ]
+      },
+      "directAccess": {
+        "kicker": "La creation reste dans le flux",
+        "title": "Ecrivez a l agent contenu depuis WhatsApp, email ou calendrier",
+        "sub": "Deposez une idee, demandez un brief, approuvez un brouillon ou demandez ce qui bloque la publication depuis les outils que l equipe consulte chaque jour.",
+        "note": "Les canaux peuvent inclure WhatsApp, Telegram, email, commentaires CMS, documents partages, calendrier ou Slack.",
+        "agentName": "Agent contenu",
+        "status": "Redige pour revue",
+        "liveLabel": "Brouillon",
+        "windowLabel": "Exemple de chat avec agent contenu",
+        "channels": [
+          {
+            "initial": "WA",
+            "name": "WhatsApp"
+          },
+          {
+            "initial": "EM",
+            "name": "Email"
+          },
+          {
+            "initial": "CMS",
+            "name": "CMS"
+          },
+          {
+            "initial": "CA",
+            "name": "Calendrier"
+          }
+        ],
+        "messages": [
+          {
+            "from": "user",
+            "sender": "Fondateur",
+            "text": "Transforme ma note vocale en post de lancement et verifie si jeudi entre en conflit avec la newsletter."
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "J ai prepare le post, trouve un conflit avec la newsletter de jeudi, suggere vendredi et ajoute trois liens sources pour les affirmations."
+          },
+          {
+            "from": "user",
+            "sender": "Editrice",
+            "text": "Qui bloque les articles de la semaine prochaine ?"
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "Deux brouillons attendent approbation des citations, une image manque de texte alternatif et un sujet demande une decision humaine sur le ton."
+          }
+        ]
       }
     },
     "software": {
       "slug": "software",
       "icon": "💻",
-      "heroTitle": "IA pour le genie logiciel",
-      "heroSub": "Votre ingenieur senior qui aime etre d'astreinte. Revues de code, surveillance d'infrastructure auto-reparatrice et automatisation du deploiement qui ne dort jamais.",
+      "heroTitle": "Opérations IA pour équipes logiciel",
+      "heroSub": "Un agent d’opérations engineering travaille dans Slack, GitHub, email, CI et monitoring pour préparer revues, contexte incident, notes de release et checklists.",
       "solutions": {
         "title": "Comment l'IA resout le probleme",
         "items": [
@@ -1253,13 +1433,83 @@
         "title": "Pret a livrer plus vite et mieux dormir ?",
         "sub": "Votre ingenieur IA gere l'astreinte, revise les PR et surveille l'infrastructure. Pas d'epuisement, pas de conges, pas de plaintes a 3h du matin.",
         "button": "Obtenir votre IA ingenierie →"
+      },
+      "examples": {
+        "title": "Workflows engineering sous controle humain",
+        "items": [
+          {
+            "title": "Alerte Slack vers plan de correction",
+            "desc": "Un incident commence dans Slack alors que logs, tableaux de bord et tickets sont ailleurs.",
+            "real": "L’agent rassemble les traces, relie le commit probable, prépare le point de situation et demande l’avis d’un ingénieur avant tout message client."
+          },
+          {
+            "title": "Revue de PR sans chasse au contexte",
+            "desc": "Les reviewers perdent du temps à reconstruire architecture, tests et risque de déploiement.",
+            "real": "L’agent lit la PR, la CI et les tickets liés, puis prépare un dossier de revue avec commentaires à approuver."
+          },
+          {
+            "title": "Checklist de release qui avance",
+            "desc": "Un déploiement dépend de la CI, des migrations, docs, rollback et mises à jour internes.",
+            "real": "L’agent suit les étapes dans Slack et GitHub, rédige les notes et escalade les vraies décisions humaines."
+          }
+        ]
+      },
+      "directAccess": {
+        "kicker": "De l alerte a l action",
+        "title": "Contactez l agent engineering depuis Slack, GitHub, email ou alertes",
+        "sub": "L agent rassemble logs, CI, contexte PR et statut de release, puis prepare mises a jour ou checklists pendant que les ingenieurs gardent l architecture et le jugement production.",
+        "note": "Les canaux peuvent inclure Slack, GitHub, email, alertes type PagerDuty, Linear, Jira ou chat web prive.",
+        "agentName": "Agent engineering",
+        "status": "Surveille les systemes engineering approuves",
+        "liveLabel": "Astreinte",
+        "windowLabel": "Exemple de chat avec agent engineering",
+        "channels": [
+          {
+            "initial": "SL",
+            "name": "Slack"
+          },
+          {
+            "initial": "GH",
+            "name": "GitHub"
+          },
+          {
+            "initial": "EM",
+            "name": "Email"
+          },
+          {
+            "initial": "PG",
+            "name": "Pager"
+          }
+        ],
+        "messages": [
+          {
+            "from": "user",
+            "sender": "Lead engineering",
+            "text": "Pourquoi les alertes checkout ont-elles augmente apres le deploy ?"
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "J ai relie le pic a la release 2026.10.11, trouve deux logs de paiement en echec et prepare une checklist rollback. J attends votre approbation avant de publier le statut."
+          },
+          {
+            "from": "user",
+            "sender": "PM",
+            "text": "Peut-on livrer la PR aujourd hui ?"
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "La CI est verte et la documentation est a jour, mais la note de rollback migration manque. Je l ai redigee pour revue engineering."
+          }
+        ]
       }
     },
     "accounting": {
       "slug": "accounting",
       "icon": "📊",
-      "heroTitle": "IA pour la comptabilite",
-      "heroSub": "Votre comptable qui aime la saison des impots. Declarations d'entreprise, categorisation des depenses, gestion des factures et suivi des echeances sans faille.",
+      "heroTitle": "Opérations IA pour équipes comptables",
+      "heroSub": "Un agent comptable travaille dans email, SMS, dossiers, feuilles et logiciels comptables pour préparer rapprochements, relances facture et contrôles d’échéances.",
       "solutions": {
         "title": "Comment l'IA resout le probleme",
         "items": [
@@ -1316,36 +1566,175 @@
         "title": "Pret pour une saison fiscale sans stress ?",
         "sub": "Votre comptable IA suit chaque dollar, depose chaque declaration et ne manque jamais une echeance. La saison fiscale n'est qu'un mardi de plus.",
         "button": "Obtenir votre IA comptable →"
+      },
+      "examples": {
+        "title": "Workflows comptables prets a relire",
+        "items": [
+          {
+            "title": "Reçu par SMS vers écriture proposée",
+            "desc": "Un client envoie une photo de reçu ou transfère une facture fournisseur.",
+            "real": "L’agent extrait les détails, propose le compte, vérifie la règle et laisse l’écriture prête pour validation."
+          },
+          {
+            "title": "Relance facture avec tact",
+            "desc": "Les comptes en retard demandent un ton différent selon la relation, l’historique et le montant.",
+            "real": "L’agent prépare les brouillons avec le dernier contexte de paiement et demande avant tout envoi sensible."
+          },
+          {
+            "title": "Veille des échéances entre outils",
+            "desc": "Fiscalité, paie, HST/GST et obligations corporatives vivent entre calendrier, feuilles et logiciel comptable.",
+            "real": "L’agent envoie un rappel email ou SMS avec ce qui est prêt, ce qui manque et ce qui demande le jugement du comptable."
+          }
+        ]
+      },
+      "directAccess": {
+        "kicker": "Les comptes restent pres de la conversation",
+        "title": "Envoyez recus, questions de factures et controles d echeances par email ou SMS",
+        "sub": "L agent comptable prepare rapprochements, relances de factures et checklists de depot, puis demande validation comptable la ou le jugement compte.",
+        "note": "Les canaux peuvent inclure email, SMS, WhatsApp, dossiers partages, Wave, QuickBooks, Xero et feuilles de calcul.",
+        "agentName": "Agent comptable",
+        "status": "Prepare le travail a relire",
+        "liveLabel": "Revue d abord",
+        "windowLabel": "Exemple de chat avec agent comptable",
+        "channels": [
+          {
+            "initial": "EM",
+            "name": "Email"
+          },
+          {
+            "initial": "SMS",
+            "name": "SMS"
+          },
+          {
+            "initial": "WA",
+            "name": "WhatsApp"
+          },
+          {
+            "initial": "QB",
+            "name": "Comptes"
+          }
+        ],
+        "messages": [
+          {
+            "from": "user",
+            "sender": "SMS dirigeant",
+            "text": "Je viens d envoyer deux recus et une facture fournisseur. Range-les utilement avant que j oublie."
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "J ai extrait les details, suggere des categories, rapproche un fournisseur d une facture ouverte et laisse les trois entrees en attente de validation comptable."
+          },
+          {
+            "from": "user",
+            "sender": "Controleur",
+            "text": "Quelles factures en retard demandent un suivi humain aujourd hui ?"
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "Quatre ont depasse le seuil. J ai prepare des emails de relance avec contexte du dernier paiement et garde le compte sensible pour votre revue."
+          }
+        ]
       }
     }
   },
   "industriesShowcase": {
     "sectionTitle": "Industries que nous servons",
-    "sectionSub": "Chaque industrie a ses points faibles. Nous créons des employés IA qui comprennent les vôtres.",
+    "sectionSub": "Chaque secteur a son désordre de communication. Nous construisons des agents qui travaillent dans le vôtre.",
     "learnMore": "En savoir plus",
     "legal": {
       "title": "Juridique",
-      "desc": "Facturation vocale, suivi des dossiers, recherche juridique et traitement de documents. Votre assistant juridique qui ne dort jamais."
+      "desc": "Facturation vocale, délais, tri email et dossiers de recherche par email, Signal et outils du cabinet."
     },
     "manufacturing": {
       "title": "Industrie manufacturière",
-      "desc": "Surveillance de production, analyse de la chaîne d'approvisionnement, rapports qualité et briefings opérationnels. Le bras droit de votre directeur d'usine."
+      "desc": "Questions Teams ou WhatsApp transformées en rapports ERP, alertes expédition et brouillons de suivi."
     },
     "realEstate": {
       "title": "Immobilier",
-      "desc": "Une vue commune des e-mails, SMS, rendez-vous et suivis, avec validation humaine des messages clients."
+      "desc": "SMS multiples, emails, visites, offres et relances deviennent une liste d’actions vérifiable."
     },
     "content": {
       "title": "Création de contenu",
-      "desc": "Rédaction SEO, flux de publication, calendriers éditoriaux et cohérence de marque. Votre équipe créative infatigable."
+      "desc": "Idées WhatsApp, validations email, CMS, calendrier et recherche dans un même flux."
     },
     "software": {
       "title": "Ingénierie logicielle",
-      "desc": "Revue de code, surveillance d'infrastructure, automatisation CI/CD et astreinte 24/7. Votre ingénieur senior qui adore les astreintes."
+      "desc": "Alertes Slack, PR GitHub, CI, releases et incidents préparés pour revue ingénieur."
     },
     "accounting": {
       "title": "Comptabilité",
-      "desc": "Déclarations fiscales, tenue de livres, facturation et conformité. Votre comptable qui apprécie vraiment la saison fiscale."
+      "desc": "Reçus, factures, échéances et relances entre email, SMS et logiciel comptable."
     }
+  },
+  "homeSpotlight": {
+    "kicker": "Exemple immobilier",
+    "title": "Trois SMS arrivent en même temps. L’agent les transforme en une liste de suivi contrôlée.",
+    "sub": "Un acheteur veut déplacer une visite, un vendeur demande un retour, et un autre agent envoie une offre. L’agent relie les messages au bon historique email, au calendrier et au dossier de l’annonce, prépare les réponses sûres et demande une approbation quand le jugement compte.",
+    "windowLabel": "Scénario immobilier avec plusieurs SMS",
+    "agentName": "Agent opérations immobilières",
+    "status": "Surveille les canaux texte et email approuvés",
+    "liveLabel": "Revue",
+    "channels": [
+      {
+        "initial": "SMS",
+        "name": "SMS"
+      },
+      {
+        "initial": "WA",
+        "name": "WhatsApp"
+      },
+      {
+        "initial": "EM",
+        "name": "Email"
+      },
+      {
+        "initial": "SG",
+        "name": "Signal"
+      }
+    ],
+    "messages": [
+      {
+        "from": "user",
+        "sender": "SMS acheteur",
+        "text": "Peut-on déplacer la visite à 17 h 15 ? Le garage est-il chauffé ?"
+      },
+      {
+        "from": "user",
+        "sender": "SMS vendeur",
+        "text": "Des retours sur la visite d’hier ?"
+      },
+      {
+        "from": "user",
+        "sender": "SMS agent",
+        "text": "Le dossier d’offre vient d’arriver. Qui relit en premier ?"
+      },
+      {
+        "from": "agent",
+        "sender": "Agent",
+        "text": "J’ai relié les trois messages à leurs dossiers. J’ai rédigé la réponse acheteur, retrouvé la note sur le garage, préparé le retour vendeur et marqué l’offre pour approbation du courtier avant envoi."
+      }
+    ]
+  },
+  "serviceModel": {
+    "kicker": "Service premium",
+    "title": "Pas un tableau de bord autonome. Un partenariat IA et ingénierie sur mesure.",
+    "sub": "PeopleFree.work associe des agents IA puissants à des ingénieurs humains expérimentés qui apprennent votre vrai flux de travail, connectent les bons systèmes, règlent les validations et améliorent ce que l’agent peut faire en sécurité.",
+    "items": [
+      {
+        "title": "Conçu autour du travail réel",
+        "desc": "Nous partons des boites mail, SMS, rapports, calendriers et décisions où vit déjà votre équipe."
+      },
+      {
+        "title": "Des ingénieurs restent impliqués",
+        "desc": "Des ingénieurs configurent les intégrations, examinent les cas limites et font évoluer le flux sans transformer votre équipe en experts du prompt."
+      },
+      {
+        "title": "Le contrôle reste humain",
+        "desc": "L’agent prépare brouillons, résumés, rapports, relances et exceptions. Votre équipe garde les décisions de confiance, de relation et de jugement professionnel."
+      }
+    ],
+    "note": "Le but n’est pas d’enlever les personnes du travail. C’est de leur rendre du temps pour la perspective et le talent qu’elles seules apportent."
   }
 }

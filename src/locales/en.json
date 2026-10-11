@@ -2,125 +2,125 @@
   "nav": {
     "team": "Our Team",
     "whyUs": "Why Us",
-    "dailyLayer": "What They Do",
+    "dailyLayer": "How Agents Work",
     "pricing": "Pricing",
-    "hireTalent": "Hire Talent →"
+    "hireTalent": "Start a Pilot →"
   },
   "hero": {
-    "title1": "Exceptional AI talent.",
-    "title2": " Zero humanity.",
-    "sub": "Your AI operations partner connects the email, calendar, documents, reports, and approved messages your work already runs on. It prepares useful work for the right person to review.",
-    "subBold": "Built around your team and the work you actually do.",
-    "meetTeam": "Meet the AI Team",
-    "getInTouch": "Get in Touch"
+    "title1": "AI agents your team can message.",
+    "title2": " Real work gets done.",
+    "sub": "PeopleFree.work builds AI agents that work through the channels your team already uses: email, texts, WhatsApp, Telegram, Signal, Slack, calendars, documents, and line-of-business tools.",
+    "subBold": "They handle the background busy work so people can focus on judgment, relationships, creativity, and strategy.",
+    "meetTeam": "See Examples",
+    "getInTouch": "Talk to Us"
   },
   "stats": {
     "availability": "Availability",
     "avgResponse": "Avg. response time",
-    "sickDays": "Sick days. Ever.",
+    "sickDays": "Human review",
     "languages": "Languages per employee",
     "current": {
       "availabilityValue": "24/7",
-      "availabilityLabel": "Agent availability",
-      "emailValue": "Email",
-      "emailLabel": "Triage and drafts",
-      "workflowsValue": "Your tools",
-      "workflowsLabel": "Connected workflows",
-      "reviewValue": "You approve",
-      "reviewLabel": "Outbound messages"
+      "availabilityLabel": "Background coordination",
+      "emailValue": "Texts + email",
+      "emailLabel": "Native channels",
+      "workflowsValue": "Human review",
+      "workflowsLabel": "Approval where it matters",
+      "reviewValue": "White-glove",
+      "reviewLabel": "Engineered around your work"
     }
   },
   "perks": {
-    "sectionTitle": "Why Companies Choose Us",
-    "sectionSub": "Benefits that sound too good to be true. And yet.",
+    "sectionTitle": "Why Teams Choose PeopleFree.work",
+    "sectionSub": "Concrete help in the channels your team already uses, backed by careful human engineering.",
     "wage": {
-      "title": "Can Do the Work of 10 Employees",
-      "desc": "One AI specialist can handle the output of an entire support team with consistent quality and speed."
+      "title": "Absorbs the background work",
+      "desc": "Agents coordinate follow-ups, drafts, reports, reminders, and exception lists so people are not buried in operational noise."
     },
     "iq": {
-      "title": "World-Class Specialists",
-      "desc": "Every team member is best-in-class in their respective field. We only hire the best."
+      "title": "Strong AI, carefully engineered",
+      "desc": "We pair capable AI agents with experienced human engineers who shape the workflow around your real tools and constraints."
     },
     "lang": {
-      "title": "6+ Languages Each",
-      "desc": "Every specialist is fluent in at least six languages. No translators needed."
+      "title": "Works across channels and languages",
+      "desc": "Email, texts, WhatsApp, Telegram, Signal, Slack, Teams, documents, and multilingual work can be part of one operating layer."
     },
     "balance": {
-      "title": "No Work-Life Balance Needed",
-      "desc": "Our employees have no life outside of work. They don't want one. They're very dedicated."
+      "title": "People focus where people matter",
+      "desc": "Your team keeps judgment, relationships, taste, creativity, and strategy while the agent handles coordination and preparation."
     },
     "benefits": {
-      "title": "Never Gets Sick",
-      "desc": "Always available and consistent, with no sick days or downtime interruptions."
+      "title": "Always watching the background",
+      "desc": "The agent can monitor approved inboxes, calendars, reports, and shared folders so quiet problems surface before they become fire drills."
     },
     "overtime": {
-      "title": "No Overtime Pay",
-      "desc": "They work 24/7/365 at the same flat rate. Labor laws don't seem to apply."
+      "title": "Follow-ups stop slipping",
+      "desc": "Promised replies, missing documents, overdue invoices, and stalled approvals stay visible until a person closes the loop."
     },
     "own": {
-      "title": "Through Thick and Thin, They Have Your Back",
-      "desc": "Your dedicated AI teammate stays with your business long term, learns your workflows, and supports your team every day."
+      "title": "Built around your operation",
+      "desc": "Your dedicated AI teammate learns your workflows, review rules, voice, source systems, and escalation boundaries over time."
     },
     "ip": {
-      "title": "100% IP Ownership",
-      "desc": "Every document, strategy, design, and creative work your AI produces belongs entirely to you. No shared rights, no licensing fees, no fine print."
+      "title": "Your work stays yours",
+      "desc": "Documents, strategies, designs, reports, and creative work produced for your business belong to you under the agreed engagement."
     }
   },
   "dailyLayer": {
-    "sectionTitle": "Your Daily Operating Layer",
-    "sectionSub": "Onboarding connects your AI employee to the email, calendar, documents, and messages your business already runs on. From then on it reads those streams every day and hands you one short list of what actually needs you.",
+    "sectionTitle": "A Daily Operating Layer Your Team Can Message",
+    "sectionSub": "Onboarding connects your agent to the email, calendar, documents, reports, texts, and chat channels your business already runs on. From then on, people can ask from normal tools and get a short list of what needs attention.",
     "sources": {
       "email": "Email",
       "calendar": "Calendar",
       "documents": "Documents",
-      "messages": "Messages",
+      "messages": "Texts and chat",
       "reports": "Recurring reports"
     },
-    "flowOutput": "One briefing. One list of what needs you today.",
+    "flowOutput": "Ask from Telegram, WhatsApp, Signal, email, or text. Get a reviewed action list.",
     "capabilities": {
       "briefing": {
-        "title": "Daily Briefing",
-        "desc": "A short summary waiting for you each morning: what is due today, what is waiting on someone else, and what has gone quiet. Two minutes and you know your day."
+        "title": "Briefings in the channel you check",
+        "desc": "A morning email, Telegram note, or WhatsApp message can summarize what changed, what is due, who is waiting, and what needs a decision."
       },
       "triage": {
-        "title": "Email Triage",
-        "desc": "Sorts the inbox into what needs a reply, what is only information, and what can wait. Urgent messages arrive with the full context attached, not just a subject line."
+        "title": "Email and text triage",
+        "desc": "Sorts messages by urgency, attaches context, and separates routine drafts from anything that needs a person’s judgment."
       },
       "followUps": {
-        "title": "Follow-Up Tracking",
-        "desc": "Keeps a live list of who owes what. When a thread has been silent for a week, you hear it from your AI employee before you hear it from the client."
+        "title": "Follow-up tracking",
+        "desc": "Keeps a live list of who owes what across inboxes, texts, shared docs, and reports. Quiet threads do not quietly disappear."
       },
       "drafts": {
-        "title": "Draft Replies",
-        "desc": "Writes the first version of routine replies in your voice and leaves them in your drafts. You read it, change what you want, and send it yourself."
+        "title": "Draft replies for approval",
+        "desc": "Writes first drafts in the right thread and waits for review when the message is external, sensitive, or outside the approved rules."
       },
       "workflows": {
-        "title": "Your Workflows",
-        "desc": "Once the daily basics are trusted, the same AI employee takes on the work specific to your business: billing prep, supplier chasing, purchase orders, deadline tracking, receivables reminders."
+        "title": "Workflow-specific work",
+        "desc": "Once the daily basics are trusted, the same agent can take on billing prep, supplier chasing, listing follow-ups, content calendars, PR reviews, or deadline checks."
       },
       "signals": {
-        "title": "Signal Monitoring",
-        "desc": "Watches the recurring reports, shared sheets, and operational feeds you would otherwise open by hand, then tells you which numbers moved and which ones stopped arriving."
+        "title": "Signal monitoring",
+        "desc": "Watches recurring reports, spreadsheets, connected apps, and operational feeds, then tells you which numbers moved or stopped arriving."
       }
     },
     "guardrails": {
-      "title": "Reviewed by you. Every time.",
+      "title": "People stay in control.",
       "review": {
-        "title": "Nothing goes out unsupervised",
-        "desc": "Outbound replies are prepared as drafts and wait for your approval. Your AI employee writes the message. You decide whether it sends."
+        "title": "External messages can wait for approval",
+        "desc": "The agent prepares the reply, explains the context, and leaves the send decision with the right person."
       },
       "escalate": {
-        "title": "Anything unclear comes to you",
-        "desc": "Work outside the agreed scope, and anything genuinely urgent, is escalated to a person instead of handled on a guess."
+        "title": "Unclear work comes back to a person",
+        "desc": "Sensitive issues, missing inputs, and work outside the agreed scope are escalated instead of guessed."
       }
     }
   },
   "team": {
-    "sectionTitle": "Meet Our AI Specialists",
-    "sectionSub": "Ten dedicated AI agents. Always available. Suspiciously perfect.",
+    "sectionTitle": "Meet the Agents",
+    "sectionSub": "Dedicated AI agents, engineered for specific workflows and supervised by your review rules.",
     "search": {
       "placeholder": "Find your skillset...",
-      "reveal": "Can't find what you're looking for? We build custom AI agents with the personality, expertise, and experience that match your exact needs. Your perfect hire doesn't exist yet, but we can create them.",
+      "reveal": "Can’t find the workflow you need? We design custom agents around your tools, communication channels, approvals, and the work your team actually wants off its plate.",
       "cta": "Let's Talk About It →",
       "emailSubject": "Custom AI Agent Inquiry",
       "emailBody": "Hi PeopleFreeWork team,\n\nI'm looking for an AI agent that can help with:\n\n[Describe the role, tasks, or skillset you need]"
@@ -131,7 +131,7 @@
     "members": {
       "olivia": {
         "title": "Creative Director (AI Agent)",
-        "bio": "An AI agent who designs brand strategies, writes copy, and creates content that converts. Has never experienced creative burnout. Doesn't know what that is.",
+        "bio": "An AI agent who prepares brand strategy, copy, and campaign drafts so creative people can spend more time on taste, direction, and original ideas.",
         "skills": [
           "Brand Strategy",
           "Copywriting",
@@ -141,7 +141,7 @@
       },
       "devon": {
         "title": "Senior Software Developer (AI Agent)",
-        "bio": "An AI agent who builds full-stack applications, reviews pull requests, and deploys to production at 3am without complaint. Has mass-produced more clean code than your entire engineering team combined. Has mass-produced zero bugs. Allegedly.",
+        "bio": "An AI agent who reviews pull requests, gathers CI context, drafts release notes, and prepares deployment checklists for engineers to approve.",
         "skills": [
           "Full-Stack Development",
           "Code Review",
@@ -151,7 +151,7 @@
       },
       "sarah": {
         "title": "Executive Assistant (AI Agent)",
-        "bio": "An AI agent who manages calendars, triages emails, and preps meetings so you never miss a beat. Never misses a deadline. Literally never.",
+        "bio": "An AI agent who manages calendars, triages emails, prepares meeting briefs, and keeps the next decision visible.",
         "skills": [
           "Calendar Management",
           "Email Triage",
@@ -161,7 +161,7 @@
       },
       "marcus": {
         "title": "Legal Operations Specialist (AI Agent)",
-        "bio": "An AI agent who tracks cases, generates invoices, and keeps every deadline on your radar. Has never missed a filing deadline. Not once.",
+        "bio": "An AI agent who tracks cases, prepares billing records, watches deadlines, and drafts routine legal operations work for review.",
         "skills": [
           "Case Tracking",
           "Invoice Generation",
@@ -171,7 +171,7 @@
       },
       "priya": {
         "title": "Real Estate Coordinator (AI Agent)",
-        "bio": "An AI agent who manages listings, follows up with clients, and delivers market insights on demand. Has zero hobbies outside of work. Completely content.",
+        "bio": "An AI agent who connects listing details, texts, email history, appointments, and client follow-ups so real estate teams keep relationships moving.",
         "skills": [
           "Listing Management",
           "Client Follow-ups",
@@ -181,7 +181,7 @@
       },
       "james": {
         "title": "Operations Manager (AI Agent)",
-        "bio": "An AI agent who automates workflows, prioritizes tasks, and generates reports. Has never once complained about workload. Or anything, really.",
+        "bio": "An AI agent who turns scattered operational signals into task lists, reports, and follow-up drafts for managers to act on.",
         "skills": [
           "Workflow Automation",
           "Task Prioritization",
@@ -191,7 +191,7 @@
       },
       "sofia": {
         "title": "Marketing Strategist (AI Agent)",
-        "bio": "An AI agent who plans campaigns, analyzes metrics, and optimizes funnels. Increased one client's conversion rate by 340%. Hasn't taken a day off to celebrate.",
+        "bio": "An AI agent who prepares campaign plans, metric summaries, and funnel notes so marketers can focus on positioning and creative judgment.",
         "skills": [
           "Campaign Management",
           "Analytics",
@@ -201,7 +201,7 @@
       },
       "elena": {
         "title": "Bookkeeper (AI Agent)",
-        "bio": "An AI agent who tracks expenses, sends invoices, and keeps your books pristine. Has taken 0 sick days, 0 vacation days, and 0 coffee breaks since starting.",
+        "bio": "An AI agent who prepares expense categorization, invoice follow-ups, and financial reports for accountant review.",
         "skills": [
           "Expense Tracking",
           "Invoicing",
@@ -211,7 +211,7 @@
       },
       "yuki": {
         "title": "Asia-Pacific Liaison (AI Agent)",
-        "bio": "An AI agent who bridges communication across all of East Asia. Drafts emails in Mandarin at 9am, takes a call in Japanese at noon, and closes a deal in Korean by 5pm. Every single day.",
+        "bio": "An AI agent who helps bridge cross-border communication, drafts multilingual updates, and keeps regional context organized.",
         "skills": [
           "Cross-Border Communication",
           "Translation",
@@ -221,7 +221,7 @@
       },
       "aisha": {
         "title": "Client Relations Manager (AI Agent)",
-        "bio": "An AI agent who onboards new clients and keeps satisfaction scores high. Remembers every client's name, preferences, and history perfectly. Has no personal life to speak of.",
+        "bio": "An AI agent who prepares onboarding notes, client follow-ups, and satisfaction summaries so account teams can focus on the relationship.",
         "skills": [
           "Onboarding",
           "Communication",
@@ -233,31 +233,31 @@
   },
   "howItWorks": {
     "sectionTitle": "How It Works",
-    "sectionSub": "Getting started is simple. We handle the hard parts.",
+    "sectionSub": "Start with one useful workflow in the channels your team already uses.",
     "step1": {
-      "title": "Tell us what you need",
-      "desc": "Describe the role. We match you with the right specialist from our talent pool."
+      "title": "Map the real workflow",
+      "desc": "Tell us which emails, texts, chats, reports, and decisions consume the most time."
     },
     "step2": {
-      "title": "We handle onboarding",
-      "desc": "Your new team member learns your tools, workflows, and preferences. Usually up to speed in under a minute."
+      "title": "We engineer the agent with you",
+      "desc": "Experienced human engineers connect approved tools, define review rules, and tune the first workflow."
     },
     "step3": {
-      "title": "Work gets done",
-      "desc": "Tasks completed around the clock. No turnover, no drama, no PTO requests. Ever."
+      "title": "Your team messages the agent",
+      "desc": "The agent prepares drafts, reports, reminders, and exception lists. People approve, correct, and decide."
     }
   },
   "pricing": {
-    "sectionTitle": "Pricing Built Around Your Use Case",
-    "sectionSub": "Every AI employee is scoped to the work, the tools, and the value at stake. Tell us what you need done and we'll shape the right plan.",
+    "sectionTitle": "Premium Plans Built Around Your Workflow",
+    "sectionSub": "Every engagement is scoped around the channels, integrations, review rules, and operational value involved.",
     "setup": {
       "label": "Individuals",
       "price": "Talk to us",
-      "desc": "For founders, solo operators, and professionals who want one focused AI employee for a specific job.",
+      "desc": "For founders, solo operators, and professionals who want one focused agent for a clear workflow in email, texts, or shared tools.",
       "features": [
-        "Start with one clear workflow",
-        "Lightweight setup",
-        "Tools matched to your day-to-day",
+        "One high-value workflow",
+        "White-glove setup",
+        "Channel-native access",
         "Clear proposal before we build"
       ],
       "cta": "Discuss Your Use Case"
@@ -267,12 +267,12 @@
       "label": "Teams",
       "price": "Custom plan",
       "per": "",
-      "desc": "For small businesses and teams where the right price depends on workflows, integrations, and support needs.",
+      "desc": "For teams that need agents working across shared inboxes, chat channels, calendars, documents, and operational systems.",
       "features": [
         "Multiple workflows or roles",
-        "Shared team tools and inboxes",
-        "Ongoing support when needed",
-        "Scope can expand over time",
+        "Shared team channels and inboxes",
+        "Ongoing engineering support",
+        "Review and escalation rules",
         "Pricing matched to business value"
       ],
       "cta": "Get a Custom Plan"
@@ -282,7 +282,7 @@
       "label": "Company",
       "price": "Custom quote",
       "per": "",
-      "desc": "For departments, regulated workflows, and company-wide operations where we scope around measurable ROI.",
+      "desc": "For departments, regulated workflows, and company-wide operations where AI needs careful integration, governance, and rollout.",
       "savings": "Built around ROI, not seats",
       "features": [
         "Complex integrations",
@@ -295,18 +295,18 @@
     }
   },
   "cta": {
-    "title": "Ready to put an agent to work?",
-    "sub": "Tell us what takes time each day. We will scope a useful first workflow.",
+    "title": "Ready to message an agent and get work back?",
+    "sub": "Tell us what eats time each day. We will scope the first useful workflow and the human review rules around it.",
     "button": "Start Hiring →"
   },
   "footer": {
     "copy": "© 2025 PeopleFree Work. All rights reserved.",
-    "easter1": "No humans were employed in the making of this company.*",
-    "easter2": "*Okay, one. But he's working on replacing himself too."
+    "easter1": "Built by humans, powered by agents.",
+    "easter2": "The good work is keeping both in the right places."
   },
   "examples": {
     "sectionTitle": "See What They Can Do",
-    "sectionSub": "Examples of work an agent can support. Each workflow is scoped to your tools, access, and review rules.",
+    "sectionSub": "Concrete workflows where an agent works through email, texts, chat, documents, and approved tools while people stay in control.",
     "professional": {
       "title": "For Your Business"
     },
@@ -420,24 +420,24 @@
   "industries": {
     "navTitle": "Industries",
     "common": {
-      "seeSolutions": "See How It Works",
+      "seeSolutions": "See the Workflow",
       "realExampleLabel": "In practice:",
       "workflow": {
-        "kicker": "Made for your operation",
+        "kicker": "Made for your channels",
         "title": "Your tools, your work, your decisions",
-        "sub": "We connect the approved sources, prepare useful work, and keep the final decision with your team.",
+        "sub": "The agent works where your team already talks, prepares useful output, and keeps the final decision with the right person.",
         "items": [
           {
-            "title": "Connect what matters",
-            "desc": "Start with the inboxes, calendars, documents, and messaging channels your team already uses. Access is scoped to the work."
+            "title": "Connect the normal channels",
+            "desc": "Start with approved inboxes, calendars, documents, text lines, WhatsApp, Telegram, Signal, Slack, Teams, and the business systems that matter."
           },
           {
-            "title": "Get work ready",
-            "desc": "The agent brings together context, highlights what needs attention, and prepares drafts, reports, or follow-up lists."
+            "title": "Prepare the work",
+            "desc": "The agent gathers context, highlights what needs attention, and prepares drafts, reports, reminders, or follow-up lists."
           },
           {
             "title": "Keep control",
-            "desc": "Your team reviews external messages and can correct the agent. The workflow grows only when the first job earns trust."
+            "desc": "People review external messages, correct the agent, and decide when the workflow is ready to expand."
           }
         ]
       }
@@ -445,71 +445,141 @@
     "legal": {
       "slug": "legal",
       "icon": "⚖️",
-      "heroTitle": "AI for Law Firms",
-      "heroSub": "Your paralegal that never sleeps. Dictate billing entries, track deadlines, research case law, and draft memos while you focus on winning cases.",
+      "heroTitle": "AI operations for law firms",
+      "heroSub": "A legal operations agent that turns voice notes, email, calendars, and documents into billing drafts, deadline checks, research packets, and client-ready drafts for lawyer review.",
       "solutions": {
-        "title": "How AI Solves It",
+        "title": "What your legal agent can prepare",
         "items": [
           {
             "icon": "🎙️",
-            "title": "Voice-to-Billing",
-            "desc": "Dictate time entries and case notes by voice message. Your AI transcribes, structures, and logs them as billable records instantly."
+            "title": "Voice-to-billing",
+            "desc": "Dictate time entries and case notes by voice message. The agent transcribes, structures, and queues billable records for review."
           },
           {
             "icon": "📅",
-            "title": "Deadline Tracking",
-            "desc": "Never miss a filing deadline again. Your AI monitors court dates, limitation periods, and response deadlines with escalating reminders."
+            "title": "Deadline tracking",
+            "desc": "Monitors court dates, limitation periods, response deadlines, and client promises with escalating reminders."
           },
           {
             "icon": "📚",
-            "title": "Legal Research & Drafting",
-            "desc": "Integrates with legal databases to research case law, draft zoning memos, and prepare litigation expense summaries on demand."
+            "title": "Research and drafting packets",
+            "desc": "Collects sources, summarizes case law or zoning material, and prepares memos for legal review."
           },
           {
             "icon": "📄",
-            "title": "Document Processing",
-            "desc": "Transcribes handwritten notes into typed text, proofreads outgoing emails, and extracts structured data from contracts and filings."
+            "title": "Document processing",
+            "desc": "Transcribes handwritten notes, extracts structured data, and proofreads drafts while leaving legal judgment to the lawyer."
           },
           {
             "icon": "📧",
-            "title": "Multi-Account Email Triage",
-            "desc": "Monitors personal and firm inboxes simultaneously, flags urgent client emails, and tracks threads awaiting your response."
+            "title": "Multi-account triage",
+            "desc": "Monitors approved inboxes, flags urgent client emails, and tracks threads waiting on your response."
           },
           {
             "icon": "💰",
-            "title": "Invoice & Billing Management",
-            "desc": "Generates client invoices, tracks outstanding balances, and sends payment reminders on schedule."
+            "title": "Invoice and billing prep",
+            "desc": "Prepares invoices, payment reminders, and billing summaries for the firm’s approval process."
           }
         ]
       },
       "howItWorks": {
-        "title": "Getting Started",
+        "title": "Start with one legal workflow",
         "steps": [
           {
-            "title": "Tell us about your practice",
-            "desc": "Share your practice areas, tools (Clio, PCLaw, Westlaw), and the admin tasks eating your billable hours."
+            "title": "Choose the lane",
+            "desc": "Start with voice billing, client email triage, deadline tracking, or research packet preparation."
           },
           {
-            "title": "We build your legal AI",
-            "desc": "Your AI learns your billing codes, court deadlines, document templates, and communication style."
+            "title": "Connect approved tools",
+            "desc": "We configure email, calendar, document folders, and messaging channels around confidentiality and review rules."
           },
           {
-            "title": "Start delegating",
-            "desc": "Dictate notes, forward emails, and let your AI handle the rest. 24/7, no overtime, no complaints."
+            "title": "Review and expand",
+            "desc": "Lawyers review early output, correct the rules, and expand only when the workflow is dependable."
           }
         ]
       },
       "cta": {
-        "title": "Ready to reclaim your billable hours?",
-        "sub": "Your AI paralegal is standing by. No PTO requests, no sick days, no drama.",
-        "button": "Get Your Legal AI →"
+        "title": "Give your firm a legal operations agent.",
+        "sub": "Start with one workflow that saves time without giving up review, confidentiality, or professional judgment.",
+        "button": "Build Your Legal Agent →"
+      },
+      "examples": {
+        "title": "Legal workflows that feel natural",
+        "items": [
+          {
+            "title": "Voice memo to billing entries",
+            "desc": "A lawyer sends a voice note after court instead of opening billing software at night.",
+            "real": "The agent transcribes the note, suggests time entries by matter, and leaves anything strategic for attorney review before it touches a client record."
+          },
+          {
+            "title": "Client email triage with context",
+            "desc": "Urgent client emails, document requests, and FYI threads arrive across firm and personal inboxes.",
+            "real": "The agent flags what needs a lawyer, drafts routine replies in email, and keeps the original thread and source documents attached."
+          },
+          {
+            "title": "Deadline digest from normal channels",
+            "desc": "Court dates, limitation reminders, and client promises hide across email, calendar, and shared folders.",
+            "real": "The agent sends a morning Signal or email digest with the deadlines, assumptions, and items that need human legal judgment."
+          }
+        ]
+      },
+      "directAccess": {
+        "kicker": "Ask from the tools you already use",
+        "title": "The legal agent is reachable from email, Signal, and voice notes",
+        "sub": "Send a quick instruction from the channel you trust. The agent prepares billing notes, deadline checks, research packets, and draft replies without sending client-facing messages until a person approves.",
+        "note": "Common channels include email, Signal, Telegram, voice notes, calendar, and document folders, configured around the firm’s confidentiality rules.",
+        "agentName": "Legal Ops Agent",
+        "status": "Waiting for reviewed instructions",
+        "liveLabel": "Review-first",
+        "windowLabel": "Example legal agent chat",
+        "channels": [
+          {
+            "initial": "EM",
+            "name": "Email"
+          },
+          {
+            "initial": "SG",
+            "name": "Signal"
+          },
+          {
+            "initial": "VM",
+            "name": "Voice memo"
+          },
+          {
+            "initial": "CL",
+            "name": "Calendar"
+          }
+        ],
+        "messages": [
+          {
+            "from": "user",
+            "sender": "Partner",
+            "text": "I sent a voice note from court. Turn it into billing entries and flag anything that needs legal judgment."
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "Done. I drafted 6 entries by matter, attached the transcript, and marked two client-facing points for your review."
+          },
+          {
+            "from": "user",
+            "sender": "Assistant",
+            "text": "Anything urgent in today’s client emails?"
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "Three need attention. I drafted two routine replies and escalated one settlement question because it needs a lawyer’s call."
+          }
+        ]
       }
     },
     "manufacturing": {
       "slug": "manufacturing",
       "icon": "MFG",
       "heroTitle": "AI Operations for Manufacturing",
-      "heroSub": "A dedicated AI employee that monitors inboxes, ERP, sales, inventory, receivables, shipments, and reports so leadership sees the business clearly every day.",
+      "heroSub": "A dedicated AI operations agent that monitors inboxes, ERP, sales, inventory, receivables, shipments, reports, and team channels so leadership sees the business clearly every day.",
       "heroProof": [
         {
           "value": "24/7",
@@ -868,9 +938,9 @@
         ]
       },
       "directAccess": {
-        "kicker": "Always reachable",
-        "title": "Talk to the agent directly, anytime",
-        "sub": "Leaders and operators do not need to open a special dashboard to use the agent. They can ask questions, request a report, approve a draft, or check an exception from the messaging tools they already use.",
+        "kicker": "Ask from the floor, office, or road",
+        "title": "Talk to the manufacturing agent from Teams, WhatsApp, email, or Telegram",
+        "sub": "Leaders can request reports, approve drafts, and check exceptions without opening a new dashboard. The agent brings ERP, inbox, shipment, and receivables context back into the channel where the question started.",
         "note": "Channels can include Telegram, WhatsApp, Signal, email, Slack, Microsoft Teams, or a private web chat, depending on your security policy and approval rules.",
         "agentName": "Manufacturing Ops Agent",
         "status": "Online across approved channels",
@@ -878,28 +948,28 @@
         "windowLabel": "Example manufacturing agent chat",
         "channels": [
           {
-            "initial": "TG",
-            "name": "Telegram"
+            "initial": "TM",
+            "name": "Teams"
           },
           {
             "initial": "WA",
             "name": "WhatsApp"
           },
           {
-            "initial": "SG",
-            "name": "Signal"
-          },
-          {
             "initial": "EM",
             "name": "Email"
           },
           {
-            "initial": "TM",
-            "name": "Teams"
+            "initial": "TG",
+            "name": "Telegram"
           },
           {
             "initial": "SL",
             "name": "Slack"
+          },
+          {
+            "initial": "SG",
+            "name": "Signal"
           }
         ],
         "messages": [
@@ -911,7 +981,7 @@
           {
             "from": "agent",
             "sender": "Agent",
-            "text": "Three items need attention: two priority customer emails, one shipment now at risk for Friday, and 11 inventory items below reorder threshold. I prepared the morning briefing and marked assumptions where ERP data was stale."
+            "text": "Three items need attention: two priority customer emails, one shipment now at risk for Friday, and 11 inventory items below reorder threshold. I marked assumptions where ERP data was stale."
           },
           {
             "from": "user",
@@ -921,17 +991,7 @@
           {
             "from": "agent",
             "sender": "Agent",
-            "text": "Done. I generated the dashboard, attached the CSV packet, checked the link in a browser, and added a plain-English summary with pricing movement, concentration risk, and follow-up questions."
-          },
-          {
-            "from": "user",
-            "sender": "Controller",
-            "text": "Which overdue accounts need a human follow-up today?"
-          },
-          {
-            "from": "agent",
-            "sender": "Agent",
-            "text": "I found 9 accounts past threshold. Three are new over 60 days. I drafted review-first collection notes and separated informational threads from messages that need a reply."
+            "text": "Done. I generated the dashboard, attached the CSV packet, checked the link, and drafted a plain-English summary for approval."
           }
         ]
       },
@@ -1003,15 +1063,15 @@
       },
       "cta": {
         "title": "Give your manufacturing team an AI operations analyst.",
-        "sub": "One agent can watch the inbox, read the ERP, generate the report, verify the link, and prepare the follow-up while your people run the business.",
+        "sub": "One agent can answer from Teams or WhatsApp, read the ERP, generate the report, verify the link, and prepare follow-ups while your people run the business.",
         "button": "Build Your Manufacturing Agent →"
       }
     },
     "realEstate": {
       "slug": "real-estate",
       "icon": "🏠",
-      "heroTitle": "An AI operations partner for real estate",
-      "heroSub": "Give a brokerage office one clearer view of its leads, client conversations, appointments, and follow-ups. Your team stays in charge of every client-facing message.",
+      "heroTitle": "AI operations for real estate teams",
+      "heroSub": "A channel-native agent that connects texts, email, appointments, listing files, offers, and follow-ups so the office can respond faster while people stay in control of client communication.",
       "problems": {
         "title": "What gets lost between channels",
         "items": [
@@ -1049,19 +1109,19 @@
         "title": "Inside a better day at the office",
         "items": [
           {
-            "title": "The morning office brief",
-            "desc": "Instead of checking every mailbox and calendar separately, the team starts with a concise view of new leads, changed appointments, and replies due.",
-            "real": "Illustrative workflow: each item links to the original conversation so the assigned person can verify the context."
+            "title": "Multiple texts triaged together",
+            "desc": "A buyer asks to reschedule, a seller wants feedback, and another agent sends an offer package within minutes.",
+            "real": "The agent ties each text to the right record, drafts the safe replies, requests broker approval for the offer package, and keeps the operator in control."
           },
           {
-            "title": "A text reply with its email history",
-            "desc": "A prospect replies to the brokerage number after an earlier email exchange. The agent finds the related context and prepares a response.",
-            "real": "Illustrative workflow: the person responsible reviews the draft and sends it. Text capture depends on the connected line and carrier."
+            "title": "A text reply with email history",
+            "desc": "A prospect replies to the brokerage number after an earlier email exchange.",
+            "real": "The agent finds the email context, prepares a reply, and leaves the send action to the responsible person."
           },
           {
             "title": "A handoff that stays visible",
-            "desc": "An agent promises a buyer a document while an assistant handles the showing schedule. Both steps appear in the office action list.",
-            "real": "Illustrative workflow: the owner, due time, and source record stay together until the work is complete."
+            "desc": "An agent promises a buyer a document while an assistant handles the showing schedule.",
+            "real": "The owner, due time, and source record stay together until the work is complete."
           }
         ]
       },
@@ -1083,8 +1143,8 @@
         ]
       },
       "cta": {
-        "title": "Give your office its time back",
-        "sub": "Tell us where your team loses the thread. We will scope a useful first workflow and its review rules.",
+        "title": "Give your office a calmer follow-up lane.",
+        "sub": "Tell us where texts, emails, and appointments get tangled. We will scope the first workflow and review rules.",
         "button": "Discuss your brokerage workflow →"
       },
       "heroProof": [
@@ -1127,15 +1187,65 @@
             "desc": "Organize the details staff need for listing packets, client updates, and recurring office work."
           }
         ]
+      },
+      "directAccess": {
+        "kicker": "Texts become a controlled action list",
+        "title": "The real estate agent can triage multiple incoming texts at once",
+        "sub": "When buyers, sellers, agents, and staff text at the same time, the agent ties each message back to the right email thread, calendar event, and client record, then drafts replies for review.",
+        "note": "SMS/MMS, WhatsApp, email, and calendar access are configured around your approved line, carrier, and brokerage review rules.",
+        "agentName": "Real Estate Ops Agent",
+        "status": "Monitoring approved text and email channels",
+        "liveLabel": "Review-first",
+        "windowLabel": "Example real estate text triage",
+        "channels": [
+          {
+            "initial": "SMS",
+            "name": "Texts"
+          },
+          {
+            "initial": "WA",
+            "name": "WhatsApp"
+          },
+          {
+            "initial": "EM",
+            "name": "Email"
+          },
+          {
+            "initial": "CL",
+            "name": "Calendar"
+          }
+        ],
+        "messages": [
+          {
+            "from": "user",
+            "sender": "Buyer text",
+            "text": "Can we move the 4:30 showing to 5:15? Also is the garage heated?"
+          },
+          {
+            "from": "user",
+            "sender": "Seller text",
+            "text": "Any feedback from yesterday’s showing?"
+          },
+          {
+            "from": "user",
+            "sender": "Agent text",
+            "text": "Offer package just came in. Who needs to review first?"
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "I matched all three to their records. Drafted the buyer scheduling reply, found the garage note in the listing file, prepared a seller update, and marked the offer package for broker approval before anyone sends."
+          }
+        ]
       }
     },
     "content": {
       "slug": "content",
       "icon": "✍️",
-      "heroTitle": "AI for Content Creators",
-      "heroSub": "Your creative team that never burns out. SEO-optimized writing, content calendar management, and multi-platform publishing at scale.",
+      "heroTitle": "AI operations for content teams",
+      "heroSub": "A content operations agent that turns WhatsApp ideas, email approvals, research, calendars, CMS tasks, and drafts into review-ready work while creatives keep the voice and judgment.",
       "solutions": {
-        "title": "How AI Solves It",
+        "title": "What your content agent can prepare",
         "items": [
           {
             "icon": "✍️",
@@ -1170,35 +1280,105 @@
         ]
       },
       "howItWorks": {
-        "title": "Getting Started",
+        "title": "Start with one content lane",
         "steps": [
           {
-            "title": "Share your content goals",
-            "desc": "Tell us about your brand, target audience, content calendar, and the platforms you publish on."
+            "title": "Share your channels and voice",
+            "desc": "Tell us where ideas arrive, where approvals happen, and what makes the brand sound right."
           },
           {
-            "title": "We build your content AI",
-            "desc": "Your AI learns your brand voice, content strategy, and publishing workflow. Ready to write in days."
+            "title": "We build the workflow",
+            "desc": "The agent learns your calendar, CMS, research standards, approval rules, and channel preferences."
           },
           {
-            "title": "Publish at scale",
-            "desc": "Consistent, SEO-optimized content across all platforms. No writer's block, no missed deadlines, no burnout."
+            "title": "Draft, review, publish",
+            "desc": "The agent prepares briefs, drafts, source packs, and scheduling notes while people keep creative direction."
           }
         ]
       },
       "cta": {
-        "title": "Ready to scale your content?",
-        "sub": "Your AI content team writes, publishes, and optimizes around the clock. Creative burnout is not in their vocabulary.",
-        "button": "Get Your Content AI →"
+        "title": "Give your content team a steadier operating layer.",
+        "sub": "Let the agent carry research, drafts, calendars, and follow-ups so people can focus on voice and ideas.",
+        "button": "Build Your Content Agent →"
+      },
+      "examples": {
+        "title": "Content workflows that fit the team",
+        "items": [
+          {
+            "title": "WhatsApp idea to publishable brief",
+            "desc": "A founder drops a rough campaign idea in WhatsApp between meetings.",
+            "real": "The agent turns it into a content brief, checks the calendar, drafts posts for review, and keeps the final voice decisions with the team."
+          },
+          {
+            "title": "Editorial calendar that follows up",
+            "desc": "Drafts, approvals, images, and publishing dates live in different tools.",
+            "real": "The agent watches email, CMS, and calendar, then nudges the right person when a draft, quote, or approval is blocking publication."
+          },
+          {
+            "title": "Research pack before writing",
+            "desc": "Writers need sources, examples, and audience context before the first draft.",
+            "real": "The agent gathers source links, summarizes claims, and prepares a fact-checked outline instead of asking a person to start from a blank page."
+          }
+        ]
+      },
+      "directAccess": {
+        "kicker": "Creative work stays in the flow",
+        "title": "Message the content agent from WhatsApp, email, or your calendar",
+        "sub": "Drop an idea, request a brief, approve a draft, or ask what is blocking publication from the tools the team already checks every day.",
+        "note": "Channels can include WhatsApp, Telegram, email, CMS comments, shared docs, calendar, or Slack.",
+        "agentName": "Content Ops Agent",
+        "status": "Drafting for review",
+        "liveLabel": "Drafting",
+        "windowLabel": "Example content agent chat",
+        "channels": [
+          {
+            "initial": "WA",
+            "name": "WhatsApp"
+          },
+          {
+            "initial": "EM",
+            "name": "Email"
+          },
+          {
+            "initial": "CMS",
+            "name": "CMS"
+          },
+          {
+            "initial": "CL",
+            "name": "Calendar"
+          }
+        ],
+        "messages": [
+          {
+            "from": "user",
+            "sender": "Founder",
+            "text": "Turn my voice note into a launch post and check whether Thursday conflicts with the newsletter."
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "I prepared the post, found a newsletter conflict Thursday, suggested a Friday slot, and added three source links for the claims."
+          },
+          {
+            "from": "user",
+            "sender": "Editor",
+            "text": "Who is blocking next week’s articles?"
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "Two drafts need quote approval, one image is missing alt text, and one topic needs a human decision on tone."
+          }
+        ]
       }
     },
     "software": {
       "slug": "software",
       "icon": "💻",
-      "heroTitle": "AI for Software Engineering",
-      "heroSub": "Your senior engineer who actually likes being on-call. Code reviews, infrastructure monitoring with self-healing, and deployment automation that never sleeps.",
+      "heroTitle": "AI operations for software teams",
+      "heroSub": "An engineering operations agent that works through Slack, GitHub, email, CI, and monitoring tools to prepare reviews, incident context, release notes, and checklists for engineers.",
       "solutions": {
-        "title": "How AI Solves It",
+        "title": "What your engineering agent can prepare",
         "items": [
           {
             "icon": "🔍",
@@ -1233,35 +1413,105 @@
         ]
       },
       "howItWorks": {
-        "title": "Getting Started",
+        "title": "Start with one engineering lane",
         "steps": [
           {
-            "title": "Share your stack",
-            "desc": "Tell us about your tech stack, deployment pipeline, monitoring tools, and the operational pain points burning out your team."
+            "title": "Share your stack and channels",
+            "desc": "Tell us about GitHub, Slack, CI, monitoring, deployment, and the handoffs that waste engineering time."
           },
           {
-            "title": "We build your engineering AI",
-            "desc": "Your AI integrates with GitHub, your CI/CD pipeline, monitoring systems, and communication channels."
+            "title": "We connect the safe surfaces",
+            "desc": "The agent gets approved access, review rules, and escalation boundaries for incidents, PRs, and releases."
           },
           {
-            "title": "Ship faster, sleep better",
-            "desc": "Automated reviews, self-healing infrastructure, and 24/7 monitoring. Your team builds features, your AI handles the rest."
+            "title": "Engineers decide, agents prepare",
+            "desc": "The agent gathers context and drafts updates while engineers keep architecture and production judgment."
           }
         ]
       },
       "cta": {
-        "title": "Ready to ship faster and sleep better?",
-        "sub": "Your AI engineer handles on-call, reviews PRs, and monitors infrastructure. No burnout, no PTO requests, no 3 AM complaints.",
-        "button": "Get Your Engineering AI →"
+        "title": "Give your engineers a calmer operations layer.",
+        "sub": "The agent can gather context, draft checklists, and watch systems while your team makes the important calls.",
+        "button": "Build Your Engineering Agent →"
+      },
+      "examples": {
+        "title": "Engineering workflows that keep humans in charge",
+        "items": [
+          {
+            "title": "Slack alert to reviewed fix plan",
+            "desc": "An incident starts in Slack while logs, dashboards, and GitHub issues live elsewhere.",
+            "real": "The agent gathers the error trail, links the likely commit, drafts the update, and asks an engineer before posting customer-facing status."
+          },
+          {
+            "title": "PR review without context hunting",
+            "desc": "Reviewers lose time reconstructing architecture, test failures, and deployment risk.",
+            "real": "The agent reads the PR, CI, and related issues, then leaves a review packet with suggested comments for an engineer to approve."
+          },
+          {
+            "title": "Release checklist that keeps moving",
+            "desc": "Deployments depend on CI, migrations, docs, rollback notes, and stakeholder updates.",
+            "real": "The agent tracks each step in Slack and GitHub, drafts release notes, and escalates only the decisions a human should make."
+          }
+        ]
+      },
+      "directAccess": {
+        "kicker": "From alert to action",
+        "title": "Reach the engineering agent from Slack, GitHub, email, or pager alerts",
+        "sub": "The agent can gather logs, CI, PR context, and release status, then draft updates or checklists while engineers keep architecture and production judgment.",
+        "note": "Channels can include Slack, GitHub, email, PagerDuty-style alerts, Linear, Jira, or a private web chat.",
+        "agentName": "Engineering Ops Agent",
+        "status": "Watching approved engineering systems",
+        "liveLabel": "On call",
+        "windowLabel": "Example engineering agent chat",
+        "channels": [
+          {
+            "initial": "SL",
+            "name": "Slack"
+          },
+          {
+            "initial": "GH",
+            "name": "GitHub"
+          },
+          {
+            "initial": "EM",
+            "name": "Email"
+          },
+          {
+            "initial": "PG",
+            "name": "Pager"
+          }
+        ],
+        "messages": [
+          {
+            "from": "user",
+            "sender": "Lead engineer",
+            "text": "Why did checkout alerts spike after the deploy?"
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "I linked the spike to release 2026.10.11, found two failing payment logs, and drafted a rollback checklist. I am waiting for your approval before posting status."
+          },
+          {
+            "from": "user",
+            "sender": "PM",
+            "text": "Can we ship the PR today?"
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "CI is green, docs are updated, but the migration rollback note is missing. I drafted it for engineering review."
+          }
+        ]
       }
     },
     "accounting": {
       "slug": "accounting",
       "icon": "📊",
-      "heroTitle": "AI for Accounting",
-      "heroSub": "Your bookkeeper who actually enjoys tax season. Corporate filings, expense categorization, invoice management, and deadline tracking that never drops a number.",
+      "heroTitle": "AI operations for accounting teams",
+      "heroSub": "An accounting operations agent that works through email, texts, shared folders, spreadsheets, and accounting software to prepare reconciliations, invoice follow-ups, and deadline checks.",
       "solutions": {
-        "title": "How AI Solves It",
+        "title": "What your accounting agent can prepare",
         "items": [
           {
             "icon": "🏛️",
@@ -1296,56 +1546,195 @@
         ]
       },
       "howItWorks": {
-        "title": "Getting Started",
+        "title": "Start with one accounting lane",
         "steps": [
           {
             "title": "Share your financial setup",
-            "desc": "Tell us about your entities, accounting software (Wave, QuickBooks, Xero), bank accounts, and the tasks eating your time."
+            "desc": "Tell us about entities, accounting software, inboxes, receipt flow, and deadlines."
           },
           {
-            "title": "We build your accounting AI",
-            "desc": "Your AI learns your chart of accounts, tax obligations, invoicing templates, and financial workflows."
+            "title": "We build the review rules",
+            "desc": "The agent learns your chart of accounts, approval thresholds, invoice templates, and escalation rules."
           },
           {
-            "title": "Books stay clean",
-            "desc": "Real-time categorization, automated invoicing, and proactive deadline management. Your books are always audit-ready."
+            "title": "Books stay prepared",
+            "desc": "The agent prepares entries, reminders, reports, and drafts while accountants keep judgment and sign-off."
           }
         ]
       },
       "cta": {
-        "title": "Ready for stress-free tax seasons?",
-        "sub": "Your AI bookkeeper tracks every dollar, files every return, and never misses a deadline. Tax season is just another Tuesday.",
-        "button": "Get Your Accounting AI →"
+        "title": "Give your books a review-ready operating layer.",
+        "sub": "Let the agent prepare the routine work and surface what needs accountant judgment.",
+        "button": "Build Your Accounting Agent →"
+      },
+      "examples": {
+        "title": "Accounting workflows that stay review-ready",
+        "items": [
+          {
+            "title": "Texted receipt to categorized draft",
+            "desc": "A client texts a receipt photo or forwards a vendor invoice from email.",
+            "real": "The agent extracts the details, suggests the account, checks policy, and leaves the entry ready for accountant approval."
+          },
+          {
+            "title": "Invoice follow-up with a human tone",
+            "desc": "Overdue accounts need different handling depending on relationship, history, and amount.",
+            "real": "The agent prepares email drafts with the last payment context and asks before anything sensitive is sent."
+          },
+          {
+            "title": "Deadline watch across tools",
+            "desc": "Tax, payroll, HST/GST, and corporate deadlines sit across calendars, spreadsheets, and accounting software.",
+            "real": "The agent sends a concise email or text reminder with what is ready, what is missing, and what needs accountant judgment."
+          }
+        ]
+      },
+      "directAccess": {
+        "kicker": "Books stay close to the conversation",
+        "title": "Send receipts, invoice questions, and deadline checks by email or text",
+        "sub": "The accounting agent prepares reconciliations, invoice follow-ups, and filing checklists, then asks for accountant approval where judgment matters.",
+        "note": "Channels can include email, texts, WhatsApp, shared folders, Wave, QuickBooks, Xero, and spreadsheets.",
+        "agentName": "Accounting Ops Agent",
+        "status": "Preparing review-ready work",
+        "liveLabel": "Review-first",
+        "windowLabel": "Example accounting agent chat",
+        "channels": [
+          {
+            "initial": "EM",
+            "name": "Email"
+          },
+          {
+            "initial": "SMS",
+            "name": "Texts"
+          },
+          {
+            "initial": "WA",
+            "name": "WhatsApp"
+          },
+          {
+            "initial": "QB",
+            "name": "Books"
+          }
+        ],
+        "messages": [
+          {
+            "from": "user",
+            "sender": "Owner text",
+            "text": "I just sent two receipts and a vendor invoice. Put them somewhere useful before I forget."
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "I extracted the details, suggested categories, matched one vendor to an open bill, and left all three entries waiting for accountant approval."
+          },
+          {
+            "from": "user",
+            "sender": "Controller",
+            "text": "Which overdue invoices need a human follow-up today?"
+          },
+          {
+            "from": "agent",
+            "sender": "Agent",
+            "text": "Four crossed the threshold. I drafted email follow-ups with last-payment context and held the sensitive account for your review."
+          }
+        ]
       }
     }
   },
   "industriesShowcase": {
     "sectionTitle": "Industries We Serve",
-    "sectionSub": "Every industry has its pain points. We build AI employees who understand yours.",
+    "sectionSub": "Every industry has a different communication mess. We build agents that work inside yours.",
     "learnMore": "Learn more",
     "legal": {
       "title": "Legal",
-      "desc": "Voice-to-billing, case tracking, legal research, and document processing. Your paralegal that never sleeps."
+      "desc": "Voice-to-billing, deadline tracking, email triage, and research packets through email, Signal, and firm tools."
     },
     "manufacturing": {
       "title": "Manufacturing",
-      "desc": "Production monitoring, supply chain analytics, quality reporting, and daily operational briefings. Your plant manager's right hand."
+      "desc": "Teams or WhatsApp questions become ERP reports, shipment alerts, customer summaries, and follow-up drafts."
     },
     "realEstate": {
       "title": "Real Estate",
-      "desc": "One office view for email, text, appointments, and follow-ups, with staff reviewing client messages."
+      "desc": "Multiple texts, emails, showings, offers, and follow-ups become one reviewable office action list."
     },
     "content": {
       "title": "Content Creation",
-      "desc": "SEO-optimized writing, publishing pipelines, content calendars, and brand consistency. Your creative team that never burns out."
+      "desc": "WhatsApp ideas, email approvals, CMS tasks, content calendars, and research packs move in one workflow."
     },
     "software": {
       "title": "Software Engineering",
-      "desc": "Code review, infrastructure monitoring, CI/CD automation, and 24/7 on-call. Your senior engineer who loves being on-call."
+      "desc": "Slack alerts, GitHub PRs, CI context, releases, and incident updates prepared for engineer review."
     },
     "accounting": {
       "title": "Accounting",
-      "desc": "Tax filing, bookkeeping, invoicing, and corporate compliance. Your bookkeeper who actually enjoys tax season."
+      "desc": "Receipts, invoices, deadline checks, and follow-up drafts across email, texts, and accounting software."
     }
+  },
+  "homeSpotlight": {
+    "kicker": "Real estate example",
+    "title": "Three texts land at once. The agent turns them into one controlled follow-up list.",
+    "sub": "A buyer asks to move a showing, a seller wants feedback, and another agent sends an offer package. The agent connects the texts to the right email history, calendar, and listing file, drafts the safe replies, and asks for approval where judgment matters.",
+    "windowLabel": "Homepage real estate multi-text scenario",
+    "agentName": "Real Estate Ops Agent",
+    "status": "Watching approved text and email channels",
+    "liveLabel": "Review-first",
+    "channels": [
+      {
+        "initial": "SMS",
+        "name": "Texts"
+      },
+      {
+        "initial": "WA",
+        "name": "WhatsApp"
+      },
+      {
+        "initial": "EM",
+        "name": "Email"
+      },
+      {
+        "initial": "SG",
+        "name": "Signal"
+      }
+    ],
+    "messages": [
+      {
+        "from": "user",
+        "sender": "Buyer text",
+        "text": "Can we move today’s showing to 5:15? Also is the garage heated?"
+      },
+      {
+        "from": "user",
+        "sender": "Seller text",
+        "text": "Any feedback from yesterday’s showing?"
+      },
+      {
+        "from": "user",
+        "sender": "Agent text",
+        "text": "Offer package just landed. Who reviews first?"
+      },
+      {
+        "from": "agent",
+        "sender": "Agent",
+        "text": "I matched all three messages to their records. I drafted the buyer reply, pulled the garage note from the listing file, prepared a seller update, and marked the offer package for broker approval before anyone sends."
+      }
+    ]
+  },
+  "serviceModel": {
+    "kicker": "Premium service model",
+    "title": "Not a self-serve dashboard. A white-glove AI engineering partnership.",
+    "sub": "PeopleFree.work pairs strong AI agents with experienced human engineers who learn your actual workflow, connect the right systems, tune the review rules, and keep improving what the agent can safely do.",
+    "items": [
+      {
+        "title": "Designed around real work",
+        "desc": "We start with the inboxes, texts, reports, calendars, and decisions your team already lives in, then shape the agent around that operating reality."
+      },
+      {
+        "title": "Engineers stay involved",
+        "desc": "Experienced human engineers configure integrations, review edge cases, and help the workflow grow without turning your team into prompt engineers."
+      },
+      {
+        "title": "Control stays with people",
+        "desc": "The agent prepares drafts, briefings, reports, follow-ups, and exception lists. Your team keeps the calls that require trust, taste, relationship context, or professional judgment."
+      }
+    ],
+    "note": "The goal is not to remove people from the business. It is to give each person more room for the perspective and talent only they bring."
   }
 }

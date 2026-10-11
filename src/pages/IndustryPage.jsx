@@ -141,12 +141,12 @@ export default function IndustryPage({ industryKey }) {
       )}
 
       {/* Specific workflows, with outcomes presented only where evidence exists */}
-      {(industryKey === 'manufacturing' || industryKey === 'realEstate') && <section className="section examples-section" id="examples">
+      {Array.isArray(exampleItems) && <section className="section examples-section" id="examples">
         <div className="section-header">
           <h2 className="section-title">{examplesTitle}</h2>
         </div>
         <div className="industry-examples">
-          {Array.isArray(exampleItems) && exampleItems.map((item, i) => (
+          {exampleItems.map((item, i) => (
             <div className="industry-example-card" key={i}>
               <h3 className="industry-example-title">{item.title}</h3>
               <p className="industry-example-desc">{item.desc}</p>

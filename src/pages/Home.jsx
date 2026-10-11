@@ -81,6 +81,8 @@ export default function Home() {
   const [searchBottomExpanded, setSearchBottomExpanded] = useState(false)
   const [showAllTeam, setShowAllTeam] = useState(false)
   const [examplesTab, setExamplesTab] = useState('professional')
+  const homeSpotlight = t('homeSpotlight', { returnObjects: true })
+  const serviceModel = t('serviceModel', { returnObjects: true })
 
   const searchMailto = `mailto:hello@peoplefree.work?subject=${encodeURIComponent(t('team.search.emailSubject'))}&body=${encodeURIComponent(t('team.search.emailBody'))}`
 
@@ -100,6 +102,40 @@ export default function Home() {
           <button className="btn btn-primary" onClick={() => document.getElementById('team')?.scrollIntoView({ behavior: 'smooth' })}>{t('hero.meetTeam')}</button>
           <a href="mailto:hello@peoplefree.work" className="btn btn-secondary">{t('hero.getInTouch')}</a>
         </div>
+        {homeSpotlight && Array.isArray(homeSpotlight.channels) && Array.isArray(homeSpotlight.messages) && (
+          <div className="home-scenario">
+            <div className="home-scenario-copy">
+              <p className="industry-kicker">{homeSpotlight.kicker}</p>
+              <h2>{homeSpotlight.title}</h2>
+              <p>{homeSpotlight.sub}</p>
+              <div className="industry-channel-grid home-channel-grid">
+                {homeSpotlight.channels.map((channel, i) => (
+                  <div className="industry-channel-pill" key={i}>
+                    <span>{channel.initial}</span>
+                    <strong>{channel.name}</strong>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className="industry-chat-window home-scenario-chat" aria-label={homeSpotlight.windowLabel}>
+              <div className="industry-chat-topbar">
+                <div>
+                  <strong>{homeSpotlight.agentName}</strong>
+                  <span>{homeSpotlight.status}</span>
+                </div>
+                <span className="industry-chat-live">{homeSpotlight.liveLabel}</span>
+              </div>
+              <div className="industry-chat-thread">
+                {homeSpotlight.messages.map((message, i) => (
+                  <div className={`industry-chat-message ${message.from === 'agent' ? 'is-agent' : 'is-user'}`} key={i}>
+                    <span>{message.sender}</span>
+                    <p>{message.text}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        )}
       </section>
 
       {/* Stats */}
@@ -128,6 +164,28 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      {serviceModel && Array.isArray(serviceModel.items) && (
+        <section className="section service-model-section">
+          <div className="section-header">
+            <p className="industry-kicker">{serviceModel.kicker}</p>
+            <h2 className="section-title">{serviceModel.title}</h2>
+            <p className="section-sub">{serviceModel.sub}</p>
+          </div>
+          <div className="service-model-grid">
+            {serviceModel.items.map((item, i) => (
+              <div className="service-model-item" key={i}>
+                <span>{String(i + 1).padStart(2, '0')}</span>
+                <div>
+                  <h3>{item.title}</h3>
+                  <p>{item.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+          <p className="service-model-note">{serviceModel.note}</p>
+        </section>
+      )}
 
       {/* Why Us / Perks */}
       <section className="section section-gray" id="perks">
