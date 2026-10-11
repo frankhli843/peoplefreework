@@ -1255,7 +1255,7 @@
           {
             "icon": "📅",
             "title": "Content Calendar Management",
-            "desc": "Plan, schedule, and track your content pipeline. Never miss a publishing date or scramble for topics."
+            "desc": "Plan, schedule, and track your content pipeline, with blockers surfaced early for the right person to resolve."
           },
           {
             "icon": "🎨",
@@ -1407,8 +1407,8 @@
           },
           {
             "icon": "🌙",
-            "title": "24/7 On-Call Without Burnout",
-            "desc": "Your AI handles the 3 AM alerts, the weekend incidents, and the holiday outages. Your team sleeps."
+            "title": "On-call context and escalation support",
+            "desc": "The agent gathers alert context, drafts recovery checklists, and escalates the decisions engineers should make."
           }
         ]
       },
