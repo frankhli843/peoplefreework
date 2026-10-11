@@ -18,7 +18,7 @@
     "availability": "Disponibilidade",
     "avgResponse": "Tempo médio de resposta",
     "sickDays": "Revisao humana",
-    "languages": "Idiomas por funcionário",
+    "languages": "Idiomas compatíveis",
     "current": {
       "availabilityValue": "24/7",
       "availabilityLabel": "Coordenação de fundo",
@@ -67,51 +67,51 @@
     }
   },
   "dailyLayer": {
-    "sectionTitle": "A sua camada operacional diária",
-    "sectionSub": "A integração liga o seu funcionário de IA ao email, ao calendário, aos documentos e às mensagens que a sua empresa já usa. A partir daí ele lê esses fluxos todos os dias e entrega-lhe uma lista curta do que realmente precisa de si.",
+    "sectionTitle": "Uma camada operacional diária que a sua equipe pode chamar",
+    "sectionSub": "A integração conecta o seu agente ao email, calendário, documentos, relatórios, mensagens de texto e canais de chat que a empresa já usa. Depois disso, as pessoas podem pedir ajuda pelas ferramentas normais e receber uma lista curta do que precisa de atenção.",
     "sources": {
       "email": "Email",
       "calendar": "Calendário",
       "documents": "Documentos",
-      "messages": "Mensagens",
+      "messages": "Textos e chat",
       "reports": "Relatórios recorrentes"
     },
-    "flowOutput": "Um briefing. Uma lista do que precisa de si hoje.",
+    "flowOutput": "Pergunte pelo Telegram, WhatsApp, Signal, email ou texto. Receba uma lista de ações revisada.",
     "capabilities": {
       "briefing": {
-        "title": "Briefing diário",
-        "desc": "Um resumo curto à sua espera todas as manhãs: o que vence hoje, o que está à espera de outra pessoa e o que ficou em silêncio. Dois minutos e já sabe como está o seu dia."
+        "title": "Briefings no canal que você acompanha",
+        "desc": "Um email de manhã, uma nota no Telegram ou uma mensagem no WhatsApp pode resumir o que mudou, o que vence, quem está esperando e o que precisa de decisão."
       },
       "triage": {
-        "title": "Triagem de email",
-        "desc": "Separa a caixa de entrada entre o que precisa de resposta, o que é apenas informação e o que pode esperar. As mensagens urgentes chegam com todo o contexto, não apenas com o assunto."
+        "title": "Triagem de email e textos",
+        "desc": "Ordena mensagens por urgência, anexa contexto e separa rascunhos rotineiros do que exige o julgamento de uma pessoa."
       },
       "followUps": {
-        "title": "Acompanhamento de pendentes",
-        "desc": "Mantém a lista viva de quem deve o quê. Quando uma thread está em silêncio há uma semana, quem lhe diz é o seu funcionário de IA, antes do cliente."
+        "title": "Acompanhamento de pendências",
+        "desc": "Mantém uma lista viva de quem deve o quê em inboxes, textos, documentos compartilhados e relatórios. Threads silenciosas não desaparecem em silêncio."
       },
       "drafts": {
-        "title": "Rascunhos de resposta",
-        "desc": "Escreve a primeira versão das respostas de rotina no seu tom e deixa-a nos rascunhos. O senhor lê, ajusta e envia."
+        "title": "Rascunhos para aprovação",
+        "desc": "Escreve primeiras versões no thread correto e espera revisão quando a mensagem é externa, sensível ou fora das regras aprovadas."
       },
       "workflows": {
-        "title": "Os seus processos",
-        "desc": "Assim que o básico do dia a dia está sólido, o mesmo funcionário de IA assume o trabalho próprio do seu negócio: preparação de faturação, cobrança a fornecedores, ordens de compra, controlo de prazos e lembretes de recebimentos."
+        "title": "Trabalho específico do workflow",
+        "desc": "Quando o básico diário está confiável, o mesmo agente pode assumir preparação de faturamento, cobrança de fornecedores, follow-up de listagens, calendário de conteúdo, revisões de PR ou verificação de prazos."
       },
       "signals": {
-        "title": "Monitorização de sinais",
-        "desc": "Vigia os relatórios recorrentes, as folhas partilhadas e os fluxos operacionais que abriria à mão, e diz-lhe que números mexeram e quais deixaram de chegar."
+        "title": "Monitoramento de sinais",
+        "desc": "Acompanha relatórios recorrentes, planilhas, apps conectados e fluxos operacionais, depois diz quais números mudaram ou pararam de chegar."
       }
     },
     "guardrails": {
-      "title": "Revisto por si. Sempre.",
+      "title": "As pessoas mantêm o controle.",
       "review": {
-        "title": "Nada sai sem supervisão",
-        "desc": "As respostas externas são preparadas como rascunho e ficam à espera da sua aprovação. O funcionário de IA escreve a mensagem. Quem decide se é enviada é o senhor."
+        "title": "Mensagens externas podem esperar aprovação",
+        "desc": "O agente prepara a resposta, explica o contexto e deixa a decisão de enviar com a pessoa certa."
       },
       "escalate": {
-        "title": "O que for duvidoso volta para si",
-        "desc": "O que sai do âmbito acordado, e tudo o que for mesmo urgente, é escalado para uma pessoa em vez de ser resolvido por palpite."
+        "title": "Trabalho incerto volta para uma pessoa",
+        "desc": "Assuntos sensíveis, entradas faltando e trabalho fora do escopo combinado são escalados em vez de resolvidos por palpite."
       }
     }
   },
@@ -233,31 +233,31 @@
   },
   "howItWorks": {
     "sectionTitle": "Como funciona",
-    "sectionSub": "Começar é simples. Nós cuidamos da parte difícil.",
+    "sectionSub": "Comece com um workflow útil nos canais que sua equipe já usa.",
     "step1": {
-      "title": "Diga-nos o que precisa",
-      "desc": "Descreva a função, encontramos o especialista perfeito no nosso banco de talentos."
+      "title": "Mapeamos o workflow real",
+      "desc": "Conte quais emails, textos, chats, relatórios e decisões consomem mais tempo."
     },
     "step2": {
-      "title": "Nós cuidamos da integração",
-      "desc": "Seu novo membro da equipe aprende suas ferramentas, fluxos e preferências. Pronto em menos de um minuto."
+      "title": "Criamos o agente com você",
+      "desc": "Engenheiros humanos experientes conectam ferramentas aprovadas, definem regras de revisão e ajustam o primeiro workflow."
     },
     "step3": {
-      "title": "O trabalho é feito",
-      "desc": "Conte o que consome tempo todo dia. Vamos definir o primeiro workflow útil e suas regras de revisão humana."
+      "title": "Sua equipe chama o agente",
+      "desc": "O agente prepara rascunhos, relatórios, lembretes e listas de exceções. As pessoas aprovam, corrigem e decidem."
     }
   },
   "pricing": {
-    "sectionTitle": "Preços conforme o seu caso de uso",
-    "sectionSub": "Cada funcionário de IA é definido pelo trabalho, pelas ferramentas e pelo valor envolvido. Conte-nos o que precisa e montaremos o plano certo.",
+    "sectionTitle": "Planos premium construídos em torno do seu workflow",
+    "sectionSub": "Cada projeto é definido pelos canais, integrações, regras de revisão e valor operacional envolvidos.",
     "setup": {
       "label": "Individuais",
       "price": "Vamos conversar",
-      "desc": "Para fundadores, operadores solo e profissionais que querem um funcionário de IA focado em uma tarefa específica.",
+      "desc": "Para fundadores, operadores solo e profissionais que querem um agente focado para um workflow claro em email, textos ou ferramentas compartilhadas.",
       "features": [
-        "Comece com um fluxo claro",
-        "Configuração leve",
-        "Ferramentas alinhadas ao dia a dia",
+        "Um workflow de alto valor",
+        "Setup white-glove",
+        "Acesso nativo pelos canais",
         "Proposta clara antes de construir"
       ],
       "cta": "Discutir seu caso de uso"
@@ -267,12 +267,12 @@
       "label": "Equipes",
       "price": "Plano personalizado",
       "per": "",
-      "desc": "Para pequenas empresas e equipes em que o preço depende de fluxos, integrações e nível de suporte.",
+      "desc": "Para equipes que precisam de agentes trabalhando em inboxes compartilhados, chats, calendários, documentos e sistemas operacionais.",
       "features": [
-        "Vários fluxos ou funções",
-        "Ferramentas e inboxes compartilhados",
-        "Suporte contínuo quando necessário",
-        "Escopo que pode crescer",
+        "Vários workflows ou funções",
+        "Canais e inboxes compartilhados pela equipe",
+        "Suporte contínuo de engenharia",
+        "Regras de revisão e escalonamento",
         "Preço alinhado ao valor do negócio"
       ],
       "cta": "Receber plano personalizado"
@@ -282,12 +282,12 @@
       "label": "Empresa",
       "price": "Cotação personalizada",
       "per": "",
-      "desc": "Para departamentos, fluxos regulados e operações empresariais, com escopo definido em torno de ROI mensurável.",
+      "desc": "Para departamentos, workflows regulados e operações empresariais em que a IA precisa de integração, governança e rollout cuidadosos.",
       "savings": "Construído em torno de ROI, não de assentos",
       "features": [
         "Integrações complexas",
         "Operações de maior volume",
-        "Governança e desenho de acesso",
+        "Desenho de governança e acesso",
         "Opções de suporte prioritário",
         "Implantação do piloto à produção"
       ],

@@ -18,7 +18,7 @@
     "availability": "Availability",
     "avgResponse": "Avg. response time",
     "sickDays": "Human review",
-    "languages": "Languages per employee",
+    "languages": "Supported languages",
     "current": {
       "availabilityValue": "24/7",
       "availabilityLabel": "Background coordination",
