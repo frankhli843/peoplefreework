@@ -1255,7 +1255,7 @@
           {
             "icon": "📅",
             "title": "Gestion du calendrier editorial",
-            "desc": "Planifiez, programmez et suivez votre pipeline de contenu. Plus jamais de date de publication manquee."
+            "desc": "Planifiez, programmez et suivez votre pipeline de contenu, avec les blocages signales tot a la bonne personne."
           },
           {
             "icon": "🎨",
@@ -1283,22 +1283,22 @@
         "title": "Comment commencer",
         "steps": [
           {
-            "title": "Partagez vos objectifs de contenu",
-            "desc": "Parlez-nous de votre marque, votre audience cible, votre calendrier editorial et les plateformes sur lesquelles vous publiez."
+            "title": "Partagez vos canaux et votre voix",
+            "desc": "Dites-nous ou arrivent les idees, ou les validations se font et ce qui rend la marque juste."
           },
           {
-            "title": "Nous construisons votre IA contenu",
-            "desc": "Votre IA apprend votre voix de marque, votre strategie de contenu et votre flux de publication. Pret a rediger en quelques jours."
+            "title": "Nous construisons le workflow",
+            "desc": "L agent apprend votre calendrier, votre CMS, vos standards de recherche, vos regles de validation et vos preferences de canal."
           },
           {
-            "title": "Publiez a grande echelle",
-            "desc": "Contenu SEO regulier sur toutes les plateformes. Pas de syndrome de la page blanche, pas d'echeance manquee, pas d'epuisement."
+            "title": "Brouillon, revue, publication",
+            "desc": "L agent prepare briefs, brouillons, dossiers de sources et notes de programmation pendant que les personnes gardent la direction creative."
           }
         ]
       },
       "cta": {
-        "title": "Pret a scaler votre contenu ?",
-        "sub": "Votre equipe IA de contenu redige, publie et optimise en continu. L'epuisement creatif n'est pas dans leur vocabulaire.",
+        "title": "Offrez a votre equipe contenu une couche operationnelle plus stable.",
+        "sub": "Laissez l agent porter recherche, brouillons, calendriers et relances pour que les personnes se concentrent sur la voix et les idees.",
         "button": "Obtenir votre IA contenu →"
       },
       "examples": {
@@ -1407,8 +1407,8 @@
           },
           {
             "icon": "🌙",
-            "title": "Astreinte 24/7 sans epuisement",
-            "desc": "Votre IA gere les alertes a 3h du matin, les incidents du week-end et les pannes des jours feries. Votre equipe dort."
+            "title": "Contexte d astreinte et support d escalade",
+            "desc": "L agent rassemble le contexte des alertes, redige des checklists de recuperation et escalade les decisions que les ingenieurs doivent prendre."
           }
         ]
       },
@@ -1416,22 +1416,22 @@
         "title": "Comment commencer",
         "steps": [
           {
-            "title": "Partagez votre stack",
-            "desc": "Parlez-nous de votre stack technique, votre pipeline de deploiement, vos outils de surveillance et les points de douleur operationnels qui epuisent votre equipe."
+            "title": "Partagez votre stack et vos canaux",
+            "desc": "Parlez-nous de GitHub, Slack, CI, monitoring, deploiement et des passages de relais qui consomment le temps des ingenieurs."
           },
           {
-            "title": "Nous construisons votre IA ingenierie",
-            "desc": "Votre IA s'integre a GitHub, votre pipeline CI/CD, vos systemes de surveillance et vos canaux de communication."
+            "title": "Nous connectons les surfaces sures",
+            "desc": "L agent recoit des acces approuves, des regles de revue et des limites d escalade pour incidents, PR et releases."
           },
           {
-            "title": "Livrez plus vite, dormez mieux",
-            "desc": "Revues automatisees, infrastructure auto-reparatrice et surveillance 24/7. Votre equipe construit des fonctionnalites, votre IA gere le reste."
+            "title": "Les ingenieurs decident, les agents preparent",
+            "desc": "L agent rassemble le contexte et redige les mises a jour pendant que les ingenieurs gardent l architecture et le jugement de production."
           }
         ]
       },
       "cta": {
-        "title": "Pret a livrer plus vite et mieux dormir ?",
-        "sub": "Votre ingenieur IA gere l'astreinte, revise les PR et surveille l'infrastructure. Pas d'epuisement, pas de conges, pas de plaintes a 3h du matin.",
+        "title": "Offrez a vos ingenieurs une couche operationnelle plus calme.",
+        "sub": "L agent peut rassembler le contexte, rediger les checklists et surveiller les systemes pendant que votre equipe prend les decisions importantes.",
         "button": "Obtenir votre IA ingenierie →"
       },
       "examples": {

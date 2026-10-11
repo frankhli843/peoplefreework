@@ -352,7 +352,7 @@
       },
       "hourTracking": {
         "title": "Seguimiento de horas del cliente",
-        "desc": "Registra horas facturables automáticamente, rota hojas de seguimiento cuando se agotan y alerta cuando los presupuestos son bajos.",
+        "desc": "Registra horas facturables automaticamente, rota hojas de seguimiento cuando se completan y alerta cuando los presupuestos estan bajos.",
         "real": "Un asistente IA rastrea horas de cliente en hojas de calculo compartidas con rotacion automatica de pestanas y alertas de presupuesto."
       },
       "infraMonitor": {
@@ -1243,7 +1243,7 @@
       "slug": "content",
       "icon": "✍️",
       "heroTitle": "Operaciones IA para equipos de contenido",
-      "heroSub": "Tu equipo creativo que nunca se agota. Escritura SEO, gestion de calendario editorial y publicacion multiplataforma a escala.",
+      "heroSub": "Un agente de operaciones de contenido convierte ideas de WhatsApp, aprobaciones por email, investigacion, calendarios, tareas de CMS y borradores en trabajo listo para revision, mientras el equipo creativo conserva la voz y el criterio.",
       "solutions": {
         "title": "Como la IA lo resuelve",
         "items": [
@@ -1255,7 +1255,7 @@
           {
             "icon": "📅",
             "title": "Gestion de calendario editorial",
-            "desc": "Planifica, programa y rastrea tu pipeline de contenido. Nunca mas pierdas una fecha de publicacion."
+            "desc": "Planifica, programa y rastrea tu pipeline de contenido, con bloqueos visibles temprano para que la persona adecuada los resuelva."
           },
           {
             "icon": "🎨",
@@ -1283,22 +1283,22 @@
         "title": "Como empezar",
         "steps": [
           {
-            "title": "Comparte tus objetivos de contenido",
-            "desc": "Cuentanos sobre tu marca, audiencia objetivo, calendario editorial y las plataformas donde publicas."
+            "title": "Comparte tus canales y tu voz",
+            "desc": "Dinos donde llegan las ideas, donde se aprueba el trabajo y que hace que la marca suene correcta."
           },
           {
-            "title": "Construimos tu IA de contenido",
-            "desc": "Tu IA aprende tu voz de marca, estrategia de contenido y flujo de publicacion. Lista para escribir en dias."
+            "title": "Construimos el flujo de trabajo",
+            "desc": "El agente aprende tu calendario, CMS, estandares de investigacion, reglas de aprobacion y preferencias de canal."
           },
           {
-            "title": "Publica a escala",
-            "desc": "Contenido SEO constante en todas las plataformas. Sin bloqueo de escritor, sin plazos perdidos, sin agotamiento."
+            "title": "Borrador, revision, publicacion",
+            "desc": "El agente prepara briefs, borradores, paquetes de fuentes y notas de programacion mientras las personas conservan la direccion creativa."
           }
         ]
       },
       "cta": {
-        "title": "Listo para escalar tu contenido?",
-        "sub": "Tu equipo de contenido IA escribe, publica y optimiza las 24 horas. El agotamiento creativo no esta en su vocabulario.",
+        "title": "Dale a tu equipo de contenido una capa operativa mas estable.",
+        "sub": "Deja que el agente lleve investigacion, borradores, calendarios y seguimientos para que las personas se enfoquen en voz e ideas.",
         "button": "Obtener tu IA de contenido →"
       },
       "examples": {
@@ -1376,7 +1376,7 @@
       "slug": "software",
       "icon": "💻",
       "heroTitle": "Operaciones IA para equipos de software",
-      "heroSub": "Tu ingeniero senior que disfruta estar de guardia. Revisiones de codigo, monitoreo de infraestructura con auto-reparacion y automatizacion de deploys que nunca duerme.",
+      "heroSub": "Un agente de operaciones de ingenieria trabaja en Slack, GitHub, email, CI y herramientas de monitoreo para preparar revisiones, contexto de incidentes, notas de release y checklists para ingenieros.",
       "solutions": {
         "title": "Como la IA lo resuelve",
         "items": [
@@ -1407,8 +1407,8 @@
           },
           {
             "icon": "🌙",
-            "title": "Guardia 24/7 sin agotamiento",
-            "desc": "Tu IA maneja las alertas de las 3 AM, los incidentes de fin de semana y las caidas en dias festivos. Tu equipo duerme."
+            "title": "Contexto de guardia y soporte de escalamiento",
+            "desc": "El agente reune contexto de alertas, redacta checklists de recuperacion y escala las decisiones que los ingenieros deben tomar."
           }
         ]
       },
@@ -1416,22 +1416,22 @@
         "title": "Como empezar",
         "steps": [
           {
-            "title": "Comparte tu stack",
-            "desc": "Cuentanos sobre tu stack tecnologico, pipeline de deploy, herramientas de monitoreo y los puntos de dolor operativos que agotan a tu equipo."
+            "title": "Comparte tu stack y tus canales",
+            "desc": "Cuentanos sobre GitHub, Slack, CI, monitoreo, despliegues y los traspasos que desperdician tiempo de ingenieria."
           },
           {
-            "title": "Construimos tu IA de ingenieria",
-            "desc": "Tu IA se integra con GitHub, tu pipeline CI/CD, sistemas de monitoreo y canales de comunicacion."
+            "title": "Conectamos las superficies seguras",
+            "desc": "El agente recibe acceso aprobado, reglas de revision y limites de escalamiento para incidentes, PRs y releases."
           },
           {
-            "title": "Entrega mas rapido, duerme mejor",
-            "desc": "Revisiones automatizadas, infraestructura auto-reparable y monitoreo 24/7. Tu equipo construye funcionalidades, tu IA maneja el resto."
+            "title": "Los ingenieros deciden, los agentes preparan",
+            "desc": "El agente reune contexto y redacta actualizaciones mientras los ingenieros conservan la arquitectura y el criterio de produccion."
           }
         ]
       },
       "cta": {
-        "title": "Listo para entregar mas rapido y dormir mejor?",
-        "sub": "Tu agente de ingeniería prepara contexto, checklists y borradores mientras el equipo toma las decisiones importantes.",
+        "title": "Dale a tus ingenieros una capa operativa mas tranquila.",
+        "sub": "El agente puede reunir contexto, redactar checklists y vigilar sistemas mientras tu equipo toma las decisiones importantes.",
         "button": "Obtener tu IA de ingenieria →"
       },
       "examples": {
